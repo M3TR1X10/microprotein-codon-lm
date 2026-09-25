@@ -1,0 +1,647 @@
+{
+  "biology_sha256": "4c218e48fd27b9f8a19e78dff9119fa714c1aa160151b59c8d1d3ff6ad77cbae",
+  "by_observed_taxon_family": {
+    "10090/ATP5F1E": 1,
+    "10090/ATP5ME": 2,
+    "10090/ATP5MF": 2,
+    "10090/ATP5MJ": 1,
+    "10090/ATP5MK": 1,
+    "10090/ATP8": 5,
+    "10116/ATP5F1E": 1,
+    "10116/ATP5ME": 1,
+    "10116/ATP5MK": 1,
+    "10116/ATP8": 3,
+    "7955/ATP8": 1,
+    "8355/ATP8": 1,
+    "9031/ATP8": 2,
+    "9601/ATP5ME": 1,
+    "9601/ATP5MF": 1,
+    "9601/ATP8": 1,
+    "9606/ATP5F1E": 2,
+    "9606/ATP5ME": 2,
+    "9606/ATP5MF": 3,
+    "9606/ATP5MGL": 1,
+    "9606/ATP5MJ": 1,
+    "9606/ATP5MK": 1,
+    "9606/ATP8": 133,
+    "9823/ATP5ME": 2,
+    "9823/ATP5MF": 2,
+    "9823/ATP8": 21,
+    "9913/ATP5F1E": 1,
+    "9913/ATP5ME": 1,
+    "9913/ATP5MF": 1,
+    "9913/ATP5MJ": 1,
+    "9913/ATP5MK": 1,
+    "9913/ATP8": 5
+  },
+  "by_primary_taxon_family": {
+    "10090/ATP5F1E": 1,
+    "10090/ATP5ME": 2,
+    "10090/ATP5MF": 2,
+    "10090/ATP5MJ": 1,
+    "10090/ATP5MK": 1,
+    "10090/ATP8": 5,
+    "10116/ATP5F1E": 1,
+    "10116/ATP5ME": 1,
+    "10116/ATP5MK": 1,
+    "10116/ATP8": 3,
+    "7955/ATP8": 1,
+    "8355/ATP8": 1,
+    "9031/ATP8": 2,
+    "9601/ATP5ME": 1,
+    "9601/ATP5MF": 1,
+    "9601/ATP8": 1,
+    "9606/ATP5F1E": 2,
+    "9606/ATP5ME": 2,
+    "9606/ATP5MF": 3,
+    "9606/ATP5MGL": 1,
+    "9606/ATP5MJ": 1,
+    "9606/ATP5MK": 1,
+    "9606/ATP8": 133,
+    "9823/ATP5ME": 2,
+    "9823/ATP5MF": 2,
+    "9823/ATP8": 21,
+    "9913/ATP5F1E": 1,
+    "9913/ATP5ME": 1,
+    "9913/ATP5MF": 1,
+    "9913/ATP5MJ": 1,
+    "9913/ATP5MK": 1,
+    "9913/ATP8": 5
+  },
+  "created_utc": "2026-09-25T01:25:48.363551+00:00",
+  "deduplication": "Exact RNA globally; human first then declared panel order for primary stratum; all accession/taxon provenance retained.",
+  "eligible_records_file": "data/raw/secondary/eligible-records.jsonl",
+  "eligible_records_sha256": "9e4bbf5d61c5cfc4f578a2640c22067a8b7d08fc9c88b8132e3935e889ba99f7",
+  "globally_unique_cds": 203,
+  "impi_resolved_rows": {
+    "ATP5F1E": {
+      "Ensembl": "ENSG00000124172",
+      "IMPI Class": "Verified mitochondrial",
+      "Name": "ATP synthase F1, subunit epsilon; ATP synthase, H+ transporting, mitochondrial F1 complex, epsilon subunit",
+      "Symbol": "ATP5F1E; ATP5E"
+    },
+    "ATP5ME": {
+      "Ensembl": "ENSG00000169020",
+      "IMPI Class": "Verified mitochondrial",
+      "Name": "ATP synthase membrane subunit E; ATP synthase, H+ transporting, mitochondrial Fo complex, subunit E",
+      "Symbol": "ATP5ME; ATP5I"
+    },
+    "ATP5MF": {
+      "Ensembl": "ENSG00000241468",
+      "IMPI Class": "Verified mitochondrial",
+      "Name": "ATP synthase, H+ transporting, mitochondrial Fo complex, subunit F2; ATP synthase membrane subunit f",
+      "Symbol": "ATP5J2; ATP5MF"
+    },
+    "ATP5MGL": {
+      "Ensembl": "ENSG00000249222",
+      "IMPI Class": "Verified mitochondrial",
+      "Name": "ATP synthase, H+ transporting, mitochondrial Fo complex, subunit G2",
+      "Symbol": "ATP5MGL; ATP5L2"
+    },
+    "ATP5MJ": {
+      "Ensembl": "ENSG00000156411",
+      "IMPI Class": "Verified mitochondrial",
+      "Name": "ATP synthase membrane subunit j; chromosome 14 open reading frame 2",
+      "Symbol": "ATP5MJ; C14orf2"
+    },
+    "ATP5MK": {
+      "Ensembl": "ENSG00000173915",
+      "IMPI Class": "Verified mitochondrial",
+      "Name": "ATP synthase membrane subunit dapit; up-regulated during skeletal muscle growth 5 homolog (mouse)",
+      "Symbol": "ATP5MK; USMG5"
+    },
+    "ATP8": {
+      "Ensembl": "ENSG00000228253",
+      "IMPI Class": "Verified mitochondrial",
+      "Name": "mitochondrially encoded ATP synthase 8",
+      "Symbol": "MT-ATP8"
+    }
+  },
+  "metadata_exclusions": {
+    "9606/ATP8/partial_frame": 1
+  },
+  "metadata_inventory": [
+    {
+      "count_verified": true,
+      "matched_rows": 5329,
+      "query": "tax_eq(9606) AND base_count<=303",
+      "rows": 300582,
+      "sequence_hash_groups": 144,
+      "tax_id": 9606
+    },
+    {
+      "count_verified": true,
+      "matched_rows": 22,
+      "query": "tax_eq(10090) AND base_count<=303 AND (gene=\"Atp5e\" OR gene=\"Atp5f1e\" OR gene=\"Atp5i\" OR gene=\"Atp5j2\" OR gene=\"Atp5k\" OR gene=\"Atp5md\" OR gene=\"Atp5me\" OR gene=\"Atp5mf\" OR gene=\"Atp5mj\" OR gene=\"Atp5mk\" OR gene=\"Atp5mpl\" OR gene=\"Atp8\" OR gene=\"Dapit\" OR gene=\"Lfm-1\" OR gene=\"Lfm1\" OR gene=\"Mp68\" OR gene=\"Mtatp8\" OR gene=\"Usmg5\" OR gene=\"mt-Atp8\" OR gene_synonym=\"Atp5e\" OR gene_synonym=\"Atp5f1e\" OR gene_synonym=\"Atp5i\" OR gene_synonym=\"Atp5j2\" OR gene_synonym=\"Atp5k\" OR gene_synonym=\"Atp5md\" OR gene_synonym=\"Atp5me\" OR gene_synonym=\"Atp5mf\" OR gene_synonym=\"Atp5mj\" OR gene_synonym=\"Atp5mk\" OR gene_synonym=\"Atp5mpl\" OR gene_synonym=\"Atp8\" OR gene_synonym=\"Dapit\" OR gene_synonym=\"Lfm-1\" OR gene_synonym=\"Lfm1\" OR gene_synonym=\"Mp68\" OR gene_synonym=\"Mtatp8\" OR gene_synonym=\"Usmg5\" OR gene_synonym=\"mt-Atp8\" OR product=\"6.8 kDa mitochondrial proteolipid protein\" OR product=\"A6L\" OR product=\"ATP synthase F(0) complex subunit 8\" OR product=\"ATP synthase F(0) complex subunit e, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit f, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit j, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit k, mitochondrial\" OR product=\"ATP synthase F(1) complex subunit epsilon, mitochondrial\" OR product=\"ATP synthase F0 subunit 8\" OR product=\"ATP synthase F1 subunit epsilon\" OR product=\"ATP synthase membrane subunit 6.8PL\" OR product=\"ATP synthase membrane subunit DAPIT\" OR product=\"ATP synthase membrane subunit DAPIT, mitochondrial\" OR product=\"ATP synthase membrane subunit e\" OR product=\"ATP synthase membrane subunit f\" OR product=\"ATP synthase membrane subunit j\" OR product=\"ATP synthase membrane subunit k\" OR product=\"ATP synthase subunit 8\" OR product=\"ATP synthase subunit ATP5MPL, mitochondrial\" OR product=\"ATPase subunit 8\" OR product=\"Diabetes-associated protein in insulin-sensitive tissues\" OR product=\"F-ATPase subunit 8\" OR product=\"Up-regulated during skeletal muscle growth protein 5\")",
+      "rows": 22,
+      "sequence_hash_groups": 5,
+      "tax_id": 10090
+    },
+    {
+      "count_verified": true,
+      "matched_rows": 0,
+      "query": "tax_eq(10116) AND base_count<=303 AND (gene=\"Atp5e\" OR gene=\"Atp5f1e\" OR gene=\"Atp5i\" OR gene=\"Atp5j2\" OR gene=\"Atp5md\" OR gene=\"Atp5me\" OR gene=\"Atp5mf\" OR gene=\"Atp5mk\" OR gene=\"Atp5mpl\" OR gene=\"Atp8\" OR gene=\"Atpase8\" OR gene=\"Dapit\" OR gene=\"Mt-atp8\" OR gene=\"Mtatp8\" OR gene=\"Usmg5\" OR gene_synonym=\"Atp5e\" OR gene_synonym=\"Atp5f1e\" OR gene_synonym=\"Atp5i\" OR gene_synonym=\"Atp5j2\" OR gene_synonym=\"Atp5md\" OR gene_synonym=\"Atp5me\" OR gene_synonym=\"Atp5mf\" OR gene_synonym=\"Atp5mk\" OR gene_synonym=\"Atp5mpl\" OR gene_synonym=\"Atp8\" OR gene_synonym=\"Atpase8\" OR gene_synonym=\"Dapit\" OR gene_synonym=\"Mt-atp8\" OR gene_synonym=\"Mtatp8\" OR gene_synonym=\"Usmg5\" OR product=\"6.8 kDa mitochondrial proteolipid protein\" OR product=\"A6L\" OR product=\"ATP synthase F(0) complex subunit 8\" OR product=\"ATP synthase F(0) complex subunit e, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit f, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit k, mitochondrial\" OR product=\"ATP synthase F(1) complex subunit epsilon, mitochondrial\" OR product=\"ATP synthase F0 subunit 8\" OR product=\"ATP synthase F1 subunit epsilon\" OR product=\"ATP synthase membrane subunit 6.8PL\" OR product=\"ATP synthase membrane subunit DAPIT\" OR product=\"ATP synthase membrane subunit DAPIT, mitochondrial\" OR product=\"ATP synthase membrane subunit e\" OR product=\"ATP synthase membrane subunit f\" OR product=\"ATP synthase membrane subunit j\" OR product=\"ATP synthase membrane subunit k\" OR product=\"ATP synthase subunit 8\" OR product=\"ATP synthase subunit ATP5MPL, mitochondrial\" OR product=\"ATPase subunit 8\" OR product=\"Chargerin II\" OR product=\"Diabetes-associated protein in insulin-sensitive tissues\" OR product=\"F-ATPase subunit 8\" OR product=\"Up-regulated during skeletal muscle growth protein 5\")",
+      "rows": 0,
+      "sequence_hash_groups": 0,
+      "tax_id": 10116
+    },
+    {
+      "count_verified": true,
+      "matched_rows": 101,
+      "query": "tax_eq(9913) AND base_count<=303 AND (gene=\"ATP5E\" OR gene=\"ATP5F1E\" OR gene=\"ATP5I\" OR gene=\"ATP5J2\" OR gene=\"ATP5ME\" OR gene=\"ATP5MF\" OR gene=\"ATP5MJ\" OR gene=\"ATP5MK\" OR gene=\"ATP5MPL\" OR gene=\"ATP8\" OR gene=\"ATPASE8\" OR gene=\"ATPMD\" OR gene=\"DAPIT\" OR gene=\"MP68\" OR gene=\"MT-ATP8\" OR gene=\"MTATP8\" OR gene=\"USMG5\" OR gene_synonym=\"ATP5E\" OR gene_synonym=\"ATP5F1E\" OR gene_synonym=\"ATP5I\" OR gene_synonym=\"ATP5J2\" OR gene_synonym=\"ATP5ME\" OR gene_synonym=\"ATP5MF\" OR gene_synonym=\"ATP5MJ\" OR gene_synonym=\"ATP5MK\" OR gene_synonym=\"ATP5MPL\" OR gene_synonym=\"ATP8\" OR gene_synonym=\"ATPASE8\" OR gene_synonym=\"ATPMD\" OR gene_synonym=\"DAPIT\" OR gene_synonym=\"MP68\" OR gene_synonym=\"MT-ATP8\" OR gene_synonym=\"MTATP8\" OR gene_synonym=\"USMG5\" OR product=\"6.8 kDa mitochondrial proteolipid\" OR product=\"6.8 kDa mitochondrial proteolipid protein\" OR product=\"A6L\" OR product=\"ATP synthase F(0) complex subunit 8\" OR product=\"ATP synthase F(0) complex subunit e, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit f, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit j, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit k, mitochondrial\" OR product=\"ATP synthase F(1) complex subunit epsilon, mitochondrial\" OR product=\"ATP synthase F0 subunit 8\" OR product=\"ATP synthase F1 subunit epsilon\" OR product=\"ATP synthase membrane subunit DAPIT\" OR product=\"ATP synthase membrane subunit DAPIT, mitochondrial\" OR product=\"ATP synthase membrane subunit e\" OR product=\"ATP synthase membrane subunit f\" OR product=\"ATP synthase membrane subunit j\" OR product=\"ATP synthase membrane subunit k\" OR product=\"ATP synthase subunit 8\" OR product=\"ATPase subunit 8\" OR product=\"Diabetes-associated protein in insulin-sensitive tissues\" OR product=\"F-ATPase subunit 8\" OR product=\"Up-regulated during skeletal muscle growth protein 5\")",
+      "rows": 101,
+      "sequence_hash_groups": 5,
+      "tax_id": 9913
+    },
+    {
+      "count_verified": true,
+      "matched_rows": 1123,
+      "query": "tax_eq(9823) AND base_count<=303 AND (gene=\"ATP5I\" OR gene=\"ATP5J2\" OR gene=\"ATP5ME\" OR gene=\"ATP5MF\" OR gene=\"ATP8\" OR gene=\"ATPASE8\" OR gene=\"MT-ATP8\" OR gene=\"MTATP8\" OR gene_synonym=\"ATP5I\" OR gene_synonym=\"ATP5J2\" OR gene_synonym=\"ATP5ME\" OR gene_synonym=\"ATP5MF\" OR gene_synonym=\"ATP8\" OR gene_synonym=\"ATPASE8\" OR gene_synonym=\"MT-ATP8\" OR gene_synonym=\"MTATP8\" OR product=\"A6L\" OR product=\"ATP synthase F(0) complex subunit 8\" OR product=\"ATP synthase F(0) complex subunit e, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit f, mitochondrial\" OR product=\"ATP synthase F0 subunit 8\" OR product=\"ATP synthase membrane subunit e\" OR product=\"ATP synthase membrane subunit f\" OR product=\"ATP synthase subunit 8\" OR product=\"ATPase subunit 8\" OR product=\"F-ATPase subunit 8\")",
+      "rows": 1123,
+      "sequence_hash_groups": 46,
+      "tax_id": 9823
+    },
+    {
+      "count_verified": true,
+      "matched_rows": 0,
+      "query": "tax_eq(9601) AND base_count<=303 AND (gene=\"ATP5I\" OR gene=\"ATP5J2\" OR gene=\"ATP5ME\" OR gene=\"ATP5MF\" OR gene=\"ATP8\" OR gene=\"ATPASE8\" OR gene=\"MT-ATP8\" OR gene=\"MTATP8\" OR gene_synonym=\"ATP5I\" OR gene_synonym=\"ATP5J2\" OR gene_synonym=\"ATP5ME\" OR gene_synonym=\"ATP5MF\" OR gene_synonym=\"ATP8\" OR gene_synonym=\"ATPASE8\" OR gene_synonym=\"MT-ATP8\" OR gene_synonym=\"MTATP8\" OR product=\"A6L\" OR product=\"ATP synthase F(0) complex subunit 8\" OR product=\"ATP synthase F(0) complex subunit e, mitochondrial\" OR product=\"ATP synthase F(0) complex subunit f, mitochondrial\" OR product=\"ATP synthase F0 subunit 8\" OR product=\"ATP synthase membrane subunit e\" OR product=\"ATP synthase membrane subunit f\" OR product=\"ATP synthase subunit 8\" OR product=\"ATPase subunit 8\" OR product=\"F-ATPase subunit 8\")",
+      "rows": 0,
+      "sequence_hash_groups": 0,
+      "tax_id": 9601
+    },
+    {
+      "count_verified": true,
+      "matched_rows": 17,
+      "query": "tax_eq(9031) AND base_count<=303 AND (gene=\"ATP8\" OR gene=\"ATPASE8\" OR gene=\"MT-ATP8\" OR gene=\"MTATP8\" OR gene_synonym=\"ATP8\" OR gene_synonym=\"ATPASE8\" OR gene_synonym=\"MT-ATP8\" OR gene_synonym=\"MTATP8\" OR product=\"A6L\" OR product=\"ATP synthase F(0) complex subunit 8\" OR product=\"ATP synthase F0 subunit 8\" OR product=\"ATP synthase subunit 8\" OR product=\"ATPase subunit 8\" OR product=\"F-ATPase subunit 8\")",
+      "rows": 17,
+      "sequence_hash_groups": 2,
+      "tax_id": 9031
+    },
+    {
+      "count_verified": true,
+      "matched_rows": 4,
+      "query": "tax_eq(7955) AND base_count<=303 AND (gene=\"atp8\" OR gene=\"atpase8\" OR gene=\"mt-atp8\" OR gene=\"mtatp8\" OR gene_synonym=\"atp8\" OR gene_synonym=\"atpase8\" OR gene_synonym=\"mt-atp8\" OR gene_synonym=\"mtatp8\" OR product=\"A6L\" OR product=\"ATP synthase F(0) complex subunit 8\" OR product=\"ATP synthase F0 subunit 8\" OR product=\"ATP synthase subunit 8\" OR product=\"ATPase subunit 8\" OR product=\"F-ATPase subunit 8\")",
+      "rows": 4,
+      "sequence_hash_groups": 1,
+      "tax_id": 7955
+    },
+    {
+      "count_verified": true,
+      "matched_rows": 0,
+      "query": "tax_eq(8355) AND base_count<=303 AND (gene=\"atp8\" OR gene=\"atpase8\" OR gene=\"mt-atp8\" OR gene=\"mtatp8\" OR gene_synonym=\"atp8\" OR gene_synonym=\"atpase8\" OR gene_synonym=\"mt-atp8\" OR gene_synonym=\"mtatp8\" OR product=\"A6L\" OR product=\"ATP synthase F0 subunit 8\" OR product=\"ATP synthase protein 8\" OR product=\"ATP synthase subunit 8\" OR product=\"ATPase subunit 8\" OR product=\"F-ATPase subunit 8\")",
+      "rows": 0,
+      "sequence_hash_groups": 0,
+      "tax_id": 8355
+    }
+  ],
+  "missing_reference_combinations": [
+    {
+      "family": "ATP5MGL",
+      "tax_id": 10090
+    },
+    {
+      "family": "ATP5MGL",
+      "tax_id": 10116
+    },
+    {
+      "family": "ATP5MGL",
+      "tax_id": 9913
+    },
+    {
+      "family": "ATP5MJ",
+      "tax_id": 9823
+    },
+    {
+      "family": "ATP5MK",
+      "tax_id": 9823
+    },
+    {
+      "family": "ATP5F1E",
+      "tax_id": 9823
+    },
+    {
+      "family": "ATP5MGL",
+      "tax_id": 9823
+    },
+    {
+      "family": "ATP5MJ",
+      "tax_id": 9601
+    },
+    {
+      "family": "ATP5MK",
+      "tax_id": 9601
+    },
+    {
+      "family": "ATP5F1E",
+      "tax_id": 9601
+    },
+    {
+      "family": "ATP5MGL",
+      "tax_id": 9601
+    },
+    {
+      "family": "ATP5ME",
+      "tax_id": 9031
+    },
+    {
+      "family": "ATP5MF",
+      "tax_id": 9031
+    },
+    {
+      "family": "ATP5MJ",
+      "tax_id": 9031
+    },
+    {
+      "family": "ATP5MK",
+      "tax_id": 9031
+    },
+    {
+      "family": "ATP5F1E",
+      "tax_id": 9031
+    },
+    {
+      "family": "ATP5MGL",
+      "tax_id": 9031
+    },
+    {
+      "family": "ATP5ME",
+      "tax_id": 7955
+    },
+    {
+      "family": "ATP5MF",
+      "tax_id": 7955
+    },
+    {
+      "family": "ATP5MJ",
+      "tax_id": 7955
+    },
+    {
+      "family": "ATP5MK",
+      "tax_id": 7955
+    },
+    {
+      "family": "ATP5F1E",
+      "tax_id": 7955
+    },
+    {
+      "family": "ATP5MGL",
+      "tax_id": 7955
+    },
+    {
+      "family": "ATP5ME",
+      "tax_id": 8355
+    },
+    {
+      "family": "ATP5MF",
+      "tax_id": 8355
+    },
+    {
+      "family": "ATP5MJ",
+      "tax_id": 8355
+    },
+    {
+      "family": "ATP5MK",
+      "tax_id": 8355
+    },
+    {
+      "family": "ATP5F1E",
+      "tax_id": 8355
+    },
+    {
+      "family": "ATP5MGL",
+      "tax_id": 8355
+    }
+  ],
+  "record_rejections": {
+    "ambiguous_bases": 10,
+    "partial_frame": 2,
+    "partial_location": 4,
+    "reference_identity_below_threshold": 22,
+    "reference_length_mismatch": 7,
+    "unexpected_genetic_code": 1,
+    "wrong_taxon": 1
+  },
+  "reference_exclusions": [
+    {
+      "accession": "P13618",
+      "reason": "outside_declared_families"
+    },
+    {
+      "accession": "Q5VTU8",
+      "reason": "declared_exclusion"
+    },
+    {
+      "accession": "Q95312",
+      "reason": "outside_declared_families"
+    }
+  ],
+  "references": 34,
+  "references_file": "data/raw/secondary/references.json",
+  "references_sha256": "7120ee9992fefd0011a79c5a50e15aa003215d24bc2f118d35963e638c52a9a1",
+  "representative_policy": "Index metadata passes flags before one deterministic accession per nucleotide MD5; aliases are metadata-supported sequence equivalents, not independently CDS-validated records. All UniProt EMBL protein links are fetched separately.",
+  "requested_distinct_accessions": 824,
+  "scope_limit": "All eligible CDS recovered by the frozen panel/reference query and declared retrieval routes, not a globally exhaustive database census.",
+  "source_dependencies": {
+    "human-small-cds-count.json": {
+      "bytes": 18,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T00:16:21.878228+00:00",
+      "sha256": "49cdc2e7bdbe637ee34baf582aa0c832e6eac46eba19619a828620a77e6a533e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%289606%29+AND+base_count%3C%3D303&format=json"
+    },
+    "human-small-cds.tsv": {
+      "bytes": 41785489,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T00:12:40.120004+00:00",
+      "sha256": "f4b5c5054c33ff4bc6db474f12e44fda8334c7564ee3109f237f7f4b9bd93efb",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%289606%29+AND+base_count%3C%3D303&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&format=tsv&limit=0"
+    },
+    "impi-2021-q4pre.xlsx": {
+      "bytes": 4103301,
+      "etag": "\"674e7c4d-3e9c85\"",
+      "retrieved_utc": "2026-09-25T00:12:24.527114+00:00",
+      "sha256": "65911f59640c9f5517472a5bfce05305dc6bed8c9f4ad52eb4ee9bbc6e05a13f",
+      "uniprot_release": null,
+      "url": "https://www.mrc-mbu.cam.ac.uk/files/impi-2021-q4pre-20211001-dist_0.xlsx"
+    }
+  },
+  "source_registry": [
+    {
+      "bytes": 119309,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:20:13.447847+00:00",
+      "sha256": "7fa702e845bc045199435179130aaad0e329028316bcdc0e765acaf0475bae4b",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/WML71930.1,WML72086.1,WPS67310.1,WPS67336.1,WPW51883.1,WRY72543.1,WRY72647.1,WRY73128.1,WRY73232.1,WRY73258.1,WZW43804.1,XDR08122.1,XDR09097.1,XDR09175.1,XFH19010.1,XFH19153.1,XGR28838.1,XHP13159.1,XLI80681.1,XLZ40767.1,XLZ40962.1,XLZ41040.1,XLZ41469.1,XLZ41898.1,XOB82989.1,XOB83132.1,XOW95612.1,XPC73843.1,XQJ35098.1,XQN13644.1,XRJ24448.1,XRQ88158.1,XRQ88184.1,XRQ88366.1,XRQ88704.1,XRQ88717.1,XRQ88821.1,XRQ88925.1,XRQ89094.1,XRQ89107.1,XRQ89224.1,XRQ89393.1,XRQ89614.1,XRQ89666.1,XRQ90485.1,XRQ90498.1,XRQ90550.1,XRQ92188.1,XRQ93462.1,XRQ93748.1"
+    },
+    {
+      "bytes": 135606,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:47.288155+00:00",
+      "sha256": "8fb50966c18a33a65028a416c4be7123fcc7dd29aaec85059385aa4efda75358",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAP90366.1,AAP90379.1,AAP90392.1,AAP90405.1,AAP90418.1,AAP90431.1,AAP90444.1,AAP90457.1,AAP90470.1,AAP90483.2,AAP90509.1,AAP90522.1,AAP90535.1,AAP90548.1,AAP90561.1,AAP90574.1,AAP90587.1,AAP90600.1,AAP90613.1,AAP90626.1,AAP90639.1,AAP90652.1,AAP90665.1,AAP90678.1,AAP90691.1,AAP90704.1,AAP90717.1,AAP90730.1,AAP90743.1,AAP90756.1,AAP90769.1,AAP90782.1,AAP90795.1,AAP90808.1,AAP90821.1,AAP90834.1,AAP90847.1,AAP90860.1,AAP90873.1,AAP90886.1,AAP90899.1,AAP90912.1,AAP90925.1,AAP90938.1,AAP90951.1,AAP90964.1,AAP90977.1,AAP90990.1,AAP91003.1,AAP91016.1"
+    },
+    {
+      "bytes": 117316,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:38.492491+00:00",
+      "sha256": "a6ff7f3dbf08e876ded98b8bd1b16aabc74ced3a19fa9f0c3927d22f27461410",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAP47897.1,AAP47910.1,AAP47949.1,AAP47962.1,AAP47975.1,AAP47988.1,AAP48001.1,AAP48014.1,AAP48027.1,AAP48040.1,AAP48053.1,AAP48066.1,AAP48079.1,AAP48092.1,AAP48105.1,AAP48118.1,AAP48131.1,AAP48144.1,AAP48157.1,AAP48170.1,AAP48183.1,AAP48196.1,AAP48209.1,AAP48222.1,AAP48235.1,AAP48261.1,AAP48274.1,AAP48287.1,AAP48300.1,AAP48313.1,AAP48326.1,AAP48339.1,AAP48352.1,AAP48365.1,AAP48378.1,AAP48391.1,AAP48404.1,AAP48417.1,AAP48429.1,AAP48442.1,AAP48455.1,AAP48468.1,AAP48481.1,AAP48494.1,AAP48507.1,AAP48520.1,AAP48533.1,AAP48546.1,AAP89040.1,AAP89053.1"
+    },
+    {
+      "bytes": 157858,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:20:11.675029+00:00",
+      "sha256": "4857793b38460a3507898a8611d5865dc99c8c64865c82702270bd5c3e5ef78e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/CAA34849.1,CAA36629.1,CAA66287.1,CAB03568.1,CAB71156.1,CAB94728.1,CAC03620.1,CAC81243.1,CAD61878.1,CAG33172.1,CAG46952.1,CAH89809.1,CAH90748.1,CAH92525.1,EAL23877.1,EAW49642.1,EAW49643.1,EAW49644.1,EAW75445.1,EAW75446.1,EAW76661.1,EAW81849.1,EAW81850.1,EDM08582.1,EDM17776.1,KAI3998518.1,KAI4003299.1,KAI4006196.1,KAI4014793.1,KAI4014794.1,KAI4014795.1,KAI4014796.1,KAI4014798.1,KAI4024464.1,KAO0110559.1,WLE64382.1,WML69681.1,WML69707.1,WML69733.1,WML69772.1,WML69785.1,WML70045.1,WML70331.1,WML70370.1,WML70942.1,WML70968.1,WML71007.1,WML71020.1,WML71280.1,WML71683.1"
+    },
+    {
+      "bytes": 139217,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:20:04.683915+00:00",
+      "sha256": "6358c89161bdbd1fc3c8c8e2d0ee6e1d446f8bd06e361b4629110e628f282141",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAR95321.1,AAR95334.1,AAR95347.1,AAR95360.1,AAR95373.1,AAR95386.1,AAR95399.1,AAR95412.1,AAR95425.1,AAR95438.1,AAR95451.1,AAR95464.1,AAR95477.1,AAR95490.1,AAR95516.1,AAR95529.1,AAR95542.1,AAR95555.1,AAR95568.1,AAR95581.1,AAR95594.1,AAR95607.1,AAR95620.1,AAU89079.1,ABK55621.1,ABK55624.1,ACB20551.1,BAA02423.1,BAA07294.1,BAA23322.1,BAA92756.1,BAB22157.1,BAB22660.1,BAB23014.1,BAB25610.1,BAB28667.1,BAE30651.1,BAE40067.1,BAG34829.1,BAG35035.1,BAG37877.1,BFH58085.1,BGO62693.1,BGO62706.1,CAA05233.1,CAA24001.1,CAA24030.1,CAA24084.1,CAA32958.1,CAA33841.1"
+    },
+    {
+      "bytes": 112857,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:35.785601+00:00",
+      "sha256": "c9121210e1487ff52224671cf870bca80c0916f9698a723f1df1e9fa8a0311d9",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAK17302.1,AAK17315.1,AAK17328.1,AAK17341.1,AAK17354.1,AAK17367.1,AAK17380.1,AAK17393.1,AAK17406.1,AAK17419.1,AAK17432.1,AAK17445.1,AAK17458.1,AAK17471.1,AAK17497.1,AAK17510.1,AAK17523.1,AAK17536.1,AAK17575.1,AAK17588.1,AAK17601.1,AAK17614.1,AAK17627.1,AAK17640.1,AAK17653.1,AAK17692.1,AAK17705.1,AAK17718.1,AAK17731.1,AAK17744.1,AAK17757.1,AAK17770.1,AAK17783.1,AAK17796.1,AAK17809.1,AAK17835.1,AAK17848.1,AAK17861.1,AAK17874.1,AAK17887.1,AAL06647.1,AAM08333.1,AAM08346.1,AAM12793.1,AAM12806.1,AAN77598.1,AAN85126.1,AAP35568.1,AAP35957.1,AAP47884.1"
+    },
+    {
+      "bytes": 96098,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:20:17.505757+00:00",
+      "sha256": "09152101de93e665a6086c89d354a8307341b0b211119efbc42781f7b8dccf01",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/XZY31137.1,XZY31319.1,YAE80216.1,YAE80723.1,YAE80970.1,YAE81035.1,YAE81256.1,YAE81464.1,YAE81841.1,YAE82569.1,YAR07136.1,YAR07435.1,YAR08072.1,YAR08280.1,YAR09086.1,YAR09216.1,YAR09411.1,YAR09866.1,YAR09957.1,YAR10009.1,YAR10100.1,YAR10893.1,YAR11998.1,YAS66010.1,YBV76029.1,YBV76692.1,YBV78928.1,YBV78993.1,YBV79006.1,YBV79123.1,YBV80566.1,YBV80670.1,YBV81008.1,YBV81047.1,YBV81060.1,YBV81086.1,YBV81138.1,YBV81151.1,YBV81164.1,YBV81190.1,YBV81203.1,YBV81229.1,YBV81268.1,YBV81281.1,YBV81294.1,YBV81320.1,YBV81853.1,YBV83699.1,YBV83763.1,YBV83815.1"
+    },
+    {
+      "bytes": 132797,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:49.853546+00:00",
+      "sha256": "3e517284fd467be8c725da4857fdedb26f78d014e53b85150464fe80bbb00843",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAP91029.1,AAP91042.1,AAP91055.1,AAP91068.1,AAP91081.1,AAP91094.1,AAP91107.1,AAP91120.1,AAP91133.1,AAP91146.1,AAP91159.1,AAP91172.1,AAP91185.1,AAP91198.1,AAP91211.1,AAP91224.1,AAP91237.1,AAP91250.1,AAP91263.1,AAP91276.1,AAP91289.1,AAP91302.1,AAP91315.1,AAP91328.1,AAP91341.1,AAP91354.1,AAP91367.1,AAP91380.1,AAP91393.1,AAP91406.1,AAP91419.1,AAP91432.1,AAP91445.1,AAP91458.1,AAP91471.1,AAP91484.1,AAP91497.1,AAP91510.1,AAP91523.1,AAP97217.1,AAR92500.1,AAR92513.1,AAR92526.1,AAR92539.1,AAR92552.1,AAR92565.1,AAR92578.1,AAR92591.1,AAR92604.1,AAR92617.1"
+    },
+    {
+      "bytes": 119437,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:20:01.351180+00:00",
+      "sha256": "578382c5e2e7b29ec8b103e2e1e2d050c37ec175c3c48c75b4d70533f180ec7d",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAR94606.1,AAR94619.1,AAR94632.1,AAR94645.1,AAR94658.1,AAR94671.1,AAR94697.1,AAR94710.1,AAR94723.1,AAR94736.1,AAR94749.1,AAR94762.1,AAR94775.1,AAR94788.1,AAR94801.1,AAR94814.1,AAR94827.1,AAR94840.1,AAR94853.1,AAR94866.1,AAR94879.1,AAR94892.1,AAR94905.1,AAR94931.1,AAR94944.1,AAR94957.1,AAR94970.1,AAR94983.1,AAR94996.1,AAR95022.1,AAR95035.1,AAR95048.1,AAR95061.1,AAR95074.1,AAR95087.1,AAR95100.1,AAR95113.1,AAR95126.1,AAR95139.1,AAR95152.1,AAR95165.1,AAR95178.1,AAR95191.1,AAR95204.1,AAR95217.1,AAR95243.1,AAR95256.1,AAR95282.1,AAR95295.1,AAR95308.1"
+    },
+    {
+      "bytes": 45444,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:20:19.051676+00:00",
+      "sha256": "18042ef811bf16b43fc9ed39f5dfbee0c6eca415a2fd09abf0cce74457d3f21a",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/YBV83984.1,YBV84101.1,YBV84127.1,YBV84140.1,YBV84153.1,YBV84205.1,YBV84296.1,YBV84309.1,YBV84409.1,YBV87750.1,YBV87918.1,YBV87942.1,YBV87978.1,YBV88051.1,YBV88064.1,YBV88077.1,YCL32229.1,YCL32346.1,YCL87096.1,YCL87135.1,YCP72018.1,YDB19035.1,YEW00562.1,YFY93052.1"
+    },
+    {
+      "bytes": 132661,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:20:15.405793+00:00",
+      "sha256": "820a35b102ea4aa78eecffce9fd9cf8fafa7287e99e80e3d181173515b1a8c8a",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/XRQ93995.1,XRQ94424.1,XRQ95503.1,XRQ95945.1,XRQ96088.1,XRQ96335.1,XRQ96426.1,XRQ96517.1,XRQ97908.1,XRQ97960.1,XRQ97986.1,XRQ98428.1,XRQ98662.1,XRQ98870.1,XRQ98948.1,XRQ98987.1,XRQ99221.1,XRQ99533.1,XRR01003.1,XRR01393.1,XRR01601.1,XRR01809.1,XRR01874.1,XRR02771.1,XRR02810.1,XTK76875.1,XTK77369.1,XTK77486.1,XTK77538.1,XTK77941.1,XTK79384.1,XTK79566.1,XUS42822.1,XUS43264.1,XUS44623.1,XUS44727.1,XVM50035.1,XVM50048.1,XZY20737.1,XZY20854.1,XZY20958.1,XZY22687.1,XZY23155.1,XZY25820.1,XZY25833.1,XZY26366.1,XZY27172.1,XZY29096.1,XZY30383.1,XZY30565.1"
+    },
+    {
+      "bytes": 142384,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:44.413641+00:00",
+      "sha256": "c66f8cfce6677a9929edb386b3cbdb4128d69b11177a00b200a1e34a6f1a60c1",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAP89716.1,AAP89729.1,AAP89742.1,AAP89755.1,AAP89768.1,AAP89781.1,AAP89794.1,AAP89807.1,AAP89820.1,AAP89833.1,AAP89846.1,AAP89859.1,AAP89872.1,AAP89885.1,AAP89898.1,AAP89911.1,AAP89924.1,AAP89937.1,AAP89950.1,AAP89963.1,AAP89976.1,AAP89989.1,AAP90002.1,AAP90015.1,AAP90028.1,AAP90041.1,AAP90054.1,AAP90067.1,AAP90080.1,AAP90093.1,AAP90106.1,AAP90119.1,AAP90132.1,AAP90145.1,AAP90158.1,AAP90171.1,AAP90184.1,AAP90197.1,AAP90210.1,AAP90223.1,AAP90236.1,AAP90249.1,AAP90262.1,AAP90275.1,AAP90288.1,AAP90301.1,AAP90314.1,AAP90327.1,AAP90340.1,AAP90353.1"
+    },
+    {
+      "bytes": 121002,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:52.756156+00:00",
+      "sha256": "301922e76c7a1319ac610a17b95e9cf2e97d9e461da191e3c4dcf5080d8514d1",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAR92630.1,AAR92643.1,AAR92656.1,AAR92669.1,AAR92682.1,AAR92695.1,AAR92708.1,AAR92721.1,AAR92734.1,AAR92747.1,AAR92760.1,AAR92773.1,AAR92786.1,AAR92799.1,AAR92812.1,AAR92825.1,AAR92838.1,AAR92851.1,AAR92864.1,AAR92877.1,AAR92890.1,AAR92903.1,AAR92916.1,AAR92942.1,AAR92955.1,AAR92968.1,AAR92981.1,AAR92994.1,AAR93007.1,AAR93020.1,AAR93033.1,AAR93046.1,AAR93059.1,AAR93072.1,AAR93085.1,AAR93098.1,AAR93111.1,AAR93124.1,AAR93137.1,AAR93150.1,AAR93163.1,AAR93176.1,AAR93189.1,AAR93202.1,AAR93215.1,AAR93228.1,AAR93241.1,AAR93254.1,AAR93267.1,AAR93280.1"
+    },
+    {
+      "bytes": 119685,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:55.797960+00:00",
+      "sha256": "ac0f31c488ac0a0876ae4d3020074528bb4e59f01dc76e2a78380b014a3611b4",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAR93293.1,AAR93306.1,AAR93319.1,AAR93332.1,AAR93345.1,AAR93358.1,AAR93371.1,AAR93384.1,AAR93397.1,AAR93410.1,AAR93423.1,AAR93436.1,AAR93449.1,AAR93462.1,AAR93475.1,AAR93488.1,AAR93501.1,AAR93514.1,AAR93527.1,AAR93540.1,AAR93553.1,AAR93566.1,AAR93579.1,AAR93592.1,AAR93605.1,AAR93618.1,AAR93631.1,AAR93644.1,AAR93657.1,AAR93670.1,AAR93683.1,AAR93696.1,AAR93709.1,AAR93722.1,AAR93735.1,AAR93748.1,AAR93761.1,AAR93774.1,AAR93787.1,AAR93800.1,AAR93813.1,AAR93826.1,AAR93839.1,AAR93852.1,AAR93865.1,AAR93878.1,AAR93891.1,AAR93904.1,AAR93917.1,AAR93930.1"
+    },
+    {
+      "bytes": 132891,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:41.572434+00:00",
+      "sha256": "8d4d26bc228d62d55c2d483abeb4c6c23119bcf5c1c68d7b8e9aa621d79f49ef",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAP89066.1,AAP89079.1,AAP89092.1,AAP89105.1,AAP89118.1,AAP89131.1,AAP89144.1,AAP89157.1,AAP89170.1,AAP89183.1,AAP89196.1,AAP89209.1,AAP89222.1,AAP89235.1,AAP89248.1,AAP89261.1,AAP89274.1,AAP89287.1,AAP89300.1,AAP89313.1,AAP89326.1,AAP89339.1,AAP89352.1,AAP89365.1,AAP89378.1,AAP89391.1,AAP89404.1,AAP89417.1,AAP89430.1,AAP89443.1,AAP89456.1,AAP89469.1,AAP89482.1,AAP89495.1,AAP89508.1,AAP89521.1,AAP89534.1,AAP89547.1,AAP89560.1,AAP89573.1,AAP89586.1,AAP89599.1,AAP89612.1,AAP89625.1,AAP89638.1,AAP89651.1,AAP89664.1,AAP89677.1,AAP89690.1,AAP89703.1"
+    },
+    {
+      "bytes": 142166,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:33.175953+00:00",
+      "sha256": "8f01eafc291bd07027e57f22e67b8d7ae53c858f637b045544f3a3e579eaba7a",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAA30390.1,AAA32030.1,AAA66462.1,AAB24947.1,AAB31107.2,AAB48648.1,AAB58947.1,AAB64162.1,AAC34895.1,AAC39887.1,AAC39909.1,AAC52713.1,AAD05064.1,AAD15018.1,AAD27778.1,AAD34189.1,AAF71062.1,AAF72736.1,AAF74301.1,AAH00429.1,AAH01690.1,AAH01944.1,AAH03671.1,AAH03678.1,AAH03679.1,AAH07087.1,AAH24339.1,AAH28438.1,AAH29226.1,AAH55712.1,AAH58133.1,AAH58449.1,AAH59719.1,AAH72683.1,AAH87919.1,AAH91507.1,AAI02280.1,AAI02583.1,AAI03276.1,AAI05611.1,AAI05812.1,AAI08147.1,AAI08209.1,AAK17211.1,AAK17224.1,AAK17237.1,AAK17250.1,AAK17263.1,AAK17276.1,AAK17289.1"
+    },
+    {
+      "bytes": 119436,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:58.570855+00:00",
+      "sha256": "421dd7b96bc511aa344d43ee9d5501fd1373c2f34b8e5060a4983774721a885c",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAR93943.1,AAR93956.1,AAR93969.1,AAR93982.1,AAR93995.1,AAR94008.1,AAR94021.1,AAR94034.1,AAR94047.1,AAR94060.1,AAR94073.1,AAR94086.1,AAR94099.1,AAR94112.1,AAR94125.1,AAR94138.1,AAR94151.1,AAR94164.1,AAR94177.1,AAR94190.1,AAR94203.1,AAR94216.1,AAR94229.1,AAR94242.1,AAR94255.1,AAR94281.1,AAR94294.1,AAR94307.1,AAR94320.1,AAR94333.1,AAR94346.1,AAR94359.1,AAR94372.1,AAR94385.1,AAR94398.1,AAR94411.1,AAR94424.1,AAR94437.1,AAR94450.1,AAR94463.1,AAR94476.1,AAR94489.1,AAR94502.1,AAR94515.1,AAR94528.1,AAR94541.1,AAR94554.1,AAR94567.1,AAR94580.1,AAR94593.1"
+    },
+    {
+      "bytes": 14,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:18:55.938289+00:00",
+      "sha256": "8656ae078932eb2c73394cbae22baa3c37984d22bf9ff1020c48bf0353d419dd",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%2810090%29+AND+base_count%3C%3D303+AND+%28gene%3D%22Atp5e%22+OR+gene%3D%22Atp5f1e%22+OR+gene%3D%22Atp5i%22+OR+gene%3D%22Atp5j2%22+OR+gene%3D%22Atp5k%22+OR+gene%3D%22Atp5md%22+OR+gene%3D%22Atp5me%22+OR+gene%3D%22Atp5mf%22+OR+gene%3D%22Atp5mj%22+OR+gene%3D%22Atp5mk%22+OR+gene%3D%22Atp5mpl%22+OR+gene%3D%22Atp8%22+OR+gene%3D%22Dapit%22+OR+gene%3D%22Lfm-1%22+OR+gene%3D%22Lfm1%22+OR+gene%3D%22Mp68%22+OR+gene%3D%22Mtatp8%22+OR+gene%3D%22Usmg5%22+OR+gene%3D%22mt-Atp8%22+OR+gene_synonym%3D%22Atp5e%22+OR+gene_synonym%3D%22Atp5f1e%22+OR+gene_synonym%3D%22Atp5i%22+OR+gene_synonym%3D%22Atp5j2%22+OR+gene_synonym%3D%22Atp5k%22+OR+gene_synonym%3D%22Atp5md%22+OR+gene_synonym%3D%22Atp5me%22+OR+gene_synonym%3D%22Atp5mf%22+OR+gene_synonym%3D%22Atp5mj%22+OR+gene_synonym%3D%22Atp5mk%22+OR+gene_synonym%3D%22Atp5mpl%22+OR+gene_synonym%3D%22Atp8%22+OR+gene_synonym%3D%22Dapit%22+OR+gene_synonym%3D%22Lfm-1%22+OR+gene_synonym%3D%22Lfm1%22+OR+gene_synonym%3D%22Mp68%22+OR+gene_synonym%3D%22Mtatp8%22+OR+gene_synonym%3D%22Usmg5%22+OR+gene_synonym%3D%22mt-Atp8%22+OR+product%3D%226.8+kDa+mitochondrial+proteolipid+protein%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+j%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+k%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%281%29+complex+subunit+epsilon%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+F1+subunit+epsilon%22+OR+product%3D%22ATP+synthase+membrane+subunit+6.8PL%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+membrane+subunit+j%22+OR+product%3D%22ATP+synthase+membrane+subunit+k%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATP+synthase+subunit+ATP5MPL%2C+mitochondrial%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22Diabetes-associated+protein+in+insulin-sensitive+tissues%22+OR+product%3D%22F-ATPase+subunit+8%22+OR+product%3D%22Up-regulated+during+skeletal+muscle+growth+protein+5%22%29&format=json"
+    },
+    {
+      "bytes": 2748,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:18:49.419083+00:00",
+      "sha256": "b8f2063f660e4d2c1f3f74a3beb06126783ab7dee0014f2ed4d690c39cb585f3",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%2810090%29+AND+base_count%3C%3D303+AND+%28gene%3D%22Atp5e%22+OR+gene%3D%22Atp5f1e%22+OR+gene%3D%22Atp5i%22+OR+gene%3D%22Atp5j2%22+OR+gene%3D%22Atp5k%22+OR+gene%3D%22Atp5md%22+OR+gene%3D%22Atp5me%22+OR+gene%3D%22Atp5mf%22+OR+gene%3D%22Atp5mj%22+OR+gene%3D%22Atp5mk%22+OR+gene%3D%22Atp5mpl%22+OR+gene%3D%22Atp8%22+OR+gene%3D%22Dapit%22+OR+gene%3D%22Lfm-1%22+OR+gene%3D%22Lfm1%22+OR+gene%3D%22Mp68%22+OR+gene%3D%22Mtatp8%22+OR+gene%3D%22Usmg5%22+OR+gene%3D%22mt-Atp8%22+OR+gene_synonym%3D%22Atp5e%22+OR+gene_synonym%3D%22Atp5f1e%22+OR+gene_synonym%3D%22Atp5i%22+OR+gene_synonym%3D%22Atp5j2%22+OR+gene_synonym%3D%22Atp5k%22+OR+gene_synonym%3D%22Atp5md%22+OR+gene_synonym%3D%22Atp5me%22+OR+gene_synonym%3D%22Atp5mf%22+OR+gene_synonym%3D%22Atp5mj%22+OR+gene_synonym%3D%22Atp5mk%22+OR+gene_synonym%3D%22Atp5mpl%22+OR+gene_synonym%3D%22Atp8%22+OR+gene_synonym%3D%22Dapit%22+OR+gene_synonym%3D%22Lfm-1%22+OR+gene_synonym%3D%22Lfm1%22+OR+gene_synonym%3D%22Mp68%22+OR+gene_synonym%3D%22Mtatp8%22+OR+gene_synonym%3D%22Usmg5%22+OR+gene_synonym%3D%22mt-Atp8%22+OR+product%3D%226.8+kDa+mitochondrial+proteolipid+protein%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+j%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+k%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%281%29+complex+subunit+epsilon%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+F1+subunit+epsilon%22+OR+product%3D%22ATP+synthase+membrane+subunit+6.8PL%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+membrane+subunit+j%22+OR+product%3D%22ATP+synthase+membrane+subunit+k%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATP+synthase+subunit+ATP5MPL%2C+mitochondrial%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22Diabetes-associated+protein+in+insulin-sensitive+tissues%22+OR+product%3D%22F-ATPase+subunit+8%22+OR+product%3D%22Up-regulated+during+skeletal+muscle+growth+protein+5%22%29&format=tsv&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&limit=0"
+    },
+    {
+      "bytes": 13,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:05.922115+00:00",
+      "sha256": "180ceef99cae8f0966fb32274c21b05433ab295574eda44df5b6e186d6afacda",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%2810116%29+AND+base_count%3C%3D303+AND+%28gene%3D%22Atp5e%22+OR+gene%3D%22Atp5f1e%22+OR+gene%3D%22Atp5i%22+OR+gene%3D%22Atp5j2%22+OR+gene%3D%22Atp5md%22+OR+gene%3D%22Atp5me%22+OR+gene%3D%22Atp5mf%22+OR+gene%3D%22Atp5mk%22+OR+gene%3D%22Atp5mpl%22+OR+gene%3D%22Atp8%22+OR+gene%3D%22Atpase8%22+OR+gene%3D%22Dapit%22+OR+gene%3D%22Mt-atp8%22+OR+gene%3D%22Mtatp8%22+OR+gene%3D%22Usmg5%22+OR+gene_synonym%3D%22Atp5e%22+OR+gene_synonym%3D%22Atp5f1e%22+OR+gene_synonym%3D%22Atp5i%22+OR+gene_synonym%3D%22Atp5j2%22+OR+gene_synonym%3D%22Atp5md%22+OR+gene_synonym%3D%22Atp5me%22+OR+gene_synonym%3D%22Atp5mf%22+OR+gene_synonym%3D%22Atp5mk%22+OR+gene_synonym%3D%22Atp5mpl%22+OR+gene_synonym%3D%22Atp8%22+OR+gene_synonym%3D%22Atpase8%22+OR+gene_synonym%3D%22Dapit%22+OR+gene_synonym%3D%22Mt-atp8%22+OR+gene_synonym%3D%22Mtatp8%22+OR+gene_synonym%3D%22Usmg5%22+OR+product%3D%226.8+kDa+mitochondrial+proteolipid+protein%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+k%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%281%29+complex+subunit+epsilon%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+F1+subunit+epsilon%22+OR+product%3D%22ATP+synthase+membrane+subunit+6.8PL%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+membrane+subunit+j%22+OR+product%3D%22ATP+synthase+membrane+subunit+k%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATP+synthase+subunit+ATP5MPL%2C+mitochondrial%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22Chargerin+II%22+OR+product%3D%22Diabetes-associated+protein+in+insulin-sensitive+tissues%22+OR+product%3D%22F-ATPase+subunit+8%22+OR+product%3D%22Up-regulated+during+skeletal+muscle+growth+protein+5%22%29&format=json"
+    },
+    {
+      "bytes": 218,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:03.146475+00:00",
+      "sha256": "da5478d0d5a0da64b96ea463b024159bfebea10a3e2dc11b3927ac4a8779113a",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%2810116%29+AND+base_count%3C%3D303+AND+%28gene%3D%22Atp5e%22+OR+gene%3D%22Atp5f1e%22+OR+gene%3D%22Atp5i%22+OR+gene%3D%22Atp5j2%22+OR+gene%3D%22Atp5md%22+OR+gene%3D%22Atp5me%22+OR+gene%3D%22Atp5mf%22+OR+gene%3D%22Atp5mk%22+OR+gene%3D%22Atp5mpl%22+OR+gene%3D%22Atp8%22+OR+gene%3D%22Atpase8%22+OR+gene%3D%22Dapit%22+OR+gene%3D%22Mt-atp8%22+OR+gene%3D%22Mtatp8%22+OR+gene%3D%22Usmg5%22+OR+gene_synonym%3D%22Atp5e%22+OR+gene_synonym%3D%22Atp5f1e%22+OR+gene_synonym%3D%22Atp5i%22+OR+gene_synonym%3D%22Atp5j2%22+OR+gene_synonym%3D%22Atp5md%22+OR+gene_synonym%3D%22Atp5me%22+OR+gene_synonym%3D%22Atp5mf%22+OR+gene_synonym%3D%22Atp5mk%22+OR+gene_synonym%3D%22Atp5mpl%22+OR+gene_synonym%3D%22Atp8%22+OR+gene_synonym%3D%22Atpase8%22+OR+gene_synonym%3D%22Dapit%22+OR+gene_synonym%3D%22Mt-atp8%22+OR+gene_synonym%3D%22Mtatp8%22+OR+gene_synonym%3D%22Usmg5%22+OR+product%3D%226.8+kDa+mitochondrial+proteolipid+protein%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+k%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%281%29+complex+subunit+epsilon%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+F1+subunit+epsilon%22+OR+product%3D%22ATP+synthase+membrane+subunit+6.8PL%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+membrane+subunit+j%22+OR+product%3D%22ATP+synthase+membrane+subunit+k%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATP+synthase+subunit+ATP5MPL%2C+mitochondrial%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22Chargerin+II%22+OR+product%3D%22Diabetes-associated+protein+in+insulin-sensitive+tissues%22+OR+product%3D%22F-ATPase+subunit+8%22+OR+product%3D%22Up-regulated+during+skeletal+muscle+growth+protein+5%22%29&format=tsv&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&limit=0"
+    },
+    {
+      "bytes": 13,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:28.025048+00:00",
+      "sha256": "232feaa2abd894c56d2ffb2ab609f3d5c417a3074e4473dea84935057cdbe723",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%287955%29+AND+base_count%3C%3D303+AND+%28gene%3D%22atp8%22+OR+gene%3D%22atpase8%22+OR+gene%3D%22mt-atp8%22+OR+gene%3D%22mtatp8%22+OR+gene_synonym%3D%22atp8%22+OR+gene_synonym%3D%22atpase8%22+OR+gene_synonym%3D%22mt-atp8%22+OR+gene_synonym%3D%22mtatp8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=json"
+    },
+    {
+      "bytes": 674,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:27.644667+00:00",
+      "sha256": "3cc30a83173988ff38d9f033e077f6c6cc44e63b1d3149ea1e18fa3616f706ae",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%287955%29+AND+base_count%3C%3D303+AND+%28gene%3D%22atp8%22+OR+gene%3D%22atpase8%22+OR+gene%3D%22mt-atp8%22+OR+gene%3D%22mtatp8%22+OR+gene_synonym%3D%22atp8%22+OR+gene_synonym%3D%22atpase8%22+OR+gene_synonym%3D%22mt-atp8%22+OR+gene_synonym%3D%22mtatp8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=tsv&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&limit=0"
+    },
+    {
+      "bytes": 13,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:28.795974+00:00",
+      "sha256": "180ceef99cae8f0966fb32274c21b05433ab295574eda44df5b6e186d6afacda",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%288355%29+AND+base_count%3C%3D303+AND+%28gene%3D%22atp8%22+OR+gene%3D%22atpase8%22+OR+gene%3D%22mt-atp8%22+OR+gene%3D%22mtatp8%22+OR+gene_synonym%3D%22atp8%22+OR+gene_synonym%3D%22atpase8%22+OR+gene_synonym%3D%22mt-atp8%22+OR+gene_synonym%3D%22mtatp8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+protein+8%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=json"
+    },
+    {
+      "bytes": 218,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:28.435100+00:00",
+      "sha256": "da5478d0d5a0da64b96ea463b024159bfebea10a3e2dc11b3927ac4a8779113a",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%288355%29+AND+base_count%3C%3D303+AND+%28gene%3D%22atp8%22+OR+gene%3D%22atpase8%22+OR+gene%3D%22mt-atp8%22+OR+gene%3D%22mtatp8%22+OR+gene_synonym%3D%22atp8%22+OR+gene_synonym%3D%22atpase8%22+OR+gene_synonym%3D%22mt-atp8%22+OR+gene_synonym%3D%22mtatp8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+protein+8%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=tsv&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&limit=0"
+    },
+    {
+      "bytes": 14,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:26.505288+00:00",
+      "sha256": "fde9e51f8b2fbc78a89c7d9e19bcece10a1d72e796a709898b9543abf5fe7236",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%289031%29+AND+base_count%3C%3D303+AND+%28gene%3D%22ATP8%22+OR+gene%3D%22ATPASE8%22+OR+gene%3D%22MT-ATP8%22+OR+gene%3D%22MTATP8%22+OR+gene_synonym%3D%22ATP8%22+OR+gene_synonym%3D%22ATPASE8%22+OR+gene_synonym%3D%22MT-ATP8%22+OR+gene_synonym%3D%22MTATP8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=json"
+    },
+    {
+      "bytes": 2079,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:26.104827+00:00",
+      "sha256": "99c8f291731c82adba5b99d4debfd7d2f858236555ba10ed0b5efaea66d11eff",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%289031%29+AND+base_count%3C%3D303+AND+%28gene%3D%22ATP8%22+OR+gene%3D%22ATPASE8%22+OR+gene%3D%22MT-ATP8%22+OR+gene%3D%22MTATP8%22+OR+gene_synonym%3D%22ATP8%22+OR+gene_synonym%3D%22ATPASE8%22+OR+gene_synonym%3D%22MT-ATP8%22+OR+gene_synonym%3D%22MTATP8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=tsv&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&limit=0"
+    },
+    {
+      "bytes": 13,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:23.831964+00:00",
+      "sha256": "180ceef99cae8f0966fb32274c21b05433ab295574eda44df5b6e186d6afacda",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%289601%29+AND+base_count%3C%3D303+AND+%28gene%3D%22ATP5I%22+OR+gene%3D%22ATP5J2%22+OR+gene%3D%22ATP5ME%22+OR+gene%3D%22ATP5MF%22+OR+gene%3D%22ATP8%22+OR+gene%3D%22ATPASE8%22+OR+gene%3D%22MT-ATP8%22+OR+gene%3D%22MTATP8%22+OR+gene_synonym%3D%22ATP5I%22+OR+gene_synonym%3D%22ATP5J2%22+OR+gene_synonym%3D%22ATP5ME%22+OR+gene_synonym%3D%22ATP5MF%22+OR+gene_synonym%3D%22ATP8%22+OR+gene_synonym%3D%22ATPASE8%22+OR+gene_synonym%3D%22MT-ATP8%22+OR+gene_synonym%3D%22MTATP8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=json"
+    },
+    {
+      "bytes": 218,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:23.326065+00:00",
+      "sha256": "da5478d0d5a0da64b96ea463b024159bfebea10a3e2dc11b3927ac4a8779113a",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%289601%29+AND+base_count%3C%3D303+AND+%28gene%3D%22ATP5I%22+OR+gene%3D%22ATP5J2%22+OR+gene%3D%22ATP5ME%22+OR+gene%3D%22ATP5MF%22+OR+gene%3D%22ATP8%22+OR+gene%3D%22ATPASE8%22+OR+gene%3D%22MT-ATP8%22+OR+gene%3D%22MTATP8%22+OR+gene_synonym%3D%22ATP5I%22+OR+gene_synonym%3D%22ATP5J2%22+OR+gene_synonym%3D%22ATP5ME%22+OR+gene_synonym%3D%22ATP5MF%22+OR+gene_synonym%3D%22ATP8%22+OR+gene_synonym%3D%22ATPASE8%22+OR+gene_synonym%3D%22MT-ATP8%22+OR+gene_synonym%3D%22MTATP8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=tsv&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&limit=0"
+    },
+    {
+      "bytes": 16,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:21.681661+00:00",
+      "sha256": "7523094efa3ad4c6300ced5a10aad0bf4d6df69197b22be856c79bd0f34446c9",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%289823%29+AND+base_count%3C%3D303+AND+%28gene%3D%22ATP5I%22+OR+gene%3D%22ATP5J2%22+OR+gene%3D%22ATP5ME%22+OR+gene%3D%22ATP5MF%22+OR+gene%3D%22ATP8%22+OR+gene%3D%22ATPASE8%22+OR+gene%3D%22MT-ATP8%22+OR+gene%3D%22MTATP8%22+OR+gene_synonym%3D%22ATP5I%22+OR+gene_synonym%3D%22ATP5J2%22+OR+gene_synonym%3D%22ATP5ME%22+OR+gene_synonym%3D%22ATP5MF%22+OR+gene_synonym%3D%22ATP8%22+OR+gene_synonym%3D%22ATPASE8%22+OR+gene_synonym%3D%22MT-ATP8%22+OR+gene_synonym%3D%22MTATP8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=json"
+    },
+    {
+      "bytes": 128144,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:19.544345+00:00",
+      "sha256": "a225b34bc8f3e7059f0361cb79739daa8632350822e1e3c2121ce8121e1ec7f5",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%289823%29+AND+base_count%3C%3D303+AND+%28gene%3D%22ATP5I%22+OR+gene%3D%22ATP5J2%22+OR+gene%3D%22ATP5ME%22+OR+gene%3D%22ATP5MF%22+OR+gene%3D%22ATP8%22+OR+gene%3D%22ATPASE8%22+OR+gene%3D%22MT-ATP8%22+OR+gene%3D%22MTATP8%22+OR+gene_synonym%3D%22ATP5I%22+OR+gene_synonym%3D%22ATP5J2%22+OR+gene_synonym%3D%22ATP5ME%22+OR+gene_synonym%3D%22ATP5MF%22+OR+gene_synonym%3D%22ATP8%22+OR+gene_synonym%3D%22ATPASE8%22+OR+gene_synonym%3D%22MT-ATP8%22+OR+gene_synonym%3D%22MTATP8%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22F-ATPase+subunit+8%22%29&format=tsv&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&limit=0"
+    },
+    {
+      "bytes": 15,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:15.247383+00:00",
+      "sha256": "56c02f3a1000e65d102d93cb486232d3877e4456a4db59e0a012d10418f035b4",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%289913%29+AND+base_count%3C%3D303+AND+%28gene%3D%22ATP5E%22+OR+gene%3D%22ATP5F1E%22+OR+gene%3D%22ATP5I%22+OR+gene%3D%22ATP5J2%22+OR+gene%3D%22ATP5ME%22+OR+gene%3D%22ATP5MF%22+OR+gene%3D%22ATP5MJ%22+OR+gene%3D%22ATP5MK%22+OR+gene%3D%22ATP5MPL%22+OR+gene%3D%22ATP8%22+OR+gene%3D%22ATPASE8%22+OR+gene%3D%22ATPMD%22+OR+gene%3D%22DAPIT%22+OR+gene%3D%22MP68%22+OR+gene%3D%22MT-ATP8%22+OR+gene%3D%22MTATP8%22+OR+gene%3D%22USMG5%22+OR+gene_synonym%3D%22ATP5E%22+OR+gene_synonym%3D%22ATP5F1E%22+OR+gene_synonym%3D%22ATP5I%22+OR+gene_synonym%3D%22ATP5J2%22+OR+gene_synonym%3D%22ATP5ME%22+OR+gene_synonym%3D%22ATP5MF%22+OR+gene_synonym%3D%22ATP5MJ%22+OR+gene_synonym%3D%22ATP5MK%22+OR+gene_synonym%3D%22ATP5MPL%22+OR+gene_synonym%3D%22ATP8%22+OR+gene_synonym%3D%22ATPASE8%22+OR+gene_synonym%3D%22ATPMD%22+OR+gene_synonym%3D%22DAPIT%22+OR+gene_synonym%3D%22MP68%22+OR+gene_synonym%3D%22MT-ATP8%22+OR+gene_synonym%3D%22MTATP8%22+OR+gene_synonym%3D%22USMG5%22+OR+product%3D%226.8+kDa+mitochondrial+proteolipid%22+OR+product%3D%226.8+kDa+mitochondrial+proteolipid+protein%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+j%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+k%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%281%29+complex+subunit+epsilon%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+F1+subunit+epsilon%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+membrane+subunit+j%22+OR+product%3D%22ATP+synthase+membrane+subunit+k%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22Diabetes-associated+protein+in+insulin-sensitive+tissues%22+OR+product%3D%22F-ATPase+subunit+8%22+OR+product%3D%22Up-regulated+during+skeletal+muscle+growth+protein+5%22%29&format=json"
+    },
+    {
+      "bytes": 11376,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:19:11.078472+00:00",
+      "sha256": "b2ec8a8b5d1c1932abb3470f2b48c3f38e5d510fc50aa8bd54ee618da962e559",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%289913%29+AND+base_count%3C%3D303+AND+%28gene%3D%22ATP5E%22+OR+gene%3D%22ATP5F1E%22+OR+gene%3D%22ATP5I%22+OR+gene%3D%22ATP5J2%22+OR+gene%3D%22ATP5ME%22+OR+gene%3D%22ATP5MF%22+OR+gene%3D%22ATP5MJ%22+OR+gene%3D%22ATP5MK%22+OR+gene%3D%22ATP5MPL%22+OR+gene%3D%22ATP8%22+OR+gene%3D%22ATPASE8%22+OR+gene%3D%22ATPMD%22+OR+gene%3D%22DAPIT%22+OR+gene%3D%22MP68%22+OR+gene%3D%22MT-ATP8%22+OR+gene%3D%22MTATP8%22+OR+gene%3D%22USMG5%22+OR+gene_synonym%3D%22ATP5E%22+OR+gene_synonym%3D%22ATP5F1E%22+OR+gene_synonym%3D%22ATP5I%22+OR+gene_synonym%3D%22ATP5J2%22+OR+gene_synonym%3D%22ATP5ME%22+OR+gene_synonym%3D%22ATP5MF%22+OR+gene_synonym%3D%22ATP5MJ%22+OR+gene_synonym%3D%22ATP5MK%22+OR+gene_synonym%3D%22ATP5MPL%22+OR+gene_synonym%3D%22ATP8%22+OR+gene_synonym%3D%22ATPASE8%22+OR+gene_synonym%3D%22ATPMD%22+OR+gene_synonym%3D%22DAPIT%22+OR+gene_synonym%3D%22MP68%22+OR+gene_synonym%3D%22MT-ATP8%22+OR+gene_synonym%3D%22MTATP8%22+OR+gene_synonym%3D%22USMG5%22+OR+product%3D%226.8+kDa+mitochondrial+proteolipid%22+OR+product%3D%226.8+kDa+mitochondrial+proteolipid+protein%22+OR+product%3D%22A6L%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+8%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+e%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+f%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+j%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%280%29+complex+subunit+k%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F%281%29+complex+subunit+epsilon%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+F0+subunit+8%22+OR+product%3D%22ATP+synthase+F1+subunit+epsilon%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%22+OR+product%3D%22ATP+synthase+membrane+subunit+DAPIT%2C+mitochondrial%22+OR+product%3D%22ATP+synthase+membrane+subunit+e%22+OR+product%3D%22ATP+synthase+membrane+subunit+f%22+OR+product%3D%22ATP+synthase+membrane+subunit+j%22+OR+product%3D%22ATP+synthase+membrane+subunit+k%22+OR+product%3D%22ATP+synthase+subunit+8%22+OR+product%3D%22ATPase+subunit+8%22+OR+product%3D%22Diabetes-associated+protein+in+insulin-sensitive+tissues%22+OR+product%3D%22F-ATPase+subunit+8%22+OR+product%3D%22Up-regulated+during+skeletal+muscle+growth+protein+5%22%29&format=tsv&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&limit=0"
+    },
+    {
+      "bytes": 753439,
+      "etag": null,
+      "retrieved_utc": "2026-09-25T01:18:09.856561+00:00",
+      "sha256": "14425ed23037e600a94755727bb9a5037cffeebf6eddb93bc3389941940d6797",
+      "uniprot_release": "2026_03",
+      "url": "https://rest.uniprot.org/uniprotkb/stream?query=%28organism_id%3A9606+OR+organism_id%3A10090+OR+organism_id%3A10116+OR+organism_id%3A9913+OR+organism_id%3A9823+OR+organism_id%3A9601+OR+organism_id%3A9031+OR+organism_id%3A7955+OR+organism_id%3A8355%29+AND+%28length%3A%5B1+TO+100%5D%29+AND+%28reviewed%3Atrue%29+AND+%28protein_name%3AATP+synthase%29&format=json"
+    }
+  ],
+  "stage": "training_only",
+  "unavailable_accessions": [],
+  "unique_proteins": 99
+}

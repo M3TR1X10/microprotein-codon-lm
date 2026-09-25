@@ -1,0 +1,816 @@
+{
+  "created_utc": "2026-09-25T01:07:19.288404+00:00",
+  "purpose": "Synthetic hardware profiling only; no biological examples, scientific training or checkpoints",
+  "status": "completed",
+  "plan": [
+    {
+      "d_model": 48,
+      "n_layers": 2,
+      "n_heads": 4,
+      "threads": 4,
+      "batch_size": 16,
+      "tokens": 100
+    },
+    {
+      "d_model": 96,
+      "n_layers": 3,
+      "n_heads": 4,
+      "threads": 4,
+      "batch_size": 16,
+      "tokens": 100
+    },
+    {
+      "d_model": 192,
+      "n_layers": 4,
+      "n_heads": 6,
+      "threads": 4,
+      "batch_size": 16,
+      "tokens": 100
+    },
+    {
+      "d_model": 192,
+      "n_layers": 4,
+      "n_heads": 6,
+      "threads": 8,
+      "batch_size": 16,
+      "tokens": 100
+    },
+    {
+      "d_model": 256,
+      "n_layers": 6,
+      "n_heads": 8,
+      "threads": 4,
+      "batch_size": 16,
+      "tokens": 100
+    },
+    {
+      "d_model": 384,
+      "n_layers": 6,
+      "n_heads": 8,
+      "threads": 4,
+      "batch_size": 16,
+      "tokens": 100
+    }
+  ],
+  "protocol": {
+    "warmup_steps": 2,
+    "measured_steps": 5,
+    "isolated_process_per_config": true,
+    "process_priority": "below_normal",
+    "physical_memory_reserve_bytes": 1073741824,
+    "per_process_timeout_seconds": 90,
+    "optimizer": "AdamW, foreach=False",
+    "gradient_clip_norm": 1.0,
+    "seed": 20260925,
+    "selection_rule": "Largest completed candidate with >=1 GiB physical RAM available and median step <2 seconds",
+    "limitations": "Short synthetic profiling; not sustained thermals, absolute hardware ceiling, data loading, checkpoint or full-corpus diagnostic timing. No concurrent training jobs."
+  },
+  "host_memory_before": {
+    "total_physical_bytes": 16892026880,
+    "available_physical_bytes": 2635771904
+  },
+  "code_sha256": "6df8be89a9be2dda21fb47da6bf268137fcef8661d4594acdabc22f58318f84c",
+  "model_sha256": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+  "gpu_assessment": {
+    "installed_torch": "CPU-only build; directly checked xpu.is_available() is False",
+    "observed_hardware_from_parent_inventory": {
+      "cpu": "Intel Core i7-12700H",
+      "physical_cores": 14,
+      "logical_processors": 20,
+      "gpu": [
+        {
+          "name": "Intel Arc A370M",
+          "driver": "31.0.101.4824"
+        },
+        {
+          "name": "Intel Iris Xe",
+          "driver": "31.0.101.4502"
+        }
+      ]
+    },
+    "finding": "PyTorch 2.14 documents Arc A-Series support on Windows 11. Intel 2.14 prerequisites specify Windows driver 32.0.101.8801 or newer. Installed CPU build and older driver do not establish a usable XPU environment. Iris Xe is not listed among validated client GPUs on these pages. No software or driver change attempted; no Arc training benchmark performed.",
+    "source_access_date_utc": "2026-09-25",
+    "sources": [
+      "https://docs.pytorch.org/docs/2.14/notes/get_start_xpu.html",
+      "https://www.intel.com/content/www/us/en/developer/articles/tool/pytorch-prerequisites-for-intel-gpu/2-14.html"
+    ]
+  },
+  "results": [
+    {
+      "config": {
+        "d_model": 48,
+        "n_layers": 2,
+        "n_heads": 4,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 100
+      },
+      "environment": {
+        "python": "3.12.14",
+        "torch": "2.14.0+cpu",
+        "cuda_available": false,
+        "xpu_available": false,
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu_logical_count": 20,
+        "dtype": "float32",
+        "device": "cpu",
+        "interop_threads": 1
+      },
+      "memory_after_import": {
+        "total_physical_bytes": 16892026880,
+        "available_physical_bytes": 2465775616
+      },
+      "rss_after_import": {
+        "rss_bytes": 207978496,
+        "peak_rss_bytes": 208826368,
+        "private_commit_bytes": 860745728
+      },
+      "estimated_parameters": 59712,
+      "estimated_training_allocation_bytes": 32972288,
+      "estimated_process_bytes": 435625472,
+      "status": "completed",
+      "parameters": 59712,
+      "warmup_steps": 2,
+      "measured_steps": 5,
+      "step_seconds": [
+        0.025314099999377504,
+        0.024786599999060854,
+        0.0274671999795828,
+        0.025263399991672486,
+        0.02500659998622723
+      ],
+      "median_step_seconds": 0.025263399991672486,
+      "min_step_seconds": 0.024786599999060854,
+      "max_step_seconds": 0.0274671999795828,
+      "estimated_1200_update_seconds_excluding_diagnostics": 30.316079990006983,
+      "estimated_2000_update_seconds_excluding_diagnostics": 50.52679998334497,
+      "minimum_available_physical_bytes": 2263666688,
+      "process_memory": {
+        "rss_bytes": 322187264,
+        "peak_rss_bytes": 325509120,
+        "private_commit_bytes": 1002622976
+      },
+      "process_wall_seconds": 4.896014599973569
+    },
+    {
+      "config": {
+        "d_model": 96,
+        "n_layers": 3,
+        "n_heads": 4,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 100
+      },
+      "environment": {
+        "python": "3.12.14",
+        "torch": "2.14.0+cpu",
+        "cuda_available": false,
+        "xpu_available": false,
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu_logical_count": 20,
+        "dtype": "float32",
+        "device": "cpu",
+        "interop_threads": 1
+      },
+      "memory_after_import": {
+        "total_physical_bytes": 16892026880,
+        "available_physical_bytes": 2427351040
+      },
+      "rss_after_import": {
+        "rss_bytes": 207986688,
+        "peak_rss_bytes": 208834560,
+        "private_commit_bytes": 860655616
+      },
+      "estimated_parameters": 341856,
+      "estimated_training_allocation_bytes": 72102144,
+      "estimated_process_bytes": 474755328,
+      "status": "completed",
+      "parameters": 341856,
+      "warmup_steps": 2,
+      "measured_steps": 5,
+      "step_seconds": [
+        0.052028600010089576,
+        0.047631299996282905,
+        0.04784440001822077,
+        0.05705260002287105,
+        0.055353600007947534
+      ],
+      "median_step_seconds": 0.052028600010089576,
+      "min_step_seconds": 0.047631299996282905,
+      "max_step_seconds": 0.05705260002287105,
+      "estimated_1200_update_seconds_excluding_diagnostics": 62.43432001210749,
+      "estimated_2000_update_seconds_excluding_diagnostics": 104.05720002017915,
+      "minimum_available_physical_bytes": 2263441408,
+      "process_memory": {
+        "rss_bytes": 377532416,
+        "peak_rss_bytes": 377532416,
+        "private_commit_bytes": 1071329280
+      },
+      "process_wall_seconds": 4.598295499978121
+    },
+    {
+      "config": {
+        "d_model": 192,
+        "n_layers": 4,
+        "n_heads": 6,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 100
+      },
+      "environment": {
+        "python": "3.12.14",
+        "torch": "2.14.0+cpu",
+        "cuda_available": false,
+        "xpu_available": false,
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu_logical_count": 20,
+        "dtype": "float32",
+        "device": "cpu",
+        "interop_threads": 1
+      },
+      "memory_after_import": {
+        "total_physical_bytes": 16892026880,
+        "available_physical_bytes": 2431553536
+      },
+      "rss_after_import": {
+        "rss_bytes": 207704064,
+        "peak_rss_bytes": 208556032,
+        "private_commit_bytes": 860639232
+      },
+      "estimated_parameters": 1792128,
+      "estimated_training_allocation_bytes": 192924672,
+      "estimated_process_bytes": 595577856,
+      "status": "completed",
+      "parameters": 1792128,
+      "warmup_steps": 2,
+      "measured_steps": 5,
+      "step_seconds": [
+        0.14715289999730885,
+        0.15303190000122413,
+        0.14370470002177171,
+        0.151528500020504,
+        0.1412529000081122
+      ],
+      "median_step_seconds": 0.14715289999730885,
+      "min_step_seconds": 0.1412529000081122,
+      "max_step_seconds": 0.15303190000122413,
+      "estimated_1200_update_seconds_excluding_diagnostics": 176.58347999677062,
+      "estimated_2000_update_seconds_excluding_diagnostics": 294.3057999946177,
+      "minimum_available_physical_bytes": 2317221888,
+      "process_memory": {
+        "rss_bytes": 462520320,
+        "peak_rss_bytes": 495624192,
+        "private_commit_bytes": 1158823936
+      },
+      "process_wall_seconds": 5.290116399992257
+    },
+    {
+      "config": {
+        "d_model": 192,
+        "n_layers": 4,
+        "n_heads": 6,
+        "threads": 8,
+        "batch_size": 16,
+        "tokens": 100
+      },
+      "environment": {
+        "python": "3.12.14",
+        "torch": "2.14.0+cpu",
+        "cuda_available": false,
+        "xpu_available": false,
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu_logical_count": 20,
+        "dtype": "float32",
+        "device": "cpu",
+        "interop_threads": 1
+      },
+      "memory_after_import": {
+        "total_physical_bytes": 16892026880,
+        "available_physical_bytes": 2614566912
+      },
+      "rss_after_import": {
+        "rss_bytes": 208023552,
+        "peak_rss_bytes": 208867328,
+        "private_commit_bytes": 861085696
+      },
+      "estimated_parameters": 1792128,
+      "estimated_training_allocation_bytes": 192924672,
+      "estimated_process_bytes": 595577856,
+      "status": "completed",
+      "parameters": 1792128,
+      "warmup_steps": 2,
+      "measured_steps": 5,
+      "step_seconds": [
+        0.16492720000678673,
+        0.17138189999968745,
+        0.1559447000036016,
+        0.1549654999980703,
+        0.16163020001840778
+      ],
+      "median_step_seconds": 0.16163020001840778,
+      "min_step_seconds": 0.1549654999980703,
+      "max_step_seconds": 0.17138189999968745,
+      "estimated_1200_update_seconds_excluding_diagnostics": 193.95624002208933,
+      "estimated_2000_update_seconds_excluding_diagnostics": 323.26040003681555,
+      "minimum_available_physical_bytes": 2337218560,
+      "process_memory": {
+        "rss_bytes": 461807616,
+        "peak_rss_bytes": 494153728,
+        "private_commit_bytes": 1213919232
+      },
+      "process_wall_seconds": 5.3750866999907885
+    },
+    {
+      "config": {
+        "d_model": 256,
+        "n_layers": 6,
+        "n_heads": 8,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 100
+      },
+      "environment": {
+        "python": "3.12.14",
+        "torch": "2.14.0+cpu",
+        "cuda_available": false,
+        "xpu_available": false,
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu_logical_count": 20,
+        "dtype": "float32",
+        "device": "cpu",
+        "interop_threads": 1
+      },
+      "memory_after_import": {
+        "total_physical_bytes": 16892026880,
+        "available_physical_bytes": 2617143296
+      },
+      "rss_after_import": {
+        "rss_bytes": 208080896,
+        "peak_rss_bytes": 208928768,
+        "private_commit_bytes": 861114368
+      },
+      "estimated_parameters": 4755456,
+      "estimated_training_allocation_bytes": 413958144,
+      "estimated_process_bytes": 816611328,
+      "status": "completed",
+      "parameters": 4755456,
+      "warmup_steps": 2,
+      "measured_steps": 5,
+      "step_seconds": [
+        0.39225259999511763,
+        0.35080879999441095,
+        0.35673440000391565,
+        0.35332549997838214,
+        0.3926031999872066
+      ],
+      "median_step_seconds": 0.35673440000391565,
+      "min_step_seconds": 0.35080879999441095,
+      "max_step_seconds": 0.3926031999872066,
+      "estimated_1200_update_seconds_excluding_diagnostics": 428.0812800046988,
+      "estimated_2000_update_seconds_excluding_diagnostics": 713.4688000078313,
+      "minimum_available_physical_bytes": 2194116608,
+      "process_memory": {
+        "rss_bytes": 594964480,
+        "peak_rss_bytes": 684392448,
+        "private_commit_bytes": 1301655552
+      },
+      "process_wall_seconds": 6.750122900004499
+    },
+    {
+      "config": {
+        "d_model": 384,
+        "n_layers": 6,
+        "n_heads": 8,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 100
+      },
+      "environment": {
+        "python": "3.12.14",
+        "torch": "2.14.0+cpu",
+        "cuda_available": false,
+        "xpu_available": false,
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu_logical_count": 20,
+        "dtype": "float32",
+        "device": "cpu",
+        "interop_threads": 1
+      },
+      "memory_after_import": {
+        "total_physical_bytes": 16892026880,
+        "available_physical_bytes": 2608205824
+      },
+      "rss_after_import": {
+        "rss_bytes": 208146432,
+        "peak_rss_bytes": 208994304,
+        "private_commit_bytes": 860901376
+      },
+      "estimated_parameters": 10672128,
+      "estimated_training_allocation_bytes": 644431872,
+      "estimated_process_bytes": 1047085056,
+      "status": "completed",
+      "parameters": 10672128,
+      "warmup_steps": 2,
+      "measured_steps": 5,
+      "step_seconds": [
+        0.6902841000119224,
+        0.6636831999931019,
+        0.6630355000088457,
+        0.6733872000186238,
+        0.6980422000051476
+      ],
+      "median_step_seconds": 0.6733872000186238,
+      "min_step_seconds": 0.6630355000088457,
+      "max_step_seconds": 0.6980422000051476,
+      "estimated_1200_update_seconds_excluding_diagnostics": 808.0646400223486,
+      "estimated_2000_update_seconds_excluding_diagnostics": 1346.7744000372477,
+      "minimum_available_physical_bytes": 2194530304,
+      "process_memory": {
+        "rss_bytes": 572715008,
+        "peak_rss_bytes": 822452224,
+        "private_commit_bytes": 1256267776
+      },
+      "process_wall_seconds": 9.185822400002507
+    }
+  ],
+  "recommended_largest_profiled_config": {
+    "d_model": 384,
+    "n_layers": 6,
+    "n_heads": 8,
+    "threads": 4,
+    "batch_size": 16,
+    "tokens": 100
+  },
+  "completed_utc": "2026-09-25T01:07:55.391302+00:00",
+  "host_memory_after": {
+    "total_physical_bytes": 16892026880,
+    "available_physical_bytes": 2809155584
+  },
+  "matrix_followup": {
+    "created_utc": "2026-09-25T01:11:15.080057+00:00",
+    "status": "completed",
+    "plan": [
+      {
+        "d_model": 384,
+        "n_layers": 6,
+        "n_heads": 8,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 206,
+        "vocab_size": 4
+      },
+      {
+        "d_model": 384,
+        "n_layers": 6,
+        "n_heads": 8,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 302,
+        "vocab_size": 4
+      },
+      {
+        "d_model": 384,
+        "n_layers": 6,
+        "n_heads": 8,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 68,
+        "vocab_size": 64
+      },
+      {
+        "d_model": 192,
+        "n_layers": 4,
+        "n_heads": 6,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 206,
+        "vocab_size": 4
+      },
+      {
+        "d_model": 192,
+        "n_layers": 4,
+        "n_heads": 6,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 302,
+        "vocab_size": 4
+      },
+      {
+        "d_model": 192,
+        "n_layers": 4,
+        "n_heads": 6,
+        "threads": 4,
+        "batch_size": 16,
+        "tokens": 68,
+        "vocab_size": 64
+      }
+    ],
+    "purpose": "Profile matched base contexts and realistic ATP8 codon length; retain 192x4 fallback if 384x6 base contexts fail conservative memory gate",
+    "protocol": {
+      "warmup_steps": 2,
+      "measured_steps": 5,
+      "isolated_process_per_config": true,
+      "process_priority": "below_normal",
+      "physical_memory_reserve_bytes": 1073741824,
+      "per_process_timeout_seconds": 90,
+      "optimizer": "AdamW, foreach=False",
+      "gradient_clip_norm": 1.0,
+      "seed": 20260925,
+      "selection_rule": "Largest completed candidate with >=1 GiB physical RAM available and median step <2 seconds",
+      "limitations": "Short synthetic profiling; not sustained thermals, absolute hardware ceiling, data loading, checkpoint or full-corpus diagnostic timing. No concurrent training jobs."
+    },
+    "host_memory_before": {
+      "total_physical_bytes": 16892026880,
+      "available_physical_bytes": 2213019648
+    },
+    "code_sha256": "44836ed4b6d5ed55892955c7aabf0f9ad3880dd106fa0a6a1b743fcd7e55e298",
+    "model_sha256": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+    "results": [
+      {
+        "config": {
+          "d_model": 384,
+          "n_layers": 6,
+          "n_heads": 8,
+          "threads": 4,
+          "batch_size": 16,
+          "tokens": 206,
+          "vocab_size": 4
+        },
+        "status": "skipped_memory_gate_before_import",
+        "host_memory": {
+          "total_physical_bytes": 16892026880,
+          "available_physical_bytes": 2212843520
+        },
+        "estimated_parameters": 10649088,
+        "estimated_training_allocation_bytes": 1323798528,
+        "estimated_process_bytes": 1726451712
+      },
+      {
+        "config": {
+          "d_model": 384,
+          "n_layers": 6,
+          "n_heads": 8,
+          "threads": 4,
+          "batch_size": 16,
+          "tokens": 302,
+          "vocab_size": 4
+        },
+        "status": "skipped_memory_gate_before_import",
+        "host_memory": {
+          "total_physical_bytes": 16892026880,
+          "available_physical_bytes": 2212904960
+        },
+        "estimated_parameters": 10649088,
+        "estimated_training_allocation_bytes": 2177863680,
+        "estimated_process_bytes": 2580516864
+      },
+      {
+        "config": {
+          "d_model": 384,
+          "n_layers": 6,
+          "n_heads": 8,
+          "threads": 4,
+          "batch_size": 16,
+          "tokens": 68,
+          "vocab_size": 64
+        },
+        "environment": {
+          "python": "3.12.14",
+          "torch": "2.14.0+cpu",
+          "cuda_available": false,
+          "xpu_available": false,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "cpu_logical_count": 20,
+          "dtype": "float32",
+          "device": "cpu",
+          "interop_threads": 1
+        },
+        "memory_after_import": {
+          "total_physical_bytes": 16892026880,
+          "available_physical_bytes": 2001252352
+        },
+        "rss_after_import": {
+          "rss_bytes": 208216064,
+          "peak_rss_bytes": 209055744,
+          "private_commit_bytes": 861212672
+        },
+        "estimated_parameters": 10672128,
+        "estimated_training_allocation_bytes": 493436928,
+        "estimated_process_bytes": 896090112,
+        "status": "completed",
+        "parameters": 10672128,
+        "warmup_steps": 2,
+        "measured_steps": 5,
+        "step_seconds": [
+          0.4701074000040535,
+          0.41445999999996275,
+          0.4394816999847535,
+          0.479749999998603,
+          0.441454200015869
+        ],
+        "median_step_seconds": 0.441454200015869,
+        "min_step_seconds": 0.41445999999996275,
+        "max_step_seconds": 0.479749999998603,
+        "estimated_1200_update_seconds_excluding_diagnostics": 529.7450400190428,
+        "estimated_2000_update_seconds_excluding_diagnostics": 882.908400031738,
+        "minimum_available_physical_bytes": 1487835136,
+        "process_memory": {
+          "rss_bytes": 540143616,
+          "peak_rss_bytes": 682762240,
+          "private_commit_bytes": 1247703040
+        },
+        "process_wall_seconds": 7.73164209999959
+      },
+      {
+        "config": {
+          "d_model": 192,
+          "n_layers": 4,
+          "n_heads": 6,
+          "threads": 4,
+          "batch_size": 16,
+          "tokens": 206,
+          "vocab_size": 4
+        },
+        "environment": {
+          "python": "3.12.14",
+          "torch": "2.14.0+cpu",
+          "cuda_available": false,
+          "xpu_available": false,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "cpu_logical_count": 20,
+          "dtype": "float32",
+          "device": "cpu",
+          "interop_threads": 1
+        },
+        "memory_after_import": {
+          "total_physical_bytes": 16892026880,
+          "available_physical_bytes": 2060013568
+        },
+        "rss_after_import": {
+          "rss_bytes": 208666624,
+          "peak_rss_bytes": 209510400,
+          "private_commit_bytes": 861474816
+        },
+        "estimated_parameters": 1780608,
+        "estimated_training_allocation_bytes": 485716992,
+        "estimated_process_bytes": 888370176,
+        "status": "completed",
+        "parameters": 1780608,
+        "warmup_steps": 2,
+        "measured_steps": 5,
+        "step_seconds": [
+          0.4710690999927465,
+          0.4971330999978818,
+          0.45153960000607185,
+          0.531484500010265,
+          0.4984368000004906
+        ],
+        "median_step_seconds": 0.4971330999978818,
+        "min_step_seconds": 0.45153960000607185,
+        "max_step_seconds": 0.531484500010265,
+        "estimated_1200_update_seconds_excluding_diagnostics": 596.5597199974582,
+        "estimated_2000_update_seconds_excluding_diagnostics": 994.2661999957636,
+        "minimum_available_physical_bytes": 1830334464,
+        "process_memory": {
+          "rss_bytes": 380080128,
+          "peak_rss_bytes": 736428032,
+          "private_commit_bytes": 1053663232
+        },
+        "process_wall_seconds": 7.947765799995977
+      },
+      {
+        "config": {
+          "d_model": 192,
+          "n_layers": 4,
+          "n_heads": 6,
+          "threads": 4,
+          "batch_size": 16,
+          "tokens": 302,
+          "vocab_size": 4
+        },
+        "environment": {
+          "python": "3.12.14",
+          "torch": "2.14.0+cpu",
+          "cuda_available": false,
+          "xpu_available": false,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "cpu_logical_count": 20,
+          "dtype": "float32",
+          "device": "cpu",
+          "interop_threads": 1
+        },
+        "memory_after_import": {
+          "total_physical_bytes": 16892026880,
+          "available_physical_bytes": 2151120896
+        },
+        "rss_after_import": {
+          "rss_bytes": 208748544,
+          "peak_rss_bytes": 209592320,
+          "private_commit_bytes": 861380608
+        },
+        "estimated_parameters": 1780608,
+        "estimated_training_allocation_bytes": 870282240,
+        "estimated_process_bytes": 1272935424,
+        "status": "completed",
+        "parameters": 1780608,
+        "warmup_steps": 2,
+        "measured_steps": 5,
+        "step_seconds": [
+          0.8579230000032112,
+          0.8102778999891598,
+          0.8585342000005767,
+          0.8722386000154074,
+          0.8470983000006527
+        ],
+        "median_step_seconds": 0.8579230000032112,
+        "min_step_seconds": 0.8102778999891598,
+        "max_step_seconds": 0.8722386000154074,
+        "estimated_1200_update_seconds_excluding_diagnostics": 1029.5076000038534,
+        "estimated_2000_update_seconds_excluding_diagnostics": 1715.8460000064224,
+        "minimum_available_physical_bytes": 1468903424,
+        "process_memory": {
+          "rss_bytes": 671924224,
+          "peak_rss_bytes": 1182625792,
+          "private_commit_bytes": 1582116864
+        },
+        "process_wall_seconds": 10.251353200001176
+      },
+      {
+        "config": {
+          "d_model": 192,
+          "n_layers": 4,
+          "n_heads": 6,
+          "threads": 4,
+          "batch_size": 16,
+          "tokens": 68,
+          "vocab_size": 64
+        },
+        "environment": {
+          "python": "3.12.14",
+          "torch": "2.14.0+cpu",
+          "cuda_available": false,
+          "xpu_available": false,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "cpu_logical_count": 20,
+          "dtype": "float32",
+          "device": "cpu",
+          "interop_threads": 1
+        },
+        "memory_after_import": {
+          "total_physical_bytes": 16892026880,
+          "available_physical_bytes": 2226647040
+        },
+        "rss_after_import": {
+          "rss_bytes": 208486400,
+          "peak_rss_bytes": 209326080,
+          "private_commit_bytes": 861204480
+        },
+        "estimated_parameters": 1792128,
+        "estimated_training_allocation_bytes": 131582976,
+        "estimated_process_bytes": 534236160,
+        "status": "completed",
+        "parameters": 1792128,
+        "warmup_steps": 2,
+        "measured_steps": 5,
+        "step_seconds": [
+          0.11014080001041293,
+          0.09984690000419505,
+          0.09853280000970699,
+          0.09863520000362769,
+          0.10153350001201034
+        ],
+        "median_step_seconds": 0.09984690000419505,
+        "min_step_seconds": 0.09853280000970699,
+        "max_step_seconds": 0.11014080001041293,
+        "estimated_1200_update_seconds_excluding_diagnostics": 119.81628000503406,
+        "estimated_2000_update_seconds_excluding_diagnostics": 199.6938000083901,
+        "minimum_available_physical_bytes": 1997578240,
+        "process_memory": {
+          "rss_bytes": 393515008,
+          "peak_rss_bytes": 424923136,
+          "private_commit_bytes": 1109434368
+        },
+        "process_wall_seconds": 5.358688499982236
+      }
+    ],
+    "matrix_budget_alternatives": [
+      {
+        "d_model": 192,
+        "n_layers": 4,
+        "batch_size": 16,
+        "threads": 4,
+        "matrix_runs": 25,
+        "seconds_per_one_update_in_all_runs": 4.363094599917531,
+        "maximum_updates_from_short_timing_with_25_percent_overhead": 2640,
+        "recommended_updates_per_run": 2100,
+        "estimated_matrix_seconds_with_25_percent_overhead": 11453.123324783519,
+        "assumptions": "3 base runs at T206, 19 large codon runs charged at worst-case T100, 3 small codon runs at T100; effective batch16; sequential execution. Recommendation holds back another20% for sustained slowdown. Full-pool diagnostics must fit within overhead or be separately budgeted; this is an estimate, not a guaranteed wall-time limit."
+      }
+    ],
+    "completed_utc": "2026-09-25T01:11:46.378256+00:00",
+    "host_memory_after": {
+      "total_physical_bytes": 16892026880,
+      "available_physical_bytes": 2395779072
+    }
+  }
+}

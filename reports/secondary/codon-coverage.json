@@ -1,0 +1,3865 @@
+{
+  "cohorts": {
+    "full_human": {
+      "codons": [
+        {
+          "codon": "AAA",
+          "target_occurrences": 2499,
+          "token_id": 0,
+          "total_occurrences": 2499
+        },
+        {
+          "codon": "AAU",
+          "target_occurrences": 816,
+          "token_id": 1,
+          "total_occurrences": 816
+        },
+        {
+          "codon": "AAC",
+          "target_occurrences": 1222,
+          "token_id": 2,
+          "total_occurrences": 1222
+        },
+        {
+          "codon": "AAG",
+          "target_occurrences": 457,
+          "token_id": 3,
+          "total_occurrences": 457
+        },
+        {
+          "codon": "AUA",
+          "target_occurrences": 2047,
+          "token_id": 4,
+          "total_occurrences": 2047
+        },
+        {
+          "codon": "AUU",
+          "target_occurrences": 430,
+          "token_id": 5,
+          "total_occurrences": 430
+        },
+        {
+          "codon": "AUC",
+          "target_occurrences": 840,
+          "token_id": 6,
+          "total_occurrences": 840
+        },
+        {
+          "codon": "AUG",
+          "target_occurrences": 22,
+          "token_id": 7,
+          "total_occurrences": 444
+        },
+        {
+          "codon": "ACA",
+          "target_occurrences": 846,
+          "token_id": 8,
+          "total_occurrences": 846
+        },
+        {
+          "codon": "ACU",
+          "target_occurrences": 414,
+          "token_id": 9,
+          "total_occurrences": 414
+        },
+        {
+          "codon": "ACC",
+          "target_occurrences": 1651,
+          "token_id": 10,
+          "total_occurrences": 1651
+        },
+        {
+          "codon": "ACG",
+          "target_occurrences": 411,
+          "token_id": 11,
+          "total_occurrences": 411
+        },
+        {
+          "codon": "AGA",
+          "target_occurrences": 13,
+          "token_id": 12,
+          "total_occurrences": 13
+        },
+        {
+          "codon": "AGU",
+          "target_occurrences": 23,
+          "token_id": 13,
+          "total_occurrences": 23
+        },
+        {
+          "codon": "AGC",
+          "target_occurrences": 36,
+          "token_id": 14,
+          "total_occurrences": 36
+        },
+        {
+          "codon": "AGG",
+          "target_occurrences": 5,
+          "token_id": 15,
+          "total_occurrences": 5
+        },
+        {
+          "codon": "UAA",
+          "target_occurrences": 15,
+          "token_id": 16,
+          "total_occurrences": 15
+        },
+        {
+          "codon": "UAU",
+          "target_occurrences": 416,
+          "token_id": 17,
+          "total_occurrences": 416
+        },
+        {
+          "codon": "UAC",
+          "target_occurrences": 460,
+          "token_id": 18,
+          "total_occurrences": 460
+        },
+        {
+          "codon": "UAG",
+          "target_occurrences": 404,
+          "token_id": 19,
+          "total_occurrences": 404
+        },
+        {
+          "codon": "UUA",
+          "target_occurrences": 495,
+          "token_id": 20,
+          "total_occurrences": 495
+        },
+        {
+          "codon": "UUU",
+          "target_occurrences": 37,
+          "token_id": 21,
+          "total_occurrences": 37
+        },
+        {
+          "codon": "UUC",
+          "target_occurrences": 439,
+          "token_id": 22,
+          "total_occurrences": 439
+        },
+        {
+          "codon": "UUG",
+          "target_occurrences": 410,
+          "token_id": 23,
+          "total_occurrences": 410
+        },
+        {
+          "codon": "UCA",
+          "target_occurrences": 819,
+          "token_id": 24,
+          "total_occurrences": 819
+        },
+        {
+          "codon": "UCU",
+          "target_occurrences": 10,
+          "token_id": 25,
+          "total_occurrences": 10
+        },
+        {
+          "codon": "UCC",
+          "target_occurrences": 422,
+          "token_id": 26,
+          "total_occurrences": 422
+        },
+        {
+          "codon": "UCG",
+          "target_occurrences": 414,
+          "token_id": 27,
+          "total_occurrences": 414
+        },
+        {
+          "codon": "UGA",
+          "target_occurrences": 836,
+          "token_id": 28,
+          "total_occurrences": 836
+        },
+        {
+          "codon": "UGU",
+          "target_occurrences": 410,
+          "token_id": 29,
+          "total_occurrences": 410
+        },
+        {
+          "codon": "UGC",
+          "target_occurrences": 7,
+          "token_id": 30,
+          "total_occurrences": 7
+        },
+        {
+          "codon": "UGG",
+          "target_occurrences": 410,
+          "token_id": 31,
+          "total_occurrences": 410
+        },
+        {
+          "codon": "CAA",
+          "target_occurrences": 1204,
+          "token_id": 32,
+          "total_occurrences": 1204
+        },
+        {
+          "codon": "CAU",
+          "target_occurrences": 421,
+          "token_id": 33,
+          "total_occurrences": 421
+        },
+        {
+          "codon": "CAC",
+          "target_occurrences": 421,
+          "token_id": 34,
+          "total_occurrences": 421
+        },
+        {
+          "codon": "CAG",
+          "target_occurrences": 50,
+          "token_id": 35,
+          "total_occurrences": 50
+        },
+        {
+          "codon": "CUA",
+          "target_occurrences": 1578,
+          "token_id": 36,
+          "total_occurrences": 1578
+        },
+        {
+          "codon": "CUU",
+          "target_occurrences": 825,
+          "token_id": 37,
+          "total_occurrences": 825
+        },
+        {
+          "codon": "CUC",
+          "target_occurrences": 824,
+          "token_id": 38,
+          "total_occurrences": 824
+        },
+        {
+          "codon": "CUG",
+          "target_occurrences": 36,
+          "token_id": 39,
+          "total_occurrences": 36
+        },
+        {
+          "codon": "CCA",
+          "target_occurrences": 1246,
+          "token_id": 40,
+          "total_occurrences": 1246
+        },
+        {
+          "codon": "CCU",
+          "target_occurrences": 421,
+          "token_id": 41,
+          "total_occurrences": 421
+        },
+        {
+          "codon": "CCC",
+          "target_occurrences": 2868,
+          "token_id": 42,
+          "total_occurrences": 2868
+        },
+        {
+          "codon": "CCG",
+          "target_occurrences": 13,
+          "token_id": 43,
+          "total_occurrences": 13
+        },
+        {
+          "codon": "CGA",
+          "target_occurrences": 8,
+          "token_id": 44,
+          "total_occurrences": 8
+        },
+        {
+          "codon": "CGU",
+          "target_occurrences": 3,
+          "token_id": 45,
+          "total_occurrences": 3
+        },
+        {
+          "codon": "CGC",
+          "target_occurrences": 9,
+          "token_id": 46,
+          "total_occurrences": 9
+        },
+        {
+          "codon": "CGG",
+          "target_occurrences": 14,
+          "token_id": 47,
+          "total_occurrences": 14
+        },
+        {
+          "codon": "GAA",
+          "target_occurrences": 414,
+          "token_id": 48,
+          "total_occurrences": 414
+        },
+        {
+          "codon": "GAU",
+          "target_occurrences": 10,
+          "token_id": 49,
+          "total_occurrences": 10
+        },
+        {
+          "codon": "GAC",
+          "target_occurrences": 18,
+          "token_id": 50,
+          "total_occurrences": 18
+        },
+        {
+          "codon": "GAG",
+          "target_occurrences": 36,
+          "token_id": 51,
+          "total_occurrences": 36
+        },
+        {
+          "codon": "GUA",
+          "target_occurrences": 403,
+          "token_id": 52,
+          "total_occurrences": 403
+        },
+        {
+          "codon": "GUU",
+          "target_occurrences": 8,
+          "token_id": 53,
+          "total_occurrences": 8
+        },
+        {
+          "codon": "GUC",
+          "target_occurrences": 15,
+          "token_id": 54,
+          "total_occurrences": 15
+        },
+        {
+          "codon": "GUG",
+          "target_occurrences": 35,
+          "token_id": 55,
+          "total_occurrences": 35
+        },
+        {
+          "codon": "GCA",
+          "target_occurrences": 36,
+          "token_id": 56,
+          "total_occurrences": 36
+        },
+        {
+          "codon": "GCU",
+          "target_occurrences": 20,
+          "token_id": 57,
+          "total_occurrences": 20
+        },
+        {
+          "codon": "GCC",
+          "target_occurrences": 24,
+          "token_id": 58,
+          "total_occurrences": 24
+        },
+        {
+          "codon": "GCG",
+          "target_occurrences": 11,
+          "token_id": 59,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "GGA",
+          "target_occurrences": 13,
+          "token_id": 60,
+          "total_occurrences": 13
+        },
+        {
+          "codon": "GGU",
+          "target_occurrences": 14,
+          "token_id": 61,
+          "total_occurrences": 14
+        },
+        {
+          "codon": "GGC",
+          "target_occurrences": 11,
+          "token_id": 62,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "GGG",
+          "target_occurrences": 9,
+          "token_id": 63,
+          "total_occurrences": 9
+        }
+      ],
+      "cohort_sha256": "9533bac3a69db2fdddc9c057e6e8e8ae1b9f7e76f12954462f349300352478db",
+      "family_taxon": {
+        "ATP5F1E:9606": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 1,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 2,
+          "variable_codon_sites": 1,
+          "variable_target_bases": 6
+        },
+        "ATP5ME:9606": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 69,
+          "variable_codon_occurrences": 2,
+          "variable_codon_sites": 1,
+          "variable_target_bases": 6
+        },
+        "ATP5MF:9606": {
+          "n_sequences": 3,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 5,
+          "target_codon_sites": 94,
+          "variable_codon_occurrences": 12,
+          "variable_codon_sites": 4,
+          "variable_target_bases": 36
+        },
+        "ATP5MGL:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 100,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:9606": {
+          "n_sequences": 412,
+          "n_unique_peptides": 178,
+          "nucleotide_sites_variable_within_target_codons": 168,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 28016,
+          "variable_codon_sites": 68,
+          "variable_target_bases": 84048
+        }
+      },
+      "n_sequences": 422,
+      "n_unique_peptides": 185,
+      "observed_target_codon_classes": 64,
+      "observed_total_codon_classes": 64,
+      "target_nt": 86262,
+      "total_nt": 87528,
+      "variable_codon_sites_summed_over_family_taxon": 74,
+      "variable_target_bases": 84096
+    },
+    "full_mammal": {
+      "codons": [
+        {
+          "codon": "AAA",
+          "target_occurrences": 3025,
+          "token_id": 0,
+          "total_occurrences": 3025
+        },
+        {
+          "codon": "AAU",
+          "target_occurrences": 867,
+          "token_id": 1,
+          "total_occurrences": 867
+        },
+        {
+          "codon": "AAC",
+          "target_occurrences": 1344,
+          "token_id": 2,
+          "total_occurrences": 1344
+        },
+        {
+          "codon": "AAG",
+          "target_occurrences": 546,
+          "token_id": 3,
+          "total_occurrences": 546
+        },
+        {
+          "codon": "AUA",
+          "target_occurrences": 2257,
+          "token_id": 4,
+          "total_occurrences": 2257
+        },
+        {
+          "codon": "AUU",
+          "target_occurrences": 661,
+          "token_id": 5,
+          "total_occurrences": 661
+        },
+        {
+          "codon": "AUC",
+          "target_occurrences": 1099,
+          "token_id": 6,
+          "total_occurrences": 1099
+        },
+        {
+          "codon": "AUG",
+          "target_occurrences": 82,
+          "token_id": 7,
+          "total_occurrences": 606
+        },
+        {
+          "codon": "ACA",
+          "target_occurrences": 1250,
+          "token_id": 8,
+          "total_occurrences": 1250
+        },
+        {
+          "codon": "ACU",
+          "target_occurrences": 464,
+          "token_id": 9,
+          "total_occurrences": 464
+        },
+        {
+          "codon": "ACC",
+          "target_occurrences": 1827,
+          "token_id": 10,
+          "total_occurrences": 1827
+        },
+        {
+          "codon": "ACG",
+          "target_occurrences": 536,
+          "token_id": 11,
+          "total_occurrences": 536
+        },
+        {
+          "codon": "AGA",
+          "target_occurrences": 36,
+          "token_id": 12,
+          "total_occurrences": 36
+        },
+        {
+          "codon": "AGU",
+          "target_occurrences": 37,
+          "token_id": 13,
+          "total_occurrences": 37
+        },
+        {
+          "codon": "AGC",
+          "target_occurrences": 124,
+          "token_id": 14,
+          "total_occurrences": 124
+        },
+        {
+          "codon": "AGG",
+          "target_occurrences": 27,
+          "token_id": 15,
+          "total_occurrences": 27
+        },
+        {
+          "codon": "UAA",
+          "target_occurrences": 100,
+          "token_id": 16,
+          "total_occurrences": 100
+        },
+        {
+          "codon": "UAU",
+          "target_occurrences": 552,
+          "token_id": 17,
+          "total_occurrences": 552
+        },
+        {
+          "codon": "UAC",
+          "target_occurrences": 597,
+          "token_id": 18,
+          "total_occurrences": 597
+        },
+        {
+          "codon": "UAG",
+          "target_occurrences": 408,
+          "token_id": 19,
+          "total_occurrences": 408
+        },
+        {
+          "codon": "UUA",
+          "target_occurrences": 779,
+          "token_id": 20,
+          "total_occurrences": 779
+        },
+        {
+          "codon": "UUU",
+          "target_occurrences": 235,
+          "token_id": 21,
+          "total_occurrences": 235
+        },
+        {
+          "codon": "UUC",
+          "target_occurrences": 580,
+          "token_id": 22,
+          "total_occurrences": 580
+        },
+        {
+          "codon": "UUG",
+          "target_occurrences": 530,
+          "token_id": 23,
+          "total_occurrences": 530
+        },
+        {
+          "codon": "UCA",
+          "target_occurrences": 1184,
+          "token_id": 24,
+          "total_occurrences": 1184
+        },
+        {
+          "codon": "UCU",
+          "target_occurrences": 49,
+          "token_id": 25,
+          "total_occurrences": 49
+        },
+        {
+          "codon": "UCC",
+          "target_occurrences": 473,
+          "token_id": 26,
+          "total_occurrences": 473
+        },
+        {
+          "codon": "UCG",
+          "target_occurrences": 433,
+          "token_id": 27,
+          "total_occurrences": 433
+        },
+        {
+          "codon": "UGA",
+          "target_occurrences": 1089,
+          "token_id": 28,
+          "total_occurrences": 1089
+        },
+        {
+          "codon": "UGU",
+          "target_occurrences": 417,
+          "token_id": 29,
+          "total_occurrences": 417
+        },
+        {
+          "codon": "UGC",
+          "target_occurrences": 13,
+          "token_id": 30,
+          "total_occurrences": 13
+        },
+        {
+          "codon": "UGG",
+          "target_occurrences": 426,
+          "token_id": 31,
+          "total_occurrences": 426
+        },
+        {
+          "codon": "CAA",
+          "target_occurrences": 1491,
+          "token_id": 32,
+          "total_occurrences": 1491
+        },
+        {
+          "codon": "CAU",
+          "target_occurrences": 473,
+          "token_id": 33,
+          "total_occurrences": 473
+        },
+        {
+          "codon": "CAC",
+          "target_occurrences": 504,
+          "token_id": 34,
+          "total_occurrences": 504
+        },
+        {
+          "codon": "CAG",
+          "target_occurrences": 77,
+          "token_id": 35,
+          "total_occurrences": 77
+        },
+        {
+          "codon": "CUA",
+          "target_occurrences": 1820,
+          "token_id": 36,
+          "total_occurrences": 1820
+        },
+        {
+          "codon": "CUU",
+          "target_occurrences": 929,
+          "token_id": 37,
+          "total_occurrences": 929
+        },
+        {
+          "codon": "CUC",
+          "target_occurrences": 899,
+          "token_id": 38,
+          "total_occurrences": 899
+        },
+        {
+          "codon": "CUG",
+          "target_occurrences": 188,
+          "token_id": 39,
+          "total_occurrences": 188
+        },
+        {
+          "codon": "CCA",
+          "target_occurrences": 1471,
+          "token_id": 40,
+          "total_occurrences": 1471
+        },
+        {
+          "codon": "CCU",
+          "target_occurrences": 615,
+          "token_id": 41,
+          "total_occurrences": 615
+        },
+        {
+          "codon": "CCC",
+          "target_occurrences": 2993,
+          "token_id": 42,
+          "total_occurrences": 2993
+        },
+        {
+          "codon": "CCG",
+          "target_occurrences": 70,
+          "token_id": 43,
+          "total_occurrences": 70
+        },
+        {
+          "codon": "CGA",
+          "target_occurrences": 44,
+          "token_id": 44,
+          "total_occurrences": 44
+        },
+        {
+          "codon": "CGU",
+          "target_occurrences": 7,
+          "token_id": 45,
+          "total_occurrences": 7
+        },
+        {
+          "codon": "CGC",
+          "target_occurrences": 31,
+          "token_id": 46,
+          "total_occurrences": 31
+        },
+        {
+          "codon": "CGG",
+          "target_occurrences": 51,
+          "token_id": 47,
+          "total_occurrences": 51
+        },
+        {
+          "codon": "GAA",
+          "target_occurrences": 618,
+          "token_id": 48,
+          "total_occurrences": 618
+        },
+        {
+          "codon": "GAU",
+          "target_occurrences": 72,
+          "token_id": 49,
+          "total_occurrences": 72
+        },
+        {
+          "codon": "GAC",
+          "target_occurrences": 70,
+          "token_id": 50,
+          "total_occurrences": 70
+        },
+        {
+          "codon": "GAG",
+          "target_occurrences": 109,
+          "token_id": 51,
+          "total_occurrences": 109
+        },
+        {
+          "codon": "GUA",
+          "target_occurrences": 423,
+          "token_id": 52,
+          "total_occurrences": 423
+        },
+        {
+          "codon": "GUU",
+          "target_occurrences": 55,
+          "token_id": 53,
+          "total_occurrences": 55
+        },
+        {
+          "codon": "GUC",
+          "target_occurrences": 56,
+          "token_id": 54,
+          "total_occurrences": 56
+        },
+        {
+          "codon": "GUG",
+          "target_occurrences": 80,
+          "token_id": 55,
+          "total_occurrences": 80
+        },
+        {
+          "codon": "GCA",
+          "target_occurrences": 132,
+          "token_id": 56,
+          "total_occurrences": 132
+        },
+        {
+          "codon": "GCU",
+          "target_occurrences": 54,
+          "token_id": 57,
+          "total_occurrences": 54
+        },
+        {
+          "codon": "GCC",
+          "target_occurrences": 83,
+          "token_id": 58,
+          "total_occurrences": 83
+        },
+        {
+          "codon": "GCG",
+          "target_occurrences": 30,
+          "token_id": 59,
+          "total_occurrences": 30
+        },
+        {
+          "codon": "GGA",
+          "target_occurrences": 34,
+          "token_id": 60,
+          "total_occurrences": 34
+        },
+        {
+          "codon": "GGU",
+          "target_occurrences": 31,
+          "token_id": 61,
+          "total_occurrences": 31
+        },
+        {
+          "codon": "GGC",
+          "target_occurrences": 45,
+          "token_id": 62,
+          "total_occurrences": 45
+        },
+        {
+          "codon": "GGG",
+          "target_occurrences": 26,
+          "token_id": 63,
+          "total_occurrences": 26
+        }
+      ],
+      "cohort_sha256": "11bfcfce43f581d51ff91003445c8d6d50142ba305082d1f30acda23b19f619d",
+      "family_taxon": {
+        "ATP5F1E:10090": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 52,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5F1E:10116": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5F1E:9606": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 1,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 2,
+          "variable_codon_sites": 1,
+          "variable_target_bases": 6
+        },
+        "ATP5F1E:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:10090": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 4,
+          "variable_codon_sites": 2,
+          "variable_target_bases": 12
+        },
+        "ATP5ME:10116": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:9601": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:9606": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 69,
+          "variable_codon_occurrences": 2,
+          "variable_codon_sites": 1,
+          "variable_target_bases": 6
+        },
+        "ATP5ME:9823": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 5,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 10,
+          "variable_codon_sites": 5,
+          "variable_target_bases": 30
+        },
+        "ATP5ME:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:10090": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 4,
+          "variable_codon_sites": 2,
+          "variable_target_bases": 12
+        },
+        "ATP5MF:9601": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 94,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:9606": {
+          "n_sequences": 3,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 5,
+          "target_codon_sites": 94,
+          "variable_codon_occurrences": 12,
+          "variable_codon_sites": 4,
+          "variable_target_bases": 36
+        },
+        "ATP5MF:9823": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 4,
+          "variable_codon_sites": 2,
+          "variable_target_bases": 12
+        },
+        "ATP5MF:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MGL:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 100,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:10090": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 60,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:10090": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:10116": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:10090": {
+          "n_sequences": 12,
+          "n_unique_peptides": 8,
+          "nucleotide_sites_variable_within_target_codons": 13,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 144,
+          "variable_codon_sites": 12,
+          "variable_target_bases": 432
+        },
+        "ATP8:10116": {
+          "n_sequences": 8,
+          "n_unique_peptides": 4,
+          "nucleotide_sites_variable_within_target_codons": 9,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 64,
+          "variable_codon_sites": 8,
+          "variable_target_bases": 192
+        },
+        "ATP8:9601": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 9,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 16,
+          "variable_codon_sites": 8,
+          "variable_target_bases": 48
+        },
+        "ATP8:9606": {
+          "n_sequences": 412,
+          "n_unique_peptides": 178,
+          "nucleotide_sites_variable_within_target_codons": 168,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 28016,
+          "variable_codon_sites": 68,
+          "variable_target_bases": 84048
+        },
+        "ATP8:9823": {
+          "n_sequences": 27,
+          "n_unique_peptides": 10,
+          "nucleotide_sites_variable_within_target_codons": 22,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 459,
+          "variable_codon_sites": 17,
+          "variable_target_bases": 1377
+        },
+        "ATP8:9913": {
+          "n_sequences": 32,
+          "n_unique_peptides": 15,
+          "nucleotide_sites_variable_within_target_codons": 32,
+          "target_codon_sites": 66,
+          "variable_codon_occurrences": 864,
+          "variable_codon_sites": 27,
+          "variable_target_bases": 2592
+        }
+      },
+      "n_sequences": 524,
+      "n_unique_peptides": 244,
+      "observed_target_codon_classes": 64,
+      "observed_total_codon_classes": 64,
+      "target_nt": 106884,
+      "total_nt": 108456,
+      "variable_codon_sites_summed_over_family_taxon": 157,
+      "variable_target_bases": 88803
+    },
+    "full_vertebrate": {
+      "codons": [
+        {
+          "codon": "AAA",
+          "target_occurrences": 3055,
+          "token_id": 0,
+          "total_occurrences": 3055
+        },
+        {
+          "codon": "AAU",
+          "target_occurrences": 872,
+          "token_id": 1,
+          "total_occurrences": 872
+        },
+        {
+          "codon": "AAC",
+          "target_occurrences": 1383,
+          "token_id": 2,
+          "total_occurrences": 1383
+        },
+        {
+          "codon": "AAG",
+          "target_occurrences": 546,
+          "token_id": 3,
+          "total_occurrences": 546
+        },
+        {
+          "codon": "AUA",
+          "target_occurrences": 2265,
+          "token_id": 4,
+          "total_occurrences": 2265
+        },
+        {
+          "codon": "AUU",
+          "target_occurrences": 673,
+          "token_id": 5,
+          "total_occurrences": 673
+        },
+        {
+          "codon": "AUC",
+          "target_occurrences": 1117,
+          "token_id": 6,
+          "total_occurrences": 1117
+        },
+        {
+          "codon": "AUG",
+          "target_occurrences": 82,
+          "token_id": 7,
+          "total_occurrences": 615
+        },
+        {
+          "codon": "ACA",
+          "target_occurrences": 1274,
+          "token_id": 8,
+          "total_occurrences": 1274
+        },
+        {
+          "codon": "ACU",
+          "target_occurrences": 490,
+          "token_id": 9,
+          "total_occurrences": 490
+        },
+        {
+          "codon": "ACC",
+          "target_occurrences": 1858,
+          "token_id": 10,
+          "total_occurrences": 1858
+        },
+        {
+          "codon": "ACG",
+          "target_occurrences": 536,
+          "token_id": 11,
+          "total_occurrences": 536
+        },
+        {
+          "codon": "AGA",
+          "target_occurrences": 36,
+          "token_id": 12,
+          "total_occurrences": 36
+        },
+        {
+          "codon": "AGU",
+          "target_occurrences": 37,
+          "token_id": 13,
+          "total_occurrences": 37
+        },
+        {
+          "codon": "AGC",
+          "target_occurrences": 124,
+          "token_id": 14,
+          "total_occurrences": 124
+        },
+        {
+          "codon": "AGG",
+          "target_occurrences": 27,
+          "token_id": 15,
+          "total_occurrences": 27
+        },
+        {
+          "codon": "UAA",
+          "target_occurrences": 109,
+          "token_id": 16,
+          "total_occurrences": 109
+        },
+        {
+          "codon": "UAU",
+          "target_occurrences": 552,
+          "token_id": 17,
+          "total_occurrences": 552
+        },
+        {
+          "codon": "UAC",
+          "target_occurrences": 597,
+          "token_id": 18,
+          "total_occurrences": 597
+        },
+        {
+          "codon": "UAG",
+          "target_occurrences": 408,
+          "token_id": 19,
+          "total_occurrences": 408
+        },
+        {
+          "codon": "UUA",
+          "target_occurrences": 789,
+          "token_id": 20,
+          "total_occurrences": 789
+        },
+        {
+          "codon": "UUU",
+          "target_occurrences": 240,
+          "token_id": 21,
+          "total_occurrences": 240
+        },
+        {
+          "codon": "UUC",
+          "target_occurrences": 609,
+          "token_id": 22,
+          "total_occurrences": 609
+        },
+        {
+          "codon": "UUG",
+          "target_occurrences": 530,
+          "token_id": 23,
+          "total_occurrences": 530
+        },
+        {
+          "codon": "UCA",
+          "target_occurrences": 1192,
+          "token_id": 24,
+          "total_occurrences": 1192
+        },
+        {
+          "codon": "UCU",
+          "target_occurrences": 57,
+          "token_id": 25,
+          "total_occurrences": 57
+        },
+        {
+          "codon": "UCC",
+          "target_occurrences": 482,
+          "token_id": 26,
+          "total_occurrences": 482
+        },
+        {
+          "codon": "UCG",
+          "target_occurrences": 433,
+          "token_id": 27,
+          "total_occurrences": 433
+        },
+        {
+          "codon": "UGA",
+          "target_occurrences": 1134,
+          "token_id": 28,
+          "total_occurrences": 1134
+        },
+        {
+          "codon": "UGU",
+          "target_occurrences": 417,
+          "token_id": 29,
+          "total_occurrences": 417
+        },
+        {
+          "codon": "UGC",
+          "target_occurrences": 13,
+          "token_id": 30,
+          "total_occurrences": 13
+        },
+        {
+          "codon": "UGG",
+          "target_occurrences": 426,
+          "token_id": 31,
+          "total_occurrences": 426
+        },
+        {
+          "codon": "CAA",
+          "target_occurrences": 1508,
+          "token_id": 32,
+          "total_occurrences": 1508
+        },
+        {
+          "codon": "CAU",
+          "target_occurrences": 473,
+          "token_id": 33,
+          "total_occurrences": 473
+        },
+        {
+          "codon": "CAC",
+          "target_occurrences": 507,
+          "token_id": 34,
+          "total_occurrences": 507
+        },
+        {
+          "codon": "CAG",
+          "target_occurrences": 79,
+          "token_id": 35,
+          "total_occurrences": 79
+        },
+        {
+          "codon": "CUA",
+          "target_occurrences": 1836,
+          "token_id": 36,
+          "total_occurrences": 1836
+        },
+        {
+          "codon": "CUU",
+          "target_occurrences": 954,
+          "token_id": 37,
+          "total_occurrences": 954
+        },
+        {
+          "codon": "CUC",
+          "target_occurrences": 908,
+          "token_id": 38,
+          "total_occurrences": 908
+        },
+        {
+          "codon": "CUG",
+          "target_occurrences": 195,
+          "token_id": 39,
+          "total_occurrences": 195
+        },
+        {
+          "codon": "CCA",
+          "target_occurrences": 1503,
+          "token_id": 40,
+          "total_occurrences": 1503
+        },
+        {
+          "codon": "CCU",
+          "target_occurrences": 626,
+          "token_id": 41,
+          "total_occurrences": 626
+        },
+        {
+          "codon": "CCC",
+          "target_occurrences": 3021,
+          "token_id": 42,
+          "total_occurrences": 3021
+        },
+        {
+          "codon": "CCG",
+          "target_occurrences": 71,
+          "token_id": 43,
+          "total_occurrences": 71
+        },
+        {
+          "codon": "CGA",
+          "target_occurrences": 44,
+          "token_id": 44,
+          "total_occurrences": 44
+        },
+        {
+          "codon": "CGU",
+          "target_occurrences": 7,
+          "token_id": 45,
+          "total_occurrences": 7
+        },
+        {
+          "codon": "CGC",
+          "target_occurrences": 31,
+          "token_id": 46,
+          "total_occurrences": 31
+        },
+        {
+          "codon": "CGG",
+          "target_occurrences": 51,
+          "token_id": 47,
+          "total_occurrences": 51
+        },
+        {
+          "codon": "GAA",
+          "target_occurrences": 620,
+          "token_id": 48,
+          "total_occurrences": 620
+        },
+        {
+          "codon": "GAU",
+          "target_occurrences": 73,
+          "token_id": 49,
+          "total_occurrences": 73
+        },
+        {
+          "codon": "GAC",
+          "target_occurrences": 72,
+          "token_id": 50,
+          "total_occurrences": 72
+        },
+        {
+          "codon": "GAG",
+          "target_occurrences": 110,
+          "token_id": 51,
+          "total_occurrences": 110
+        },
+        {
+          "codon": "GUA",
+          "target_occurrences": 423,
+          "token_id": 52,
+          "total_occurrences": 423
+        },
+        {
+          "codon": "GUU",
+          "target_occurrences": 57,
+          "token_id": 53,
+          "total_occurrences": 57
+        },
+        {
+          "codon": "GUC",
+          "target_occurrences": 58,
+          "token_id": 54,
+          "total_occurrences": 58
+        },
+        {
+          "codon": "GUG",
+          "target_occurrences": 80,
+          "token_id": 55,
+          "total_occurrences": 80
+        },
+        {
+          "codon": "GCA",
+          "target_occurrences": 140,
+          "token_id": 56,
+          "total_occurrences": 140
+        },
+        {
+          "codon": "GCU",
+          "target_occurrences": 55,
+          "token_id": 57,
+          "total_occurrences": 55
+        },
+        {
+          "codon": "GCC",
+          "target_occurrences": 83,
+          "token_id": 58,
+          "total_occurrences": 83
+        },
+        {
+          "codon": "GCG",
+          "target_occurrences": 30,
+          "token_id": 59,
+          "total_occurrences": 30
+        },
+        {
+          "codon": "GGA",
+          "target_occurrences": 34,
+          "token_id": 60,
+          "total_occurrences": 34
+        },
+        {
+          "codon": "GGU",
+          "target_occurrences": 31,
+          "token_id": 61,
+          "total_occurrences": 31
+        },
+        {
+          "codon": "GGC",
+          "target_occurrences": 46,
+          "token_id": 62,
+          "total_occurrences": 46
+        },
+        {
+          "codon": "GGG",
+          "target_occurrences": 26,
+          "token_id": 63,
+          "total_occurrences": 26
+        }
+      ],
+      "cohort_sha256": "7add242a788cfad12190ed2f922c2d95d76ab2b9b6cfea99edf0d1e48035fa2e",
+      "family_taxon": {
+        "ATP5F1E:10090": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 52,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5F1E:10116": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5F1E:9606": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 1,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 2,
+          "variable_codon_sites": 1,
+          "variable_target_bases": 6
+        },
+        "ATP5F1E:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:10090": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 4,
+          "variable_codon_sites": 2,
+          "variable_target_bases": 12
+        },
+        "ATP5ME:10116": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:9601": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:9606": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 69,
+          "variable_codon_occurrences": 2,
+          "variable_codon_sites": 1,
+          "variable_target_bases": 6
+        },
+        "ATP5ME:9823": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 5,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 10,
+          "variable_codon_sites": 5,
+          "variable_target_bases": 30
+        },
+        "ATP5ME:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:10090": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 4,
+          "variable_codon_sites": 2,
+          "variable_target_bases": 12
+        },
+        "ATP5MF:9601": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 94,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:9606": {
+          "n_sequences": 3,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 5,
+          "target_codon_sites": 94,
+          "variable_codon_occurrences": 12,
+          "variable_codon_sites": 4,
+          "variable_target_bases": 36
+        },
+        "ATP5MF:9823": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 4,
+          "variable_codon_sites": 2,
+          "variable_target_bases": 12
+        },
+        "ATP5MF:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MGL:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 100,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:10090": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 60,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:10090": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:10116": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:10090": {
+          "n_sequences": 12,
+          "n_unique_peptides": 8,
+          "nucleotide_sites_variable_within_target_codons": 13,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 144,
+          "variable_codon_sites": 12,
+          "variable_target_bases": 432
+        },
+        "ATP8:10116": {
+          "n_sequences": 8,
+          "n_unique_peptides": 4,
+          "nucleotide_sites_variable_within_target_codons": 9,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 64,
+          "variable_codon_sites": 8,
+          "variable_target_bases": 192
+        },
+        "ATP8:7955": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 54,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:8355": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 55,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:9031": {
+          "n_sequences": 7,
+          "n_unique_peptides": 4,
+          "nucleotide_sites_variable_within_target_codons": 6,
+          "target_codon_sites": 54,
+          "variable_codon_occurrences": 42,
+          "variable_codon_sites": 6,
+          "variable_target_bases": 126
+        },
+        "ATP8:9601": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 9,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 16,
+          "variable_codon_sites": 8,
+          "variable_target_bases": 48
+        },
+        "ATP8:9606": {
+          "n_sequences": 412,
+          "n_unique_peptides": 178,
+          "nucleotide_sites_variable_within_target_codons": 168,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 28016,
+          "variable_codon_sites": 68,
+          "variable_target_bases": 84048
+        },
+        "ATP8:9823": {
+          "n_sequences": 27,
+          "n_unique_peptides": 10,
+          "nucleotide_sites_variable_within_target_codons": 22,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 459,
+          "variable_codon_sites": 17,
+          "variable_target_bases": 1377
+        },
+        "ATP8:9913": {
+          "n_sequences": 32,
+          "n_unique_peptides": 15,
+          "nucleotide_sites_variable_within_target_codons": 32,
+          "target_codon_sites": 66,
+          "variable_codon_occurrences": 864,
+          "variable_codon_sites": 27,
+          "variable_target_bases": 2592
+        }
+      },
+      "n_sequences": 533,
+      "n_unique_peptides": 250,
+      "observed_target_codon_classes": 64,
+      "observed_total_codon_classes": 64,
+      "target_nt": 108345,
+      "total_nt": 109944,
+      "variable_codon_sites_summed_over_family_taxon": 163,
+      "variable_target_bases": 88929
+    },
+    "human_atp8": {
+      "codons": [
+        {
+          "codon": "AAA",
+          "target_occurrences": 2465,
+          "token_id": 0,
+          "total_occurrences": 2465
+        },
+        {
+          "codon": "AAU",
+          "target_occurrences": 808,
+          "token_id": 1,
+          "total_occurrences": 808
+        },
+        {
+          "codon": "AAC",
+          "target_occurrences": 1212,
+          "token_id": 2,
+          "total_occurrences": 1212
+        },
+        {
+          "codon": "AAG",
+          "target_occurrences": 411,
+          "token_id": 3,
+          "total_occurrences": 411
+        },
+        {
+          "codon": "AUA",
+          "target_occurrences": 2040,
+          "token_id": 4,
+          "total_occurrences": 2040
+        },
+        {
+          "codon": "AUU",
+          "target_occurrences": 412,
+          "token_id": 5,
+          "total_occurrences": 412
+        },
+        {
+          "codon": "AUC",
+          "target_occurrences": 819,
+          "token_id": 6,
+          "total_occurrences": 819
+        },
+        {
+          "codon": "AUG",
+          "target_occurrences": 12,
+          "token_id": 7,
+          "total_occurrences": 424
+        },
+        {
+          "codon": "ACA",
+          "target_occurrences": 839,
+          "token_id": 8,
+          "total_occurrences": 839
+        },
+        {
+          "codon": "ACU",
+          "target_occurrences": 406,
+          "token_id": 9,
+          "total_occurrences": 406
+        },
+        {
+          "codon": "ACC",
+          "target_occurrences": 1644,
+          "token_id": 10,
+          "total_occurrences": 1644
+        },
+        {
+          "codon": "ACG",
+          "target_occurrences": 407,
+          "token_id": 11,
+          "total_occurrences": 407
+        },
+        {
+          "codon": "AGA",
+          "target_occurrences": 0,
+          "token_id": 12,
+          "total_occurrences": 0
+        },
+        {
+          "codon": "AGU",
+          "target_occurrences": 12,
+          "token_id": 13,
+          "total_occurrences": 12
+        },
+        {
+          "codon": "AGC",
+          "target_occurrences": 18,
+          "token_id": 14,
+          "total_occurrences": 18
+        },
+        {
+          "codon": "AGG",
+          "target_occurrences": 0,
+          "token_id": 15,
+          "total_occurrences": 0
+        },
+        {
+          "codon": "UAA",
+          "target_occurrences": 11,
+          "token_id": 16,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "UAU",
+          "target_occurrences": 410,
+          "token_id": 17,
+          "total_occurrences": 410
+        },
+        {
+          "codon": "UAC",
+          "target_occurrences": 412,
+          "token_id": 18,
+          "total_occurrences": 412
+        },
+        {
+          "codon": "UAG",
+          "target_occurrences": 401,
+          "token_id": 19,
+          "total_occurrences": 401
+        },
+        {
+          "codon": "UUA",
+          "target_occurrences": 491,
+          "token_id": 20,
+          "total_occurrences": 491
+        },
+        {
+          "codon": "UUU",
+          "target_occurrences": 25,
+          "token_id": 21,
+          "total_occurrences": 25
+        },
+        {
+          "codon": "UUC",
+          "target_occurrences": 424,
+          "token_id": 22,
+          "total_occurrences": 424
+        },
+        {
+          "codon": "UUG",
+          "target_occurrences": 399,
+          "token_id": 23,
+          "total_occurrences": 399
+        },
+        {
+          "codon": "UCA",
+          "target_occurrences": 815,
+          "token_id": 24,
+          "total_occurrences": 815
+        },
+        {
+          "codon": "UCU",
+          "target_occurrences": 5,
+          "token_id": 25,
+          "total_occurrences": 5
+        },
+        {
+          "codon": "UCC",
+          "target_occurrences": 411,
+          "token_id": 26,
+          "total_occurrences": 411
+        },
+        {
+          "codon": "UCG",
+          "target_occurrences": 410,
+          "token_id": 27,
+          "total_occurrences": 410
+        },
+        {
+          "codon": "UGA",
+          "target_occurrences": 833,
+          "token_id": 28,
+          "total_occurrences": 833
+        },
+        {
+          "codon": "UGU",
+          "target_occurrences": 404,
+          "token_id": 29,
+          "total_occurrences": 404
+        },
+        {
+          "codon": "UGC",
+          "target_occurrences": 4,
+          "token_id": 30,
+          "total_occurrences": 4
+        },
+        {
+          "codon": "UGG",
+          "target_occurrences": 401,
+          "token_id": 31,
+          "total_occurrences": 401
+        },
+        {
+          "codon": "CAA",
+          "target_occurrences": 1199,
+          "token_id": 32,
+          "total_occurrences": 1199
+        },
+        {
+          "codon": "CAU",
+          "target_occurrences": 416,
+          "token_id": 33,
+          "total_occurrences": 416
+        },
+        {
+          "codon": "CAC",
+          "target_occurrences": 415,
+          "token_id": 34,
+          "total_occurrences": 415
+        },
+        {
+          "codon": "CAG",
+          "target_occurrences": 37,
+          "token_id": 35,
+          "total_occurrences": 37
+        },
+        {
+          "codon": "CUA",
+          "target_occurrences": 1576,
+          "token_id": 36,
+          "total_occurrences": 1576
+        },
+        {
+          "codon": "CUU",
+          "target_occurrences": 819,
+          "token_id": 37,
+          "total_occurrences": 819
+        },
+        {
+          "codon": "CUC",
+          "target_occurrences": 805,
+          "token_id": 38,
+          "total_occurrences": 805
+        },
+        {
+          "codon": "CUG",
+          "target_occurrences": 12,
+          "token_id": 39,
+          "total_occurrences": 12
+        },
+        {
+          "codon": "CCA",
+          "target_occurrences": 1231,
+          "token_id": 40,
+          "total_occurrences": 1231
+        },
+        {
+          "codon": "CCU",
+          "target_occurrences": 410,
+          "token_id": 41,
+          "total_occurrences": 410
+        },
+        {
+          "codon": "CCC",
+          "target_occurrences": 2865,
+          "token_id": 42,
+          "total_occurrences": 2865
+        },
+        {
+          "codon": "CCG",
+          "target_occurrences": 6,
+          "token_id": 43,
+          "total_occurrences": 6
+        },
+        {
+          "codon": "CGA",
+          "target_occurrences": 5,
+          "token_id": 44,
+          "total_occurrences": 5
+        },
+        {
+          "codon": "CGU",
+          "target_occurrences": 1,
+          "token_id": 45,
+          "total_occurrences": 1
+        },
+        {
+          "codon": "CGC",
+          "target_occurrences": 2,
+          "token_id": 46,
+          "total_occurrences": 2
+        },
+        {
+          "codon": "CGG",
+          "target_occurrences": 0,
+          "token_id": 47,
+          "total_occurrences": 0
+        },
+        {
+          "codon": "GAA",
+          "target_occurrences": 398,
+          "token_id": 48,
+          "total_occurrences": 398
+        },
+        {
+          "codon": "GAU",
+          "target_occurrences": 2,
+          "token_id": 49,
+          "total_occurrences": 2
+        },
+        {
+          "codon": "GAC",
+          "target_occurrences": 10,
+          "token_id": 50,
+          "total_occurrences": 10
+        },
+        {
+          "codon": "GAG",
+          "target_occurrences": 10,
+          "token_id": 51,
+          "total_occurrences": 10
+        },
+        {
+          "codon": "GUA",
+          "target_occurrences": 395,
+          "token_id": 52,
+          "total_occurrences": 395
+        },
+        {
+          "codon": "GUU",
+          "target_occurrences": 0,
+          "token_id": 53,
+          "total_occurrences": 0
+        },
+        {
+          "codon": "GUC",
+          "target_occurrences": 6,
+          "token_id": 54,
+          "total_occurrences": 6
+        },
+        {
+          "codon": "GUG",
+          "target_occurrences": 5,
+          "token_id": 55,
+          "total_occurrences": 5
+        },
+        {
+          "codon": "GCA",
+          "target_occurrences": 12,
+          "token_id": 56,
+          "total_occurrences": 12
+        },
+        {
+          "codon": "GCU",
+          "target_occurrences": 3,
+          "token_id": 57,
+          "total_occurrences": 3
+        },
+        {
+          "codon": "GCC",
+          "target_occurrences": 8,
+          "token_id": 58,
+          "total_occurrences": 8
+        },
+        {
+          "codon": "GCG",
+          "target_occurrences": 3,
+          "token_id": 59,
+          "total_occurrences": 3
+        },
+        {
+          "codon": "GGA",
+          "target_occurrences": 4,
+          "token_id": 60,
+          "total_occurrences": 4
+        },
+        {
+          "codon": "GGU",
+          "target_occurrences": 0,
+          "token_id": 61,
+          "total_occurrences": 0
+        },
+        {
+          "codon": "GGC",
+          "target_occurrences": 0,
+          "token_id": 62,
+          "total_occurrences": 0
+        },
+        {
+          "codon": "GGG",
+          "target_occurrences": 0,
+          "token_id": 63,
+          "total_occurrences": 0
+        }
+      ],
+      "cohort_sha256": "29274bf9c8fb3cf57daf6cca998cae928180a42e0989b7a4d343dde67b987898",
+      "family_taxon": {
+        "ATP8:9606": {
+          "n_sequences": 412,
+          "n_unique_peptides": 178,
+          "nucleotide_sites_variable_within_target_codons": 168,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 28016,
+          "variable_codon_sites": 68,
+          "variable_target_bases": 84048
+        }
+      },
+      "n_sequences": 412,
+      "n_unique_peptides": 178,
+      "observed_target_codon_classes": 57,
+      "observed_total_codon_classes": 57,
+      "target_nt": 84048,
+      "total_nt": 85284,
+      "variable_codon_sites_summed_over_family_taxon": 68,
+      "variable_target_bases": 84048
+    },
+    "human_complex": {
+      "codons": [
+        {
+          "codon": "AAA",
+          "target_occurrences": 2440,
+          "token_id": 0,
+          "total_occurrences": 2440
+        },
+        {
+          "codon": "AAU",
+          "target_occurrences": 796,
+          "token_id": 1,
+          "total_occurrences": 796
+        },
+        {
+          "codon": "AAC",
+          "target_occurrences": 1193,
+          "token_id": 2,
+          "total_occurrences": 1193
+        },
+        {
+          "codon": "AAG",
+          "target_occurrences": 447,
+          "token_id": 3,
+          "total_occurrences": 447
+        },
+        {
+          "codon": "AUA",
+          "target_occurrences": 1997,
+          "token_id": 4,
+          "total_occurrences": 1997
+        },
+        {
+          "codon": "AUU",
+          "target_occurrences": 421,
+          "token_id": 5,
+          "total_occurrences": 421
+        },
+        {
+          "codon": "AUC",
+          "target_occurrences": 820,
+          "token_id": 6,
+          "total_occurrences": 820
+        },
+        {
+          "codon": "AUG",
+          "target_occurrences": 22,
+          "token_id": 7,
+          "total_occurrences": 434
+        },
+        {
+          "codon": "ACA",
+          "target_occurrences": 826,
+          "token_id": 8,
+          "total_occurrences": 826
+        },
+        {
+          "codon": "ACU",
+          "target_occurrences": 404,
+          "token_id": 9,
+          "total_occurrences": 404
+        },
+        {
+          "codon": "ACC",
+          "target_occurrences": 1610,
+          "token_id": 10,
+          "total_occurrences": 1610
+        },
+        {
+          "codon": "ACG",
+          "target_occurrences": 401,
+          "token_id": 11,
+          "total_occurrences": 401
+        },
+        {
+          "codon": "AGA",
+          "target_occurrences": 13,
+          "token_id": 12,
+          "total_occurrences": 13
+        },
+        {
+          "codon": "AGU",
+          "target_occurrences": 22,
+          "token_id": 13,
+          "total_occurrences": 22
+        },
+        {
+          "codon": "AGC",
+          "target_occurrences": 36,
+          "token_id": 14,
+          "total_occurrences": 36
+        },
+        {
+          "codon": "AGG",
+          "target_occurrences": 5,
+          "token_id": 15,
+          "total_occurrences": 5
+        },
+        {
+          "codon": "UAA",
+          "target_occurrences": 15,
+          "token_id": 16,
+          "total_occurrences": 15
+        },
+        {
+          "codon": "UAU",
+          "target_occurrences": 408,
+          "token_id": 17,
+          "total_occurrences": 408
+        },
+        {
+          "codon": "UAC",
+          "target_occurrences": 448,
+          "token_id": 18,
+          "total_occurrences": 448
+        },
+        {
+          "codon": "UAG",
+          "target_occurrences": 394,
+          "token_id": 19,
+          "total_occurrences": 394
+        },
+        {
+          "codon": "UUA",
+          "target_occurrences": 482,
+          "token_id": 20,
+          "total_occurrences": 482
+        },
+        {
+          "codon": "UUU",
+          "target_occurrences": 36,
+          "token_id": 21,
+          "total_occurrences": 36
+        },
+        {
+          "codon": "UUC",
+          "target_occurrences": 430,
+          "token_id": 22,
+          "total_occurrences": 430
+        },
+        {
+          "codon": "UUG",
+          "target_occurrences": 399,
+          "token_id": 23,
+          "total_occurrences": 399
+        },
+        {
+          "codon": "UCA",
+          "target_occurrences": 801,
+          "token_id": 24,
+          "total_occurrences": 801
+        },
+        {
+          "codon": "UCU",
+          "target_occurrences": 10,
+          "token_id": 25,
+          "total_occurrences": 10
+        },
+        {
+          "codon": "UCC",
+          "target_occurrences": 412,
+          "token_id": 26,
+          "total_occurrences": 412
+        },
+        {
+          "codon": "UCG",
+          "target_occurrences": 404,
+          "token_id": 27,
+          "total_occurrences": 404
+        },
+        {
+          "codon": "UGA",
+          "target_occurrences": 816,
+          "token_id": 28,
+          "total_occurrences": 816
+        },
+        {
+          "codon": "UGU",
+          "target_occurrences": 400,
+          "token_id": 29,
+          "total_occurrences": 400
+        },
+        {
+          "codon": "UGC",
+          "target_occurrences": 7,
+          "token_id": 30,
+          "total_occurrences": 7
+        },
+        {
+          "codon": "UGG",
+          "target_occurrences": 400,
+          "token_id": 31,
+          "total_occurrences": 400
+        },
+        {
+          "codon": "CAA",
+          "target_occurrences": 1175,
+          "token_id": 32,
+          "total_occurrences": 1175
+        },
+        {
+          "codon": "CAU",
+          "target_occurrences": 411,
+          "token_id": 33,
+          "total_occurrences": 411
+        },
+        {
+          "codon": "CAC",
+          "target_occurrences": 411,
+          "token_id": 34,
+          "total_occurrences": 411
+        },
+        {
+          "codon": "CAG",
+          "target_occurrences": 49,
+          "token_id": 35,
+          "total_occurrences": 49
+        },
+        {
+          "codon": "CUA",
+          "target_occurrences": 1542,
+          "token_id": 36,
+          "total_occurrences": 1542
+        },
+        {
+          "codon": "CUU",
+          "target_occurrences": 805,
+          "token_id": 37,
+          "total_occurrences": 805
+        },
+        {
+          "codon": "CUC",
+          "target_occurrences": 805,
+          "token_id": 38,
+          "total_occurrences": 805
+        },
+        {
+          "codon": "CUG",
+          "target_occurrences": 35,
+          "token_id": 39,
+          "total_occurrences": 35
+        },
+        {
+          "codon": "CCA",
+          "target_occurrences": 1215,
+          "token_id": 40,
+          "total_occurrences": 1215
+        },
+        {
+          "codon": "CCU",
+          "target_occurrences": 410,
+          "token_id": 41,
+          "total_occurrences": 410
+        },
+        {
+          "codon": "CCC",
+          "target_occurrences": 2799,
+          "token_id": 42,
+          "total_occurrences": 2799
+        },
+        {
+          "codon": "CCG",
+          "target_occurrences": 13,
+          "token_id": 43,
+          "total_occurrences": 13
+        },
+        {
+          "codon": "CGA",
+          "target_occurrences": 8,
+          "token_id": 44,
+          "total_occurrences": 8
+        },
+        {
+          "codon": "CGU",
+          "target_occurrences": 3,
+          "token_id": 45,
+          "total_occurrences": 3
+        },
+        {
+          "codon": "CGC",
+          "target_occurrences": 9,
+          "token_id": 46,
+          "total_occurrences": 9
+        },
+        {
+          "codon": "CGG",
+          "target_occurrences": 14,
+          "token_id": 47,
+          "total_occurrences": 14
+        },
+        {
+          "codon": "GAA",
+          "target_occurrences": 406,
+          "token_id": 48,
+          "total_occurrences": 406
+        },
+        {
+          "codon": "GAU",
+          "target_occurrences": 10,
+          "token_id": 49,
+          "total_occurrences": 10
+        },
+        {
+          "codon": "GAC",
+          "target_occurrences": 18,
+          "token_id": 50,
+          "total_occurrences": 18
+        },
+        {
+          "codon": "GAG",
+          "target_occurrences": 34,
+          "token_id": 51,
+          "total_occurrences": 34
+        },
+        {
+          "codon": "GUA",
+          "target_occurrences": 393,
+          "token_id": 52,
+          "total_occurrences": 393
+        },
+        {
+          "codon": "GUU",
+          "target_occurrences": 8,
+          "token_id": 53,
+          "total_occurrences": 8
+        },
+        {
+          "codon": "GUC",
+          "target_occurrences": 15,
+          "token_id": 54,
+          "total_occurrences": 15
+        },
+        {
+          "codon": "GUG",
+          "target_occurrences": 35,
+          "token_id": 55,
+          "total_occurrences": 35
+        },
+        {
+          "codon": "GCA",
+          "target_occurrences": 35,
+          "token_id": 56,
+          "total_occurrences": 35
+        },
+        {
+          "codon": "GCU",
+          "target_occurrences": 20,
+          "token_id": 57,
+          "total_occurrences": 20
+        },
+        {
+          "codon": "GCC",
+          "target_occurrences": 24,
+          "token_id": 58,
+          "total_occurrences": 24
+        },
+        {
+          "codon": "GCG",
+          "target_occurrences": 11,
+          "token_id": 59,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "GGA",
+          "target_occurrences": 12,
+          "token_id": 60,
+          "total_occurrences": 12
+        },
+        {
+          "codon": "GGU",
+          "target_occurrences": 14,
+          "token_id": 61,
+          "total_occurrences": 14
+        },
+        {
+          "codon": "GGC",
+          "target_occurrences": 11,
+          "token_id": 62,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "GGG",
+          "target_occurrences": 9,
+          "token_id": 63,
+          "total_occurrences": 9
+        }
+      ],
+      "cohort_sha256": "9fbd531beee125544fe0f1f4d1515bbfc6cfea82b7305817e3bafdab731289db",
+      "family_taxon": {
+        "ATP5F1E:9606": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 1,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 2,
+          "variable_codon_sites": 1,
+          "variable_target_bases": 6
+        },
+        "ATP5ME:9606": {
+          "n_sequences": 2,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 2,
+          "target_codon_sites": 69,
+          "variable_codon_occurrences": 2,
+          "variable_codon_sites": 1,
+          "variable_target_bases": 6
+        },
+        "ATP5MF:9606": {
+          "n_sequences": 3,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 5,
+          "target_codon_sites": 94,
+          "variable_codon_occurrences": 12,
+          "variable_codon_sites": 4,
+          "variable_target_bases": 36
+        },
+        "ATP5MGL:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 100,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:9606": {
+          "n_sequences": 402,
+          "n_unique_peptides": 175,
+          "nucleotide_sites_variable_within_target_codons": 167,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 27336,
+          "variable_codon_sites": 68,
+          "variable_target_bases": 82008
+        }
+      },
+      "n_sequences": 412,
+      "n_unique_peptides": 182,
+      "observed_target_codon_classes": 64,
+      "observed_total_codon_classes": 64,
+      "target_nt": 84222,
+      "total_nt": 85458,
+      "variable_codon_sites_summed_over_family_taxon": 74,
+      "variable_target_bases": 82056
+    },
+    "mammal_complex": {
+      "codons": [
+        {
+          "codon": "AAA",
+          "target_occurrences": 2409,
+          "token_id": 0,
+          "total_occurrences": 2409
+        },
+        {
+          "codon": "AAU",
+          "target_occurrences": 676,
+          "token_id": 1,
+          "total_occurrences": 676
+        },
+        {
+          "codon": "AAC",
+          "target_occurrences": 1063,
+          "token_id": 2,
+          "total_occurrences": 1063
+        },
+        {
+          "codon": "AAG",
+          "target_occurrences": 367,
+          "token_id": 3,
+          "total_occurrences": 367
+        },
+        {
+          "codon": "AUA",
+          "target_occurrences": 1786,
+          "token_id": 4,
+          "total_occurrences": 1786
+        },
+        {
+          "codon": "AUU",
+          "target_occurrences": 536,
+          "token_id": 5,
+          "total_occurrences": 536
+        },
+        {
+          "codon": "AUC",
+          "target_occurrences": 882,
+          "token_id": 6,
+          "total_occurrences": 882
+        },
+        {
+          "codon": "AUG",
+          "target_occurrences": 55,
+          "token_id": 7,
+          "total_occurrences": 467
+        },
+        {
+          "codon": "ACA",
+          "target_occurrences": 1054,
+          "token_id": 8,
+          "total_occurrences": 1054
+        },
+        {
+          "codon": "ACU",
+          "target_occurrences": 364,
+          "token_id": 9,
+          "total_occurrences": 364
+        },
+        {
+          "codon": "ACC",
+          "target_occurrences": 1451,
+          "token_id": 10,
+          "total_occurrences": 1451
+        },
+        {
+          "codon": "ACG",
+          "target_occurrences": 444,
+          "token_id": 11,
+          "total_occurrences": 444
+        },
+        {
+          "codon": "AGA",
+          "target_occurrences": 11,
+          "token_id": 12,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "AGU",
+          "target_occurrences": 17,
+          "token_id": 13,
+          "total_occurrences": 17
+        },
+        {
+          "codon": "AGC",
+          "target_occurrences": 82,
+          "token_id": 14,
+          "total_occurrences": 82
+        },
+        {
+          "codon": "AGG",
+          "target_occurrences": 7,
+          "token_id": 15,
+          "total_occurrences": 7
+        },
+        {
+          "codon": "UAA",
+          "target_occurrences": 91,
+          "token_id": 16,
+          "total_occurrences": 91
+        },
+        {
+          "codon": "UAU",
+          "target_occurrences": 445,
+          "token_id": 17,
+          "total_occurrences": 445
+        },
+        {
+          "codon": "UAC",
+          "target_occurrences": 412,
+          "token_id": 18,
+          "total_occurrences": 412
+        },
+        {
+          "codon": "UAG",
+          "target_occurrences": 316,
+          "token_id": 19,
+          "total_occurrences": 316
+        },
+        {
+          "codon": "UUA",
+          "target_occurrences": 656,
+          "token_id": 20,
+          "total_occurrences": 656
+        },
+        {
+          "codon": "UUU",
+          "target_occurrences": 215,
+          "token_id": 21,
+          "total_occurrences": 215
+        },
+        {
+          "codon": "UUC",
+          "target_occurrences": 453,
+          "token_id": 22,
+          "total_occurrences": 453
+        },
+        {
+          "codon": "UUG",
+          "target_occurrences": 424,
+          "token_id": 23,
+          "total_occurrences": 424
+        },
+        {
+          "codon": "UCA",
+          "target_occurrences": 1001,
+          "token_id": 24,
+          "total_occurrences": 1001
+        },
+        {
+          "codon": "UCU",
+          "target_occurrences": 34,
+          "token_id": 25,
+          "total_occurrences": 34
+        },
+        {
+          "codon": "UCC",
+          "target_occurrences": 364,
+          "token_id": 26,
+          "total_occurrences": 364
+        },
+        {
+          "codon": "UCG",
+          "target_occurrences": 330,
+          "token_id": 27,
+          "total_occurrences": 330
+        },
+        {
+          "codon": "UGA",
+          "target_occurrences": 895,
+          "token_id": 28,
+          "total_occurrences": 895
+        },
+        {
+          "codon": "UGU",
+          "target_occurrences": 321,
+          "token_id": 29,
+          "total_occurrences": 321
+        },
+        {
+          "codon": "UGC",
+          "target_occurrences": 6,
+          "token_id": 30,
+          "total_occurrences": 6
+        },
+        {
+          "codon": "UGG",
+          "target_occurrences": 323,
+          "token_id": 31,
+          "total_occurrences": 323
+        },
+        {
+          "codon": "CAA",
+          "target_occurrences": 1212,
+          "token_id": 32,
+          "total_occurrences": 1212
+        },
+        {
+          "codon": "CAU",
+          "target_occurrences": 370,
+          "token_id": 33,
+          "total_occurrences": 370
+        },
+        {
+          "codon": "CAC",
+          "target_occurrences": 403,
+          "token_id": 34,
+          "total_occurrences": 403
+        },
+        {
+          "codon": "CAG",
+          "target_occurrences": 46,
+          "token_id": 35,
+          "total_occurrences": 46
+        },
+        {
+          "codon": "CUA",
+          "target_occurrences": 1465,
+          "token_id": 36,
+          "total_occurrences": 1465
+        },
+        {
+          "codon": "CUU",
+          "target_occurrences": 740,
+          "token_id": 37,
+          "total_occurrences": 740
+        },
+        {
+          "codon": "CUC",
+          "target_occurrences": 680,
+          "token_id": 38,
+          "total_occurrences": 680
+        },
+        {
+          "codon": "CUG",
+          "target_occurrences": 135,
+          "token_id": 39,
+          "total_occurrences": 135
+        },
+        {
+          "codon": "CCA",
+          "target_occurrences": 1184,
+          "token_id": 40,
+          "total_occurrences": 1184
+        },
+        {
+          "codon": "CCU",
+          "target_occurrences": 511,
+          "token_id": 41,
+          "total_occurrences": 511
+        },
+        {
+          "codon": "CCC",
+          "target_occurrences": 2349,
+          "token_id": 42,
+          "total_occurrences": 2349
+        },
+        {
+          "codon": "CCG",
+          "target_occurrences": 43,
+          "token_id": 43,
+          "total_occurrences": 43
+        },
+        {
+          "codon": "CGA",
+          "target_occurrences": 35,
+          "token_id": 44,
+          "total_occurrences": 35
+        },
+        {
+          "codon": "CGU",
+          "target_occurrences": 4,
+          "token_id": 45,
+          "total_occurrences": 4
+        },
+        {
+          "codon": "CGC",
+          "target_occurrences": 11,
+          "token_id": 46,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "CGG",
+          "target_occurrences": 14,
+          "token_id": 47,
+          "total_occurrences": 14
+        },
+        {
+          "codon": "GAA",
+          "target_occurrences": 493,
+          "token_id": 48,
+          "total_occurrences": 493
+        },
+        {
+          "codon": "GAU",
+          "target_occurrences": 49,
+          "token_id": 49,
+          "total_occurrences": 49
+        },
+        {
+          "codon": "GAC",
+          "target_occurrences": 52,
+          "token_id": 50,
+          "total_occurrences": 52
+        },
+        {
+          "codon": "GAG",
+          "target_occurrences": 39,
+          "token_id": 51,
+          "total_occurrences": 39
+        },
+        {
+          "codon": "GUA",
+          "target_occurrences": 328,
+          "token_id": 52,
+          "total_occurrences": 328
+        },
+        {
+          "codon": "GUU",
+          "target_occurrences": 39,
+          "token_id": 53,
+          "total_occurrences": 39
+        },
+        {
+          "codon": "GUC",
+          "target_occurrences": 30,
+          "token_id": 54,
+          "total_occurrences": 30
+        },
+        {
+          "codon": "GUG",
+          "target_occurrences": 31,
+          "token_id": 55,
+          "total_occurrences": 31
+        },
+        {
+          "codon": "GCA",
+          "target_occurrences": 82,
+          "token_id": 56,
+          "total_occurrences": 82
+        },
+        {
+          "codon": "GCU",
+          "target_occurrences": 20,
+          "token_id": 57,
+          "total_occurrences": 20
+        },
+        {
+          "codon": "GCC",
+          "target_occurrences": 41,
+          "token_id": 58,
+          "total_occurrences": 41
+        },
+        {
+          "codon": "GCG",
+          "target_occurrences": 11,
+          "token_id": 59,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "GGA",
+          "target_occurrences": 12,
+          "token_id": 60,
+          "total_occurrences": 12
+        },
+        {
+          "codon": "GGU",
+          "target_occurrences": 11,
+          "token_id": 61,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "GGC",
+          "target_occurrences": 14,
+          "token_id": 62,
+          "total_occurrences": 14
+        },
+        {
+          "codon": "GGG",
+          "target_occurrences": 9,
+          "token_id": 63,
+          "total_occurrences": 9
+        }
+      ],
+      "cohort_sha256": "4774c45c29b1b237d0a1ab89c6824fa712ffc350644a03eed43f5e111bf261f2",
+      "family_taxon": {
+        "ATP5F1E:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5F1E:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 69,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 94,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:9823": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MGL:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 100,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:10090": {
+          "n_sequences": 12,
+          "n_unique_peptides": 8,
+          "nucleotide_sites_variable_within_target_codons": 13,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 144,
+          "variable_codon_sites": 12,
+          "variable_target_bases": 432
+        },
+        "ATP8:10116": {
+          "n_sequences": 8,
+          "n_unique_peptides": 4,
+          "nucleotide_sites_variable_within_target_codons": 9,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 64,
+          "variable_codon_sites": 8,
+          "variable_target_bases": 192
+        },
+        "ATP8:9601": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 9,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 16,
+          "variable_codon_sites": 8,
+          "variable_target_bases": 48
+        },
+        "ATP8:9606": {
+          "n_sequences": 321,
+          "n_unique_peptides": 152,
+          "nucleotide_sites_variable_within_target_codons": 158,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 21828,
+          "variable_codon_sites": 68,
+          "variable_target_bases": 65484
+        },
+        "ATP8:9823": {
+          "n_sequences": 27,
+          "n_unique_peptides": 10,
+          "nucleotide_sites_variable_within_target_codons": 22,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 459,
+          "variable_codon_sites": 17,
+          "variable_target_bases": 1377
+        },
+        "ATP8:9913": {
+          "n_sequences": 32,
+          "n_unique_peptides": 15,
+          "nucleotide_sites_variable_within_target_codons": 32,
+          "target_codon_sites": 66,
+          "variable_codon_occurrences": 864,
+          "variable_codon_sites": 27,
+          "variable_target_bases": 2592
+        }
+      },
+      "n_sequences": 412,
+      "n_unique_peptides": 201,
+      "observed_target_codon_classes": 64,
+      "observed_total_codon_classes": 64,
+      "target_nt": 83859,
+      "total_nt": 85095,
+      "variable_codon_sites_summed_over_family_taxon": 140,
+      "variable_target_bases": 70125
+    },
+    "vertebrate_complex": {
+      "codons": [
+        {
+          "codon": "AAA",
+          "target_occurrences": 2387,
+          "token_id": 0,
+          "total_occurrences": 2387
+        },
+        {
+          "codon": "AAU",
+          "target_occurrences": 674,
+          "token_id": 1,
+          "total_occurrences": 674
+        },
+        {
+          "codon": "AAC",
+          "target_occurrences": 1086,
+          "token_id": 2,
+          "total_occurrences": 1086
+        },
+        {
+          "codon": "AAG",
+          "target_occurrences": 367,
+          "token_id": 3,
+          "total_occurrences": 367
+        },
+        {
+          "codon": "AUA",
+          "target_occurrences": 1774,
+          "token_id": 4,
+          "total_occurrences": 1774
+        },
+        {
+          "codon": "AUU",
+          "target_occurrences": 532,
+          "token_id": 5,
+          "total_occurrences": 532
+        },
+        {
+          "codon": "AUC",
+          "target_occurrences": 874,
+          "token_id": 6,
+          "total_occurrences": 874
+        },
+        {
+          "codon": "AUG",
+          "target_occurrences": 48,
+          "token_id": 7,
+          "total_occurrences": 460
+        },
+        {
+          "codon": "ACA",
+          "target_occurrences": 1034,
+          "token_id": 8,
+          "total_occurrences": 1034
+        },
+        {
+          "codon": "ACU",
+          "target_occurrences": 388,
+          "token_id": 9,
+          "total_occurrences": 388
+        },
+        {
+          "codon": "ACC",
+          "target_occurrences": 1465,
+          "token_id": 10,
+          "total_occurrences": 1465
+        },
+        {
+          "codon": "ACG",
+          "target_occurrences": 427,
+          "token_id": 11,
+          "total_occurrences": 427
+        },
+        {
+          "codon": "AGA",
+          "target_occurrences": 11,
+          "token_id": 12,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "AGU",
+          "target_occurrences": 17,
+          "token_id": 13,
+          "total_occurrences": 17
+        },
+        {
+          "codon": "AGC",
+          "target_occurrences": 78,
+          "token_id": 14,
+          "total_occurrences": 78
+        },
+        {
+          "codon": "AGG",
+          "target_occurrences": 7,
+          "token_id": 15,
+          "total_occurrences": 7
+        },
+        {
+          "codon": "UAA",
+          "target_occurrences": 91,
+          "token_id": 16,
+          "total_occurrences": 91
+        },
+        {
+          "codon": "UAU",
+          "target_occurrences": 429,
+          "token_id": 17,
+          "total_occurrences": 429
+        },
+        {
+          "codon": "UAC",
+          "target_occurrences": 409,
+          "token_id": 18,
+          "total_occurrences": 409
+        },
+        {
+          "codon": "UAG",
+          "target_occurrences": 316,
+          "token_id": 19,
+          "total_occurrences": 316
+        },
+        {
+          "codon": "UUA",
+          "target_occurrences": 630,
+          "token_id": 20,
+          "total_occurrences": 630
+        },
+        {
+          "codon": "UUU",
+          "target_occurrences": 197,
+          "token_id": 21,
+          "total_occurrences": 197
+        },
+        {
+          "codon": "UUC",
+          "target_occurrences": 471,
+          "token_id": 22,
+          "total_occurrences": 471
+        },
+        {
+          "codon": "UUG",
+          "target_occurrences": 413,
+          "token_id": 23,
+          "total_occurrences": 413
+        },
+        {
+          "codon": "UCA",
+          "target_occurrences": 977,
+          "token_id": 24,
+          "total_occurrences": 977
+        },
+        {
+          "codon": "UCU",
+          "target_occurrences": 41,
+          "token_id": 25,
+          "total_occurrences": 41
+        },
+        {
+          "codon": "UCC",
+          "target_occurrences": 373,
+          "token_id": 26,
+          "total_occurrences": 373
+        },
+        {
+          "codon": "UCG",
+          "target_occurrences": 328,
+          "token_id": 27,
+          "total_occurrences": 328
+        },
+        {
+          "codon": "UGA",
+          "target_occurrences": 914,
+          "token_id": 28,
+          "total_occurrences": 914
+        },
+        {
+          "codon": "UGU",
+          "target_occurrences": 321,
+          "token_id": 29,
+          "total_occurrences": 321
+        },
+        {
+          "codon": "UGC",
+          "target_occurrences": 6,
+          "token_id": 30,
+          "total_occurrences": 6
+        },
+        {
+          "codon": "UGG",
+          "target_occurrences": 322,
+          "token_id": 31,
+          "total_occurrences": 322
+        },
+        {
+          "codon": "CAA",
+          "target_occurrences": 1202,
+          "token_id": 32,
+          "total_occurrences": 1202
+        },
+        {
+          "codon": "CAU",
+          "target_occurrences": 368,
+          "token_id": 33,
+          "total_occurrences": 368
+        },
+        {
+          "codon": "CAC",
+          "target_occurrences": 391,
+          "token_id": 34,
+          "total_occurrences": 391
+        },
+        {
+          "codon": "CAG",
+          "target_occurrences": 48,
+          "token_id": 35,
+          "total_occurrences": 48
+        },
+        {
+          "codon": "CUA",
+          "target_occurrences": 1458,
+          "token_id": 36,
+          "total_occurrences": 1458
+        },
+        {
+          "codon": "CUU",
+          "target_occurrences": 749,
+          "token_id": 37,
+          "total_occurrences": 749
+        },
+        {
+          "codon": "CUC",
+          "target_occurrences": 687,
+          "token_id": 38,
+          "total_occurrences": 687
+        },
+        {
+          "codon": "CUG",
+          "target_occurrences": 123,
+          "token_id": 39,
+          "total_occurrences": 123
+        },
+        {
+          "codon": "CCA",
+          "target_occurrences": 1196,
+          "token_id": 40,
+          "total_occurrences": 1196
+        },
+        {
+          "codon": "CCU",
+          "target_occurrences": 504,
+          "token_id": 41,
+          "total_occurrences": 504
+        },
+        {
+          "codon": "CCC",
+          "target_occurrences": 2368,
+          "token_id": 42,
+          "total_occurrences": 2368
+        },
+        {
+          "codon": "CCG",
+          "target_occurrences": 37,
+          "token_id": 43,
+          "total_occurrences": 37
+        },
+        {
+          "codon": "CGA",
+          "target_occurrences": 33,
+          "token_id": 44,
+          "total_occurrences": 33
+        },
+        {
+          "codon": "CGU",
+          "target_occurrences": 4,
+          "token_id": 45,
+          "total_occurrences": 4
+        },
+        {
+          "codon": "CGC",
+          "target_occurrences": 11,
+          "token_id": 46,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "CGG",
+          "target_occurrences": 14,
+          "token_id": 47,
+          "total_occurrences": 14
+        },
+        {
+          "codon": "GAA",
+          "target_occurrences": 475,
+          "token_id": 48,
+          "total_occurrences": 475
+        },
+        {
+          "codon": "GAU",
+          "target_occurrences": 48,
+          "token_id": 49,
+          "total_occurrences": 48
+        },
+        {
+          "codon": "GAC",
+          "target_occurrences": 47,
+          "token_id": 50,
+          "total_occurrences": 47
+        },
+        {
+          "codon": "GAG",
+          "target_occurrences": 40,
+          "token_id": 51,
+          "total_occurrences": 40
+        },
+        {
+          "codon": "GUA",
+          "target_occurrences": 328,
+          "token_id": 52,
+          "total_occurrences": 328
+        },
+        {
+          "codon": "GUU",
+          "target_occurrences": 35,
+          "token_id": 53,
+          "total_occurrences": 35
+        },
+        {
+          "codon": "GUC",
+          "target_occurrences": 32,
+          "token_id": 54,
+          "total_occurrences": 32
+        },
+        {
+          "codon": "GUG",
+          "target_occurrences": 31,
+          "token_id": 55,
+          "total_occurrences": 31
+        },
+        {
+          "codon": "GCA",
+          "target_occurrences": 88,
+          "token_id": 56,
+          "total_occurrences": 88
+        },
+        {
+          "codon": "GCU",
+          "target_occurrences": 21,
+          "token_id": 57,
+          "total_occurrences": 21
+        },
+        {
+          "codon": "GCC",
+          "target_occurrences": 41,
+          "token_id": 58,
+          "total_occurrences": 41
+        },
+        {
+          "codon": "GCG",
+          "target_occurrences": 11,
+          "token_id": 59,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "GGA",
+          "target_occurrences": 12,
+          "token_id": 60,
+          "total_occurrences": 12
+        },
+        {
+          "codon": "GGU",
+          "target_occurrences": 11,
+          "token_id": 61,
+          "total_occurrences": 11
+        },
+        {
+          "codon": "GGC",
+          "target_occurrences": 15,
+          "token_id": 62,
+          "total_occurrences": 15
+        },
+        {
+          "codon": "GGG",
+          "target_occurrences": 9,
+          "token_id": 63,
+          "total_occurrences": 9
+        }
+      ],
+      "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+      "family_taxon": {
+        "ATP5F1E:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5F1E:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 51,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 69,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5ME:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 71,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 94,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:9823": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MF:9913": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 88,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MGL:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 100,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MJ:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP5MK:9606": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 58,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:10090": {
+          "n_sequences": 12,
+          "n_unique_peptides": 8,
+          "nucleotide_sites_variable_within_target_codons": 13,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 144,
+          "variable_codon_sites": 12,
+          "variable_target_bases": 432
+        },
+        "ATP8:10116": {
+          "n_sequences": 8,
+          "n_unique_peptides": 4,
+          "nucleotide_sites_variable_within_target_codons": 9,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 64,
+          "variable_codon_sites": 8,
+          "variable_target_bases": 192
+        },
+        "ATP8:7955": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 54,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:8355": {
+          "n_sequences": 1,
+          "n_unique_peptides": 1,
+          "nucleotide_sites_variable_within_target_codons": 0,
+          "target_codon_sites": 55,
+          "variable_codon_occurrences": 0,
+          "variable_codon_sites": 0,
+          "variable_target_bases": 0
+        },
+        "ATP8:9031": {
+          "n_sequences": 7,
+          "n_unique_peptides": 4,
+          "nucleotide_sites_variable_within_target_codons": 6,
+          "target_codon_sites": 54,
+          "variable_codon_occurrences": 42,
+          "variable_codon_sites": 6,
+          "variable_target_bases": 126
+        },
+        "ATP8:9601": {
+          "n_sequences": 2,
+          "n_unique_peptides": 2,
+          "nucleotide_sites_variable_within_target_codons": 9,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 16,
+          "variable_codon_sites": 8,
+          "variable_target_bases": 48
+        },
+        "ATP8:9606": {
+          "n_sequences": 321,
+          "n_unique_peptides": 152,
+          "nucleotide_sites_variable_within_target_codons": 158,
+          "target_codon_sites": 68,
+          "variable_codon_occurrences": 21828,
+          "variable_codon_sites": 68,
+          "variable_target_bases": 65484
+        },
+        "ATP8:9823": {
+          "n_sequences": 25,
+          "n_unique_peptides": 10,
+          "nucleotide_sites_variable_within_target_codons": 21,
+          "target_codon_sites": 67,
+          "variable_codon_occurrences": 400,
+          "variable_codon_sites": 16,
+          "variable_target_bases": 1200
+        },
+        "ATP8:9913": {
+          "n_sequences": 25,
+          "n_unique_peptides": 14,
+          "nucleotide_sites_variable_within_target_codons": 29,
+          "target_codon_sites": 66,
+          "variable_codon_occurrences": 650,
+          "variable_codon_sites": 26,
+          "variable_target_bases": 1950
+        }
+      },
+      "n_sequences": 412,
+      "n_unique_peptides": 206,
+      "observed_target_codon_classes": 64,
+      "observed_total_codon_classes": 64,
+      "target_nt": 83532,
+      "total_nt": 84768,
+      "variable_codon_sites_summed_over_family_taxon": 144,
+      "variable_target_bases": 69432
+    }
+  },
+  "definition": "All64 codon classes including zeros. Target counts omit first codon, include full stop. Variation is within family and primary taxon stratum; all3 bases of variable codons count. No pairwise identity computation.",
+  "generated_utc": "2026-09-25T02:05:00.375138+00:00",
+  "scope": "TRAINING ONLY; all diagnostics are resubstitution, with no held-out observations.",
+  "vocabulary": [
+    "AAA",
+    "AAU",
+    "AAC",
+    "AAG",
+    "AUA",
+    "AUU",
+    "AUC",
+    "AUG",
+    "ACA",
+    "ACU",
+    "ACC",
+    "ACG",
+    "AGA",
+    "AGU",
+    "AGC",
+    "AGG",
+    "UAA",
+    "UAU",
+    "UAC",
+    "UAG",
+    "UUA",
+    "UUU",
+    "UUC",
+    "UUG",
+    "UCA",
+    "UCU",
+    "UCC",
+    "UCG",
+    "UGA",
+    "UGU",
+    "UGC",
+    "UGG",
+    "CAA",
+    "CAU",
+    "CAC",
+    "CAG",
+    "CUA",
+    "CUU",
+    "CUC",
+    "CUG",
+    "CCA",
+    "CCU",
+    "CCC",
+    "CCG",
+    "CGA",
+    "CGU",
+    "CGC",
+    "CGG",
+    "GAA",
+    "GAU",
+    "GAC",
+    "GAG",
+    "GUA",
+    "GUU",
+    "GUC",
+    "GUG",
+    "GCA",
+    "GCU",
+    "GCC",
+    "GCG",
+    "GGA",
+    "GGU",
+    "GGC",
+    "GGG"
+  ]
+}

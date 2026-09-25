@@ -1,0 +1,38 @@
+{
+  "cohort_version": "secondary-v1",
+  "max_amino_acids": 100,
+  "min_reference_identity": 0.95,
+  "selection_seed": 20260925,
+  "taxa": {
+    "9606": "Homo sapiens",
+    "10090": "Mus musculus",
+    "10116": "Rattus norvegicus",
+    "9913": "Bos taurus",
+    "9823": "Sus scrofa",
+    "9601": "Pongo abelii",
+    "9031": "Gallus gallus",
+    "7955": "Danio rerio",
+    "8355": "Xenopus laevis"
+  },
+  "mammals": [9606, 10090, 10116, 9913, 9823, 9601],
+  "nonmammalian_vertebrates": [9031, 7955, 8355],
+  "families": {
+    "ATP8": {"human_uniprot": "P03928", "human_gene": "MT-ATP8", "interpro": "IPR001421", "genetic_code": 2},
+    "ATP5ME": {"human_uniprot": "P56385", "human_gene": "ATP5ME", "interpro": "IPR008386", "genetic_code": 1},
+    "ATP5MF": {"human_uniprot": "P56134", "human_gene": "ATP5MF", "interpro": "IPR019344", "genetic_code": 1},
+    "ATP5MJ": {"human_uniprot": "P56378", "human_gene": "ATP5MJ", "interpro": "IPR012574", "genetic_code": 1},
+    "ATP5MK": {"human_uniprot": "Q96IX5", "human_gene": "ATP5MK", "interpro": "IPR009125", "genetic_code": 1},
+    "ATP5F1E": {"human_uniprot": "P56381", "human_gene": "ATP5F1E", "interpro": "IPR006721", "genetic_code": 1},
+    "ATP5MGL": {"human_uniprot": "Q7Z4Y8", "human_gene": "ATP5MGL", "interpro": "IPR006808", "genetic_code": 1}
+  },
+  "excluded_uniprot": ["Q5VTU8"],
+  "extra_product_aliases": {
+    "ATP8": ["ATP synthase F0 subunit 8", "ATP synthase subunit 8", "ATPase subunit 8"],
+    "ATP5ME": ["ATP synthase membrane subunit e"],
+    "ATP5MF": ["ATP synthase membrane subunit f"],
+    "ATP5MJ": ["ATP synthase membrane subunit j"],
+    "ATP5MK": ["ATP synthase membrane subunit k", "ATP synthase membrane subunit DAPIT"],
+    "ATP5F1E": ["ATP synthase F1 subunit epsilon"],
+    "ATP5MGL": ["ATP synthase membrane subunit g like"]
+  }
+}

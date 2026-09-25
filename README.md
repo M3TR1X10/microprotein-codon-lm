@@ -1,10 +1,31 @@
 # Microprotein codon language models
 
-A reproducible, **training-only** proof of concept comparing a four-base RNA language model with a 64-codon language model. The first cohort is **human MT-ATP8**, selected by usable distinct coding-sequence count within an explicitly defined IMPI candidate screen.
+A reproducible, **training-only** project comparing four-base RNA and 64-codon language models. The archived first pilot uses human MT-ATP8. The secondary pilot expands to seven small ATP synthase subunit families across human, five other mammals, and three nonmammalian vertebrates.
 
 This experiment asks whether a small causal transformer can learn the training distribution and whether both representations can be trained reproducibly. It does **not** yet measure prediction on unseen sequences. Validation, test sets, gap completion, AlphaFold and PyMOL are deferred at the project owner's request.
 
-## Current experiment
+## Secondary experiment
+
+This pretraining commit fixes the [protocol](docs/secondary-protocol.md), [data card](docs/secondary-data-card.md), and [run plan](reports/secondary/plan.json) before model fitting. Training outcomes will be added in a subsequent commit. The [pipeline guide](docs/secondary-pipeline.md) explains the commands and artifacts; the [laboratory notebook](docs/secondary-lab-notebook.md) records the questions, acquisition corrections and decisions.
+
+The five primary comparisons are human ATP8/base, human ATP8/codon, human ATP-synthase/codon, mammal ATP-synthase/codon, and vertebrate ATP-synthase/codon. They use equal distinct-CDS counts; the three expanded-family views also share family quotas. Three additional controls change capacity, family weighting or explicit positional encoding on the same vertebrate cohort. Each matched arm uses three initialization seeds. A separate larger codon model trains the full recovered pool as a capacity demonstration.
+
+Biological eligibility limits useful data size. The pipeline combines ENA's coding index, all reviewed-reference EMBL protein links, and annotated ATP8 extraction from the declared mitochondrial parent-sequence panel. It preserves source accessions, original annotation coordinates, download receipts, hashes and rejection reasons, then deduplicates exact RNA. The original pilot's source omissions are documented; its data and results are retained.
+
+Hardware profiling selected a common 192-wide/four-layer transformer and a separate 384-wide/six-layer codon model. Training is serialized on four CPU threads under a four-hour aggregate limit, with identity-checked checkpoints and an outer deadline. These are measured practical candidates for the installed environment, not a claim to have found the computer's absolute maximum.
+
+```powershell
+.venv\Scripts\python.exe scripts/build_secondary_data.py
+.venv\Scripts\python.exe -m pytest -q
+.venv\Scripts\python.exe scripts/run_secondary.py --freeze-only
+.venv\Scripts\python.exe scripts/build_secondary_report.py --data-only
+.venv\Scripts\python.exe scripts/run_secondary.py
+.venv\Scripts\python.exe scripts/build_secondary_report.py
+```
+
+See the [pipeline guide](docs/secondary-pipeline.md) for artifact locations and snapshot constraints. Raw archives and checkpoints remain local and are excluded from Git; compact manifests, results and figures are versioned. Software tests are correctness fixtures, not biological validation or test sets.
+
+## Initial experiment — archived
 
 | Property | Value |
 |---|---|

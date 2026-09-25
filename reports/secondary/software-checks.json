@@ -1,0 +1,9 @@
+{
+  "cache_rebuild": "Both acquisition reports and the enriched pool remained byte-identical",
+  "checked_utc": "2026-09-25T02:05:32.591157+00:00",
+  "command": "python -m pytest -q",
+  "failed": 0,
+  "original_129_retained": true,
+  "passed": 61,
+  "scope": "Offline software invariants only; no biological validation or test data"
+}

@@ -1,0 +1,27 @@
+# Secondary pilot laboratory notebook
+
+## Before fitting — 2026-09-25 UTC
+
+**Owner decisions.** Expand only within the ATP synthase complex. Add a human-plus-five-other-mammal arm and a mammal-plus-nonmammalian-vertebrate arm, matched in distinct-sequence count to the other primary comparisons. Retain the earlier training-only scope. Local training budget: approximately four hours. Use independent agents for biological, experimental and hardware review.
+
+**Questions separated.** (1) Which genuine eligible CDS can be recovered? (2) Can taxonomic and family comparisons keep size and family composition controlled? (3) Which common model size fits the current computer? (4) How do tokenization, diversity, capacity, family weighting and explicit positional encoding affect training fit? (5) Can a larger codon model train the complete recovered pool within the budget? No unseen-sequence question is answered in this stage.
+
+**First-pilot evidence.** The original 200-update codon models reduced loss but their training fit remained worse than the position baseline. All three ended at the same codon accuracy. More training capacity alone is not evidence of useful biology. Add variable-codon diagnostics, privileged and unprivileged position baselines, family-macro diagnostics, and prespecified objective/capacity/position controls. Use equal total smoothing mass across vocabularies; the first pilot used equal mass per class.
+
+**Acquisition corrections.** The original direct IMPI symbol join missed semicolon-separated aliases for six small ATP synthase families. ENA's coding search omitted some CDS available through versioned UniProt EMBL links. The initial corrected two-route screen recovered 203 globally distinct CDS: 133 human ATP8, 10 other human subunit CDS, and 60 nonhuman CDS. This includes all 129 original ATP8 sequences. These are source-coverage corrections, with the original quality gates retained; the first pilot's reports remain historical records of its narrower screen.
+
+**Third route, before model outcomes.** A parent mitochondrial-sequence inventory found roughly 71,000 records within the same declared species panel. Record the exact query and add annotated-CDS extraction before freezing the final training cohorts. Keep the two-route count above as an intermediate result, not the claimed final dataset size. This responds to the owner's request to maximize usable genuine data. No synthetic codon variants or repeated-accession inflation is permitted.
+
+**Hardware decision.** The computer has an i7-12700H and approximately 16 GB physical RAM, with much less currently free. Installed PyTorch is CPU-only; the Intel GPUs are not available to that runtime. Four CPU threads measured faster than eight for a tested candidate. A 192-wide/four-layer transformer is feasible in both tokenizations. A 384-wide/six-layer codon transformer is feasible, while its base counterpart was skipped by the conservative free-memory gate. Choose the smaller common body for comparisons and the larger codon body for the separate full-pool engineering run. This is a bounded candidate profile, not an exhaustive hardware limit search.
+
+**Independent reviews.** Biological review checked family membership, IMPI aliases, translation tables, taxon identity and acquisition omissions. Experimental review implemented and checked masked targets, the unbiased family-macro estimator, deterministic sampling and exact resume. Hardware/selection review identified cohort overwrite protection, missing selection hashes and cohort-specific variable-support caveats. A second runner review identified missing enforcement of frozen cohort hashes and a need for an outer wall-time limit. Corrections precede fitting.
+
+**Genome extraction implementation checks.** Fetch every parent accession version, because identical genome sequences can have different or missing annotations. Check exact CDS coordinate bounds, strand and supported join operators before extracting. Preserve fuzzy endpoints for rejection. Records with unresolved CONTIG sequence and no directly available nucleotides are excluded explicitly; no sequence is inferred. Re-merging previously deduplicated data retains all known taxon provenance. After a real-data edge case was fixed, cached records were reprocessed under the final extraction code before dataset freezing.
+
+**Portable identity.** Secondary JSON manifests and derived sequence files use canonical UTF-8/LF encoding. This avoids hashing Windows CRLF bytes and later checking Git-normalized LF bytes as if they were the same snapshot. The hardware report's line endings were normalized before freezing without changing any measurements. The original pilot implementation and artifacts were not rewritten.
+
+**Frozen protocol and artifacts.** The final `reports/secondary/plan.json` records exact code, configuration, protocol and cohort hashes before launch. Research training runs have distinct output directories; original pilot data, summaries and checkpoints are retained. Source receipts and raw archives remain local; compact provenance and result reports are committed.
+
+## Execution and observations
+
+The generated `reports/secondary/report.md`, `results.json`, `runs.json` and `execution.json` are the authoritative measured run record. A partial run must remain labeled incomplete. Changes made after fitting, if any, must be described here without retroactively altering the frozen protocol.
