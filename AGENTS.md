@@ -3,6 +3,7 @@
 Read `docs/protocol.md` and the current dataset/run manifests before changing the experiment.
 
 - Preserve the archived first pilot. The owner now authorizes the ATP-synthase-only, multi-organism secondary pilot in `docs/secondary-protocol.md`, with equal-count comparisons and a four-hour local training budget. Both pilots remain training only. Validation, test-set work, gap completion and AlphaFold/PyMOL are deferred until requested.
+- Preserve the documented one-time standby correction in `docs/secondary-runtime-amendment.md` and its original archives. Budget-chargeable time differs from raw elapsed time; never silently reapply the credit or change the frozen scientific settings.
 - Separate hypotheses, operational assumptions, measurements and interpretations. Record protocol changes before running the affected experiment. Never turn training fit into a claim of generalization or molecular function.
 - Break new work into a specific biological or engineering question, a bounded change, an appropriate check and a recorded result.
 - Retain real sequence provenance, accession versions, retrieval receipts and hashes. Do not reverse-translate proteins, invent variants, repair sequences or silently supplement organisms outside the declared panel.

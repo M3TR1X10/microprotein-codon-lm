@@ -1,0 +1,430 @@
+{
+  "all_planned_runs_verified": false,
+  "audit_script_sha256": "64c2fc4052679796d7a3b37fd15d7438a3d86b59c0ddaeea05e24bc8f83f4ea8",
+  "cpu_threads": 1,
+  "created_utc": "2026-09-25T14:57:29.331977+00:00",
+  "device": "cpu",
+  "engine_source_hashes": {
+    "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+    "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+    "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+    "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+    "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+    "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+  },
+  "established_inventory_preserved": false,
+  "excluded_run_count": 17,
+  "excluded_runs": [
+    {
+      "arm": "human_atp8_base",
+      "dataset": "human_atp8",
+      "reason": "incomplete",
+      "seed": 29,
+      "stop_reason": "max_seconds",
+      "updates": 268
+    },
+    {
+      "arm": "human_atp8_codon",
+      "dataset": "human_atp8",
+      "reason": "no_reported_result",
+      "seed": 29
+    },
+    {
+      "arm": "human_complex_codon",
+      "dataset": "human_complex",
+      "reason": "no_reported_result",
+      "seed": 29
+    },
+    {
+      "arm": "mammal_complex_codon",
+      "dataset": "mammal_complex",
+      "reason": "no_reported_result",
+      "seed": 29
+    },
+    {
+      "arm": "vertebrate_complex_codon",
+      "dataset": "vertebrate_complex",
+      "reason": "no_reported_result",
+      "seed": 29
+    },
+    {
+      "arm": "vertebrate_small",
+      "dataset": "vertebrate_complex",
+      "reason": "no_reported_result",
+      "seed": 29
+    },
+    {
+      "arm": "vertebrate_family_macro",
+      "dataset": "vertebrate_complex",
+      "reason": "no_reported_result",
+      "seed": 29
+    },
+    {
+      "arm": "vertebrate_no_position",
+      "dataset": "vertebrate_complex",
+      "reason": "no_reported_result",
+      "seed": 29
+    },
+    {
+      "arm": "human_atp8_base",
+      "dataset": "human_atp8",
+      "reason": "no_reported_result",
+      "seed": 43
+    },
+    {
+      "arm": "human_atp8_codon",
+      "dataset": "human_atp8",
+      "reason": "no_reported_result",
+      "seed": 43
+    },
+    {
+      "arm": "human_complex_codon",
+      "dataset": "human_complex",
+      "reason": "no_reported_result",
+      "seed": 43
+    },
+    {
+      "arm": "mammal_complex_codon",
+      "dataset": "mammal_complex",
+      "reason": "no_reported_result",
+      "seed": 43
+    },
+    {
+      "arm": "vertebrate_complex_codon",
+      "dataset": "vertebrate_complex",
+      "reason": "no_reported_result",
+      "seed": 43
+    },
+    {
+      "arm": "vertebrate_small",
+      "dataset": "vertebrate_complex",
+      "reason": "no_reported_result",
+      "seed": 43
+    },
+    {
+      "arm": "vertebrate_family_macro",
+      "dataset": "vertebrate_complex",
+      "reason": "no_reported_result",
+      "seed": 43
+    },
+    {
+      "arm": "vertebrate_no_position",
+      "dataset": "vertebrate_complex",
+      "reason": "no_reported_result",
+      "seed": 43
+    },
+    {
+      "arm": "full_vertebrate_capacity",
+      "dataset": "full_vertebrate",
+      "reason": "no_reported_result",
+      "seed": 17
+    }
+  ],
+  "failed_run_count": 0,
+  "failed_runs": [],
+  "limitations": [
+    "Checks loadability, finite serialized tensors, frozen architecture and metadata consistency; does not reproduce optimization.",
+    "Hashes establish identity at audit time and cannot independently prove earlier unrecorded file contents.",
+    "Re-audits enforce established file and model-state hashes for the same frozen plan; failure preserves that inventory.",
+    "No inference, model selection, held-out evaluation, biological-function or structural claim is made.",
+    "Only completed runs present in the frozen-plan results are audited; excluded runs are listed explicitly.",
+    "An outer timeout may leave an older rolling checkpoint for an incomplete run; such runs are not relabeled complete."
+  ],
+  "output_file": "reports/secondary/checkpoints.json",
+  "plan_sha256": "0911988a949932344ae1d444c732273215097f79107247faffdeb3a862c99006",
+  "planned_runs": 25,
+  "results_sha256": "2ce335186f26a2e2d730e26dfa4a414194aaaa7264e471971aad3a453e0a0c99",
+  "scope": "CHECKPOINT INTEGRITY ONLY; no fitting, inference or new training diagnostics",
+  "status": "passed",
+  "verified_run_count": 8,
+  "verified_runs": [
+    {
+      "arm": "human_atp8_base",
+      "cohort_sha256": "29274bf9c8fb3cf57daf6cca998cae928180a42e0989b7a4d343dde67b987898",
+      "dataset": "human_atp8",
+      "files": {
+        "checkpoint.pt": {
+          "bytes": 21675296,
+          "file": "runs/secondary/human_atp8_base-seed17/checkpoint.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "9d43f2b1c9fa93c7b2ccd00cf7e5b5fde4bd7f4439b4a5e04189cf3ea05e27c5",
+          "parameters": 1780608,
+          "sha256": "414b583793bba8fb58db872ee75d9c515a258341cb876e12eb385170f2a63759",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5410739,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        },
+        "final.pt": {
+          "bytes": 21664247,
+          "file": "runs/secondary/human_atp8_base-seed17/final.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "9d43f2b1c9fa93c7b2ccd00cf7e5b5fde4bd7f4439b4a5e04189cf3ea05e27c5",
+          "parameters": 1780608,
+          "sha256": "fdbf13cd31a99ed1ca59b53783906173d3979359161f5eeececee7b49decbc67",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5410739,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        }
+      },
+      "manifest_sha256": "a586ba7fc4c1d3b158f70182d38e244f90f0fca83bf91be2503240960cec694e",
+      "seed": 17,
+      "summary_sha256": "d92b31fa6966d92cbf6c88081d282bd605101fc55a3bb73428af95e5d3ab5521"
+    },
+    {
+      "arm": "human_atp8_codon",
+      "cohort_sha256": "29274bf9c8fb3cf57daf6cca998cae928180a42e0989b7a4d343dde67b987898",
+      "dataset": "human_atp8",
+      "files": {
+        "checkpoint.pt": {
+          "bytes": 21658336,
+          "file": "runs/secondary/human_atp8_codon-seed17/checkpoint.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "6102957b1610c8920545f2a551098944db0a61d408b5455413dea810429cdee6",
+          "parameters": 1792128,
+          "sha256": "370162b89b83673c526c616c2a4d286d39997ff34011f2a348d397e1d26449b1",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        },
+        "final.pt": {
+          "bytes": 21647287,
+          "file": "runs/secondary/human_atp8_codon-seed17/final.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "6102957b1610c8920545f2a551098944db0a61d408b5455413dea810429cdee6",
+          "parameters": 1792128,
+          "sha256": "d37141a6ae2fcf8890536f36ac09dceadb697d5efebee0a348ccf58d850c6e68",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        }
+      },
+      "manifest_sha256": "a586ba7fc4c1d3b158f70182d38e244f90f0fca83bf91be2503240960cec694e",
+      "seed": 17,
+      "summary_sha256": "3de7d2cb506687542bf21251ad88e492e04fa30f780288d8b27c1ebe77ffee0b"
+    },
+    {
+      "arm": "human_complex_codon",
+      "cohort_sha256": "9fbd531beee125544fe0f1f4d1515bbfc6cfea82b7305817e3bafdab731289db",
+      "dataset": "human_complex",
+      "files": {
+        "checkpoint.pt": {
+          "bytes": 21662752,
+          "file": "runs/secondary/human_complex_codon-seed17/checkpoint.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "53cc8f7749d1ef1fb5691b63c49bfee7ea58dda408248240a10f39c4bc6aba06",
+          "parameters": 1792128,
+          "sha256": "eba28fd4e8c6511ba1428afb9bb211e5321ad825e20f7642c41e8e884867d26c",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        },
+        "final.pt": {
+          "bytes": 21651703,
+          "file": "runs/secondary/human_complex_codon-seed17/final.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "53cc8f7749d1ef1fb5691b63c49bfee7ea58dda408248240a10f39c4bc6aba06",
+          "parameters": 1792128,
+          "sha256": "65d068b37c6281b41d365936ebf99a7ed32d972eb7d2fe76da91d5aaabbf19c0",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        }
+      },
+      "manifest_sha256": "7818a8ad0d1affeb48eda6d1f720f4aef929c096666b7b8ffead8bbc6076da23",
+      "seed": 17,
+      "summary_sha256": "84332a658d7217be9ce4ee7920e1a70578c95b31f6224742cf58d8e9699366e8"
+    },
+    {
+      "arm": "mammal_complex_codon",
+      "cohort_sha256": "4774c45c29b1b237d0a1ab89c6824fa712ffc350644a03eed43f5e111bf261f2",
+      "dataset": "mammal_complex",
+      "files": {
+        "checkpoint.pt": {
+          "bytes": 21664224,
+          "file": "runs/secondary/mammal_complex_codon-seed17/checkpoint.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "b4f6d4ffbf2b62689359711763fa745bd4e773aba455af5555626732b5bc76ee",
+          "parameters": 1792128,
+          "sha256": "0dceaad148a99c305c5917f0ee7b5356ae67b24dbe91b5248f00e6e24f6395f5",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        },
+        "final.pt": {
+          "bytes": 21653175,
+          "file": "runs/secondary/mammal_complex_codon-seed17/final.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "b4f6d4ffbf2b62689359711763fa745bd4e773aba455af5555626732b5bc76ee",
+          "parameters": 1792128,
+          "sha256": "fca6b6c15a697e6b81eb60e4cd556c63ee921ff26ba37cfbcf22290b5a17fe2e",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        }
+      },
+      "manifest_sha256": "0d0f27567b10b790dfbc69d99f25aa8b9fd1a1cf0a456c98aad9233c757b9d78",
+      "seed": 17,
+      "summary_sha256": "087d8a2cd7f6ed914525a69fed3b1b3ce5b100f184f5f72bf1d692c6c6729752"
+    },
+    {
+      "arm": "vertebrate_complex_codon",
+      "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+      "dataset": "vertebrate_complex",
+      "files": {
+        "checkpoint.pt": {
+          "bytes": 21665312,
+          "file": "runs/secondary/vertebrate_complex_codon-seed17/checkpoint.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "367501a2073f652f02d5ddd3bd9a7fd2140e9add390a74778387ee5a52de2846",
+          "parameters": 1792128,
+          "sha256": "9362ac4aa46ad712fffaaf2b6b4a9c88b4162e8e45c175bb83df6d20a13d8a73",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        },
+        "final.pt": {
+          "bytes": 21654263,
+          "file": "runs/secondary/vertebrate_complex_codon-seed17/final.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "367501a2073f652f02d5ddd3bd9a7fd2140e9add390a74778387ee5a52de2846",
+          "parameters": 1792128,
+          "sha256": "0eaa6af3b56c72aa5c97a1eb9dce974f18ba4eb72bb055378f1ba5193319edf6",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        }
+      },
+      "manifest_sha256": "fe3a04efab2b7fef6588266b8ad34ba52b2fcf447688162011e0e906dd288e8e",
+      "seed": 17,
+      "summary_sha256": "365e43377c26ffc81f0d18c88bad4a0a959263d2b21886e911cdc6898622bb4c"
+    },
+    {
+      "arm": "vertebrate_small",
+      "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+      "dataset": "vertebrate_complex",
+      "files": {
+        "checkpoint.pt": {
+          "bytes": 791040,
+          "file": "runs/secondary/vertebrate_small-seed17/checkpoint.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "ec823df91fecbef31107a1f747fe7379328426625483610d49419dcc9957c416",
+          "parameters": 59712,
+          "sha256": "00c4ea6308709a9442f561174b2d0c2745a5d761df212351547d789a2c9c32c8",
+          "strict_model_load": true,
+          "tensor_elements_checked": 197147,
+          "tensor_entries_checked": 112,
+          "update": 2000
+        },
+        "final.pt": {
+          "bytes": 785015,
+          "file": "runs/secondary/vertebrate_small-seed17/final.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "ec823df91fecbef31107a1f747fe7379328426625483610d49419dcc9957c416",
+          "parameters": 59712,
+          "sha256": "bc90a1ef2491046b9126cbeec5c13e3aeac3d003b5b45302fbcfb9b801d86e62",
+          "strict_model_load": true,
+          "tensor_elements_checked": 197147,
+          "tensor_entries_checked": 112,
+          "update": 2000
+        }
+      },
+      "manifest_sha256": "fe3a04efab2b7fef6588266b8ad34ba52b2fcf447688162011e0e906dd288e8e",
+      "seed": 17,
+      "summary_sha256": "cb75ab8bef0a373bf43c09e8d575006e01cea565fcdd10422c73e2bb1c05ba06"
+    },
+    {
+      "arm": "vertebrate_family_macro",
+      "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+      "dataset": "vertebrate_complex",
+      "files": {
+        "checkpoint.pt": {
+          "bytes": 21665312,
+          "file": "runs/secondary/vertebrate_family_macro-seed17/checkpoint.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "fab8f746f55279f230eb4c781c001c78e17bc7d9cc620045b96452b4559c22b9",
+          "parameters": 1792128,
+          "sha256": "70d633b1e2a7e392c16d07a6022e300a925ab55689b9f9476f37204a6a840c84",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        },
+        "final.pt": {
+          "bytes": 21654263,
+          "file": "runs/secondary/vertebrate_family_macro-seed17/final.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "fab8f746f55279f230eb4c781c001c78e17bc7d9cc620045b96452b4559c22b9",
+          "parameters": 1792128,
+          "sha256": "82b8139cf36d47396e03cf02a869968a19cf50d2d405195a151b2a2e06fa0482",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        }
+      },
+      "manifest_sha256": "fe3a04efab2b7fef6588266b8ad34ba52b2fcf447688162011e0e906dd288e8e",
+      "seed": 17,
+      "summary_sha256": "d485797621feceb2ea852093478779f0eabcd44c96466d390691f3a50633cadb"
+    },
+    {
+      "arm": "vertebrate_no_position",
+      "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+      "dataset": "vertebrate_complex",
+      "files": {
+        "checkpoint.pt": {
+          "bytes": 21665312,
+          "file": "runs/secondary/vertebrate_no_position-seed17/checkpoint.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "da3c92099ea6769b9cd240777723a4dc099918015938c24ed3fd4af6384a6b6a",
+          "parameters": 1792128,
+          "sha256": "d71cbda73a00f52ac9830dbe2011cf6a975e9b7115eaed25782fda6554b42aa2",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        },
+        "final.pt": {
+          "bytes": 21654263,
+          "file": "runs/secondary/vertebrate_no_position-seed17/final.pt",
+          "finite_tensors": true,
+          "identity_and_summary_match": true,
+          "model_state_sha256": "da3c92099ea6769b9cd240777723a4dc099918015938c24ed3fd4af6384a6b6a",
+          "parameters": 1792128,
+          "sha256": "ba2d770872ff480cfaa6a9b984aa57d1a71efe2a98b9a58c92991732a4c5854a",
+          "strict_model_load": true,
+          "tensor_elements_checked": 5418035,
+          "tensor_entries_checked": 208,
+          "update": 2000
+        }
+      },
+      "manifest_sha256": "fe3a04efab2b7fef6588266b8ad34ba52b2fcf447688162011e0e906dd288e8e",
+      "seed": 17,
+      "summary_sha256": "858b54c30c366b13bc40d9b50ed7ab90dfbe7353bfdf5e9419a70c7f60cf9c8e"
+    }
+  ]
+}

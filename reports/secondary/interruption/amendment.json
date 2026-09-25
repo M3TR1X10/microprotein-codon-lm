@@ -1,0 +1,63 @@
+{
+  "affected_arm": "human_atp8_base",
+  "affected_seed": 29,
+  "aggregate_budget_seconds": 14400,
+  "archives": [
+    {
+      "archive": "reports/secondary/interruption/original-execution.json",
+      "bytes": 322,
+      "sha256": "aebbac74e9f8b02fea1e278398e8a0d08328e9d7ed0f21111a1103292479d826",
+      "source": "reports/secondary/execution.json"
+    },
+    {
+      "archive": "reports/secondary/interruption/original-results.json",
+      "bytes": 128980,
+      "sha256": "2ce335186f26a2e2d730e26dfa4a414194aaaa7264e471971aad3a453e0a0c99",
+      "source": "reports/secondary/results.json"
+    },
+    {
+      "archive": "runs/secondary-interruption/20260925-human-atp8-base-seed29/checkpoint.pt",
+      "bytes": 21673568,
+      "sha256": "744caa5405ecb5dbc9979d961db6126ace43b4717d98d877dbdf01732644cffe",
+      "source": "runs/secondary/human_atp8_base-seed29/checkpoint.pt"
+    },
+    {
+      "archive": "runs/secondary-interruption/20260925-human-atp8-base-seed29/summary.json",
+      "bytes": 6676,
+      "sha256": "b9282b33876b70fe52c488e19b0a1d9145254da766da54d147505ba51ad3da5f",
+      "source": "runs/secondary/human_atp8_base-seed29/summary.json"
+    },
+    {
+      "archive": "runs/secondary-interruption/20260925-human-atp8-base-seed29/metrics.json",
+      "bytes": 3966,
+      "sha256": "1d52d8dce35428bd7c2cddb488c68b4c5cb0647888ab29c01e8f0e396940129f",
+      "source": "runs/secondary/human_atp8_base-seed29/metrics.json"
+    },
+    {
+      "archive": "runs/secondary-interruption/20260925-human-atp8-base-seed29/run.json",
+      "bytes": 3147,
+      "sha256": "dc36befcf725fae4f0fd1f28768ee3b94702972ecb0200abf15f0e2eb7c13c59",
+      "source": "runs/secondary/human_atp8_base-seed29/run.json"
+    },
+    {
+      "archive": "runs/secondary-interruption/20260925-human-atp8-base-seed29/baselines.json",
+      "bytes": 6708,
+      "sha256": "56078089b9ae96fb3f536a81106ec3cc8688a231d23fa71a6bf35a062dc73bac",
+      "source": "runs/secondary/human_atp8_base-seed29/baselines.json"
+    }
+  ],
+  "charged_elapsed_before_resume_seconds": 4746.076528,
+  "created_utc": "2026-09-25T14:56:59.264814+00:00",
+  "document_sha256": "ba47627b81d5dfff28061efd0b16d33f31927ce3fa676f18b8fc1b9ac4b2dc5c",
+  "evidence_sha256": "69370e0a15e7dbc3e19aa2c4ade05ccc958bc10066e3acac7912a504319775fb",
+  "exclude_from_hardware_speed_comparisons": true,
+  "excluded_hardware_deep_idle_seconds": 15720.173472,
+  "future_interruptions": "Original conservative policy remains; no automatic further credit",
+  "kind": "standby_budget_amendment",
+  "original_elapsed_wall_seconds": 20466.25,
+  "plan_sha256": "0911988a949932344ae1d444c732273215097f79107247faffdeb3a862c99006",
+  "remaining_budget_seconds": 9653.923472,
+  "resume_update": 268,
+  "scope": "One-time time accounting only; original model/data/seed/update/RNG plan unchanged",
+  "script_sha256": "5dcf61dcce6bbdd03f061ef4f2a43dc7f4d9b518ca342dddbccd05b6f5905016"
+}

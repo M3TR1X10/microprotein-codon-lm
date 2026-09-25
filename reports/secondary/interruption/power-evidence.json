@@ -1,0 +1,14 @@
+{
+  "provider": "Microsoft-Windows-Kernel-Power",
+  "channel": "System",
+  "boot_id": 98,
+  "scenario_field": "ScenarioInstanceIdV2",
+  "retrieval": "Get-WinEvent, filtered to records 52915, 52920, 52922 and 52931; selected event fields only",
+  "reference": "https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/modern-standby-sleepstudy-common-problem-examples",
+  "events": [
+    {"record_id": 52915, "event_id": 506, "utc": "2026-09-25T03:11:53.9776625Z", "scenario": 22, "reason": 15, "lid_open": false},
+    {"record_id": 52920, "event_id": 507, "utc": "2026-09-25T07:09:54.5582076Z", "scenario": 22, "reason": 16777220, "lid_open": false, "sleep_entered": true, "duration_us": 14280582985, "software_drips_us": 14005354549, "hardware_drips_us": 13390759541},
+    {"record_id": 52922, "event_id": 506, "utc": "2026-09-25T07:09:54.5593153Z", "scenario": 24, "reason": 16777220, "lid_open": false},
+    {"record_id": 52931, "event_id": 507, "utc": "2026-09-25T07:52:17.8827133Z", "scenario": 24, "reason": 16777220, "lid_open": false, "sleep_entered": true, "duration_us": 2543323574, "software_drips_us": 2436965574, "hardware_drips_us": 2329413931}
+  ]
+}

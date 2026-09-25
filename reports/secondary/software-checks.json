@@ -1,9 +1,13 @@
 {
   "cache_rebuild": "Both acquisition reports and the enriched pool remained byte-identical",
-  "checked_utc": "2026-09-25T02:05:32.591157+00:00",
+  "checked_utc": "2026-09-25T14:56:59+00:00",
   "command": "python -m pytest -q",
   "failed": 0,
   "original_129_retained": true,
-  "passed": 61,
+  "passed": 118,
+  "elapsed_seconds": 21.47,
+  "pretraining_passed": 61,
+  "pretraining_ci": "https://github.com/M3TR1X10/microprotein-codon-lm/actions/runs/36085183616",
+  "pretraining_ci_conclusion": "success",
   "scope": "Offline software invariants only; no biological validation or test data"
 }

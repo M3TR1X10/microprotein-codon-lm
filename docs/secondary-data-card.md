@@ -150,7 +150,7 @@ The base and codon human-ATP8 arms share exactly one cohort. Matched Complex V v
 
 The entire snapshot is available to training. It must not later be relabeled as an untouched validation/test set. The matched views replace records and overlap; they are not independent cohorts. Quotas may retain sparse families only in the human stratum, so adding organisms does not expand every family equally.
 
-Variable-codon positions are identified separately within each family and primary taxon stratum. The base arm scores all three bases of those same variable codons. Singleton or invariant strata contribute no variable-position targets. Different cohorts have different variable-position supports; those metrics are descriptive across cohorts.
+Variable-codon positions are identified separately within each family and primary taxon stratum. The base arm scores all three bases of those same variable codons. Singleton or invariant strata contribute no variable-position targets. Different cohorts have different variable-position supports; those metrics are descriptive across cohorts. A position with even one alternative codon is variable, so this mask does not isolate minority-codon observations. When all target codon positions vary somewhere in a cohort, variable-position fit equals overall fit.
 
 All 64 RNA codons are vocabulary classes even when observed counts are zero. The [coverage/diversity artifact](../reports/secondary/codon-coverage.json) reports every class, source of positional variation and its support. No pairwise-identity estimate or effective-sample-size estimate is computed.
 

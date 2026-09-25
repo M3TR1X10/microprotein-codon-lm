@@ -1,0 +1,11 @@
+{
+  "complete": false,
+  "completed_runs": 8,
+  "elapsed_seconds": 20466.25,
+  "in_progress": null,
+  "plan_sha256": "0911988a949932344ae1d444c732273215097f79107247faffdeb3a862c99006",
+  "planned_runs": 25,
+  "recovery_accounting": null,
+  "status": "budget_stopped",
+  "updated_utc": "2026-09-25T07:52:27.636731+00:00"
+}
