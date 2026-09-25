@@ -1,0 +1,368 @@
+[
+  {
+    "gene": "CHCHD7",
+    "raw_records": 11,
+    "uniprot": "Q9BUK0",
+    "unique_cds_md5_upper_bound": 8
+  },
+  {
+    "gene": "CMC2",
+    "raw_records": 14,
+    "uniprot": "Q9NRP2",
+    "unique_cds_md5_upper_bound": 6
+  },
+  {
+    "gene": "COA4",
+    "raw_records": 4,
+    "uniprot": "Q9NYJ1",
+    "unique_cds_md5_upper_bound": 2
+  },
+  {
+    "gene": "COA5",
+    "raw_records": 2,
+    "uniprot": "Q86WW8",
+    "unique_cds_md5_upper_bound": 2
+  },
+  {
+    "gene": "COX14",
+    "raw_records": 0,
+    "uniprot": "Q96I36",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX17",
+    "raw_records": 0,
+    "uniprot": "Q14061",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX19",
+    "raw_records": 0,
+    "uniprot": "Q49B96",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX6A2",
+    "raw_records": 0,
+    "uniprot": "Q02221",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX6B1",
+    "raw_records": 4,
+    "uniprot": "P14854",
+    "unique_cds_md5_upper_bound": 2
+  },
+  {
+    "gene": "COX6B2",
+    "raw_records": 5,
+    "uniprot": "Q6YFQ2",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "COX6C",
+    "raw_records": 10,
+    "uniprot": "P09669",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "COX7A1",
+    "raw_records": 0,
+    "uniprot": "P24310",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX7A2",
+    "raw_records": 0,
+    "uniprot": "P14406",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX7B",
+    "raw_records": 0,
+    "uniprot": "P24311",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX7B2",
+    "raw_records": 0,
+    "uniprot": "Q8TF08",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX7C",
+    "raw_records": 0,
+    "uniprot": "P15954",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX8A",
+    "raw_records": 0,
+    "uniprot": "P10176",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "COX8C",
+    "raw_records": 0,
+    "uniprot": "Q7Z4L0",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "DBI",
+    "raw_records": 0,
+    "uniprot": "P07108",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "DDIT3",
+    "raw_records": 0,
+    "uniprot": "P0DPQ6",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "DYNLL1",
+    "raw_records": 8,
+    "uniprot": "P63167",
+    "unique_cds_md5_upper_bound": 2
+  },
+  {
+    "gene": "HIGD1A",
+    "raw_records": 3,
+    "uniprot": "Q9Y241",
+    "unique_cds_md5_upper_bound": 2
+  },
+  {
+    "gene": "HRK",
+    "raw_records": 1,
+    "uniprot": "O00198",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "LYRM2",
+    "raw_records": 5,
+    "uniprot": "Q9NU23",
+    "unique_cds_md5_upper_bound": 4
+  },
+  {
+    "gene": "LYRM4",
+    "raw_records": 3,
+    "uniprot": "Q9HD34",
+    "unique_cds_md5_upper_bound": 3
+  },
+  {
+    "gene": "MIEF1",
+    "raw_records": 0,
+    "uniprot": "L0R8F8",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "MRPL33",
+    "raw_records": 3,
+    "uniprot": "O75394",
+    "unique_cds_md5_upper_bound": 3
+  },
+  {
+    "gene": "MRPL34",
+    "raw_records": 3,
+    "uniprot": "Q9BQ48",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "MRPS21",
+    "raw_records": 2,
+    "uniprot": "P82921",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "MT-ATP8",
+    "raw_records": 5318,
+    "uniprot": "P03928",
+    "unique_cds_md5_upper_bound": 137
+  },
+  {
+    "gene": "MT-ND4",
+    "raw_records": 0,
+    "uniprot": "C0HME5",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "MT-ND4L",
+    "raw_records": 5318,
+    "uniprot": "P03901",
+    "unique_cds_md5_upper_bound": 112
+  },
+  {
+    "gene": "MTRNR2L5",
+    "raw_records": 0,
+    "uniprot": "P0CJ72",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "NDUFA1",
+    "raw_records": 0,
+    "uniprot": "O15239",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "NDUFA2",
+    "raw_records": 0,
+    "uniprot": "O43678",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "NDUFA3",
+    "raw_records": 0,
+    "uniprot": "O95167",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "NDUFB1",
+    "raw_records": 0,
+    "uniprot": "O75438",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "NDUFB3",
+    "raw_records": 0,
+    "uniprot": "O43676",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "NDUFC1",
+    "raw_records": 0,
+    "uniprot": "O43677",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "PET100",
+    "raw_records": 0,
+    "uniprot": "P0DJ07",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "PET117",
+    "raw_records": 0,
+    "uniprot": "Q6UWS5",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "PIGBOS1",
+    "raw_records": 2,
+    "uniprot": "A0A0B4J2F0",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "PMAIP1",
+    "raw_records": 1,
+    "uniprot": "Q13794",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "ROMO1",
+    "raw_records": 5,
+    "uniprot": "P60602",
+    "unique_cds_md5_upper_bound": 2
+  },
+  {
+    "gene": "SMIM20",
+    "raw_records": 1,
+    "uniprot": "Q8N5G0",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "SNN",
+    "raw_records": 1,
+    "uniprot": "O75324",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "TIMM10",
+    "raw_records": 0,
+    "uniprot": "P62072",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "TIMM13",
+    "raw_records": 0,
+    "uniprot": "Q9Y5L4",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "TIMM8A",
+    "raw_records": 0,
+    "uniprot": "O60220",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "TIMM8B",
+    "raw_records": 0,
+    "uniprot": "Q9Y5J9",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "TIMM9",
+    "raw_records": 0,
+    "uniprot": "Q9Y5J7",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "TMEM14A",
+    "raw_records": 1,
+    "uniprot": "Q9Y6G1",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "TOMM5",
+    "raw_records": 0,
+    "uniprot": "Q8N4H5",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "TOMM6",
+    "raw_records": 0,
+    "uniprot": "Q96B49",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "TOMM7",
+    "raw_records": 0,
+    "uniprot": "Q9P0U1",
+    "unique_cds_md5_upper_bound": 0
+  },
+  {
+    "gene": "TRIAP1",
+    "raw_records": 1,
+    "uniprot": "O43715",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "UQCC3",
+    "raw_records": 2,
+    "uniprot": "Q6UW78",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "UQCR10",
+    "raw_records": 2,
+    "uniprot": "Q9UDW1",
+    "unique_cds_md5_upper_bound": 2
+  },
+  {
+    "gene": "UQCR11",
+    "raw_records": 3,
+    "uniprot": "O14957",
+    "unique_cds_md5_upper_bound": 1
+  },
+  {
+    "gene": "UQCRH",
+    "raw_records": 2,
+    "uniprot": "P07919",
+    "unique_cds_md5_upper_bound": 2
+  },
+  {
+    "gene": "UQCRQ",
+    "raw_records": 0,
+    "uniprot": "O14949",
+    "unique_cds_md5_upper_bound": 0
+  }
+]

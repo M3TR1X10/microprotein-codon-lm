@@ -1,0 +1,45 @@
+{
+  "arms": {
+    "base": {
+      "metrics": {
+        "bigram": {
+          "bits_per_base": 1.7443643116360228,
+          "token_accuracy": 0.4425444596443228
+        },
+        "position": {
+          "bits_per_base": 0.06743693079140466,
+          "token_accuracy": 0.9919440644474844
+        },
+        "uniform": {
+          "bits_per_base": 2.0
+        },
+        "unigram": {
+          "bits_per_base": 1.779822006053766,
+          "token_accuracy": 0.38657090743274053
+        }
+      },
+      "target_bases": 26316
+    },
+    "codon": {
+      "metrics": {
+        "bigram": {
+          "bits_per_base": 0.5423833240434388,
+          "token_accuracy": 0.5432056543547652
+        },
+        "position": {
+          "bits_per_base": 0.15546639969218326,
+          "token_accuracy": 0.9758321933424533
+        },
+        "uniform": {
+          "bits_per_base": 2.0
+        },
+        "unigram": {
+          "bits_per_base": 1.6026944959150624,
+          "token_accuracy": 0.10225718194254446
+        }
+      },
+      "target_bases": 26316
+    }
+  },
+  "scope": "TRAINING resubstitution only; these are not generalization estimates"
+}

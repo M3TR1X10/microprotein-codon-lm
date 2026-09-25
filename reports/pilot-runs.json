@@ -1,0 +1,722 @@
+[
+  {
+    "metrics": [
+      {
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 2.0201629039100455,
+        "training_nll_per_token": 1.4002702211170397,
+        "training_token_accuracy": 0.22271621827025384,
+        "update": 0
+      },
+      {
+        "gradient_norm": 0.16856332123279572,
+        "learning_rate": 0.0009429604079571561,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 1.5710078394778324,
+        "training_nll_per_token": 1.0889396545716306,
+        "training_token_accuracy": 0.5309697522419821,
+        "update": 50
+      },
+      {
+        "gradient_norm": 0.168470561504364,
+        "learning_rate": 0.0006324589372294618,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 1.214955048085347,
+        "training_nll_per_token": 0.842142666087431,
+        "training_token_accuracy": 0.6375208998328014,
+        "update": 100
+      },
+      {
+        "gradient_norm": 0.2611108124256134,
+        "learning_rate": 0.0002624295927544508,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 0.8518281446889252,
+        "training_nll_per_token": 0.5904422768127376,
+        "training_token_accuracy": 0.7647058823529411,
+        "update": 150
+      },
+      {
+        "gradient_norm": 0.27298617362976074,
+        "learning_rate": 0.0001,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 0.7200818038389128,
+        "training_nll_per_token": 0.49912267210346206,
+        "training_token_accuracy": 0.7935096519227847,
+        "update": 200
+      }
+    ],
+    "mode": "base",
+    "run": {
+      "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+      "config": {
+        "batch_size": 16,
+        "checkpoint_interval": 50,
+        "cpu_threads": 4,
+        "deterministic": true,
+        "device": "auto",
+        "diagnostic_interval": 50,
+        "gradient_accumulation": 1,
+        "gradient_clip": 1.0,
+        "learning_rate": 0.001,
+        "max_nt_context": 303,
+        "min_learning_rate": 0.0001,
+        "model": {
+          "d_model": 48,
+          "dropout": 0.1,
+          "n_heads": 4,
+          "n_layers": 2
+        },
+        "precision": "float32",
+        "seeds": [
+          17,
+          29,
+          43
+        ],
+        "stage": "training_only",
+        "updates": 200,
+        "warmup_updates": 20,
+        "weight_decay": 0.01
+      },
+      "created_utc": "2026-09-25T00:23:40.847677+00:00",
+      "device": "cpu",
+      "git": {
+        "commit": null,
+        "dirty": "?? .gitignore\n?? configs/\n?? pyproject.toml\n?? references/\n?? reports/\n?? scripts/\n?? src/\n?? tests/"
+      },
+      "mode": "base",
+      "model": {
+        "d_model": 48,
+        "dropout": 0.1,
+        "max_tokens": 302,
+        "n_heads": 4,
+        "n_layers": 2,
+        "token_width": 1,
+        "vocab_size": 4
+      },
+      "parameters": 56832,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "scope": "Training-only pilot; no hyperparameter winner or predictive accuracy is inferred",
+      "seed": 17,
+      "source_hashes": {
+        "__init__.py": "d8ea13206bf5d77330de44022228a8c004dff38885f00b4feedad8db311a86a2",
+        "acquire.py": "9a460fedacdb5ee225bb7e83da1ea8d1634798caa289a668755c73f0b8108c8a",
+        "baselines.py": "16cea40f8992b9a8762e590e90d0dc09d7e282d66ed3f3d8f08d5c9c00ec23de",
+        "cli.py": "db067bbd42ce8ec0ede08dae3a80e0ca4516f986d8cdadec164d2d7d190c4859",
+        "data.py": "69997d239de6e78854902b076db015456bfe174dac2a6107f89f85069bd72194",
+        "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+        "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+        "quality.py": "b11faf4005a057d107d4509238ccbaeb85ba40814f35a0efb2c4528a54ef1803",
+        "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+        "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+      },
+      "torch": "2.14.0+cpu"
+    },
+    "seed": 17
+  },
+  {
+    "metrics": [
+      {
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 2.0079927605156986,
+        "training_nll_per_token": 4.175503561608714,
+        "training_token_accuracy": 0.00045599635202918376,
+        "update": 0
+      },
+      {
+        "gradient_norm": 0.7712645530700684,
+        "learning_rate": 0.0009429604079571561,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 1.3030016805359685,
+        "training_nll_per_token": 2.7095158233851317,
+        "training_token_accuracy": 0.4908800729594163,
+        "update": 50
+      },
+      {
+        "gradient_norm": 0.7064493298530579,
+        "learning_rate": 0.0006324589372294618,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 0.6605763959665524,
+        "training_nll_per_token": 1.3736299992259975,
+        "training_token_accuracy": 0.9326265389876881,
+        "update": 100
+      },
+      {
+        "gradient_norm": 0.5760381817817688,
+        "learning_rate": 0.0002624295927544508,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 0.36850809085767244,
+        "training_nll_per_token": 0.7662910325745714,
+        "training_token_accuracy": 0.9758321933424533,
+        "update": 150
+      },
+      {
+        "gradient_norm": 0.5005053281784058,
+        "learning_rate": 0.0001,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 0.2891554454861015,
+        "training_nll_per_token": 0.6012818453467387,
+        "training_token_accuracy": 0.9758321933424533,
+        "update": 200
+      }
+    ],
+    "mode": "codon",
+    "run": {
+      "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+      "config": {
+        "batch_size": 16,
+        "checkpoint_interval": 50,
+        "cpu_threads": 4,
+        "deterministic": true,
+        "device": "auto",
+        "diagnostic_interval": 50,
+        "gradient_accumulation": 1,
+        "gradient_clip": 1.0,
+        "learning_rate": 0.001,
+        "max_nt_context": 303,
+        "min_learning_rate": 0.0001,
+        "model": {
+          "d_model": 48,
+          "dropout": 0.1,
+          "n_heads": 4,
+          "n_layers": 2
+        },
+        "precision": "float32",
+        "seeds": [
+          17,
+          29,
+          43
+        ],
+        "stage": "training_only",
+        "updates": 200,
+        "warmup_updates": 20,
+        "weight_decay": 0.01
+      },
+      "created_utc": "2026-09-25T00:24:01.803229+00:00",
+      "device": "cpu",
+      "git": {
+        "commit": null,
+        "dirty": "?? .gitignore\n?? configs/\n?? pyproject.toml\n?? references/\n?? reports/\n?? scripts/\n?? src/\n?? tests/"
+      },
+      "mode": "codon",
+      "model": {
+        "d_model": 48,
+        "dropout": 0.1,
+        "max_tokens": 100,
+        "n_heads": 4,
+        "n_layers": 2,
+        "token_width": 3,
+        "vocab_size": 64
+      },
+      "parameters": 59712,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "scope": "Training-only pilot; no hyperparameter winner or predictive accuracy is inferred",
+      "seed": 17,
+      "source_hashes": {
+        "__init__.py": "d8ea13206bf5d77330de44022228a8c004dff38885f00b4feedad8db311a86a2",
+        "acquire.py": "9a460fedacdb5ee225bb7e83da1ea8d1634798caa289a668755c73f0b8108c8a",
+        "baselines.py": "16cea40f8992b9a8762e590e90d0dc09d7e282d66ed3f3d8f08d5c9c00ec23de",
+        "cli.py": "db067bbd42ce8ec0ede08dae3a80e0ca4516f986d8cdadec164d2d7d190c4859",
+        "data.py": "69997d239de6e78854902b076db015456bfe174dac2a6107f89f85069bd72194",
+        "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+        "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+        "quality.py": "b11faf4005a057d107d4509238ccbaeb85ba40814f35a0efb2c4528a54ef1803",
+        "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+        "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+      },
+      "torch": "2.14.0+cpu"
+    },
+    "seed": 17
+  },
+  {
+    "metrics": [
+      {
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 2.0338184336718474,
+        "training_nll_per_token": 1.4097355130704852,
+        "training_token_accuracy": 0.16157470740234078,
+        "update": 0
+      },
+      {
+        "gradient_norm": 0.17280764877796173,
+        "learning_rate": 0.0009429604079571561,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 1.5568793773457166,
+        "training_nll_per_token": 1.0791465508791067,
+        "training_token_accuracy": 0.5410776713786289,
+        "update": 50
+      },
+      {
+        "gradient_norm": 0.17265841364860535,
+        "learning_rate": 0.0006324589372294618,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 1.20193687645998,
+        "training_nll_per_token": 0.8331191571292625,
+        "training_token_accuracy": 0.6480088159294726,
+        "update": 100
+      },
+      {
+        "gradient_norm": 0.2933591306209564,
+        "learning_rate": 0.0002624295927544508,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 0.8242033440564916,
+        "training_nll_per_token": 0.5712942241408357,
+        "training_token_accuracy": 0.7739398084815321,
+        "update": 150
+      },
+      {
+        "gradient_norm": 0.30940333008766174,
+        "learning_rate": 0.0001,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 0.6800518805358042,
+        "training_nll_per_token": 0.47137604362788144,
+        "training_token_accuracy": 0.8273673810609515,
+        "update": 200
+      }
+    ],
+    "mode": "base",
+    "run": {
+      "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+      "config": {
+        "batch_size": 16,
+        "checkpoint_interval": 50,
+        "cpu_threads": 4,
+        "deterministic": true,
+        "device": "auto",
+        "diagnostic_interval": 50,
+        "gradient_accumulation": 1,
+        "gradient_clip": 1.0,
+        "learning_rate": 0.001,
+        "max_nt_context": 303,
+        "min_learning_rate": 0.0001,
+        "model": {
+          "d_model": 48,
+          "dropout": 0.1,
+          "n_heads": 4,
+          "n_layers": 2
+        },
+        "precision": "float32",
+        "seeds": [
+          17,
+          29,
+          43
+        ],
+        "stage": "training_only",
+        "updates": 200,
+        "warmup_updates": 20,
+        "weight_decay": 0.01
+      },
+      "created_utc": "2026-09-25T00:24:05.965273+00:00",
+      "device": "cpu",
+      "git": {
+        "commit": null,
+        "dirty": "?? .gitignore\n?? configs/\n?? pyproject.toml\n?? references/\n?? reports/\n?? scripts/\n?? src/\n?? tests/"
+      },
+      "mode": "base",
+      "model": {
+        "d_model": 48,
+        "dropout": 0.1,
+        "max_tokens": 302,
+        "n_heads": 4,
+        "n_layers": 2,
+        "token_width": 1,
+        "vocab_size": 4
+      },
+      "parameters": 56832,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "scope": "Training-only pilot; no hyperparameter winner or predictive accuracy is inferred",
+      "seed": 29,
+      "source_hashes": {
+        "__init__.py": "d8ea13206bf5d77330de44022228a8c004dff38885f00b4feedad8db311a86a2",
+        "acquire.py": "9a460fedacdb5ee225bb7e83da1ea8d1634798caa289a668755c73f0b8108c8a",
+        "baselines.py": "16cea40f8992b9a8762e590e90d0dc09d7e282d66ed3f3d8f08d5c9c00ec23de",
+        "cli.py": "db067bbd42ce8ec0ede08dae3a80e0ca4516f986d8cdadec164d2d7d190c4859",
+        "data.py": "69997d239de6e78854902b076db015456bfe174dac2a6107f89f85069bd72194",
+        "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+        "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+        "quality.py": "b11faf4005a057d107d4509238ccbaeb85ba40814f35a0efb2c4528a54ef1803",
+        "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+        "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+      },
+      "torch": "2.14.0+cpu"
+    },
+    "seed": 29
+  },
+  {
+    "metrics": [
+      {
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 2.0016434013353295,
+        "training_nll_per_token": 4.162300440366009,
+        "training_token_accuracy": 0.00011399908800729594,
+        "update": 0
+      },
+      {
+        "gradient_norm": 0.7841999530792236,
+        "learning_rate": 0.0009429604079571561,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 1.2831469371795494,
+        "training_nll_per_token": 2.668229045250402,
+        "training_token_accuracy": 0.46192430460556316,
+        "update": 50
+      },
+      {
+        "gradient_norm": 0.6884438395500183,
+        "learning_rate": 0.0006324589372294618,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 0.6434371479856116,
+        "training_nll_per_token": 1.337989934981277,
+        "training_token_accuracy": 0.9612403100775194,
+        "update": 100
+      },
+      {
+        "gradient_norm": 0.5633128881454468,
+        "learning_rate": 0.0002624295927544508,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 0.3625665640003516,
+        "training_nll_per_token": 0.753935974806452,
+        "training_token_accuracy": 0.9758321933424533,
+        "update": 150
+      },
+      {
+        "gradient_norm": 0.4848216474056244,
+        "learning_rate": 0.0001,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 0.2884998807679955,
+        "training_nll_per_token": 0.5999186368386494,
+        "training_token_accuracy": 0.9758321933424533,
+        "update": 200
+      }
+    ],
+    "mode": "codon",
+    "run": {
+      "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+      "config": {
+        "batch_size": 16,
+        "checkpoint_interval": 50,
+        "cpu_threads": 4,
+        "deterministic": true,
+        "device": "auto",
+        "diagnostic_interval": 50,
+        "gradient_accumulation": 1,
+        "gradient_clip": 1.0,
+        "learning_rate": 0.001,
+        "max_nt_context": 303,
+        "min_learning_rate": 0.0001,
+        "model": {
+          "d_model": 48,
+          "dropout": 0.1,
+          "n_heads": 4,
+          "n_layers": 2
+        },
+        "precision": "float32",
+        "seeds": [
+          17,
+          29,
+          43
+        ],
+        "stage": "training_only",
+        "updates": 200,
+        "warmup_updates": 20,
+        "weight_decay": 0.01
+      },
+      "created_utc": "2026-09-25T00:24:25.465176+00:00",
+      "device": "cpu",
+      "git": {
+        "commit": null,
+        "dirty": "?? .gitignore\n?? configs/\n?? pyproject.toml\n?? references/\n?? reports/\n?? scripts/\n?? src/\n?? tests/"
+      },
+      "mode": "codon",
+      "model": {
+        "d_model": 48,
+        "dropout": 0.1,
+        "max_tokens": 100,
+        "n_heads": 4,
+        "n_layers": 2,
+        "token_width": 3,
+        "vocab_size": 64
+      },
+      "parameters": 59712,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "scope": "Training-only pilot; no hyperparameter winner or predictive accuracy is inferred",
+      "seed": 29,
+      "source_hashes": {
+        "__init__.py": "d8ea13206bf5d77330de44022228a8c004dff38885f00b4feedad8db311a86a2",
+        "acquire.py": "9a460fedacdb5ee225bb7e83da1ea8d1634798caa289a668755c73f0b8108c8a",
+        "baselines.py": "16cea40f8992b9a8762e590e90d0dc09d7e282d66ed3f3d8f08d5c9c00ec23de",
+        "cli.py": "db067bbd42ce8ec0ede08dae3a80e0ca4516f986d8cdadec164d2d7d190c4859",
+        "data.py": "69997d239de6e78854902b076db015456bfe174dac2a6107f89f85069bd72194",
+        "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+        "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+        "quality.py": "b11faf4005a057d107d4509238ccbaeb85ba40814f35a0efb2c4528a54ef1803",
+        "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+        "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+      },
+      "torch": "2.14.0+cpu"
+    },
+    "seed": 29
+  },
+  {
+    "metrics": [
+      {
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 1.967094159979617,
+        "training_nll_per_token": 1.3634857708858055,
+        "training_token_accuracy": 0.25459796321629424,
+        "update": 0
+      },
+      {
+        "gradient_norm": 0.16626663506031036,
+        "learning_rate": 0.0009429604079571561,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 1.544032042552159,
+        "training_nll_per_token": 1.0702414569892424,
+        "training_token_accuracy": 0.5507675938592491,
+        "update": 50
+      },
+      {
+        "gradient_norm": 0.21345214545726776,
+        "learning_rate": 0.0006324589372294618,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 1.1578024753883158,
+        "training_nll_per_token": 0.8025275214607365,
+        "training_token_accuracy": 0.6194330445356437,
+        "update": 100
+      },
+      {
+        "gradient_norm": 0.3333263695240021,
+        "learning_rate": 0.0002624295927544508,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 0.8069021848792958,
+        "training_nll_per_token": 0.5593019744367436,
+        "training_token_accuracy": 0.7650858793129655,
+        "update": 150
+      },
+      {
+        "gradient_norm": 0.5186725854873657,
+        "learning_rate": 0.0001,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 26316,
+        "training_bits_per_base": 0.6710269491683013,
+        "training_nll_per_token": 0.46512043789574975,
+        "training_token_accuracy": 0.8404392764857881,
+        "update": 200
+      }
+    ],
+    "mode": "base",
+    "run": {
+      "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+      "config": {
+        "batch_size": 16,
+        "checkpoint_interval": 50,
+        "cpu_threads": 4,
+        "deterministic": true,
+        "device": "auto",
+        "diagnostic_interval": 50,
+        "gradient_accumulation": 1,
+        "gradient_clip": 1.0,
+        "learning_rate": 0.001,
+        "max_nt_context": 303,
+        "min_learning_rate": 0.0001,
+        "model": {
+          "d_model": 48,
+          "dropout": 0.1,
+          "n_heads": 4,
+          "n_layers": 2
+        },
+        "precision": "float32",
+        "seeds": [
+          17,
+          29,
+          43
+        ],
+        "stage": "training_only",
+        "updates": 200,
+        "warmup_updates": 20,
+        "weight_decay": 0.01
+      },
+      "created_utc": "2026-09-25T00:24:29.935538+00:00",
+      "device": "cpu",
+      "git": {
+        "commit": null,
+        "dirty": "?? .gitignore\n?? configs/\n?? pyproject.toml\n?? references/\n?? reports/\n?? scripts/\n?? src/\n?? tests/"
+      },
+      "mode": "base",
+      "model": {
+        "d_model": 48,
+        "dropout": 0.1,
+        "max_tokens": 302,
+        "n_heads": 4,
+        "n_layers": 2,
+        "token_width": 1,
+        "vocab_size": 4
+      },
+      "parameters": 56832,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "scope": "Training-only pilot; no hyperparameter winner or predictive accuracy is inferred",
+      "seed": 43,
+      "source_hashes": {
+        "__init__.py": "d8ea13206bf5d77330de44022228a8c004dff38885f00b4feedad8db311a86a2",
+        "acquire.py": "9a460fedacdb5ee225bb7e83da1ea8d1634798caa289a668755c73f0b8108c8a",
+        "baselines.py": "16cea40f8992b9a8762e590e90d0dc09d7e282d66ed3f3d8f08d5c9c00ec23de",
+        "cli.py": "db067bbd42ce8ec0ede08dae3a80e0ca4516f986d8cdadec164d2d7d190c4859",
+        "data.py": "69997d239de6e78854902b076db015456bfe174dac2a6107f89f85069bd72194",
+        "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+        "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+        "quality.py": "b11faf4005a057d107d4509238ccbaeb85ba40814f35a0efb2c4528a54ef1803",
+        "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+        "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+      },
+      "torch": "2.14.0+cpu"
+    },
+    "seed": 43
+  },
+  {
+    "metrics": [
+      {
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 2.005797393795254,
+        "training_nll_per_token": 4.170938424850999,
+        "training_token_accuracy": 0.0005699954400364797,
+        "update": 0
+      },
+      {
+        "gradient_norm": 0.7659919261932373,
+        "learning_rate": 0.0009429604079571561,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 1.300829108901639,
+        "training_nll_per_token": 2.7049980876764312,
+        "training_token_accuracy": 0.5330597355221158,
+        "update": 50
+      },
+      {
+        "gradient_norm": 0.7085374593734741,
+        "learning_rate": 0.0006324589372294618,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 0.6671613693395936,
+        "training_nll_per_token": 1.3873230664087548,
+        "training_token_accuracy": 0.8904468764249887,
+        "update": 100
+      },
+      {
+        "gradient_norm": 0.5559207201004028,
+        "learning_rate": 0.0002624295927544508,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 0.3766845621422943,
+        "training_nll_per_token": 0.7832935266281663,
+        "training_token_accuracy": 0.9753761969904241,
+        "update": 150
+      },
+      {
+        "gradient_norm": 0.4964921772480011,
+        "learning_rate": 0.0001,
+        "scored_training_bases": 26316,
+        "scored_training_tokens": 8772,
+        "training_bits_per_base": 0.29607572913853836,
+        "training_nll_per_token": 0.6156721706538237,
+        "training_token_accuracy": 0.9758321933424533,
+        "update": 200
+      }
+    ],
+    "mode": "codon",
+    "run": {
+      "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+      "config": {
+        "batch_size": 16,
+        "checkpoint_interval": 50,
+        "cpu_threads": 4,
+        "deterministic": true,
+        "device": "auto",
+        "diagnostic_interval": 50,
+        "gradient_accumulation": 1,
+        "gradient_clip": 1.0,
+        "learning_rate": 0.001,
+        "max_nt_context": 303,
+        "min_learning_rate": 0.0001,
+        "model": {
+          "d_model": 48,
+          "dropout": 0.1,
+          "n_heads": 4,
+          "n_layers": 2
+        },
+        "precision": "float32",
+        "seeds": [
+          17,
+          29,
+          43
+        ],
+        "stage": "training_only",
+        "updates": 200,
+        "warmup_updates": 20,
+        "weight_decay": 0.01
+      },
+      "created_utc": "2026-09-25T00:24:50.685222+00:00",
+      "device": "cpu",
+      "git": {
+        "commit": null,
+        "dirty": "?? .gitignore\n?? configs/\n?? pyproject.toml\n?? references/\n?? reports/\n?? scripts/\n?? src/\n?? tests/"
+      },
+      "mode": "codon",
+      "model": {
+        "d_model": 48,
+        "dropout": 0.1,
+        "max_tokens": 100,
+        "n_heads": 4,
+        "n_layers": 2,
+        "token_width": 3,
+        "vocab_size": 64
+      },
+      "parameters": 59712,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.14",
+      "scope": "Training-only pilot; no hyperparameter winner or predictive accuracy is inferred",
+      "seed": 43,
+      "source_hashes": {
+        "__init__.py": "d8ea13206bf5d77330de44022228a8c004dff38885f00b4feedad8db311a86a2",
+        "acquire.py": "9a460fedacdb5ee225bb7e83da1ea8d1634798caa289a668755c73f0b8108c8a",
+        "baselines.py": "16cea40f8992b9a8762e590e90d0dc09d7e282d66ed3f3d8f08d5c9c00ec23de",
+        "cli.py": "db067bbd42ce8ec0ede08dae3a80e0ca4516f986d8cdadec164d2d7d190c4859",
+        "data.py": "69997d239de6e78854902b076db015456bfe174dac2a6107f89f85069bd72194",
+        "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+        "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+        "quality.py": "b11faf4005a057d107d4509238ccbaeb85ba40814f35a0efb2c4528a54ef1803",
+        "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+        "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+      },
+      "torch": "2.14.0+cpu"
+    },
+    "seed": 43
+  }
+]

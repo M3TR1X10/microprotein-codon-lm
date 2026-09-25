@@ -1,0 +1,8 @@
+{
+  "candidate_count": 61,
+  "count_verified": true,
+  "matched_to_candidates": 10735,
+  "scope": "Exact normalized gene/alias or curated product-name match; unmapped records are not eligible.",
+  "total_short_human_cds": 300582,
+  "unmapped_records": 289847
+}

@@ -1,0 +1,644 @@
+[
+  {
+    "gene": "MT-ATP8",
+    "metadata_rejections": {
+      "partial_frame": 1
+    },
+    "raw_records": 5318,
+    "sequence_rejections": {
+      "ambiguous_bases": 7
+    },
+    "uniprot": "P03928",
+    "unique_cds_md5_upper_bound": 137,
+    "unique_proteins": 53,
+    "usable_unique_cds": 129
+  },
+  {
+    "gene": "MT-ND4L",
+    "metadata_rejections": {},
+    "raw_records": 5318,
+    "sequence_rejections": {
+      "ambiguous_bases": 3
+    },
+    "uniprot": "P03901",
+    "unique_cds_md5_upper_bound": 112,
+    "unique_proteins": 13,
+    "usable_unique_cds": 109
+  },
+  {
+    "gene": "CHCHD7",
+    "metadata_rejections": {},
+    "raw_records": 11,
+    "sequence_rejections": {
+      "reference_length_mismatch": 7
+    },
+    "uniprot": "Q9BUK0",
+    "unique_cds_md5_upper_bound": 8,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "CMC2",
+    "metadata_rejections": {},
+    "raw_records": 14,
+    "sequence_rejections": {
+      "reference_length_mismatch": 5
+    },
+    "uniprot": "Q9NRP2",
+    "unique_cds_md5_upper_bound": 6,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "COA4",
+    "metadata_rejections": {},
+    "raw_records": 4,
+    "sequence_rejections": {
+      "reference_length_mismatch": 1
+    },
+    "uniprot": "Q9NYJ1",
+    "unique_cds_md5_upper_bound": 2,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "COA5",
+    "metadata_rejections": {},
+    "raw_records": 2,
+    "sequence_rejections": {
+      "partial_location": 1
+    },
+    "uniprot": "Q86WW8",
+    "unique_cds_md5_upper_bound": 2,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "COX6B1",
+    "metadata_rejections": {},
+    "raw_records": 4,
+    "sequence_rejections": {
+      "partial_location": 1
+    },
+    "uniprot": "P14854",
+    "unique_cds_md5_upper_bound": 2,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "COX6B2",
+    "metadata_rejections": {},
+    "raw_records": 5,
+    "sequence_rejections": {},
+    "uniprot": "Q6YFQ2",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "COX6C",
+    "metadata_rejections": {},
+    "raw_records": 10,
+    "sequence_rejections": {},
+    "uniprot": "P09669",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "DYNLL1",
+    "metadata_rejections": {},
+    "raw_records": 8,
+    "sequence_rejections": {
+      "reference_length_mismatch": 1
+    },
+    "uniprot": "P63167",
+    "unique_cds_md5_upper_bound": 2,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "HIGD1A",
+    "metadata_rejections": {},
+    "raw_records": 3,
+    "sequence_rejections": {
+      "reference_length_mismatch": 1
+    },
+    "uniprot": "Q9Y241",
+    "unique_cds_md5_upper_bound": 2,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "HRK",
+    "metadata_rejections": {},
+    "raw_records": 1,
+    "sequence_rejections": {},
+    "uniprot": "O00198",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "LYRM2",
+    "metadata_rejections": {},
+    "raw_records": 5,
+    "sequence_rejections": {
+      "reference_length_mismatch": 3
+    },
+    "uniprot": "Q9NU23",
+    "unique_cds_md5_upper_bound": 4,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "LYRM4",
+    "metadata_rejections": {},
+    "raw_records": 3,
+    "sequence_rejections": {
+      "reference_length_mismatch": 2
+    },
+    "uniprot": "Q9HD34",
+    "unique_cds_md5_upper_bound": 3,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "MRPL33",
+    "metadata_rejections": {},
+    "raw_records": 3,
+    "sequence_rejections": {
+      "reference_length_mismatch": 2
+    },
+    "uniprot": "O75394",
+    "unique_cds_md5_upper_bound": 3,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "MRPL34",
+    "metadata_rejections": {},
+    "raw_records": 3,
+    "sequence_rejections": {},
+    "uniprot": "Q9BQ48",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "MRPS21",
+    "metadata_rejections": {},
+    "raw_records": 2,
+    "sequence_rejections": {},
+    "uniprot": "P82921",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "PIGBOS1",
+    "metadata_rejections": {},
+    "raw_records": 2,
+    "sequence_rejections": {},
+    "uniprot": "A0A0B4J2F0",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "PMAIP1",
+    "metadata_rejections": {},
+    "raw_records": 1,
+    "sequence_rejections": {},
+    "uniprot": "Q13794",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "ROMO1",
+    "metadata_rejections": {},
+    "raw_records": 5,
+    "sequence_rejections": {
+      "reference_length_mismatch": 1
+    },
+    "uniprot": "P60602",
+    "unique_cds_md5_upper_bound": 2,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "SMIM20",
+    "metadata_rejections": {},
+    "raw_records": 1,
+    "sequence_rejections": {},
+    "uniprot": "Q8N5G0",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "SNN",
+    "metadata_rejections": {},
+    "raw_records": 1,
+    "sequence_rejections": {},
+    "uniprot": "O75324",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "TMEM14A",
+    "metadata_rejections": {},
+    "raw_records": 1,
+    "sequence_rejections": {},
+    "uniprot": "Q9Y6G1",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "TRIAP1",
+    "metadata_rejections": {},
+    "raw_records": 1,
+    "sequence_rejections": {},
+    "uniprot": "O43715",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "UQCC3",
+    "metadata_rejections": {},
+    "raw_records": 2,
+    "sequence_rejections": {},
+    "uniprot": "Q6UW78",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "UQCR10",
+    "metadata_rejections": {},
+    "raw_records": 2,
+    "sequence_rejections": {
+      "reference_length_mismatch": 1
+    },
+    "uniprot": "Q9UDW1",
+    "unique_cds_md5_upper_bound": 2,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "UQCR11",
+    "metadata_rejections": {},
+    "raw_records": 3,
+    "sequence_rejections": {},
+    "uniprot": "O14957",
+    "unique_cds_md5_upper_bound": 1,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "UQCRH",
+    "metadata_rejections": {},
+    "raw_records": 2,
+    "sequence_rejections": {
+      "reference_length_mismatch": 1
+    },
+    "uniprot": "P07919",
+    "unique_cds_md5_upper_bound": 2,
+    "unique_proteins": 1,
+    "usable_unique_cds": 1
+  },
+  {
+    "gene": "COX14",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q96I36",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX17",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q14061",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX19",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q49B96",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX6A2",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q02221",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX7A1",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P24310",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX7A2",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P14406",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX7B",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P24311",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX7B2",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q8TF08",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX7C",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P15954",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX8A",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P10176",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "COX8C",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q7Z4L0",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "DBI",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P07108",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "DDIT3",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P0DPQ6",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "MIEF1",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "L0R8F8",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "MT-ND4",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "C0HME5",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "MTRNR2L5",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P0CJ72",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "NDUFA1",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "O15239",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "NDUFA2",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "O43678",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "NDUFA3",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "O95167",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "NDUFB1",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "O75438",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "NDUFB3",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "O43676",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "NDUFC1",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "O43677",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "PET100",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P0DJ07",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "PET117",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q6UWS5",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "TIMM10",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "P62072",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "TIMM13",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q9Y5L4",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "TIMM8A",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "O60220",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "TIMM8B",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q9Y5J9",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "TIMM9",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q9Y5J7",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "TOMM5",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q8N4H5",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "TOMM6",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q96B49",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "TOMM7",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "Q9P0U1",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  },
+  {
+    "gene": "UQCRQ",
+    "metadata_rejections": {},
+    "raw_records": 0,
+    "sequence_rejections": {},
+    "uniprot": "O14949",
+    "unique_cds_md5_upper_bound": 0,
+    "unique_proteins": 0,
+    "usable_unique_cds": 0
+  }
+]

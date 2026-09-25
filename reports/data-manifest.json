@@ -1,0 +1,43 @@
+{
+  "candidate": {
+    "amino_acids": 68,
+    "ensembl": "ENSG00000228253",
+    "gene": "MT-ATP8",
+    "impi_class": "Verified mitochondrial",
+    "product_names": [
+      "A6L",
+      "ATP synthase F(0) complex subunit 8",
+      "F-ATPase subunit 8",
+      "mitochondrially encoded ATP synthase 8"
+    ],
+    "protein": "ATP synthase F(0) complex subunit 8",
+    "reference_protein": "MPQLNTTVWPTMITPMLLTLFLITQLKMLNTNYHLPPSPKPMKMKNYNKPWEPKWTKICSLHSLPPQS",
+    "synonyms": [
+      "ATP8",
+      "ATPASE8",
+      "MTATP8"
+    ],
+    "uniprot": "P03928"
+  },
+  "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+  "created_utc": "2026-09-25T00:17:45.610287+00:00",
+  "deduplication": "Exact RNA sequence; original accession multiplicity retained, never weighted",
+  "function_evidence": "Curated family annotation and reference sequence similarity; variant function is not experimentally confirmed",
+  "min_protein_identity": 0.95,
+  "organism": "Homo sapiens",
+  "scope_limit": "Winner among the explicitly mapped IMPI-verified, reviewed human <=100-aa candidates in this ENA snapshot, not all possible database sequences",
+  "selection_rule": "Maximum unique CDS passing fixed QC; alphabetical gene then UniProt accession breaks ties",
+  "sequences": 129,
+  "source_sha256": {
+    "candidates.json": "b8819e5b2c8a9da74115f8390a5871847d3b5daab362855d9a4e4ae605656ff7",
+    "human-reviewed-small.json": "42c581b636ecc74fe34cf9f40545c738de85583c7694e4411090edf78a2422c6",
+    "human-small-cds.tsv": "f4b5c5054c33ff4bc6db474f12e44fda8334c7564ee3109f237f7f4b9bd93efb",
+    "impi-2021-q4pre.xlsx": "65911f59640c9f5517472a5bfce05305dc6bed8c9f4ad52eb4ee9bbc6e05a13f"
+  },
+  "stage": "training_only",
+  "tax_id": 9606,
+  "test_sequences": 0,
+  "training_sequences": 129,
+  "unique_proteins": 53,
+  "validation_sequences": 0
+}

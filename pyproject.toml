@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microprotein-codon-lm"
+version = "0.1.0"
+description = "Training-only experiments in nucleotide and codon language modeling"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2,<3", "torch>=2.6,<3", "biopython>=1.85,<2", "requests>=2.32,<3", "openpyxl>=3.1,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+reports = ["matplotlib>=3.9,<4"]
+
+[project.scripts]
+microprotein = "microprotein_lm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

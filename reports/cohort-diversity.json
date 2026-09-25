@@ -1,0 +1,9 @@
+{
+  "exact_reference_protein_sequences": 61,
+  "min_reference_protein_identity": 0.9705882352941176,
+  "nucleotides_per_sequence": 207,
+  "pairwise_nucleotide_identity_mean": 0.9849039667827585,
+  "pairwise_nucleotide_identity_min": 0.9371980676328502,
+  "sequences": 129,
+  "variable_positions": 92
+}

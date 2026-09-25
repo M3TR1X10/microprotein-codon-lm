@@ -1,0 +1,333 @@
+{
+  "note": "Raw archives are required if the provider changes content at these URLs.",
+  "protocol_inputs": {
+    "configs/pilot.json": "d340c26019d170685d77f83abdb343d80345dd6d626bd58ab6ed74c695c68d35",
+    "configs/product_aliases.json": "901f384eb600b46be7266ade87cde185bf863fe68a1efa608b9e47a914662d2a"
+  },
+  "sources": [
+    {
+      "bytes": 22327,
+      "etag": null,
+      "file": "cds/CHCHD7-Q9BUK0-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:26.347350+00:00",
+      "sha256": "8a1090db4752197bfd8c75ae389305c96d4a30ca41b34454531ed4c25cc268fe",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4010700.1,KAI4010696.1,KAI4010698.1,KAI4010705.1,KAI4010701.1,KAI4010704.1,KAI4010703.1,KAI4010699.1"
+    },
+    {
+      "bytes": 15860,
+      "etag": null,
+      "file": "cds/CMC2-Q9NRP2-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:27.421404+00:00",
+      "sha256": "780045a190d4030e76033617ca0265dc22767b532a03a21a90d74a02e06112e0",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4056211.1,KAI4056216.1,KAI4056209.1,KAI4056217.1,KAI4056210.1,KAI4056208.1"
+    },
+    {
+      "bytes": 5427,
+      "etag": null,
+      "file": "cds/COA4-Q9NYJ1-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:30.698038+00:00",
+      "sha256": "40fc1706787470c15bdb66433bd82a43aa209dc5f5b256ef8ad240c4994680a4",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4073099.1,KAI4073101.1"
+    },
+    {
+      "bytes": 5451,
+      "etag": null,
+      "file": "cds/COA5-Q86WW8-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:31.418082+00:00",
+      "sha256": "ee5a41f9b3c9a1a0583bec4b8a87a9b8fa93affb0fb22c1f6f6c7778bfd55373",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4035569.1,KAI4035570.1"
+    },
+    {
+      "bytes": 5340,
+      "etag": null,
+      "file": "cds/COX6B1-P14854-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:32.188284+00:00",
+      "sha256": "5f5649586546ad5ad620879386b6b2d4231a9c9d4b5c86152cc669a1deda415f",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4042087.1,KAI4042084.1"
+    },
+    {
+      "bytes": 2806,
+      "etag": null,
+      "file": "cds/COX6B2-Q6YFQ2-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:37.117654+00:00",
+      "sha256": "072c302e90df5b7d35f69aa6df10ed6df7cd518c390ecb059aad7462482ef433",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4044924.1"
+    },
+    {
+      "bytes": 2653,
+      "etag": null,
+      "file": "cds/COX6C-P09669-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:37.771378+00:00",
+      "sha256": "a82582eeaff315031b3d48f7d1a6c1875af6a718c054de4094dbc9ac64906bb2",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4011478.1"
+    },
+    {
+      "bytes": 5298,
+      "etag": null,
+      "file": "cds/DYNLL1-P63167-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:32.959711+00:00",
+      "sha256": "e0afc17c4675e89fcccc96b94c44eb65c84349d08c67645cb0fd1524fa61321d",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4068555.1,KAI4068553.1"
+    },
+    {
+      "bytes": 5677,
+      "etag": null,
+      "file": "cds/HIGD1A-Q9Y241-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:33.737663+00:00",
+      "sha256": "510048ddb8c25622884e2610039a8bda8e274cf489aac6b40dc7c2eaa046e8c9",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4029166.1,KAI4029168.1"
+    },
+    {
+      "bytes": 2693,
+      "etag": null,
+      "file": "cds/HRK-O00198-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:38.454966+00:00",
+      "sha256": "270de26a8b4ec1d1053f90857353701ab85b39c28ee0b80b75f3b6a2af3dd70b",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4068442.1"
+    },
+    {
+      "bytes": 10957,
+      "etag": null,
+      "file": "cds/LYRM2-Q9NU23-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:28.299009+00:00",
+      "sha256": "8223bfeade925ee5f7b425e8046f91761f7966069d4feba2d0a4c62cc031c2e1",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4019144.1,KAI4019148.1,KAI4019146.1,KAI4019147.1"
+    },
+    {
+      "bytes": 8246,
+      "etag": null,
+      "file": "cds/LYRM4-Q9HD34-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:29.077170+00:00",
+      "sha256": "a66ceb7e07b46a6063ce291532fe558bc63ab1f50330f5ee800d88f304fe364c",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4016717.1,KAI4016715.1,KAI4016716.1"
+    },
+    {
+      "bytes": 8112,
+      "etag": null,
+      "file": "cds/MRPL33-O75394-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:29.905400+00:00",
+      "sha256": "c81c5bff1dd6565c2136384e6ee06df5315d2df97f3259575615d3618960df28",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4034016.1,KAI4034017.1,KAI4034018.1"
+    },
+    {
+      "bytes": 2745,
+      "etag": null,
+      "file": "cds/MRPL34-Q9BQ48-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:39.116762+00:00",
+      "sha256": "8894c580a320969a46218c913fd8e7550f38737df9cffe6311745f24f5694312",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4041242.1"
+    },
+    {
+      "bytes": 2742,
+      "etag": null,
+      "file": "cds/MRPS21-P82921-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:39.802598+00:00",
+      "sha256": "5f71529a1fd5697b915d0d8d1600bcd593cf76d08e62e00dcd776e16b3273e47",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4082452.1"
+    },
+    {
+      "bytes": 118321,
+      "etag": null,
+      "file": "cds/MT-ATP8-P03928-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:11.429270+00:00",
+      "sha256": "65e2cabfd62fb0c865c742db8e7625f5ddbb32143c4d9515b0b45ca9d1fe42c0",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/XRQ93995.1,YAE81035.1,XRQ92188.1,XGR28838.1,XDR09175.1,XLI80681.1,XFH19010.1,YAE80970.1,YAE80216.1,XOB82989.1,YCL32229.1,YAR09086.1,XRR01874.1,WML70045.1,XRQ98870.1,KAI3998518.1,XLZ40767.1,XTK79566.1,XOW95612.1,YAE81464.1,WML70942.1,XRQ98948.1,WML72086.1,YAR07136.1,WML71020.1,XRQ89224.1,XRQ99533.1,XRQ88717.1,XRQ98428.1,WML69707.1,YAR09411.1,WRY73258.1,YAR09216.1,XLZ41898.1,XZY25833.1,WML70968.1,XLZ41469.1,XRR01601.1,XZY25820.1,YEW00562.1,XRQ99221.1,XRQ88925.1,XDR08122.1,XRJ24448.1,YAR07435.1,XLZ40962.1,YAR09957.1,XRQ88158.1,XRQ93462.1,XZY31137.1"
+    },
+    {
+      "bytes": 122382,
+      "etag": null,
+      "file": "cds/MT-ATP8-P03928-00050.embl",
+      "retrieved_utc": "2026-09-25T00:17:14.997613+00:00",
+      "sha256": "15f466ae0f1e7b199e975a011f9e84464bdbeebfb7ed85d6c1d4a6487229de30",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/XRQ95503.1,XRQ88821.1,XZY30383.1,YAR08280.1,XTK77486.1,XRQ89393.1,YAE81256.1,WRY73232.1,WRY72647.1,XRQ96088.1,XRQ89666.1,YDB19035.1,XRQ97986.1,XTK77538.1,XZY27172.1,WML71007.1,WRY72543.1,YFY93052.1,WML69785.1,XZY20958.1,YAR08072.1,YAR09866.1,XRQ94424.1,XRR01393.1,XTK79384.1,WML69772.1,XRQ89094.1,XZY20854.1,YAR10009.1,XRR02810.1,WML71683.1,WML71930.1,XVM50035.1,XRQ95945.1,XRQ96426.1,XRQ90485.1,XZY29096.1,XRQ98987.1,WRY73128.1,XRQ88704.1,XZY23155.1,XTK77941.1,XOB83132.1,XRQ88184.1,YAE82569.1,YAR10100.1,XRQ89107.1,YAE81841.1,XRR01809.1,WML71280.1"
+    },
+    {
+      "bytes": 87818,
+      "etag": null,
+      "file": "cds/MT-ATP8-P03928-00100.embl",
+      "retrieved_utc": "2026-09-25T00:17:17.479501+00:00",
+      "sha256": "8cf9a8d5fd77974f3ff51374ddf9b0540afae9edcff48c5045dd3e8dc6e7c8ac",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/XTK77369.1,XRQ90498.1,XRQ98662.1,XRQ96335.1,XFH19153.1,XDR09097.1,XLZ41040.1,XTK76875.1,WML69733.1,XRQ89614.1,XRR02771.1,YAR10893.1,XRQ93748.1,XHP13159.1,WLE64382.1,XRQ97960.1,WZW43804.1,YAR11998.1,XRQ88366.1,XZY22687.1,XVM50048.1,YAE80723.1,YCL32346.1,WML70331.1,WML69681.1,ACB20551.1,XZY31319.1,WML70370.1,XZY26366.1,XRQ90550.1,XZY30565.1,XRQ96517.1,XRQ97908.1,XRR01003.1,YCP72018.1,XZY20737.1"
+    },
+    {
+      "bytes": 124024,
+      "etag": null,
+      "file": "cds/MT-ND4L-P03901-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:21.159708+00:00",
+      "sha256": "b38a06b09d98e78fa31b52ae708d12397b31231fbb6c500683b669e093b594e1",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/XDR09023.1,YAE80363.1,YAE80285.1,YAR06685.1,XRQ94363.1,WRO36534.1,XRQ92127.1,XRQ89540.1,XRR02307.1,XRQ89072.1,WRY72677.1,XFH19248.1,WML70790.1,XRQ92907.1,WML71492.1,XTK75683.1,XTK76905.1,XGR28790.1,XRQ94714.1,YDB19039.1,XRQ97691.1,XZY27501.1,WML70907.1,WPR11941.1,XRQ89397.1,WML70231.1,YCL32233.1,XDR08542.1,XTK75592.1,WAB69199.1,XRR02099.1,XRQ89566.1,YAR08401.1,WML71622.1,XFU38766.1,YAE81910.1,XRR03282.1,XRQ89930.1,XRQ98068.1,XRQ66842.1,XVM50038.1,YAE79921.1,WML70569.1,WML70530.1,XOB82772.1,WML71154.1,XTK78595.1,XTK79557.1,XRQ97418.1,XFH19183.1"
+    },
+    {
+      "bytes": 121499,
+      "etag": null,
+      "file": "cds/MT-ND4L-P03901-00050.embl",
+      "retrieved_utc": "2026-09-25T00:17:23.901406+00:00",
+      "sha256": "c61ab9d7618743daa602b845295a3e7c089fe78a85825e1f02c9a3f02378dd93",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/XDR08009.1,XZY22184.1,XRQ97678.1,XFU38818.1,YAE82768.1,XZY24797.1,YAR10299.1,YAE82677.1,XOB82902.1,XGR28517.1,XDR07320.1,YAE79947.1,XRQ89943.1,XRQ92751.1,XGJ25191.1,ACF94383.1,WML70283.1,YAR11404.1,WRY72885.1,XRQ94142.1,ACB20555.1,YAR10039.1,WAB69212.1,XRQ96222.1,XTK79232.1,XTK76957.1,WML70348.1,YAR11560.1,XDR07684.1,XTK76112.1,WRY73054.1,YCP71983.1,XDR08061.1,XRQ89059.1,WML71206.1,XRQ89852.1,XDR08308.1,XRQ94636.1,XLZ41629.1,XTK77763.1,XDR07567.1,XRQ91451.1,XRQ88292.1,XLZ42227.1,XZY21079.1,WML71960.1,XZY24108.1,XLZ40966.1,YAR11040.1,XRQ88591.1"
+    },
+    {
+      "bytes": 30250,
+      "etag": null,
+      "file": "cds/MT-ND4L-P03901-00100.embl",
+      "retrieved_utc": "2026-09-25T00:17:24.695331+00:00",
+      "sha256": "bc4dafe635e2d53c1f94c7c1412d6c054a22c56cc1573b7bf60b2056e61b955d",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/XRQ95988.1,WML70985.1,YAE81325.1,XRQ88708.1,XRQ97795.1,XDR08373.1,XDR09179.1,XZY22626.1,XTK79570.1,WML70660.1,WRY73301.1,XRR02827.1"
+    },
+    {
+      "bytes": 2466,
+      "etag": null,
+      "file": "cds/PIGBOS1-A0A0B4J2F0-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:40.571239+00:00",
+      "sha256": "606171f6beaafd6359119be6d11df2b0a9621a41f9dac2df30ccf67d736e784f",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4057916.1"
+    },
+    {
+      "bytes": 2594,
+      "etag": null,
+      "file": "cds/PMAIP1-Q13794-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:41.253132+00:00",
+      "sha256": "9fdeace9f39fa060fa1ccea7dce3e578bfd6bf08d9c3dce71c306953777e1844",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4046551.1"
+    },
+    {
+      "bytes": 5201,
+      "etag": null,
+      "file": "cds/ROMO1-P60602-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:34.502392+00:00",
+      "sha256": "f4c4ff9d9f7f43a2c75da9d99ea275f46b80d2c657a0d7b28fcc2ec5ddfab27d",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4005359.1,KAI4005357.1"
+    },
+    {
+      "bytes": 2694,
+      "etag": null,
+      "file": "cds/SMIM20-Q8N5G0-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:41.921314+00:00",
+      "sha256": "7483b2e1fc828913f571d02a9447da606b6289953963ef9f84571228bd250959",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4025073.1"
+    },
+    {
+      "bytes": 2620,
+      "etag": null,
+      "file": "cds/SNN-O75324-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:42.595004+00:00",
+      "sha256": "926cfdaa3dca4332047126989fd4e27a0751a3e293c3911cb3ea4100ff30941e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4053602.1"
+    },
+    {
+      "bytes": 2849,
+      "etag": null,
+      "file": "cds/TMEM14A-Q9Y6G1-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:43.289407+00:00",
+      "sha256": "17f0973923d45fc0dabd8691812e34175e55f37e92bbef167b734274abd32594",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4018661.1"
+    },
+    {
+      "bytes": 2672,
+      "etag": null,
+      "file": "cds/TRIAP1-O43715-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:43.934327+00:00",
+      "sha256": "6df5b0a70d940393f40aa13434535e538e74c00859d9e334780fdc5a18e34100",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4068548.1"
+    },
+    {
+      "bytes": 2814,
+      "etag": null,
+      "file": "cds/UQCC3-Q6UW78-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:44.681556+00:00",
+      "sha256": "da46bc8a6fc53d77e1b7537e909112d7651bcf20dd91fe18b9806021415f9bc0",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4071807.1"
+    },
+    {
+      "bytes": 5326,
+      "etag": null,
+      "file": "cds/UQCR10-Q9UDW1-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:35.281868+00:00",
+      "sha256": "acd7d227e6f7f46efa043e86fbd1c4480b57c8cd8538863ea51ec7312c2d8d09",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4002408.1,KAI4002409.1"
+    },
+    {
+      "bytes": 2618,
+      "etag": null,
+      "file": "cds/UQCR11-O14957-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:45.389989+00:00",
+      "sha256": "db38ad4d177fb668c98b4a63372ee474d610c501916a4986d1533f94980495ad",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4039369.1"
+    },
+    {
+      "bytes": 5510,
+      "etag": null,
+      "file": "cds/UQCRH-P07919-00000.embl",
+      "retrieved_utc": "2026-09-25T00:17:36.465567+00:00",
+      "sha256": "25d0d821ac427bfbc5bceb246327b9b4e6cb1303be366b30a64d75ef1ff6c02d",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KAI4080494.1,KAI4080493.1"
+    },
+    {
+      "bytes": 17298492,
+      "etag": null,
+      "file": "human-reviewed-small.json",
+      "retrieved_utc": "2026-09-25T00:12:26.567812+00:00",
+      "sha256": "42c581b636ecc74fe34cf9f40545c738de85583c7694e4411090edf78a2422c6",
+      "uniprot_release": "2026_03",
+      "url": "https://rest.uniprot.org/uniprotkb/stream?query=%28organism_id%3A9606%29+AND+%28length%3A%5B1+TO+100%5D%29+AND+%28reviewed%3Atrue%29&format=json"
+    },
+    {
+      "bytes": 18,
+      "etag": null,
+      "file": "human-small-cds-count.json",
+      "retrieved_utc": "2026-09-25T00:16:21.878228+00:00",
+      "sha256": "49cdc2e7bdbe637ee34baf582aa0c832e6eac46eba19619a828620a77e6a533e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=coding&query=tax_eq%289606%29+AND+base_count%3C%3D303&format=json"
+    },
+    {
+      "bytes": 41785489,
+      "etag": null,
+      "file": "human-small-cds.tsv",
+      "retrieved_utc": "2026-09-25T00:12:40.120004+00:00",
+      "sha256": "f4b5c5054c33ff4bc6db474f12e44fda8334c7564ee3109f237f7f4b9bd93efb",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=coding&query=tax_eq%289606%29+AND+base_count%3C%3D303&fields=accession%2Cprotein_id%2Cparent_accession%2Cgene%2Cgene_synonym%2Cproduct%2Cbase_count%2Csequence_md5%2Ctax_id%2Ctransl_table%2Ccodon_start%2Cpseudo%2Cpseudo_gene%2Cexception%2Ctransl_except%2Cartificial_location%2Cribosomal_slippage%2Cstudy_accession&format=tsv&limit=0"
+    },
+    {
+      "bytes": 4103301,
+      "etag": "\"674e7c4d-3e9c85\"",
+      "file": "impi-2021-q4pre.xlsx",
+      "retrieved_utc": "2026-09-25T00:12:24.527114+00:00",
+      "sha256": "65911f59640c9f5517472a5bfce05305dc6bed8c9f4ad52eb4ee9bbc6e05a13f",
+      "uniprot_release": null,
+      "url": "https://www.mrc-mbu.cam.ac.uk/files/impi-2021-q4pre-20211001-dist_0.xlsx"
+    }
+  ]
+}

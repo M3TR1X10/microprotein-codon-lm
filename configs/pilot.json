@@ -1,0 +1,20 @@
+{
+  "stage": "training_only",
+  "model": {"d_model": 48, "n_heads": 4, "n_layers": 2, "dropout": 0.1},
+  "max_nt_context": 303,
+  "batch_size": 16,
+  "gradient_accumulation": 1,
+  "updates": 200,
+  "warmup_updates": 20,
+  "learning_rate": 0.001,
+  "min_learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "diagnostic_interval": 50,
+  "checkpoint_interval": 50,
+  "device": "auto",
+  "precision": "float32",
+  "deterministic": true,
+  "cpu_threads": 4,
+  "seeds": [17, 29, 43]
+}

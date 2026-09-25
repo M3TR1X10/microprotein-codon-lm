@@ -1,0 +1,188 @@
+[
+  {
+    "bases_seen": 652800,
+    "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+    "complete": true,
+    "elapsed_seconds": 20.64100000000326,
+    "final": {
+      "gradient_norm": 0.27298617362976074,
+      "learning_rate": 0.0001,
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 26316,
+      "training_bits_per_base": 0.7200818038389128,
+      "training_nll_per_token": 0.49912267210346206,
+      "training_token_accuracy": 0.7935096519227847,
+      "update": 200
+    },
+    "initial": {
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 26316,
+      "training_bits_per_base": 2.0201629039100455,
+      "training_nll_per_token": 1.4002702211170397,
+      "training_token_accuracy": 0.22271621827025384,
+      "update": 0
+    },
+    "mode": "base",
+    "parameters": 56832,
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 17,
+    "sequence_exposures_per_unique_cds": 24.8062015503876,
+    "sequences_seen": 3200,
+    "updates": 200
+  },
+  {
+    "bases_seen": 652800,
+    "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+    "complete": true,
+    "elapsed_seconds": 4.01600000000326,
+    "final": {
+      "gradient_norm": 0.5005053281784058,
+      "learning_rate": 0.0001,
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 8772,
+      "training_bits_per_base": 0.2891554454861015,
+      "training_nll_per_token": 0.6012818453467387,
+      "training_token_accuracy": 0.9758321933424533,
+      "update": 200
+    },
+    "initial": {
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 8772,
+      "training_bits_per_base": 2.0079927605156986,
+      "training_nll_per_token": 4.175503561608714,
+      "training_token_accuracy": 0.00045599635202918376,
+      "update": 0
+    },
+    "mode": "codon",
+    "parameters": 59712,
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 17,
+    "sequence_exposures_per_unique_cds": 24.8062015503876,
+    "sequences_seen": 3200,
+    "updates": 200
+  },
+  {
+    "bases_seen": 652800,
+    "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+    "complete": true,
+    "elapsed_seconds": 19.328000000008615,
+    "final": {
+      "gradient_norm": 0.30940333008766174,
+      "learning_rate": 0.0001,
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 26316,
+      "training_bits_per_base": 0.6800518805358042,
+      "training_nll_per_token": 0.47137604362788144,
+      "training_token_accuracy": 0.8273673810609515,
+      "update": 200
+    },
+    "initial": {
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 26316,
+      "training_bits_per_base": 2.0338184336718474,
+      "training_nll_per_token": 1.4097355130704852,
+      "training_token_accuracy": 0.16157470740234078,
+      "update": 0
+    },
+    "mode": "base",
+    "parameters": 56832,
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 29,
+    "sequence_exposures_per_unique_cds": 24.8062015503876,
+    "sequences_seen": 3200,
+    "updates": 200
+  },
+  {
+    "bases_seen": 652800,
+    "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+    "complete": true,
+    "elapsed_seconds": 4.312999999994645,
+    "final": {
+      "gradient_norm": 0.4848216474056244,
+      "learning_rate": 0.0001,
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 8772,
+      "training_bits_per_base": 0.2884998807679955,
+      "training_nll_per_token": 0.5999186368386494,
+      "training_token_accuracy": 0.9758321933424533,
+      "update": 200
+    },
+    "initial": {
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 8772,
+      "training_bits_per_base": 2.0016434013353295,
+      "training_nll_per_token": 4.162300440366009,
+      "training_token_accuracy": 0.00011399908800729594,
+      "update": 0
+    },
+    "mode": "codon",
+    "parameters": 59712,
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 29,
+    "sequence_exposures_per_unique_cds": 24.8062015503876,
+    "sequences_seen": 3200,
+    "updates": 200
+  },
+  {
+    "bases_seen": 652800,
+    "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+    "complete": true,
+    "elapsed_seconds": 20.562999999994645,
+    "final": {
+      "gradient_norm": 0.5186725854873657,
+      "learning_rate": 0.0001,
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 26316,
+      "training_bits_per_base": 0.6710269491683013,
+      "training_nll_per_token": 0.46512043789574975,
+      "training_token_accuracy": 0.8404392764857881,
+      "update": 200
+    },
+    "initial": {
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 26316,
+      "training_bits_per_base": 1.967094159979617,
+      "training_nll_per_token": 1.3634857708858055,
+      "training_token_accuracy": 0.25459796321629424,
+      "update": 0
+    },
+    "mode": "base",
+    "parameters": 56832,
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 24.8062015503876,
+    "sequences_seen": 3200,
+    "updates": 200
+  },
+  {
+    "bases_seen": 652800,
+    "cohort_sha256": "b93b3363bc7b5d65f0ee2572c8a2c0aa687c6b5f30bbffe68e2492c28c661684",
+    "complete": true,
+    "elapsed_seconds": 4.23399999999674,
+    "final": {
+      "gradient_norm": 0.4964921772480011,
+      "learning_rate": 0.0001,
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 8772,
+      "training_bits_per_base": 0.29607572913853836,
+      "training_nll_per_token": 0.6156721706538237,
+      "training_token_accuracy": 0.9758321933424533,
+      "update": 200
+    },
+    "initial": {
+      "scored_training_bases": 26316,
+      "scored_training_tokens": 8772,
+      "training_bits_per_base": 2.005797393795254,
+      "training_nll_per_token": 4.170938424850999,
+      "training_token_accuracy": 0.0005699954400364797,
+      "update": 0
+    },
+    "mode": "codon",
+    "parameters": 59712,
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 24.8062015503876,
+    "sequences_seen": 3200,
+    "updates": 200
+  }
+]
