@@ -1,0 +1,48 @@
+{
+  "beam_width": 8,
+  "candidates": [
+    {
+      "log_probability": -0.06287676568105852,
+      "rna": "CCUCCC"
+    },
+    {
+      "log_probability": -3.538583271164769,
+      "rna": "CCCCCC"
+    },
+    {
+      "log_probability": -4.3282966153702445,
+      "rna": "CUUCCC"
+    },
+    {
+      "log_probability": -5.0819478071157675,
+      "rna": "UCUCCC"
+    },
+    {
+      "log_probability": -5.932955523086339,
+      "rna": "CCUCCU"
+    },
+    {
+      "log_probability": -6.147102714505254,
+      "rna": "CCUUCC"
+    },
+    {
+      "log_probability": -6.154754897429996,
+      "rna": "CCUCUC"
+    },
+    {
+      "log_probability": -6.87017852333728,
+      "rna": "CAUCCC"
+    }
+  ],
+  "candidates_sha256": "ba792d3626f3b5f885cfada020d99a889798f29a9a07c5d0a80722eb56cf4a77",
+  "created_utc": "2026-09-25T16:02:22.433453+00:00",
+  "identity": {
+    "anchor_id": "7623be45d301f646d50e4a7189d259409ac3ab59ef237690a008d80c02ad697c",
+    "gap_codons": 2,
+    "left_context_codons": "full",
+    "model_id": "human_atp8_base-seed17",
+    "plan_sha256": "173e6daeb95348cb88742f8603a26ecabcfc4f1c13d1f13ef711ca22ab67a064",
+    "sequence_sha256": "55722c26877649fc8f198c525927e5c64f36a113aa7b512f1f0939fae0dea2ae",
+    "start_codon": 35
+  }
+}

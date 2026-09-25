@@ -1,12 +1,12 @@
 {
   "complete": false,
-  "completed_runs": 15,
-  "elapsed_seconds": 7802.467528000008,
+  "completed_runs": 16,
+  "elapsed_seconds": 8227.170528000017,
   "in_progress": {
-    "job_index": 15,
-    "started_utc": "2026-09-25T15:53:40.674678+00:00"
+    "job_index": 16,
+    "started_utc": "2026-09-25T16:00:45.374590+00:00"
   },
-  "last_job": 15,
+  "last_job": 16,
   "plan_sha256": "0911988a949932344ae1d444c732273215097f79107247faffdeb3a862c99006",
   "planned_runs": 25,
   "recovery_accounting": {
@@ -20,5 +20,5 @@
     "original_elapsed_wall_seconds": 20466.25
   },
   "status": "running",
-  "updated_utc": "2026-09-25T15:53:40.686903+00:00"
+  "updated_utc": "2026-09-25T16:00:45.391793+00:00"
 }

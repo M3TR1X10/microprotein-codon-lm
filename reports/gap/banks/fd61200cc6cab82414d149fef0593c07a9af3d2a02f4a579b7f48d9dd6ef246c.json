@@ -1,0 +1,48 @@
+{
+  "beam_width": 8,
+  "candidates": [
+    {
+      "log_probability": -0.304865203998362,
+      "rna": "CCUCCCUCACCAAAGCCCAUAAAAAUAAAAAAUUAUAACAAACCCUGA"
+    },
+    {
+      "log_probability": -3.8355965582268863,
+      "rna": "CCCCCCUCACCAAAGCCCAUAAAAAUAAAAAAUUAUAACAAACCCUGA"
+    },
+    {
+      "log_probability": -3.836060694188272,
+      "rna": "CCUCCCUCACCAAAACCCAUAAAAAUAAAAAAUUAUAACAAACCCUGA"
+    },
+    {
+      "log_probability": -4.088735827153063,
+      "rna": "CCUCCCUCACCAAAGCCCAUAAAAAUAAAAAACUAUAACAAACCCUGA"
+    },
+    {
+      "log_probability": -4.113882541949652,
+      "rna": "CCUCCCUCACCAAAGCCCAUAAAAAUAAAAAGUUAUAACAAACCCUGA"
+    },
+    {
+      "log_probability": -4.558729855579266,
+      "rna": "CUUCCCUCACCAAAGCCCAUAAAAAUAAAAAAUUAUAACAAACCCUGA"
+    },
+    {
+      "log_probability": -4.586225200329858,
+      "rna": "CCUCCCUCACCAAAGCCCAUAAAAAUAAAAAAUUAUAACAAGCCCUGA"
+    },
+    {
+      "log_probability": -4.729045034251665,
+      "rna": "CCUCCCUCACCAAAGCCCAUAAAAAUAAAAAAUCAUAACAAACCCUGA"
+    }
+  ],
+  "candidates_sha256": "b4fac905d7f6f02d6e5d41212e2b20c17dfab65eff42305b03a9e12a500b4cbd",
+  "created_utc": "2026-09-25T16:02:45.535585+00:00",
+  "identity": {
+    "anchor_id": "7623be45d301f646d50e4a7189d259409ac3ab59ef237690a008d80c02ad697c",
+    "gap_codons": 16,
+    "left_context_codons": "full",
+    "model_id": "human_atp8_base-seed29",
+    "plan_sha256": "173e6daeb95348cb88742f8603a26ecabcfc4f1c13d1f13ef711ca22ab67a064",
+    "sequence_sha256": "55722c26877649fc8f198c525927e5c64f36a113aa7b512f1f0939fae0dea2ae",
+    "start_codon": 35
+  }
+}

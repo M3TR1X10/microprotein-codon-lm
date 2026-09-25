@@ -31,13 +31,18 @@ class DynamicIdentityGate:
     def evaluate(self, protein):
         best_score = -1
         best_alignment = None
+        best_identity = -1.0
         for ref in self.references:
             alignments = self.aligner.align(ref, protein)
             if alignments:
                 aln = alignments[0]
-                if aln.score > best_score:
+                c = aln.counts()
+                target_len = len(aln.target)
+                identity = c.identities / target_len
+                if aln.score > best_score or (aln.score == best_score and identity > best_identity):
                     best_score = aln.score
                     best_alignment = aln
+                    best_identity = identity
         
         if not best_alignment:
             return None, 'no_alignment'

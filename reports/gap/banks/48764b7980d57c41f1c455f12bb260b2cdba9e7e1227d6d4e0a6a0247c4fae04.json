@@ -1,0 +1,48 @@
+{
+  "beam_width": 8,
+  "candidates": [
+    {
+      "log_probability": -4.060766933786924,
+      "rna": "CCUCCCUCACCAAAAACUAUAGCCACAGAAAAGACGAAUAACCCUUGA"
+    },
+    {
+      "log_probability": -4.722573558593914,
+      "rna": "CCUCCCUCACCAAAAACUAUAGCCACAGAAAAAACGAAUAACCCUUGA"
+    },
+    {
+      "log_probability": -4.928773488920263,
+      "rna": "CCUCCCUCACCAAAAACUAUAGCCACAGAAUACACGAAUAACCCUUGA"
+    },
+    {
+      "log_probability": -5.627459067453764,
+      "rna": "GCACCUCCACCAAAAACUAUAGCCACAGAAAAGCCUAGACCUCCUUGA"
+    },
+    {
+      "log_probability": -5.772282244319917,
+      "rna": "GCACCUCCACCAAAGCUCACAGAAUUUUUAAAACAAAACACCCCUUGA"
+    },
+    {
+      "log_probability": -5.925741820220819,
+      "rna": "GCACCUCCACCAAAAACUAUAGCCACAGAAAAGCCUAAGUACCCUUGA"
+    },
+    {
+      "log_probability": -6.005042755453488,
+      "rna": "GCACCUCCACCAAAAACUAUAGCCACAGAAAAACCUAAUAACCCUUGA"
+    },
+    {
+      "log_probability": -6.300492408191743,
+      "rna": "GCACCUUCACCAAAAACUAUAGCCACAGAAAAGCCUAGACCUCCUUGA"
+    }
+  ],
+  "candidates_sha256": "0b32e8a488c14c68b7256e3d5f3afe22ec393065520cc8d0fd0f08f82c1c23f2",
+  "created_utc": "2026-09-25T16:03:56.493294+00:00",
+  "identity": {
+    "anchor_id": "7623be45d301f646d50e4a7189d259409ac3ab59ef237690a008d80c02ad697c",
+    "gap_codons": 16,
+    "left_context_codons": 8,
+    "model_id": "vertebrate_complex_codon-seed29",
+    "plan_sha256": "173e6daeb95348cb88742f8603a26ecabcfc4f1c13d1f13ef711ca22ab67a064",
+    "sequence_sha256": "55722c26877649fc8f198c525927e5c64f36a113aa7b512f1f0939fae0dea2ae",
+    "start_codon": 35
+  }
+}

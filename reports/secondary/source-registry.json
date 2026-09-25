@@ -46,7 +46,7 @@
       }
     }
   },
-  "coverage": "All receipt-bearing raw files present at report generation, including prior-pilot inputs; individual sequence provenance identifies used files.",
+  "coverage": "Receipt-bearing training acquisition files, including prior-pilot inputs; data/raw/gap is excluded. Individual sequence provenance identifies used files.",
   "note": "URLs may change. Preserve the raw archives; hashes alone cannot reconstruct a changed provider response.",
   "path_base": "data/raw",
   "scope": "TRAINING ONLY; all diagnostics are resubstitution, with no held-out observations.",

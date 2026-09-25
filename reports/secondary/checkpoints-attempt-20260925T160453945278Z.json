@@ -1,0 +1,42 @@
+{
+  "all_planned_runs_verified": false,
+  "audit_script_sha256": "64c2fc4052679796d7a3b37fd15d7438a3d86b59c0ddaeea05e24bc8f83f4ea8",
+  "cpu_threads": 1,
+  "created_utc": "2026-09-25T16:04:53.933706+00:00",
+  "device": "cpu",
+  "engine_source_hashes": {
+    "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+    "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+    "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+    "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+    "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+    "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+  },
+  "established_inventory_preserved": true,
+  "excluded_run_count": 0,
+  "excluded_runs": [],
+  "failed_run_count": 0,
+  "failed_runs": [],
+  "global_error": {
+    "error": "Engine source changed after plan freeze",
+    "error_type": "ValueError"
+  },
+  "limitations": [
+    "Checks loadability, finite serialized tensors, frozen architecture and metadata consistency; does not reproduce optimization.",
+    "Hashes establish identity at audit time and cannot independently prove earlier unrecorded file contents.",
+    "Re-audits enforce established file and model-state hashes for the same frozen plan; failure preserves that inventory.",
+    "No inference, model selection, held-out evaluation, biological-function or structural claim is made.",
+    "Only completed runs present in the frozen-plan results are audited; excluded runs are listed explicitly.",
+    "An outer timeout may leave an older rolling checkpoint for an incomplete run; such runs are not relabeled complete."
+  ],
+  "output_file": "reports/secondary/checkpoints-attempt-20260925T160453945278Z.json",
+  "plan_sha256": "0911988a949932344ae1d444c732273215097f79107247faffdeb3a862c99006",
+  "planned_runs": 25,
+  "previous_inventory_sha256": "efff8d0fb22236b6cac1bda382032f811498313a57a36eb113cf1a735c4ff7ce",
+  "previous_verified_run_count": 16,
+  "results_sha256": "2611c5065c419f795b0ad7fc207fa3d07a9e7a609fa67a541e514947375134bd",
+  "scope": "CHECKPOINT INTEGRITY ONLY; no fitting, inference or new training diagnostics",
+  "status": "failed",
+  "verified_run_count": 0,
+  "verified_runs": []
+}

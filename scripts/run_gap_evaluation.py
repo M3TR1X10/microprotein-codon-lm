@@ -68,15 +68,18 @@ def find_model_specs(root, eval_config):
             run_info = runs_by_arm_seed[key]
             model_id = f"{arm}-seed{seed}"
             meta_path = f"runs/secondary/{model_id}/summary.json"
+            ckpt_file = v_info['files']['final.pt']['file']
+            ckpt_path = root / ckpt_file
+            ckpt_obj = torch.load(ckpt_path, weights_only=True, map_location='cpu')
             specs.append({
                 'model_id': model_id,
                 'arm': arm,
                 'seed': seed,
-                'mode': run_info['tokenizer_mode'],
+                'mode': run_info['mode'],
                 'dataset': run_info['dataset'],
                 'role': 'primary_matched',
                 'checkpoint': v_info['files']['final.pt'],
-                'checkpoint_identity': run_info.get('checkpoint_identity', f"secondary_train_v1:{arm}:{seed}"),
+                'checkpoint_identity': ckpt_obj['identity'],
                 'run_metadata_file': meta_path,
                 'cohort_path': f"data/processed/secondary/{run_info['dataset']}/cohort.jsonl"
             })
@@ -88,15 +91,18 @@ def find_model_specs(root, eval_config):
         v_info = verified_map[(exp_arm, exp_seed)]
         run_info = runs_by_arm_seed[(exp_arm, exp_seed)]
         model_id = f"{exp_arm}-seed{exp_seed}"
+        ckpt_file = v_info['files']['final.pt']['file']
+        ckpt_path = root / ckpt_file
+        ckpt_obj = torch.load(ckpt_path, weights_only=True, map_location='cpu')
         specs.append({
             'model_id': model_id,
             'arm': exp_arm,
             'seed': exp_seed,
-            'mode': run_info['tokenizer_mode'],
+            'mode': run_info['mode'],
             'dataset': run_info['dataset'],
             'role': 'exploratory_full_pool',
             'checkpoint': v_info['files']['final.pt'],
-            'checkpoint_identity': run_info.get('checkpoint_identity', f"secondary_train_v1:{exp_arm}:{exp_seed}"),
+            'checkpoint_identity': ckpt_obj['identity'],
             'run_metadata_file': f"runs/secondary/{model_id}/summary.json",
             'cohort_path': f"data/processed/secondary/{run_info['dataset']}/cohort.jsonl"
         })

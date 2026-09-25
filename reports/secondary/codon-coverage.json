@@ -3794,7 +3794,7 @@
     }
   },
   "definition": "All64 codon classes including zeros. Target counts omit first codon, include full stop. Variation is within family and primary taxon stratum; all3 bases of variable codons count. No pairwise identity computation.",
-  "generated_utc": "2026-09-25T03:10:01.483048+00:00",
+  "generated_utc": "2026-09-25T16:05:30.270170+00:00",
   "scope": "TRAINING ONLY; all diagnostics are resubstitution, with no held-out observations.",
   "vocabulary": [
     "AAA",

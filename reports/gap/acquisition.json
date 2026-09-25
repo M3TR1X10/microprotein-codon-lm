@@ -1,6 +1,6 @@
 {
   "cohort_file": "data/processed/gap/cohort.jsonl",
-  "created_utc": "2026-09-25T15:52:59.897282+00:00",
+  "created_utc": "2026-09-25T16:00:17.818652+00:00",
   "eligible_before_training_exclusion": 189,
   "family_taxon_counts": {
     "ATP5F1E:10090": 1,
@@ -89,7 +89,7 @@
     },
     "references_sha256": "7120ee9992fefd0011a79c5a50e15aa003215d24bc2f118d35963e638c52a9a1",
     "source_hashes": {
-      "src/microprotein_lm/acquire.py": "9a460fedacdb5ee225bb7e83da1ea8d1634798caa289a668755c73f0b8108c8a",
+      "src/microprotein_lm/acquire.py": "10204531c25fc870d7fb08f23cc1a83a9fca34803231b4e4245e6f77daad9cd9",
       "src/microprotein_lm/gap_acquire.py": "511e65954af13bdf6571bdae3ecc9f43ac5a834cc0a16f9bc6ec5d1f5f452290",
       "src/microprotein_lm/secondary_acquire.py": "cf28c56551a78c57c6d5dd6b8ad1aedab3d1d721dea6a24074812d9bd5483581",
       "src/microprotein_lm/secondary_genomes.py": "483a56883149e47484a86564f46b97c636b2945b67066d17cbc4a77eae73c2a1"

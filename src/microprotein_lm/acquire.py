@@ -10,6 +10,7 @@ import re
 import time
 from collections import defaultdict
 from pathlib import Path
+from typing import Dict, List, Optional, Tuple
 
 import openpyxl
 import requests
@@ -60,6 +61,47 @@ class Download:
                 'uniprot_release': response.headers.get('X-UniProt-Release')})
         time.sleep(0.12)
         return path
+
+
+def fetch_insdseq_xml_with_failover(accession_ids: str, session: requests.Session = None) -> Tuple[bytes, str]:
+    """Fetches INSDSeq XML from ENA XML API with failover to NCBI Entrez efetch.
+
+    Returns:
+        Tuple of (raw_xml_bytes, source_url)
+    """
+    if session is None:
+        session = requests.Session()
+        session.headers['User-Agent'] = 'microprotein-codon-lm/0.1 scientific-data-acquisition'
+
+    # Primary: ENA XML API
+    ena_url = f"https://www.ebi.ac.uk/ena/browser/api/xml/{accession_ids}"
+    try:
+        resp = session.get(ena_url, timeout=(15, 60))
+        if resp.status_code == 200 and (b'<INSD' in resp.content or b'<?xml' in resp.content):
+            return resp.content, ena_url
+    except Exception:
+        pass
+
+    # Failover 1: NCBI Entrez nuccore
+    ncbi_nuccore_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id={accession_ids}&retmode=xml"
+    try:
+        resp = session.get(ncbi_nuccore_url, timeout=(15, 60))
+        if resp.status_code == 200 and (b'<INSD' in resp.content or b'<?xml' in resp.content):
+            return resp.content, ncbi_nuccore_url
+    except Exception:
+        pass
+
+    # Failover 2: NCBI Entrez protein
+    ncbi_protein_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id={accession_ids}&retmode=xml"
+    try:
+        resp = session.get(ncbi_protein_url, timeout=(15, 60))
+        if resp.status_code == 200 and (b'<INSD' in resp.content or b'<?xml' in resp.content):
+            return resp.content, ncbi_protein_url
+    except Exception:
+        pass
+
+    raise RuntimeError(f"Failed to fetch INSDSeq XML for {accession_ids} from ENA and NCBI Entrez endpoints")
+
 
 
 def discover(raw='data/raw'):

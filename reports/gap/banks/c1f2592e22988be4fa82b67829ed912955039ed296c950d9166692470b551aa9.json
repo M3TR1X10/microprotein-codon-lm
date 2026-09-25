@@ -1,0 +1,48 @@
+{
+  "beam_width": 8,
+  "candidates": [
+    {
+      "log_probability": -3.209142800393097,
+      "rna": "CCUCCCUCACCAAAAACUAUAGCC"
+    },
+    {
+      "log_probability": -3.3257970602459093,
+      "rna": "GCACCUCCACCAAAAAUUACAGAA"
+    },
+    {
+      "log_probability": -3.40242013674545,
+      "rna": "GCACCUCCACCAAAAACUAUAGCC"
+    },
+    {
+      "log_probability": -3.877593661580824,
+      "rna": "GCACCUCCACCAAAGAUUACAGAA"
+    },
+    {
+      "log_probability": -3.967947984306696,
+      "rna": "GCACCUCCACCAAAGCUCACAGAA"
+    },
+    {
+      "log_probability": -4.06849230040459,
+      "rna": "GCACCUUCACCAAAAACUAUAGCC"
+    },
+    {
+      "log_probability": -4.34983612251165,
+      "rna": "CCUCCCUCACCAAAGAUUACAGAA"
+    },
+    {
+      "log_probability": -4.653325494165768,
+      "rna": "GCACCUCCACCAAAAACUACAACA"
+    }
+  ],
+  "candidates_sha256": "aef5c6006a4d27b4a1036e2e2d186000e864c2072e380d06b510a3250538931c",
+  "created_utc": "2026-09-25T16:03:56.216999+00:00",
+  "identity": {
+    "anchor_id": "7623be45d301f646d50e4a7189d259409ac3ab59ef237690a008d80c02ad697c",
+    "gap_codons": 8,
+    "left_context_codons": 8,
+    "model_id": "vertebrate_complex_codon-seed29",
+    "plan_sha256": "173e6daeb95348cb88742f8603a26ecabcfc4f1c13d1f13ef711ca22ab67a064",
+    "sequence_sha256": "55722c26877649fc8f198c525927e5c64f36a113aa7b512f1f0939fae0dea2ae",
+    "start_codon": 35
+  }
+}

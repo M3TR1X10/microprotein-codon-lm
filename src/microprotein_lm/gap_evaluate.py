@@ -19,10 +19,18 @@ def digest(value):
 
 
 def atomic_json(path, value):
+    import time
     path = Path(path)
     temporary = path.with_suffix('.partial.json')
     write_json(temporary, value)
-    temporary.replace(path)
+    for attempt in range(10):
+        try:
+            temporary.replace(path)
+            return
+        except (PermissionError, OSError):
+            if attempt == 9:
+                raise
+            time.sleep(0.1)
 
 
 def state_hash(model):
@@ -44,7 +52,12 @@ def load_model(root, model_spec):
     checkpoint = torch.load(path, weights_only=True, map_location='cpu')
     if checkpoint['identity'] != model_spec['checkpoint_identity'] or checkpoint['update'] != 2000:
         raise ValueError('Checkpoint does not match frozen evaluation identity')
-    model = Decoder(ModelConfig(**metadata['model']))
+    cfg = metadata.get('config', metadata)
+    from .tokenization import Tokenizer
+    tok = Tokenizer(model_spec['mode'])
+    maximum = cfg['max_nt_context'] // tok.width - 1
+    model_cfg = ModelConfig(vocab_size=len(tok.vocabulary), max_tokens=maximum, token_width=tok.width, **cfg['model'])
+    model = Decoder(model_cfg)
     model.load_state_dict(checkpoint['model'], strict=True)
     if state_hash(model) != info['model_state_sha256']:
         raise ValueError('Model tensor state disagrees with audited identity')
