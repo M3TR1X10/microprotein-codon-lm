@@ -1,0 +1,87 @@
+{
+  "inventories": [
+    {
+      "index_file": "data/raw/gap/outer-index/9606.tsv",
+      "index_file_sha256": "3e041586aa85aa59fd8d400903726f1d23f8823377e8d26ede761a13dce8e588",
+      "inventory_records": 139512,
+      "query": "tax_eq(9606) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 713,
+      "selected_total_nt": 2427675,
+      "tax_id": 9606
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/10090.tsv",
+      "index_file_sha256": "1abbdc393bcd7789081ea35791667441c9215536340373163c5802fe68327298",
+      "inventory_records": 2988,
+      "query": "tax_eq(10090) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 57,
+      "selected_total_nt": 147501,
+      "tax_id": 10090
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/10116.tsv",
+      "index_file_sha256": "e0c33a5a776da1ba14770436e482bac66960d7393866986b60361281be754ec7",
+      "inventory_records": 1317,
+      "query": "tax_eq(10116) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 9,
+      "selected_total_nt": 14323,
+      "tax_id": 10116
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/9913.tsv",
+      "index_file_sha256": "942f0191c7159840759df7da92f58b48c83fb4de3f289071275e7752b7314558",
+      "inventory_records": 11919,
+      "query": "tax_eq(9913) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 364,
+      "selected_total_nt": 415739,
+      "tax_id": 9913
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/9823.tsv",
+      "index_file_sha256": "b8f83dd5a915078b72853d48e67d1e9e32559608bd43185dc6514f8f32705ed8",
+      "inventory_records": 12820,
+      "query": "tax_eq(9823) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 169,
+      "selected_total_nt": 77824,
+      "tax_id": 9823
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/9601.tsv",
+      "index_file_sha256": "dbc7b0db2c1345695dd1cae289a002fafe3c526f33ba8a87824928a522dcde9a",
+      "inventory_records": 221,
+      "query": "tax_eq(9601) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 0,
+      "selected_total_nt": 0,
+      "tax_id": 9601
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/9031.tsv",
+      "index_file_sha256": "0503150dbe5f7563e2eccbd74d6d7b3219ffaead18efcfde79a3b6422e078c49",
+      "inventory_records": 15732,
+      "query": "tax_eq(9031) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 67,
+      "selected_total_nt": 37716,
+      "tax_id": 9031
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/7955.tsv",
+      "index_file_sha256": "ba34cde9b6bdc018ed669534255467512a7793cbe8ccadb408efe1894ba4c516",
+      "inventory_records": 585,
+      "query": "tax_eq(7955) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 0,
+      "selected_total_nt": 0,
+      "tax_id": 7955
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/8355.tsv",
+      "index_file_sha256": "c9835f792476acc257554fd0ab6e86daab873968e0676b86539b85b4d82d52be",
+      "inventory_records": 1005,
+      "query": "tax_eq(8355) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 0,
+      "selected_total_nt": 0,
+      "tax_id": 8355
+    }
+  ],
+  "selected_parents": 1379,
+  "selected_total_nt": 3120778
+}

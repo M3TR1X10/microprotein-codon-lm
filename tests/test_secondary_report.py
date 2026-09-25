@@ -98,6 +98,20 @@ def test_zero_variable_support_stays_missing(report):
     assert pair['variable_delta'] is None and pair['variable_target_bases'] == 0
 
 
+def test_training_registry_does_not_absorb_prospective_test_sources(report, tmp_path):
+    raw = tmp_path / 'data/raw'
+    (raw / 'secondary').mkdir(parents=True)
+    (raw / 'gap').mkdir()
+    data = raw / 'secondary/fixture.txt'
+    data.write_text('SOFTWARE FIXTURE', encoding='utf-8')
+    write_json(data.with_suffix('.txt.source.json'), {'sha256': sha256(data)})
+    # Even an incomplete concurrent test download must not enter training history.
+    write_json(raw / 'gap/pending.source.json', {'sha256': 'not-a-training-source'})
+    registry = report.source_registry(tmp_path)
+    assert len(registry['sources']) == 1
+    assert registry['sources'][0]['file'] == 'secondary/fixture.txt'
+
+
 def test_execution_identity_and_status_are_checked(report):
     good = {'plan_sha256': 'FROZEN', 'elapsed_seconds': 100., 'status': 'timed_out'}
     report.validate_execution(good, 'FROZEN')

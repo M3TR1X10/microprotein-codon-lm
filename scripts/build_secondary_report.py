@@ -222,6 +222,8 @@ def linear_diversity(records):
 def source_registry(root):
     raw, sources = root/'data/raw', []
     for path in sorted(raw.rglob('*.source.json')):
+        if path.relative_to(raw).parts[0] == 'gap':
+            continue  # Prospective held-out acquisition belongs to its own registry.
         receipt = read_json(path)
         data_path = Path(str(path).removesuffix('.source.json'))
         actual = sha256(data_path)
@@ -231,7 +233,7 @@ def source_registry(root):
                         'receipt_file': path.relative_to(raw).as_posix(),
                         'receipt_sha256': sha256(path), 'actual_sha256': actual})
     return {'scope': SCOPE, 'path_base': 'data/raw', 'sources': sources,
-            'coverage': 'All receipt-bearing raw files present at report generation, including prior-pilot inputs; individual sequence provenance identifies used files.',
+            'coverage': 'Receipt-bearing training acquisition files, including prior-pilot inputs; data/raw/gap is excluded. Individual sequence provenance identifies used files.',
             'note': 'URLs may change. Preserve the raw archives; hashes alone cannot reconstruct a changed provider response.'}
 
 

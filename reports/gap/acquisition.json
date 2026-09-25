@@ -1,0 +1,1406 @@
+{
+  "cohort_file": "data/processed/gap/cohort.jsonl",
+  "created_utc": "2026-09-25T15:52:59.897282+00:00",
+  "eligible_before_training_exclusion": 189,
+  "family_taxon_counts": {
+    "ATP5F1E:10090": 1,
+    "ATP5ME:10090": 1,
+    "ATP8:9606": 1,
+    "ATP8:9913": 17
+  },
+  "frozen": true,
+  "identity": {
+    "cohort_sha256": "11ebad367daafe929007c1b20f727fbb89741bdff3e99492fc2834cbe353b577",
+    "config_sha256": "7c76a3c2442b091ddf027e4e9a20477e9e1952b38b6bb762787ecd2a16cbffe0",
+    "data_card_sha256": "7d8a70b47861b8015a4508cf3edb6c740636d13f9acb52d4a96dcb495245a09f",
+    "include_outer_parents": true,
+    "raw_source_hashes": {
+      "data/raw/gap/cds/0c95f89f9f4a166fec874054.embl": "dbb2abd508825202bc2e4faabd66b435f2f4dddd999c80653c8c49a39af9e8bf",
+      "data/raw/gap/cds/0d5ac2cebdeacb7431908847.embl": "6af9b34926230f984559b3d7da960c8c20935fa01ec0820bda042e1626b76e45",
+      "data/raw/gap/cds/129c7451800c50a4488ab966.embl": "66c51ea6e5c63ff8d078a1d6202432d7f8e4d2629207dae0ec38edc331bf7651",
+      "data/raw/gap/cds/166fa6a0d871b815a564c2a6.embl": "f2ce81b937c99f40b76323be882792cb4892d95042c85ee62c95e643953e600d",
+      "data/raw/gap/cds/18bf52a37fee0101aa0a281b.embl": "4cbfcba5a117d5a98fb92ce038355493950a2c03c45bcff7cd9ccb07f104ce21",
+      "data/raw/gap/cds/1eec7b1d26ddc06171f6e070.embl": "233423e331025b13172e4dfca4868d6625d884c28c08fab21ee79cc892f6ce3e",
+      "data/raw/gap/cds/2100fc3e73cb81bd7329f9d6.embl": "14a273a6e16faabd606d57af7eee0fb8a9e8dd7ef9e2730876a419cb7a4e220f",
+      "data/raw/gap/cds/22651cf467f273019c2aec68.embl": "38da71cfaabebb8391da1209e826fd37ebebf7c136780ddd4d7c697b55353b1b",
+      "data/raw/gap/cds/23eee17d17355c46a8218bde.embl": "fd9f546743b4e7f1ab752729a5d3e5267c0257a580993db5301f7675889d40d4",
+      "data/raw/gap/cds/24fdd1074f23e75ed0ec85c3.embl": "de494a7e21d9c937319a50cbc25a734a84a6e37ab415da267ada2bc9d3c93877",
+      "data/raw/gap/cds/2543357f5bf811689d2ed209.embl": "4320b416bd00d9aba6e92a307519cf96feb70e57b21285059d1d4b92d86884aa",
+      "data/raw/gap/cds/26117f583b29c141e033c36c.embl": "242be3ec9475bc8da1214bf9b5a76f7fd149b056e24f06b1e407c7ae61d513ec",
+      "data/raw/gap/cds/378d129f992b42cb9d9ad1f5.embl": "aa64357fd21a855c900a72374cf4567b1745c6da83aa70d4743c59c54fb39839",
+      "data/raw/gap/cds/3a9104b03a158c917ff1c3f8.embl": "b58c7262282943d634cab261454b62e7bf4906244e190bd7ee69fd0ba2ea673e",
+      "data/raw/gap/cds/4035a0ae52830e9d8ce2df66.embl": "4c64c57a901714d0fd51f17871937b24c2e7abb0ce1f422aca627f8624a41431",
+      "data/raw/gap/cds/53c5f317807d8774d9a70c27.embl": "8f581207256300e11a01a7a0b3b9a1b46615a6910e2c53c24efe00c7d52ef6cd",
+      "data/raw/gap/cds/5605749e52fce965400158ba.embl": "5bc8a0fdcd4141624b215d23a4cdaf8ea5b9576bc3df5ce366060db25b33cd84",
+      "data/raw/gap/cds/5e4a500556e26e5d4a64e12f.embl": "a550398de4234f83845a8022eb44e87a26ab964991139c1eae743a0089a2dc78",
+      "data/raw/gap/cds/67a956b78e7cb47bacf64a03.embl": "28b26f8b4f22e3e2c1d7b3d54f99983e592fee8e00d6e629550471fb89251401",
+      "data/raw/gap/cds/67d38df37487219ffb64750f.embl": "c0b71f1d4eaa44034b3be360ad73faf8b58062fc3fdf03ef324d24044f9b2463",
+      "data/raw/gap/cds/694e60d8954b20d077cb5df1.embl": "852be7bff8fefb0c956edabbe4f8af40694692446fb3e19ff1d4ca4a1dc683a4",
+      "data/raw/gap/cds/6bab377e36550f74605a0542.embl": "dba6f3255a522868d2010e1480ec80a3da044500f85ce63a6dfdab905fa4f443",
+      "data/raw/gap/cds/70e942e36d9ab7bd5e95178e.embl": "41abcae28f6bf8ae04ade6474963b5a5da0e1f9f5aceed90d48dd42b4ec0f397",
+      "data/raw/gap/cds/787ada83eef279caa6c8d7f2.embl": "1077253f32b7591531cc5c30de934ba8025e91745fa31f535105c2622add5038",
+      "data/raw/gap/cds/7f160c41c7c66e53191cadf3.embl": "508044b509edc9bb591c0498499e6b5297feff663ef494a9fa765ea4e38c77b5",
+      "data/raw/gap/cds/832cc025c8c23779fbd29dcf.embl": "797960a4f469246cd663f65c739204edd4657ccdbc559c35a04505a897a3b8b2",
+      "data/raw/gap/cds/8d1399dd8e2134c2ff367a89.embl": "361b1f896b22a400370945bc193a2d8ac845efbb2bcda5cd57968c8ad0125985",
+      "data/raw/gap/cds/8defa2f75ba2e479c180e2c7.embl": "4ecb6c4d023bce74ffdda99433eeb3754c086e30ca65484ff83bc03ab745933a",
+      "data/raw/gap/cds/8e5e56f847d216d170aceecf.embl": "5774f201389011df23666864817567e1495545f24a8c1b17269dc9af044ee2e8",
+      "data/raw/gap/cds/92a726ee070489193cc5748c.embl": "09b1ee746e85c8650ffae4a01555a94f9cd7c28f21ca735fe2eed70d7786a09e",
+      "data/raw/gap/cds/9c0225e8b4779411af77b703.embl": "1f14aafc322b8881c799a97aa50f7df7056c5a909ce5cead46d3dc11845c1b55",
+      "data/raw/gap/cds/9cccd17416d882ccfd20ada9.embl": "79d306926faea67fc8bf090a3191df501ab4f1c0232cf26bd40965a3cc002a8b",
+      "data/raw/gap/cds/9dad468f12700cb78367ae7b.embl": "f3b72521889ee7dcd527507cffae7778c3d49621db9bc45d788cbab901194de8",
+      "data/raw/gap/cds/9f9f5a1d9947a11e34aaaa20.embl": "88bcdf4454e8aca9c6d7a2ace6f442bbd330810d718b50c27f2a4fd68d6609ae",
+      "data/raw/gap/cds/a7e87063d7bd2c0e3db8ce7c.embl": "d451e208707845e2673e88c89a7610463fcd79dfa168daeeb8d2d351bb404f6b",
+      "data/raw/gap/cds/ac1048734407f0842776859b.embl": "5be24ccc94748165e1fff525cd92827eedf4695cf42b429e4a516f321dd15ee9",
+      "data/raw/gap/cds/b83b67e4454695a2cdd5b1b1.embl": "4230c540619a62fbd26e28ed590c8702730e94fc676776c1b8bdf0e914f60aa1",
+      "data/raw/gap/cds/bdf66075e3a8a2ec8756ee11.embl": "d7f8135f920aed1a004c3663684915edf06de5b448db245499e849735c84d00e",
+      "data/raw/gap/cds/bf0593f994d46b5835319dbb.embl": "d1b1b36151320b5b9d841eb6e602e8081c7f4433eb5ad5e4e5b0b835b3fc26d1",
+      "data/raw/gap/cds/c1428069452edbc6a4095403.embl": "53b1ff53b3783884151920605b713eb8c796c873e83a4425c2708d8c1fe9917a",
+      "data/raw/gap/cds/c97aab73a26cf9fe9182ba83.embl": "d8c8bedfe80e8343ee13027a89ace1f9d8e2721f3de67c7093ebc714d90a96b9",
+      "data/raw/gap/cds/ccae9526e2242e8d1d55803f.embl": "5f623ab9aa4dec71531ba852afaa4ffdbae576e5fa56e95da1bc5ca188742fcd",
+      "data/raw/gap/cds/d6a200bd36c91d4614b4b025.embl": "a3e65cbcc68e96b8b054683a051d64730bf28c20b82967f59bd2dddf1374b694",
+      "data/raw/gap/cds/e08babe92ac7c1e07bd0971e.embl": "7fb8884b27e5aaf2225ac205e53e6408de0879f1c029710666329defa1984ea2",
+      "data/raw/gap/cds/e18f25f9b289b3d0e77d04f8.embl": "296673c2ff6a76163129c81de5cd3dde39f4ac1d8bdc931118cd687a10cf4124",
+      "data/raw/gap/cds/ef12f7edd736bbd7dea5535b.embl": "b5bfcb5aade91bcd6a3ec0a11c3f65d5790dab0ea1ae0a462a2e97ee81549932",
+      "data/raw/gap/cds/f00909226c2c75a80cb2da9e.embl": "1d3bbaf4e48c18b227cb26e37dd734cea647bf42cfd1633c747428ef6c10d4d3",
+      "data/raw/gap/cds/f00b737296859a252b5142ab.embl": "523a38847966343ac447f396742c98b22dd5cc982c3a1302d5a069a8cef335f2",
+      "data/raw/gap/cds/f3a99f93a835bc0e6bd8f328.embl": "3f73b47b5a5642aa3bb1dcb17a9cb86141d683d43ca9a5b53df6ac12b58a02f6",
+      "data/raw/gap/cds/f4d25ba9ac44150b65f58b99.embl": "8bfc205f4fc7497f1387585bb126a0de37b3988051f6319eb49eaaee0caef384",
+      "data/raw/gap/cds/f5d98670665eb1c3042532bf.embl": "851482d5ec96ee1d8918f645f8cc21d6efd21a812e6aef66e15d392590cf587e",
+      "data/raw/gap/cds/f742d9f17c9cfbb6b2d06b5a.embl": "15829b5d3007b55f6c867a8f09c3fb97168e64cd1b24f1b21050d9be3d7a678e",
+      "data/raw/gap/outer-index/10090-count.json": "c8b9f2c38a376cf68db198e449e5dc09c33096c691ed6547aa4b0025e41fa377",
+      "data/raw/gap/outer-index/10090.tsv": "1abbdc393bcd7789081ea35791667441c9215536340373163c5802fe68327298",
+      "data/raw/gap/outer-index/10116-count.json": "3d0f834545738a7b8340b8a23b1a58a10ece710b3c32761e20745e2a08113efe",
+      "data/raw/gap/outer-index/10116.tsv": "e0c33a5a776da1ba14770436e482bac66960d7393866986b60361281be754ec7",
+      "data/raw/gap/outer-index/7955-count.json": "e687f5c39b38e2cbc457e090bc7692e349d33f657f2a0454c0ffb1772ae3f4a8",
+      "data/raw/gap/outer-index/7955.tsv": "ba34cde9b6bdc018ed669534255467512a7793cbe8ccadb408efe1894ba4c516",
+      "data/raw/gap/outer-index/8355-count.json": "074b188eec896fe179e45b67ef819dd12fe3bd63078ce910339cead78a1b18da",
+      "data/raw/gap/outer-index/8355.tsv": "c9835f792476acc257554fd0ab6e86daab873968e0676b86539b85b4d82d52be",
+      "data/raw/gap/outer-index/9031-count.json": "0ab943b6d9d56eacfd9f4f896cbc3bc9d9b15df55302995a0fbfccb806c27f2b",
+      "data/raw/gap/outer-index/9031.tsv": "0503150dbe5f7563e2eccbd74d6d7b3219ffaead18efcfde79a3b6422e078c49",
+      "data/raw/gap/outer-index/9601-count.json": "3943a0b260b911358314405b96f4bb7681ef08a85fdf516840dd5457e2ee7607",
+      "data/raw/gap/outer-index/9601.tsv": "dbc7b0db2c1345695dd1cae289a002fafe3c526f33ba8a87824928a522dcde9a",
+      "data/raw/gap/outer-index/9606-count.json": "74101da9af8816270e6e9129d70674fd1ba8f17a3413358d7e7f64d3de864512",
+      "data/raw/gap/outer-index/9606.tsv": "3e041586aa85aa59fd8d400903726f1d23f8823377e8d26ede761a13dce8e588",
+      "data/raw/gap/outer-index/9823-count.json": "41f67503172facf369986448d604847f7b65855dfc21ef291665f9e7cddd428b",
+      "data/raw/gap/outer-index/9823.tsv": "b8f83dd5a915078b72853d48e67d1e9e32559608bd43185dc6514f8f32705ed8",
+      "data/raw/gap/outer-index/9913-count.json": "c877bb2a8d8fc293fce75879a1341d20818b71e082e1a54460df42dcc9fddfa3",
+      "data/raw/gap/outer-index/9913.tsv": "942f0191c7159840759df7da92f58b48c83fb4de3f289071275e7752b7314558",
+      "data/raw/gap/unreviewed-leads.json": "31865c001880787bb6ecc7408fed3b2fb2dc809f1a2193994de3a72c2499070a"
+    },
+    "references_sha256": "7120ee9992fefd0011a79c5a50e15aa003215d24bc2f118d35963e638c52a9a1",
+    "source_hashes": {
+      "src/microprotein_lm/acquire.py": "9a460fedacdb5ee225bb7e83da1ea8d1634798caa289a668755c73f0b8108c8a",
+      "src/microprotein_lm/gap_acquire.py": "511e65954af13bdf6571bdae3ecc9f43ac5a834cc0a16f9bc6ec5d1f5f452290",
+      "src/microprotein_lm/secondary_acquire.py": "cf28c56551a78c57c6d5dd6b8ad1aedab3d1d721dea6a24074812d9bd5483581",
+      "src/microprotein_lm/secondary_genomes.py": "483a56883149e47484a86564f46b97c636b2945b67066d17cbc4a77eae73c2a1"
+    },
+    "training_biology_sha256": "4c218e48fd27b9f8a19e78dff9119fa714c1aa160151b59c8d1d3ff6ad77cbae",
+    "training_pool_sha256": "f6606dfc07e47903f2fabcf649352f5c15d53241bd324ae795c4f0e389a28a11"
+  },
+  "lead_exclusions": [
+    {
+      "family": "ATP5ME",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9031,
+      "uniprot": "Q7LZ14"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 7955,
+      "uniprot": "Q08C42"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9031,
+      "uniprot": "Q9YH14"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 8355,
+      "uniprot": "A0A1L8EX92"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9823,
+      "uniprot": "A0A287A2B0"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9601,
+      "uniprot": "A0A2J8RUC8"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "A0A3Q1LN99"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "A0A3Q1M7G3"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "A0A3Q1MCR1"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A0A4X1SSJ6"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9823,
+      "uniprot": "A0A5G2R0H7"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 8355,
+      "uniprot": "A0A8J0Q006"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10116,
+      "uniprot": "A0A8L2QYI5"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10116,
+      "uniprot": "A0A8L2UH34"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 7955,
+      "uniprot": "A0A8M1NDL2"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9031,
+      "uniprot": "A0A8V0ZI98"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A0A8W4FGD2"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "A0AAF6ZEL1"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "A0ABI0NYS6"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8QBB7"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8RNA5"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8RWJ5"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8SDG7"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8SRV0"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8SRV5"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8SRY1"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8TNV5"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8TP49"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8TP62"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8TPA6"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 7955,
+      "uniprot": "A0ACM8QE54"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 7955,
+      "uniprot": "A7YY99"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "C9JJT5"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "C9JU26"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 7955,
+      "uniprot": "F6P873"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 7955,
+      "uniprot": "F8W3H2"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10090,
+      "uniprot": "F8WHP8"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "G3MXE1"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9601,
+      "uniprot": "H2PLJ1"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10116,
+      "uniprot": "M0R601"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 8355,
+      "uniprot": "Q66KN2"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0A0A0MTQ5"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 8355,
+      "uniprot": "A0A1L8F739"
+    },
+    {
+      "family": "ATP5MK",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 8355,
+      "uniprot": "A0A1L8FEI7"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10090,
+      "uniprot": "A0A1Y7VLP0"
+    },
+    {
+      "family": "ATP5MK",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A0A287AMF0"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A0A287BN31"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9601,
+      "uniprot": "A0A2J8SZB7"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9601,
+      "uniprot": "A0A2J8X0Z6"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0A3B3ITX4"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "A0A3Q1LZR6"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9031,
+      "uniprot": "A0A3Q2TXM3"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9031,
+      "uniprot": "A0A3Q2UCU2"
+    },
+    {
+      "family": "ATP5MK",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A0A4X1TQQ5"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A0A4X1TX70"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9601,
+      "uniprot": "A0A6D2Y0M6"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0A8I5KSQ4"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0A8I5KSW3"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0A8I5KT86"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9601,
+      "uniprot": "A0A8I5U026"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10116,
+      "uniprot": "A0A8I5ZQI7"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10116,
+      "uniprot": "A0A8I6GM31"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 8355,
+      "uniprot": "A0A8J0TKP7"
+    },
+    {
+      "family": "ATP5MK",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10116,
+      "uniprot": "A0A8L2QV13"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 7955,
+      "uniprot": "A0A8M1NIN3"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9031,
+      "uniprot": "A0A8V0YNP2"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A0A8W4FBF1"
+    },
+    {
+      "family": "ATP5MK",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A0A8W4FBT1"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A0A8W4FE74"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9823,
+      "uniprot": "A0A8W4FJ86"
+    },
+    {
+      "family": "ATP5MF",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9823,
+      "uniprot": "A0A8W4FLN8"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 8355,
+      "uniprot": "A0A9A9YUV2"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "A0AAA9S762"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "A0AAF7A4P8"
+    },
+    {
+      "family": "ATP5MK",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9913,
+      "uniprot": "A0ABI0NL28"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9913,
+      "uniprot": "A0ABI0NUB8"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8RE80"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8SUG9"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8TJK8"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8TJL6"
+    },
+    {
+      "family": "ATP5MK",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "A0ACI8U362"
+    },
+    {
+      "family": "ATP8",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10116,
+      "uniprot": "A0ACJ1LQM1"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "A5GFX4"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 7955,
+      "uniprot": "B3DFK4"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_embl_protein_link",
+      "tax_id": 10090,
+      "uniprot": "F7CY28"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_embl_protein_link",
+      "tax_id": 9606,
+      "uniprot": "G3V556"
+    },
+    {
+      "family": "ATP5MK",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 7955,
+      "uniprot": "H0WES8"
+    },
+    {
+      "family": "ATP5MJ",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9601,
+      "uniprot": "H2NG20"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9601,
+      "uniprot": "H2NJH8"
+    },
+    {
+      "family": "ATP5MK",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9601,
+      "uniprot": "H2PW19"
+    },
+    {
+      "family": "ATP5ME",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9031,
+      "uniprot": "Q5ZI91"
+    },
+    {
+      "family": "ATP5F1E",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 8355,
+      "uniprot": "Q6VEU9"
+    },
+    {
+      "family": "ATP5MGL",
+      "reason": "no_frozen_own_species_reviewed_reference",
+      "tax_id": 9823,
+      "uniprot": "Q7YS30"
+    }
+  ],
+  "limits": "Exact RNA and stable source accessions are disjoint from all 533 training-pool CDS. Close homologs and identical peptides can remain; novelty distances are descriptive, not performance-driven filters. Same species/family does not imply independent individuals or experimentally equivalent function. No test prediction has been run by this acquisition process.",
+  "outer_parent_inventory": [
+    {
+      "index_file": "data/raw/gap/outer-index/9606.tsv",
+      "index_file_sha256": "3e041586aa85aa59fd8d400903726f1d23f8823377e8d26ede761a13dce8e588",
+      "inventory_records": 139512,
+      "query": "tax_eq(9606) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 713,
+      "selected_total_nt": 2427675,
+      "tax_id": 9606
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/10090.tsv",
+      "index_file_sha256": "1abbdc393bcd7789081ea35791667441c9215536340373163c5802fe68327298",
+      "inventory_records": 2988,
+      "query": "tax_eq(10090) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 57,
+      "selected_total_nt": 147501,
+      "tax_id": 10090
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/10116.tsv",
+      "index_file_sha256": "e0c33a5a776da1ba14770436e482bac66960d7393866986b60361281be754ec7",
+      "inventory_records": 1317,
+      "query": "tax_eq(10116) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 9,
+      "selected_total_nt": 14323,
+      "tax_id": 10116
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/9913.tsv",
+      "index_file_sha256": "942f0191c7159840759df7da92f58b48c83fb4de3f289071275e7752b7314558",
+      "inventory_records": 11919,
+      "query": "tax_eq(9913) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 364,
+      "selected_total_nt": 415739,
+      "tax_id": 9913
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/9823.tsv",
+      "index_file_sha256": "b8f83dd5a915078b72853d48e67d1e9e32559608bd43185dc6514f8f32705ed8",
+      "inventory_records": 12820,
+      "query": "tax_eq(9823) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 169,
+      "selected_total_nt": 77824,
+      "tax_id": 9823
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/9601.tsv",
+      "index_file_sha256": "dbc7b0db2c1345695dd1cae289a002fafe3c526f33ba8a87824928a522dcde9a",
+      "inventory_records": 221,
+      "query": "tax_eq(9601) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 0,
+      "selected_total_nt": 0,
+      "tax_id": 9601
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/9031.tsv",
+      "index_file_sha256": "0503150dbe5f7563e2eccbd74d6d7b3219ffaead18efcfde79a3b6422e078c49",
+      "inventory_records": 15732,
+      "query": "tax_eq(9031) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 67,
+      "selected_total_nt": 37716,
+      "tax_id": 9031
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/7955.tsv",
+      "index_file_sha256": "ba34cde9b6bdc018ed669534255467512a7793cbe8ccadb408efe1894ba4c516",
+      "inventory_records": 585,
+      "query": "tax_eq(7955) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 0,
+      "selected_total_nt": 0,
+      "tax_id": 7955
+    },
+    {
+      "index_file": "data/raw/gap/outer-index/8355.tsv",
+      "index_file_sha256": "c9835f792476acc257554fd0ab6e86daab873968e0676b86539b85b4d82d52be",
+      "inventory_records": 1005,
+      "query": "tax_eq(8355) AND organelle=\"mitochondrion\" AND base_count>=150 AND base_count<=100000 AND (base_count<14000 OR base_count>20000)",
+      "selected_description_records": 0,
+      "selected_total_nt": 0,
+      "tax_id": 8355
+    }
+  ],
+  "outer_parents_requested": 1379,
+  "same_peptide_as_training_cds": 6,
+  "source_qc_rejections": {
+    "ambiguous_bases": 12,
+    "missing_annotated_atp8": 717,
+    "multiple_annotated_atp8": 1,
+    "partial_frame": 3,
+    "partial_location": 251,
+    "reference_identity_below_threshold": 10,
+    "reference_length_mismatch": 3,
+    "wrong_taxon": 7
+  },
+  "sources": [
+    {
+      "bytes": 157460,
+      "etag": null,
+      "file": "data/raw/gap/cds/0c95f89f9f4a166fec874054.embl",
+      "retrieved_utc": "2026-09-25T15:14:13.512328+00:00",
+      "sha256": "dbb2abd508825202bc2e4faabd66b435f2f4dddd999c80653c8c49a39af9e8bf",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AQU13080.1,AQU13808.1,AQU15832.1,AQU15884.1,AQU16833.1,AQU17184.1,AQU18653.1,AQU18679.1,AQU18848.1,AQU18887.1,AQU19537.1,AQU19693.1,AQU19862.1,AQU20824.1,AQU21175.1,AQU21292.1,AQU21474.1,AQU22618.1,AQU23866.1,AQU24113.1,AQU24139.1,AQU24334.1,AQU24399.1,AQU25322.1,AQU25361.1,AQU25569.1,AQU26102.1,AQU26206.1,AQU26661.1,AQU26960.1,AQU27181.1,AQU27233.1,AQU27909.1,AQU28013.1,AQU28195.1,AQU28481.1,AQU28507.1,AQU28533.1,AQU29092.1,AQU29664.1,AQU29989.1,AQU30808.1,AQU31198.1,AQU32264.1,AQU32485.1,AQU32706.1,AQU32966.1,AQU33109.1,AQU33239.1,AQU33876.1"
+    },
+    {
+      "bytes": 122070,
+      "etag": null,
+      "file": "data/raw/gap/cds/0d5ac2cebdeacb7431908847.embl",
+      "retrieved_utc": "2026-09-25T15:13:13.306603+00:00",
+      "sha256": "6af9b34926230f984559b3d7da960c8c20935fa01ec0820bda042e1626b76e45",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AFY51656.1,AFY51695.1,AFY51734.1,AFY52111.1,AFZ81776.1,AGB56902.1,AGC17154.1,AGC95896.1,AGC95909.1,AGD83347.1,AGD83555.1,AGD83685.1,AGD83698.1,AGD84062.1,AGD84283.1,AGD85635.1,AGD85648.1,AGD85739.1,AGD85765.1,AGD86077.1,AGD86311.1,AGD86324.1,AGD86662.1,AGD86675.1,AGD86857.1,AGD86987.1,AGD87000.1,AGD87013.1,AGD87312.1,AGD87325.1,AGD87351.1,AGD87637.1,AGD87689.1,AGD87780.1,AGD87793.1,AGD87806.1,AGD87845.1,AGD88144.1,AGE01082.1,AGE01316.1,AGE02109.1,AGE14663.1,AGE14728.1,AGE14845.1,AGE15027.1,AGH20757.1,AGI49156.1,AGI49221.1,AGI49855.1,AGI50102.1"
+    },
+    {
+      "bytes": 123466,
+      "etag": null,
+      "file": "data/raw/gap/cds/129c7451800c50a4488ab966.embl",
+      "retrieved_utc": "2026-09-25T15:11:58.059280+00:00",
+      "sha256": "66c51ea6e5c63ff8d078a1d6202432d7f8e4d2629207dae0ec38edc331bf7651",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ABF49033.1,ABF49553.1,ABF70965.1,ABG11761.1,ABG11777.1,ABG11787.1,ABG11801.1,ABG11813.1,ABG11826.1,ABG11839.1,ABG11852.1,ABG11865.1,ABG11878.1,ABG11891.1,ABG28055.1,ABJ89165.1,ABJ89256.1,ABJ90874.1,ABJ91043.1,ABJ99219.1,ABJ99310.1,ABJ99323.1,ABK28795.1,ABK28808.1,ABK28834.1,ABK62689.1,ABK79097.1,ABK79110.1,ABK79123.1,ABK79136.1,ABK79149.1,ABK79162.1,ABK79175.1,ABK79188.1,ABK79201.1,ABK79214.1,ABK79227.1,ABK79240.1,ABL60012.1,ABL60207.1,ABL60233.1,ABL60636.1,ABL73456.1,ABM68705.1,ABM68718.1,ABM68783.1,ABM68796.1,ABM68809.1,ABM68887.1,ABM92885.1"
+    },
+    {
+      "bytes": 3494101,
+      "etag": null,
+      "file": "data/raw/gap/cds/166fa6a0d871b815a564c2a6.embl",
+      "retrieved_utc": "2026-09-25T15:17:44.786008+00:00",
+      "sha256": "f2ce81b937c99f40b76323be882792cb4892d95042c85ee62c95e643953e600d",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KF962732.1,KF962734.1,KF962735.1,KF962736.1,KF962737.1,KF962739.1,KF962741.1,KF962745.1,KF962749.1,KF962750.1,KF962752.1,KF962753.1,KF962756.1,KF962758.1,KF962761.1,KF962764.1,KF962766.1,KF962768.1,KF962770.1,KF962772.1,KF962774.1,KF962775.1,KF962776.1,KF962777.1,KF962778.1,KF962781.1,KF962783.1,KF962784.1,KF962785.1,KF962786.1,KF962791.1,KF962792.1,KF962793.1,KF962794.1,KF962796.1,KF962797.1,KF962800.1,KF962802.1,KF962803.1,KF962804.1,KF962807.1,KF962810.1,KF962812.1,KF962814.1,KF962815.1,KF962817.1,KF962821.1,KF962824.1,KF962826.1,KF962827.1,KF962828.1,KF962830.1,KF962832.1,KF962833.1,KF962834.1,KF962836.1,KF962838.1,KF962839.1,KF962840.1,KF962841.1,KF962842.1,KF962843.1,KF962845.1,KF962847.1,KF962848.1,KF962849.1,KF962850.1,KF962851.1,KF962852.1,KF962853.1,KF962854.1,KF962855.1,KF962856.1,KF962857.1,KF962858.1,KF962859.1,KF962861.1,KF962862.1,KF962863.1,KF962864.1,KF962865.1,KF962867.1,KF962868.1,KF962869.1,KF962870.1,KF962871.1,KF962872.1,KF962873.1,KF962875.1,KF962876.1,KF962878.1,KF962879.1,KF962880.1,KF962881.1,KF962882.1,KF962883.1,KF962884.1,KF962885.1,KF962886.1,KF962887.1"
+    },
+    {
+      "bytes": 279475,
+      "etag": null,
+      "file": "data/raw/gap/cds/18bf52a37fee0101aa0a281b.embl",
+      "retrieved_utc": "2026-09-25T15:18:17.798900+00:00",
+      "sha256": "4cbfcba5a117d5a98fb92ce038355493950a2c03c45bcff7cd9ccb07f104ce21",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/MN427814.1,MN427815.1,MN427816.1,MN427817.1,MN427818.1,MN427819.1,MN427820.1,MN427821.1,MN427822.1,MN427823.1,MN427824.1,MN427825.1,MN427826.1,MN427827.1,MN427828.1,MN427829.1,MN427830.1,MN427831.1,MN427832.1,MN427833.1,MN427834.1,MN427835.1,MN427836.1,MN427837.1,MN427838.1,MN427839.1,MN427840.1,MN427841.1,MN427842.1,MN427843.1,MN427844.1,MN427845.1,MN427846.1,MN427847.1,MN427848.1,MN427849.1,MN427850.1,MN427851.1,MN427852.1,MN427853.1,MN427854.1,MN427855.1,MN427856.1,MN427857.1,MN427858.1,MN427859.1,MN427860.1,MN427861.1,MN427862.1,MN427863.1,MN427864.1,MN427865.1,MN427866.1,MN427867.1,MN699910.1,OR137958.1,OR137959.1,OR137960.1,OR137961.1,OR137962.1,OR137963.1,OR137964.1,OR137965.1,OR137966.1,OR137967.1,OR137968.1,OR137969.1,OR137970.1,OR137971.1,OR137972.1,PX776834.1,S70447.1,V00676.1,V00677.1,V00678.1,V00679.1,V01556.1,X15841.1,X63423.1"
+    },
+    {
+      "bytes": 140769,
+      "etag": null,
+      "file": "data/raw/gap/cds/1eec7b1d26ddc06171f6e070.embl",
+      "retrieved_utc": "2026-09-25T15:14:18.635827+00:00",
+      "sha256": "233423e331025b13172e4dfca4868d6625d884c28c08fab21ee79cc892f6ce3e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AQU36086.1,AQU36294.1,AQU36671.1,AQU36723.1,AQU37035.1,AQU38179.1,AQU38283.1,AQU38504.1,AQU38595.1,AQU39128.1,AQU39297.1,AQU39596.1,AQU40623.1,AQU40727.1,AQU40753.1,AQU40779.1,AQV11054.1,AQX91191.1,AQX91710.1,AQX92021.1,AQZ25193.1,AQZ25232.1,AQZ25258.1,AQZ36463.1,AQZ60009.1,ARB48881.1,ARB48920.1,ARB49154.1,ARD71726.1,ARD72142.1,ARD72454.1,ARD72467.1,ARD72610.1,ARD72675.1,ARH56156.1,ARJ60442.1,ARK15017.1,ARK16135.1,ARK17577.1,ARK17733.1,ARM18900.1,ARM18965.1,ARM35936.1,ART65697.1,ASC43073.1,ASC43281.1,ASC43567.1,ASC43944.1,ASC43983.1,ASC44282.1"
+    },
+    {
+      "bytes": 128191,
+      "etag": null,
+      "file": "data/raw/gap/cds/2100fc3e73cb81bd7329f9d6.embl",
+      "retrieved_utc": "2026-09-25T15:12:03.206699+00:00",
+      "sha256": "14a273a6e16faabd606d57af7eee0fb8a9e8dd7ef9e2730876a419cb7a4e220f",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ABO36878.1,ABO39287.1,ABO39313.1,ABO39521.1,ABO39636.1,ABO39829.1,ABP62993.1,ABP63006.1,ABP63175.1,ABP63188.1,ABP63201.1,ABP63227.1,ABP63316.1,ABP99209.1,ABP99404.1,ABP99638.1,ABQ09392.1,ABQ45205.1,ABR58498.1,ABR58574.1,ABR93586.1,ABR93690.1,ABR94025.1,ABR94064.1,ABR94285.1,ABR94868.1,ABR96180.1,ABR96245.1,ABR96388.1,ABR96634.1,ABR97594.1,ABR97620.1,ABR99749.1,ABS57685.1,ABS58322.1,ABU46798.1,ABU47370.1,ABU47422.1,ABU47578.1,ABU64062.1,ABU64229.1,ABU64385.1,ABU64541.1,ABU64631.1,ABU64657.1,ABU64836.1,ABU65963.1,ABU66366.1,ABU66392.1,ABU66405.1"
+    },
+    {
+      "bytes": 277564,
+      "etag": null,
+      "file": "data/raw/gap/cds/22651cf467f273019c2aec68.embl",
+      "retrieved_utc": "2026-09-25T15:18:14.395487+00:00",
+      "sha256": "38da71cfaabebb8391da1209e826fd37ebebf7c136780ddd4d7c697b55353b1b",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/MN427714.1,MN427715.1,MN427716.1,MN427717.1,MN427718.1,MN427719.1,MN427720.1,MN427721.1,MN427722.1,MN427723.1,MN427724.1,MN427725.1,MN427726.1,MN427727.1,MN427728.1,MN427729.1,MN427730.1,MN427731.1,MN427732.1,MN427733.1,MN427734.1,MN427735.1,MN427736.1,MN427737.1,MN427738.1,MN427739.1,MN427740.1,MN427741.1,MN427742.1,MN427743.1,MN427744.1,MN427745.1,MN427746.1,MN427747.1,MN427748.1,MN427749.1,MN427750.1,MN427751.1,MN427752.1,MN427753.1,MN427754.1,MN427755.1,MN427756.1,MN427757.1,MN427758.1,MN427759.1,MN427760.1,MN427761.1,MN427762.1,MN427763.1,MN427764.1,MN427765.1,MN427766.1,MN427767.1,MN427768.1,MN427769.1,MN427770.1,MN427771.1,MN427772.1,MN427773.1,MN427774.1,MN427775.1,MN427776.1,MN427777.1,MN427778.1,MN427779.1,MN427780.1,MN427781.1,MN427782.1,MN427783.1,MN427784.1,MN427785.1,MN427786.1,MN427787.1,MN427788.1,MN427789.1,MN427790.1,MN427791.1,MN427792.1,MN427793.1,MN427794.1,MN427795.1,MN427796.1,MN427797.1,MN427798.1,MN427799.1,MN427800.1,MN427801.1,MN427802.1,MN427803.1,MN427804.1,MN427805.1,MN427806.1,MN427807.1,MN427808.1,MN427809.1,MN427810.1,MN427811.1,MN427812.1,MN427813.1"
+    },
+    {
+      "bytes": 118408,
+      "etag": null,
+      "file": "data/raw/gap/cds/23eee17d17355c46a8218bde.embl",
+      "retrieved_utc": "2026-09-25T15:13:20.185982+00:00",
+      "sha256": "fd9f546743b4e7f1ab752729a5d3e5267c0257a580993db5301f7675889d40d4",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AGS17733.1,AGS47225.1,AGS47238.1,AGS47251.1,AGS47264.1,AGT52610.1,AGT52623.1,AGT52779.1,AGT52948.1,AGT53091.1,AGT53104.1,AGT53169.1,AGT53351.1,AGT54040.1,AGT54118.1,AGU00435.1,AGU42364.1,AGV04515.1,AGV04527.1,AGW31737.1,AGW46529.1,AGW54376.1,AGW58666.1,AGW61525.1,AGW62266.1,AGW63423.1,AGW64372.1,AGW68311.1,AGW70014.1,AGW71951.1,AGW77684.1,AGW78373.1,AGX28335.1,AGX85262.1,AGX89736.1,AGX89892.1,AGX90152.1,AGX90789.1,AGX90880.1,AGX91205.1,AGX91257.1,AGX91803.1,AGX91855.1,AGX92310.1,AGZ05887.1,AGZ05913.1,AGZ05965.1,AGZ06017.1,AGZ06082.1,AGZ06238.1"
+    },
+    {
+      "bytes": 117020,
+      "etag": null,
+      "file": "data/raw/gap/cds/24fdd1074f23e75ed0ec85c3.embl",
+      "retrieved_utc": "2026-09-25T15:15:04.645493+00:00",
+      "sha256": "de494a7e21d9c937319a50cbc25a734a84a6e37ab415da267ada2bc9d3c93877",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/QGL53927.1,QGL54135.1,QGL54499.1,QGN05549.1,QGW53783.1,QGW53939.1,QGW54056.1,QGW54108.1,QGW54433.1,QGW54992.1,QHE50233.1,QHQ73177.1,QHY00003.1,QIH96141.1,QIQ23235.1,QIQ24639.1,QIV21194.1,QIV21285.1,QIV21324.1,QIV21870.1,QIV22338.1,QJX65780.1,QJX65845.1,QJX65884.1,QJX66352.1,QJX66807.1,QJX66976.1,QKJ84178.1,QKJ84204.1,QKN99377.1,QKT22051.1,QKT25340.1,QKT25574.1,QKT25808.1,QKY63693.1,QKY63719.1,QKY63732.1,QLA48253.1,QLA48370.1,QLA48409.1,QLA48708.1,QLH90236.1,QLH90301.1,QLH90340.1,QLH90379.1,QLH90938.1,QLH92446.1,QLH92537.1,QMP90784.1,QMP90823.1"
+    },
+    {
+      "bytes": 127902,
+      "etag": null,
+      "file": "data/raw/gap/cds/2543357f5bf811689d2ed209.embl",
+      "retrieved_utc": "2026-09-25T15:12:23.778430+00:00",
+      "sha256": "4320b416bd00d9aba6e92a307519cf96feb70e57b21285059d1d4b92d86884aa",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ACM77010.1,ACN37133.1,ACN37276.1,ACN37614.1,ACN37705.1,ACN49620.1,ACN91099.1,ACP50284.1,ACP50297.1,ACP50310.1,ACP50323.1,ACP50336.1,ACP50349.1,ACP50362.1,ACP50375.1,ACP50388.1,ACP50401.1,ACP50414.1,ACP50427.1,ACP50440.1,ACQ73114.1,ACQ73753.1,ACQ73857.1,ACQ73896.1,ACQ74013.1,ACR09286.1,ACS48757.1,ACS48874.1,ACT15936.1,ACT15949.1,ACU09876.1,ACU10344.1,ACU10682.1,ACU10708.1,ACU11098.1,ACU11189.1,ACU11228.1,ACU11254.1,ACU11306.1,ACU11410.1,ACV90103.1,ACV90380.1,ACV92474.1,ACV92526.1,ACX49156.1,ACX80709.1,ACX93150.1,ACY55079.1,ACY55157.1,ACY55300.1"
+    },
+    {
+      "bytes": 117721,
+      "etag": null,
+      "file": "data/raw/gap/cds/26117f583b29c141e033c36c.embl",
+      "retrieved_utc": "2026-09-25T15:12:37.993470+00:00",
+      "sha256": "242be3ec9475bc8da1214bf9b5a76f7fd149b056e24f06b1e407c7ae61d513ec",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ADI51641.1,ADI51667.1,ADI79449.1,ADI79462.1,ADI80073.1,ADJ56500.1,ADK47722.1,ADK61785.1,ADK61902.1,ADK66468.1,ADK66533.1,ADK72809.1,ADK77510.1,ADK77601.1,ADL15014.1,ADL15079.1,ADL15105.1,ADL15443.1,ADL15534.1,ADL16236.1,ADL16301.1,ADL30054.1,ADL30223.1,ADL30288.1,ADL30470.1,ADL30496.1,ADL30730.1,ADL30964.1,ADL31003.1,ADL31016.1,ADL31601.1,ADL31666.1,ADL31718.1,ADM35855.1,ADM58816.1,ADM58855.1,ADM59089.1,ADM59193.1,ADM59232.1,ADM59505.1,ADM60090.1,ADM60662.1,ADM61130.1,ADN11101.1,ADN11153.1,ADN11335.1,ADN11465.1,ADN11712.1,ADN11779.1,ADN33602.1"
+    },
+    {
+      "bytes": 139162,
+      "etag": null,
+      "file": "data/raw/gap/cds/378d129f992b42cb9d9ad1f5.embl",
+      "retrieved_utc": "2026-09-25T15:14:24.218690+00:00",
+      "sha256": "aa64357fd21a855c900a72374cf4567b1745c6da83aa70d4743c59c54fb39839",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ASC45041.1,ASC45223.1,ASC46406.1,ASC46510.1,ASC48070.1,ASF79542.1,ASF79555.1,ASF83696.1,ASF83774.1,ASF83865.1,ASF83943.1,ASF84164.1,ASF84708.1,ASF85423.1,ASF85865.1,ASF86177.1,ASF86190.1,ASF86255.1,ASF86320.1,ASF86918.1,ASL06731.1,ASM81682.1,ASQ39307.1,ASQ39320.1,ASR12437.1,ASR12463.1,ASR12476.1,ASR16831.1,ASR17533.1,ASR17559.1,ASR17598.1,ASR17689.1,ASR93822.1,ASR95057.1,ASR96318.1,ASS01663.1,ASS03990.1,ASS07279.1,ASS07383.1,ASS07578.1,ASS09074.1,ASS15678.1,ASS24090.1,ASS28562.1,ASY00160.1,ASY00837.1,ASY00876.1,ASY01188.1,ASY01277.1,ASY96053.1"
+    },
+    {
+      "bytes": 1475141,
+      "etag": null,
+      "file": "data/raw/gap/cds/3a9104b03a158c917ff1c3f8.embl",
+      "retrieved_utc": "2026-09-25T15:17:50.374609+00:00",
+      "sha256": "b58c7262282943d634cab261454b62e7bf4906244e190bd7ee69fd0ba2ea673e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/KF962888.1,KF962889.1,KF962890.1,KF962891.1,KF962892.1,KF962893.1,KF962894.1,KF962895.1,KF962896.1,KF962897.1,KF962899.1,KF962900.1,KF962901.1,KF962904.1,KF962905.1,KF962906.1,KF962907.1,KF962909.1,KF962910.1,KF962911.1,KF962913.1,KF962915.1,KF962916.1,KF962917.1,KF962918.1,KF962919.1,KF962921.1,KF962922.1,KF962925.1,KF962927.1,KF962928.1,KF962929.1,KF962931.1,KM821411.1,KM821412.1,KM821413.1,KM821414.1,KM821415.1,KM821416.1,KM821417.1,KM821418.1,KM821419.1,KM821420.1,KM821421.1,KM821422.1,KM821423.1,KM821424.1,KM821425.1,KM821426.1,KM821427.1,KM821428.1,KM821429.1,KM821430.1,KM821431.1,KM821432.1,KM821433.1,KP777010.1,KP777011.1,KT252562.1,KT252563.1,KX350099.1,L29034.1,LC061952.1,LC061953.1,LC061954.1,LC061955.1,LC061956.1,LC061957.1,LC061958.1,LC061959.1,LC061960.1,LC061961.1,LC061962.1,LC061963.1,LC061964.1,LC061965.1,LC061966.1,LC061967.1,LC061968.1,LC061969.1,LC061970.1,LC061971.1,LC061972.1,LC061973.1,LC061974.1,LC061975.1,LC061976.1,LC061977.1,LC061978.1,LC061979.1,LC061980.1,LC061981.1,LC061982.1,LC061983.1,LC061984.1,LC061985.1,LC061986.1,LC061987.1,LC061988.1,LC061989.1"
+    },
+    {
+      "bytes": 141041,
+      "etag": null,
+      "file": "data/raw/gap/cds/4035a0ae52830e9d8ce2df66.embl",
+      "retrieved_utc": "2026-09-25T15:12:20.219232+00:00",
+      "sha256": "4c64c57a901714d0fd51f17871937b24c2e7abb0ce1f422aca627f8624a41431",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ACJ71045.1,ACK76870.1,ACL00522.1,ACM69392.1,ACM70224.1,ACM70250.1,ACM70289.1,ACM70302.1,ACM70328.1,ACM70341.1,ACM70393.1,ACM70406.1,ACM70419.1,ACM70432.1,ACM70666.1,ACM70679.1,ACM70692.1,ACM70705.1,ACM70718.1,ACM70731.1,ACM70744.1,ACM70757.1,ACM70770.1,ACM70783.1,ACM70796.1,ACM70809.1,ACM70822.1,ACM70835.1,ACM70848.1,ACM70861.1,ACM70874.1,ACM70887.1,ACM70900.1,ACM70926.1,ACM71160.1,ACM71186.1,ACM71199.1,ACM71238.1,ACM71251.1,ACM71264.1,ACM71316.1,ACM71485.1,ACM71524.1,ACM72369.1,ACM72642.1,ACM74891.1,ACM74930.1,ACM75385.1,ACM75437.1,ACM75554.1"
+    },
+    {
+      "bytes": 127311,
+      "etag": null,
+      "file": "data/raw/gap/cds/53c5f317807d8774d9a70c27.embl",
+      "retrieved_utc": "2026-09-25T15:12:48.444786+00:00",
+      "sha256": "8f581207256300e11a01a7a0b3b9a1b46615a6910e2c53c24efe00c7d52ef6cd",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AFF67589.1,AFF68486.1,AFF69487.1,AFF69695.1,AFF70059.1,AFF70241.1,AFF70254.1,AFF71762.1,AFF72711.1,AFF73296.1,AFF73569.1,AFF75194.1,AFF75467.1,AFF75805.1,AFF76728.1,AFF77261.1,AFF78535.1,AFF79328.1,AFF81655.1,AFF81668.1,AFF84762.1,AFF85659.1,AFF86218.1,AFF86816.1,AFF88909.1,AFF90716.1,AFF92263.1,AFF93667.1,AFF94720.1,AFG02715.1,AFG03209.1,AFG03755.1,AFG04314.1,AFG05185.1,AFG05614.1,AFG06797.1,AFG08578.1,AFG08877.1,AFG10255.1,AFG12192.1,AFG15377.1,AFG16636.1,AFI49671.1,AFI49736.1,AFI49827.1,AFI50633.1,AFI50646.1,AFI51218.1,AFI53025.1,AFI53766.1"
+    },
+    {
+      "bytes": 118344,
+      "etag": null,
+      "file": "data/raw/gap/cds/5605749e52fce965400158ba.embl",
+      "retrieved_utc": "2026-09-25T15:14:10.242492+00:00",
+      "sha256": "5bc8a0fdcd4141624b215d23a4cdaf8ea5b9576bc3df5ce366060db25b33cd84",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AON76125.1,AON76203.1,AOR43741.1,AOR44300.1,AOR44924.1,AOR45145.1,AOR45977.1,AOR46094.1,AOR46328.1,AOR46562.1,AOR46757.1,AOR46900.1,AOR48395.1,AOR48590.1,AOR49045.1,AOR49097.1,AOR49162.1,AOR49240.1,AOR49279.1,AOR49500.1,AOR49682.1,AOR50085.1,AOR50553.1,AOT81184.1,AOT84220.1,AOX13251.1,AOX21810.1,AOZ57958.1,APB93453.1,APB93479.1,APD52689.1,APD53053.1,APD55263.1,APD55328.1,APD55341.1,APD58603.1,APD61645.1,APD64960.1,APL97641.1,APS88285.1,APS88519.1,APS89377.1,APS90053.1,APS90534.1,APS90794.1,APY18902.1,APZ83210.1,APZ83223.1,APZ83782.1,AQO39497.1"
+    },
+    {
+      "bytes": 419470,
+      "etag": null,
+      "file": "data/raw/gap/cds/5e4a500556e26e5d4a64e12f.embl",
+      "retrieved_utc": "2026-09-25T15:18:00.625440+00:00",
+      "sha256": "a550398de4234f83845a8022eb44e87a26ab964991139c1eae743a0089a2dc78",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/LN558489.1,M26139.1,MH260863.1,MH260864.1,MH260865.1,MH260866.1,MH260867.1,MH260868.1,MH260869.1,MH260870.1,MH260871.1,MH260872.1,MH260873.1,MH260874.1,MH260875.1,MH260876.1,MH260877.1,MH260878.1,MH260879.1,MH260880.1,MH260881.1,MH260882.1,MH260883.1,MH260884.1,MH260885.1,MH260886.1,MH260887.1,MH260888.1,MH260889.1,MH260890.1,MH260891.1,MH260892.1,MH260893.1,MH260894.1,MH260895.1,MH260896.1,MH260897.1,MH260898.1,MH260899.1,MH576613.1,MH576614.1,MH576615.1,MH576616.1,MH576617.1,MH576618.1,MH576619.1,MH576620.1,MH576621.1,MH576622.1,MH576623.1,MH576624.1,MH576625.1,MH576626.1,MH576627.1,MH576628.1,MH576629.1,MH576630.1,MH576631.1,MH576632.1,MH576633.1,MH576634.1,MH576635.1,MH576636.1,MH576637.1,MH576638.1,MH576639.1,MH576640.1,MH576641.1,MH576642.1,MH576643.1,MH576644.1,MH576645.1,MH576646.1,MH576647.1,MH576648.1,MH576649.1,MH576650.1,MH576651.1,MH576652.1,MH576653.1,MH576654.1,MH576655.1,MH576656.1,MH576657.1,MH576658.1,MH576659.1,MH576660.1,MH576661.1,MH576662.1,MH576663.1,MH576664.1,MH576665.1,MH576666.1,MH576667.1,MH576668.1,MH576669.1,MH576670.1,MH576671.1,MH576672.1,MH576673.1"
+    },
+    {
+      "bytes": 124011,
+      "etag": null,
+      "file": "data/raw/gap/cds/67a956b78e7cb47bacf64a03.embl",
+      "retrieved_utc": "2026-09-25T15:11:50.483068+00:00",
+      "sha256": "28b26f8b4f22e3e2c1d7b3d54f99983e592fee8e00d6e629550471fb89251401",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAU02518.1,AAU03025.1,AAU03038.1,AAU03064.1,AAU12995.1,AAU13190.1,AAV31043.1,AAX15255.1,AAX15606.1,AAX15632.1,AAX15645.1,AAX47892.2,AAX47931.2,AAX53689.1,AAX83016.1,AAY96693.1,AAY96706.1,AAY99790.1,AAY99933.1,AAY99998.1,AAZ00115.1,AAZ00908.1,AAZ01415.1,AAZ01662.1,AAZ01974.1,AAZ03248.1,AAZ30894.1,AAZ30907.1,ABB45407.1,ABB45485.1,ABB45524.1,ABB45550.1,ABB45563.1,ABB51246.1,ABB51337.1,ABB78134.1,ABB78342.1,ABB79265.1,ABB91052.1,ABB97975.1,ABB97988.1,ABB98001.1,ABB98092.1,ABB98196.1,ABB98209.1,ABB98612.1,ABB98833.1,ABC60527.1,ABC60748.1,ABD48579.1"
+    },
+    {
+      "bytes": 125672,
+      "etag": null,
+      "file": "data/raw/gap/cds/67d38df37487219ffb64750f.embl",
+      "retrieved_utc": "2026-09-25T15:13:54.657652+00:00",
+      "sha256": "c0b71f1d4eaa44034b3be360ad73faf8b58062fc3fdf03ef324d24044f9b2463",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AIL91985.1,AIL92128.1,AIN37272.1,AIN37766.1,AIN38195.1,AIR12244.1,AIR12335.1,AIR12374.1,AIR12465.1,AIS38012.1,AIS38333.1,AIS38658.1,AIS38971.1,AIS38981.1,AIS75016.1,AIS75024.1,AIS75040.1,AIT58566.1,AIT58579.1,AIT58643.1,AIT58760.1,AIT75891.1,AIT76136.1,AIU45579.1,AIU45592.1,AIU45605.1,AIU45618.1,AIU45631.1,AIU45644.1,AIU45657.1,AIU45670.1,AIU45683.1,AIU45696.1,AIU45709.1,AIU57100.1,AIU57204.1,AIU57217.1,AIU57243.1,AIU57295.1,AIU57425.1,AIU58192.1,AIU58296.1,AIU58517.1,AIU58686.1,AIU58725.1,AIU60649.1,AIU60727.1,AIU61195.1,AIU61936.1,AIU63431.1"
+    },
+    {
+      "bytes": 126679,
+      "etag": null,
+      "file": "data/raw/gap/cds/694e60d8954b20d077cb5df1.embl",
+      "retrieved_utc": "2026-09-25T15:13:51.044375+00:00",
+      "sha256": "852be7bff8fefb0c956edabbe4f8af40694692446fb3e19ff1d4ca4a1dc683a4",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AID08185.1,AID08445.1,AID09186.1,AID09199.1,AID09212.1,AID09420.1,AID09914.1,AID10096.1,AID10863.1,AID12371.1,AID12423.1,AID13073.1,AID13801.1,AID13944.1,AID14347.1,AID14646.1,AID14750.1,AID15166.1,AID60938.1,AID60951.1,AIE42783.1,AIE44489.1,AIG20069.1,AIG22746.1,AIG22785.1,AIG52469.1,AIG60126.1,AIG60165.1,AIG60269.1,AIG60828.1,AIG60841.1,AIG60854.1,AIG60867.1,AIG60880.1,AIG60893.1,AIG60906.1,AIG60919.1,AIG60932.1,AIH01025.1,AIH15080.1,AIH15105.1,AIJ02088.1,AIJ18410.1,AIJ18566.1,AIJ18605.1,AIJ18618.1,AIJ18644.1,AIK67011.1,AIK67128.1,AIL91088.1"
+    },
+    {
+      "bytes": 136452,
+      "etag": null,
+      "file": "data/raw/gap/cds/6bab377e36550f74605a0542.embl",
+      "retrieved_utc": "2026-09-25T15:14:49.585606+00:00",
+      "sha256": "dba6f3255a522868d2010e1480ec80a3da044500f85ce63a6dfdab905fa4f443",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AYW06107.1,AYW06676.1,AYW09757.1,AYW09861.1,AYW11212.1,AYW11251.1,AYW11264.1,AYW11277.1,AYW11303.1,AYW11342.1,AYW11368.1,AYW11394.1,AYW11433.1,AYW11485.1,AYW11524.1,AYW11550.1,AYW11589.1,AYW11602.1,AYW11680.1,AYW11693.1,AYW11758.1,AYW11784.1,AYW11836.1,AYW11901.1,AYX80023.1,AZJ08833.1,AZJ08859.1,AZJ09587.1,AZJ09743.1,AZJ10055.1,AZJ12187.1,AZJ12395.1,AZJ13725.1,AZJ13790.1,AZJ14037.1,AZJ14154.1,AZJ14180.1,AZJ14479.1,AZM31756.1,AZP39829.1,AZQ07805.1,AZZ89244.1,BAA95644.1,BAA95657.1,BAA95799.1,BAB13805.1,BAB25274.1,BAB27098.1,BAB28243.1,BAC25330.1"
+    },
+    {
+      "bytes": 345849,
+      "etag": null,
+      "file": "data/raw/gap/cds/70e942e36d9ab7bd5e95178e.embl",
+      "retrieved_utc": "2026-09-25T15:17:21.996263+00:00",
+      "sha256": "41abcae28f6bf8ae04ade6474963b5a5da0e1f9f5aceed90d48dd42b4ec0f397",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/DQ654411.1,DQ654412.1,DQ654413.1,DQ654414.1,DQ654415.1,DQ654416.1,DQ654417.1,DQ654418.1,DQ654419.1,DQ654420.1,DQ654421.1,DQ654422.1,DQ654423.1,DQ654424.1,DQ654425.1,DQ654426.1,DQ654427.1,DQ654428.1,DQ654429.1,DQ654430.1,DQ654431.1,DQ654432.1,DQ654433.1,DQ654434.1,DQ654435.1,DQ654436.1,DQ654437.1,DQ654438.1,DQ654439.1,DQ654440.1,DQ654441.1,DQ654442.1,DQ654443.1,DQ654444.1,DQ654445.1,DQ654446.1,DQ654447.1,DQ654448.1,DQ654449.1,DQ654450.1,DQ654451.1,DQ654452.1,DQ654453.1,DQ654454.1,DQ654455.1,DQ654456.1,DQ654457.1,DQ654458.1,DQ654459.1,DQ654460.1,DQ654461.1,DQ654462.1,DQ654463.1,DQ654464.1,DQ654465.1,DQ654466.1,DQ654467.1,DQ654468.1,DQ654469.1,DQ654470.1,DQ654471.1,DQ654472.1,DQ654473.1,DQ654474.1,DQ654475.1,DQ654476.1,DQ654477.1,DQ654478.1,DQ654479.1,DQ654480.1,DQ654481.1,DQ654482.1,DQ654483.1,DQ654484.1,DQ654485.1,DQ654486.1,DQ654487.1,DQ654488.1,DQ654489.1,DQ654490.1,DQ654491.1,DQ654492.1,DQ654493.1,EU563241.1,EU826449.1,GQ150572.1,GQ150573.1,GQ150574.1,GQ150575.1,GQ150576.1,GQ150577.1,GQ150578.1,GQ150579.1,GQ150580.1,GQ150581.1,GQ150582.1,GQ150583.1,GQ150584.1,GQ150585.1,GQ150586.1"
+    },
+    {
+      "bytes": 119120,
+      "etag": null,
+      "file": "data/raw/gap/cds/787ada83eef279caa6c8d7f2.embl",
+      "retrieved_utc": "2026-09-25T15:11:46.939500+00:00",
+      "sha256": "1077253f32b7591531cc5c30de934ba8025e91745fa31f535105c2622add5038",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AAD22964.1,AAD22966.1,AAG28181.1,AAG28194.1,AAG28207.1,AAG28220.1,AAH89550.1,AAI26760.1,AAK17484.1,AAK17666.1,AAK17679.1,AAK17822.1,AAK76746.1,AAL54453.1,AAL54518.1,AAN14749.1,AAO44989.1,AAO45001.1,AAO66635.1,AAO67051.1,AAO88323.1,AAO88362.1,AAO88427.1,AAO88557.1,AAP47923.1,AAP47936.1,AAP48248.1,AAP89027.1,AAP90496.1,AAQ05984.1,AAQ05997.1,AAQ06023.1,AAQ06127.1,AAQ06153.1,AAQ06597.1,AAQ24166.1,AAR05786.1,AAR21199.1,AAR91301.1,AAR94684.1,AAR95009.1,AAR95230.1,AAR95269.1,AAR95503.1,AAS01430.1,AAS01443.1,AAS01456.1,AAS01469.1,AAS18246.1,AAS77708.1"
+    },
+    {
+      "bytes": 110410,
+      "etag": null,
+      "file": "data/raw/gap/cds/7f160c41c7c66e53191cadf3.embl",
+      "retrieved_utc": "2026-09-25T15:14:56.977186+00:00",
+      "sha256": "508044b509edc9bb591c0498499e6b5297feff663ef494a9fa765ea4e38c77b5",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/QBH98910.1,QBH98922.1,QBH98924.1,QBH98927.1,QBH98948.1,QBH98953.1,QBH98959.1,QBH98963.1,QBH98969.1,QBH98976.1,QBH98984.1,QBH99012.1,QBH99035.1,QBH99051.1,QBH99055.1,QBH99058.1,QBH99061.1,QBH99063.1,QBH99066.1,QBH99069.1,QBH99078.1,QBH99095.1,QBH99098.1,QBH99101.1,QBX96075.1,QBX96166.1,QBX96309.1,QBY36544.1,QBY36622.1,QBY37571.1,QBY37922.1,QBY38637.1,QBY39820.1,QBZ74369.1,QBZ75227.1,QBZ76085.1,QBZ76111.1,QBZ76124.1,QCB16530.1,QCB16751.1,QCB17388.1,QCB17648.1,QCB18051.1,QCB18168.1,QCB18727.1,QCB19273.1,QCB19338.1,QCB19767.1,QDE52766.1,QDE52818.1"
+    },
+    {
+      "bytes": 334603,
+      "etag": null,
+      "file": "data/raw/gap/cds/832cc025c8c23779fbd29dcf.embl",
+      "retrieved_utc": "2026-09-25T15:18:05.305117+00:00",
+      "sha256": "797960a4f469246cd663f65c739204edd4657ccdbc559c35a04505a897a3b8b2",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/MH576674.1,MH576675.1,MH576676.1,MH576677.1,MH576678.1,MH576679.1,MH576680.1,MH576681.1,MH576682.1,MH576683.1,MH576684.1,MH576685.1,MH576686.1,MH576687.1,MH576688.1,MH576689.1,MH576690.1,MH576691.1,MH576692.1,MH576693.1,MH576694.1,MH576695.1,MH576696.1,MH576697.1,MH576698.1,MH576699.1,MH576700.1,MH576701.1,MN251742.1,MN251743.1,MN400447.1,MN400448.1,MN400449.1,MN400450.1,MN400451.1,MN400452.1,MN400453.1,MN400454.1,MN400455.1,MN400456.1,MN400457.1,MN400458.1,MN400459.1,MN400460.1,MN400461.1,MN400462.1,MN400463.1,MN400464.1,MN400465.1,MN400466.1,MN400467.1,MN400468.1,MN400469.1,MN400470.1,MN400471.1,MN400472.1,MN400473.1,MN400474.1,MN400475.1,MN400476.1,MN400477.1,MN400478.1,MN400479.1,MN400480.1,MN400481.1,MN400482.1,MN400483.1,MN400484.1,MN400485.1,MN400486.1,MN400487.1,MN400488.1,MN400489.1,MN400490.1,MN400491.1,MN400492.1,MN400493.1,MN400494.1,MN400495.1,MN400496.1,MN400497.1,MN400498.1,MN400499.1,MN400500.1,MN400501.1,MN400502.1,MN400503.1,MN400504.1,MN400505.1,MN400506.1,MN400507.1,MN400508.1,MN400509.1,MN400510.1,MN400511.1,MN400512.1,MN400513.1,MN400514.1,MN400515.1,MN400516.1"
+    },
+    {
+      "bytes": 142335,
+      "etag": null,
+      "file": "data/raw/gap/cds/8d1399dd8e2134c2ff367a89.embl",
+      "retrieved_utc": "2026-09-25T15:12:51.939474+00:00",
+      "sha256": "361b1f896b22a400370945bc193a2d8ac845efbb2bcda5cd57968c8ad0125985",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AFI54013.1,AFI54273.1,AFI54390.1,AFK75485.1,AFK75498.1,AFK75511.1,AFK75524.1,AFK75537.1,AFN05387.1,AFN05400.1,AFN05413.1,AFN06282.1,AFN06295.1,AFN87557.1,AFO20382.1,AFO22241.1,AFO22475.1,AFO22787.1,AFO23229.1,AFO23424.1,AFO23645.1,AFO24672.1,AFO24685.1,AFO25816.1,AFO26284.1,AFO26622.1,AFO29261.1,AFO32719.1,AFO34084.1,AFO34383.1,AFO36385.1,AFP91165.1,AFP91809.1,AFP91835.1,AFP96098.1,AFP96241.1,AFQ05334.1,AFQ05763.1,AFQ98779.1,AFU89271.1,AFU89398.1,AFU89824.1,AFV54226.1,AFV55734.1,AFV56319.1,AFV94521.1,AFX58990.1,AFX59003.1,AFY51539.1,AFY51565.1"
+    },
+    {
+      "bytes": 126176,
+      "etag": null,
+      "file": "data/raw/gap/cds/8defa2f75ba2e479c180e2c7.embl",
+      "retrieved_utc": "2026-09-25T15:14:46.259956+00:00",
+      "sha256": "4ecb6c4d023bce74ffdda99433eeb3754c086e30ca65484ff83bc03ab745933a",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AVL84912.1,AVL85328.1,AVL86069.1,AVL86251.1,AVL86498.1,AVL86511.1,AVL88747.1,AVL90970.1,AVL91646.1,AVL92192.1,AVL92205.1,AVM38894.1,AVP32579.1,AVP32592.1,AVV61522.1,AWD37064.1,AWD37077.1,AWM96953.1,AWM97200.1,AWM97434.1,AWV63594.1,AWV63621.1,AWW03172.1,AWW03224.1,AWX64135.1,AWX64265.1,AWX64434.1,AXF36294.1,AXF36333.1,AXF36722.1,AXF36736.1,AXF36918.1,AXF37100.1,AXF37126.1,AXG49994.1,AXQ02232.1,AXQ02411.1,AXT16623.1,AYA73236.1,AYV90008.1,AYV90021.1,AYV90125.1,AYV90580.1,AYV90684.1,AYW04027.1,AYW04365.1,AYW05106.1,AYW05132.1,AYW05522.1,AYW05548.1"
+    },
+    {
+      "bytes": 121970,
+      "etag": null,
+      "file": "data/raw/gap/cds/8e5e56f847d216d170aceecf.embl",
+      "retrieved_utc": "2026-09-25T15:14:02.699428+00:00",
+      "sha256": "5774f201389011df23666864817567e1495545f24a8c1b17269dc9af044ee2e8",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AJV88056.1,AKB99429.1,AKB99520.1,AKB99949.1,AKC90977.1,AKC90990.1,AKE35633.1,AKF02256.1,AKG64560.1,AKH35336.1,AKI30528.1,AKI30541.1,AKK32021.1,AKK32034.1,AKK32073.1,AKK32099.1,AKK32112.1,AKN57065.1,AKQ20162.1,AKQ20175.1,AKQ20630.1,AKS10716.1,AKS10755.1,AKT94142.1,AKT94441.1,AKV16278.1,AKV62308.1,AKV62334.1,AKZ31824.1,ALD85029.1,ALD85263.1,ALD85406.1,ALD88383.1,ALF99885.1,ALH18180.1,ALH44134.1,ALK26765.1,ALK26778.1,ALK26791.1,ALK26804.1,ALK26817.1,ALK26830.1,ALL62621.1,ALM02805.1,ALM03203.1,ALM03229.1,ALM03268.1,ALM03554.1,ALM03567.1,ALM03866.1"
+    },
+    {
+      "bytes": 126454,
+      "etag": null,
+      "file": "data/raw/gap/cds/92a726ee070489193cc5748c.embl",
+      "retrieved_utc": "2026-09-25T15:14:29.851715+00:00",
+      "sha256": "09b1ee746e85c8650ffae4a01555a94f9cd7c28f21ca735fe2eed70d7786a09e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ASZ80415.1,ASZ83002.1,ASZ83288.1,ATD85511.1,ATD85524.1,ATD85537.1,ATD85550.1,ATG33310.1,ATI23726.1,ATI23752.1,ATI23882.1,ATL21395.1,ATL21967.1,ATN23380.1,ATO58585.1,ATO58754.2,ATP01509.1,ATP01600.1,ATP04803.1,ATP04868.1,ATP05492.1,ATP05596.1,ATQ37577.1,ATV99003.1,ATX61829.1,ATY52054.1,AUC08582.1,AUG82337.1,AUM82145.1,AUR39212.1,AUR39420.1,AUR39615.1,AUR39875.1,AUR40070.1,AUR40694.1,AUR42982.1,AUT18216.1,AUT18424.1,AUT18697.1,AUT77333.1,AUT77346.1,AUT78190.1,AUT79997.1,AUT80010.1,AUT80322.1,AUV65807.1,AUZ22767.1,AVA27258.1,AVE14849.1,AVI25196.1"
+    },
+    {
+      "bytes": 19084,
+      "etag": null,
+      "file": "data/raw/gap/cds/9c0225e8b4779411af77b703.embl",
+      "retrieved_utc": "2026-09-25T15:15:09.562002+00:00",
+      "sha256": "1f14aafc322b8881c799a97aa50f7df7056c5a909ce5cead46d3dc11845c1b55",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/QVM19384.1,QVM19410.1,QVM19423.1,QVM19436.1,QVM20008.1,QVM20060.1,QXO91268.1,QXO91905.1,SMN22996.1"
+    },
+    {
+      "bytes": 135083,
+      "etag": null,
+      "file": "data/raw/gap/cds/9cccd17416d882ccfd20ada9.embl",
+      "retrieved_utc": "2026-09-25T15:14:53.725353+00:00",
+      "sha256": "79d306926faea67fc8bf090a3191df501ab4f1c0232cf26bd40965a3cc002a8b",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/BAC54752.1,BAD11043.1,BAD11118.1,BAD97068.1,BAE07250.1,BAE10996.1,BAE11919.1,BAE12803.1,BAE16030.1,BAE20702.1,BAE35759.1,BAF46407.1,BAG14423.1,BAG15840.1,BAG38711.1,BAH10980.1,BAH11006.1,BAM25178.1,BAM93587.1,BAM93600.1,BAN16596.1,BAN80110.1,BAO42854.1,BAO42867.1,BAS29536.1,BAW34845.1,BAX73914.1,BCD41281.1,CAD33911.1,CAD54436.1,CAH59697.1,CAJ97547.1,CAM98654.1,QAT80143.1,QAT80182.1,QAT98025.1,QAV56926.1,QAV57325.1,QAV57364.1,QAV57437.1,QBA19533.1,QBA19546.1,QBB87266.1,QBB87396.1,QBB88189.1,QBG37926.1,QBH98899.1,QBH98901.1,QBH98904.1,QBH98907.1"
+    },
+    {
+      "bytes": 351468,
+      "etag": null,
+      "file": "data/raw/gap/cds/9dad468f12700cb78367ae7b.embl",
+      "retrieved_utc": "2026-09-25T15:17:54.939057+00:00",
+      "sha256": "f3b72521889ee7dcd527507cffae7778c3d49621db9bc45d788cbab901194de8",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/LC061990.1,LC061991.1,LC061992.1,LC061993.1,LC061994.1,LC061995.1,LC061996.1,LC061997.1,LC061998.1,LC061999.1,LC062000.1,LC062001.1,LC062002.1,LC421940.1,LC431285.1,LC431286.1,LC431287.1,LC431701.1,LC431702.1,LC431703.1,LC431704.1,LC431705.1,LC431706.1,LC431707.1,LC431708.1,LC431709.1,LC431710.1,LC431711.1,LC933711.1,LC933712.1,LC933713.1,LC933714.1,LC933715.1,LC933716.1,LC933717.1,LC933718.1,LC933719.1,LC933720.1,LC933721.1,LC933722.1,LC933723.1,LC933724.1,LC933725.1,LC933726.1,LC933727.1,LC933728.1,LC933729.1,LC933730.1,LC933731.1,LN558438.1,LN558439.1,LN558440.1,LN558441.1,LN558442.1,LN558443.1,LN558444.1,LN558445.1,LN558446.1,LN558447.1,LN558448.1,LN558449.1,LN558450.1,LN558451.1,LN558452.1,LN558453.1,LN558454.1,LN558455.1,LN558456.1,LN558457.1,LN558458.1,LN558459.1,LN558460.1,LN558461.1,LN558462.1,LN558463.1,LN558464.1,LN558465.1,LN558466.1,LN558467.1,LN558468.1,LN558469.1,LN558470.1,LN558471.1,LN558472.1,LN558473.1,LN558474.1,LN558475.1,LN558476.1,LN558477.1,LN558478.1,LN558479.1,LN558480.1,LN558481.1,LN558482.1,LN558483.1,LN558484.1,LN558485.1,LN558486.1,LN558487.1,LN558488.1"
+    },
+    {
+      "bytes": 120533,
+      "etag": null,
+      "file": "data/raw/gap/cds/9f9f5a1d9947a11e34aaaa20.embl",
+      "retrieved_utc": "2026-09-25T15:12:41.318546+00:00",
+      "sha256": "88bcdf4454e8aca9c6d7a2ace6f442bbd330810d718b50c27f2a4fd68d6609ae",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ADN42073.1,ADO85071.1,ADO85110.1,ADO85279.1,ADP22391.1,ADP22469.1,ADP23379.1,ADQ52545.1,ADR03160.1,ADR50430.1,ADT80268.1,ADW83070.1,ADY75049.1,ADY75101.1,ADZ23165.1,ADZ52793.1,AEE11587.1,AEE11704.1,AEE60384.1,AEG25193.1,AEG62407.1,AEG63135.1,AEG63187.1,AEG80085.1,AEH05182.1,AEM54834.1,AEM54873.1,AEM54886.1,AEM54899.1,AEM54912.1,AEM54925.1,AEM54938.1,AEM54951.1,AEN03373.1,AEN03386.1,AEN03399.1,AEN03412.1,AEN03425.1,AEN03438.1,AEN03555.1,AEO31717.1,AEO31756.1,AEO89798.1,AEO89876.1,AEO92937.1,AEO92950.1,AEO92963.1,AEO92976.1,AEO93015.1,AEO93028.1"
+    },
+    {
+      "bytes": 1465272,
+      "etag": null,
+      "file": "data/raw/gap/cds/a7e87063d7bd2c0e3db8ce7c.embl",
+      "retrieved_utc": "2026-09-25T15:17:15.389707+00:00",
+      "sha256": "d451e208707845e2673e88c89a7610463fcd79dfa168daeeb8d2d351bb404f6b",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AB098751.1,AB098756.1,AB098783.1,AB098786.1,AB098804.1,AB098805.1,AB098808.1,AB098815.1,AB098816.1,AB098818.1,AB099040.1,AB233988.1,AB753737.1,AB753738.1,AB753739.1,AF004340.1,AF039170.1,AF093677.1,AF115770.1,AF115771.1,AF190812.3,AF190813.1,AF368271.1,AF465941.1,AF465942.1,AF465943.1,AF465944.1,AF465945.1,AF465946.1,AF465947.1,AF465948.1,AF465949.1,AF465950.1,AF465951.1,AF465952.1,AF465953.1,AF465954.1,AF465955.1,AF465956.1,AF465957.1,AF465958.1,AF465959.1,AF465960.1,AF465961.1,AF465962.1,AF465963.1,AF465964.1,AF465965.1,AF465966.1,AF465967.1,AF465968.1,AF465969.1,AF465970.1,AF465971.1,AF465972.1,AF465973.1,AF465974.1,AF465975.1,AF465976.1,AF465977.1,AF465978.1,AF465979.1,AF465980.1,AF490528.1,AF490529.1,AF493541.1,AF493542.1,AF504920.1,AH003745.1,AH003748.1,AH003750.1,AJ133287.1,AK131577.1,AK131587.1,AK132015.1,AK167037.1,AY308066.1,AY308067.1,AY308068.1,AY308069.1,AY370877.1,DQ201782.1,DQ347618.1,DQ654394.1,DQ654395.1,DQ654396.1,DQ654397.1,DQ654398.1,DQ654399.1,DQ654400.1,DQ654401.1,DQ654402.1,DQ654403.1,DQ654404.1,DQ654405.1,DQ654406.1,DQ654407.1,DQ654408.1,DQ654409.1,DQ654410.1"
+    },
+    {
+      "bytes": 125218,
+      "etag": null,
+      "file": "data/raw/gap/cds/ac1048734407f0842776859b.embl",
+      "retrieved_utc": "2026-09-25T15:13:35.878337+00:00",
+      "sha256": "5be24ccc94748165e1fff525cd92827eedf4695cf42b429e4a516f321dd15ee9",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AHA47449.1,AHA47670.1,AHA47683.1,AHA47735.1,AHB37035.1,AHE78514.1,AHE78904.1,AHE79073.1,AHE79554.1,AHG98495.1,AHH00013.1,AHH00468.1,AHH29683.1,AHI45710.1,AHI51989.1,AHI52100.1,AHI87877.1,AHI95693.1,AHJ59924.1,AHJ80923.1,AHL24733.1,AHW29717.1,AHW31329.1,AHW33838.1,AHW33864.1,AHW34007.1,AHW34085.1,AHW34137.1,AHW34150.1,AHW34215.1,AHW34228.1,AHW34293.1,AHW34371.1,AHW34449.1,AHW34462.1,AHW34540.1,AHW34579.1,AHW34592.1,AHW34683.1,AHW34709.1,AHW34748.1,AHW34761.1,AHW35151.1,AHW35229.1,AHW35476.1,AHW35788.1,AHW35801.1,AHW35879.1,AHW35892.1,AHW35918.1"
+    },
+    {
+      "bytes": 120605,
+      "etag": null,
+      "file": "data/raw/gap/cds/b83b67e4454695a2cdd5b1b1.embl",
+      "retrieved_utc": "2026-09-25T15:13:23.919772+00:00",
+      "sha256": "4230c540619a62fbd26e28ed590c8702730e94fc676776c1b8bdf0e914f60aa1",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AGZ06498.1,AGZ06901.1,AGZ08500.1,AGZ09722.1,AGZ10567.1,AGZ10970.1,AGZ11139.1,AGZ16512.1,AGZ63291.1,AGZ63328.1,AGZ64219.1,AGZ64362.1,AGZ65519.1,AGZ65558.1,AGZ65805.1,AGZ66078.1,AGZ66195.1,AGZ66208.1,AGZ66221.1,AGZ66260.1,AGZ66273.1,AGZ66299.1,AGZ66377.1,AGZ66403.1,AGZ66455.1,AGZ66468.1,AGZ67378.1,AGZ67573.1,AGZ67898.1,AGZ68093.1,AGZ68431.1,AGZ69094.1,AGZ69497.1,AGZ69523.1,AGZ69887.1,AGZ69952.1,AGZ70004.1,AGZ71499.1,AGZ71642.1,AGZ71694.1,AGZ72110.1,AGZ72188.1,AGZ73683.1,AGZ74151.1,AGZ75750.1,AGZ77492.1,AGZ95761.1,AGZ95852.1,AGZ96866.1,AHA47397.1"
+    },
+    {
+      "bytes": 120423,
+      "etag": null,
+      "file": "data/raw/gap/cds/bdf66075e3a8a2ec8756ee11.embl",
+      "retrieved_utc": "2026-09-25T15:12:27.484750+00:00",
+      "sha256": "d7f8135f920aed1a004c3663684915edf06de5b448db245499e849735c84d00e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ACY55326.1,ACY55586.1,ADA58413.1,ADA58686.1,ADB05730.1,ADB06587.1,ADB78151.1,ADB80912.1,ADB80951.1,ADC90249.1,ADD23551.1,ADD23552.1,ADD32069.1,ADD32095.1,ADD51966.1,ADD51967.1,ADD51968.1,ADD51969.1,ADD51970.1,ADD51971.1,ADD51973.1,ADD51974.1,ADD51975.1,ADD51976.1,ADD51977.1,ADD51978.1,ADD51979.1,ADD51982.1,ADD51983.1,ADD51984.1,ADD51997.1,ADD52001.1,ADD52003.1,ADD52005.1,ADD54075.1,ADE05943.1,ADE05956.1,ADE05969.1,ADE05982.1,ADE33329.1,ADE33368.1,ADF49331.1,ADG46533.1,ADG46637.1,ADG46650.1,ADG46819.1,ADG85625.1,ADG85638.1,ADG95417.1,ADG95625.1"
+    },
+    {
+      "bytes": 121451,
+      "etag": null,
+      "file": "data/raw/gap/cds/bf0593f994d46b5835319dbb.embl",
+      "retrieved_utc": "2026-09-25T15:13:47.677645+00:00",
+      "sha256": "d1b1b36151320b5b9d841eb6e602e8081c7f4433eb5ad5e4e5b0b835b3fc26d1",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AHW35944.1,AHW35957.1,AHW36802.1,AHW36815.1,AHW36893.1,AHW36906.1,AHW36958.1,AHW37023.1,AHW37517.1,AHW37530.1,AHW37556.1,AHW37569.1,AHW37595.1,AHW37608.1,AHW37621.1,AHW37647.1,AHW37660.1,AHW37699.1,AHW37712.1,AHW37751.1,AHW37855.1,AHX43497.1,AHX43588.1,AHX44719.1,AHX44732.1,AHX45070.1,AHX45642.1,AHX45681.1,AHX46383.1,AHX46396.1,AHX46513.1,AHX48736.1,AHX48749.1,AHX48762.1,AHX48775.1,AHX48788.1,AHX48801.1,AHX48814.1,AHX48827.1,AHX48840.1,AHX51128.1,AHX51141.1,AHX51154.1,AHX51167.1,AHX53104.1,AHX53676.1,AHZ60970.1,AID07535.1,AID07639.1,AID07665.1"
+    },
+    {
+      "bytes": 116706,
+      "etag": null,
+      "file": "data/raw/gap/cds/c1428069452edbc6a4095403.embl",
+      "retrieved_utc": "2026-09-25T15:12:13.235397+00:00",
+      "sha256": "53b1ff53b3783884151920605b713eb8c796c873e83a4425c2708d8c1fe9917a",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ACA01105.1,ACA01118.1,ACA01131.1,ACA01144.1,ACA01157.1,ACA01196.1,ACA01209.1,ACA01222.1,ACA01235.1,ACA01248.1,ACA01527.1,ACA21894.1,ACA80658.1,ACA80762.1,ACA80814.1,ACB20564.1,ACB48161.1,ACB48434.1,ACB48460.1,ACB49006.1,ACC86279.1,ACC86396.1,ACC95102.1,ACD43689.1,ACD76632.1,ACF03815.1,ACG50295.1,ACG50308.1,ACG50503.1,ACG55966.1,ACH56048.1,ACH71103.1,ACH86329.1,ACH86602.1,ACH87525.1,ACI04268.1,ACI41484.1,ACI41497.1,ACI41510.1,ACI41523.1,ACI41536.1,ACI41549.1,ACI41562.1,ACI41575.1,ACI41588.1,ACI41601.1,ACI41614.1,ACI41627.1,ACJ47316.1,ACJ47771.1"
+    },
+    {
+      "bytes": 126574,
+      "etag": null,
+      "file": "data/raw/gap/cds/c97aab73a26cf9fe9182ba83.embl",
+      "retrieved_utc": "2026-09-25T15:13:16.784026+00:00",
+      "sha256": "d8c8bedfe80e8343ee13027a89ace1f9d8e2721f3de67c7093ebc714d90a96b9",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AGI50141.1,AGI50193.1,AGI50219.1,AGJ72626.1,AGJ95230.1,AGJ95321.1,AGJ95451.1,AGJ96127.1,AGK64157.1,AGK64417.1,AGK64469.1,AGK64664.1,AGK64911.1,AGL11618.1,AGO23808.1,AGO23951.1,AGO24861.1,AGO43926.1,AGO50644.1,AGO50657.1,AGO50670.1,AGO50683.1,AGO50696.1,AGO50722.1,AGO50735.1,AGO50774.1,AGO50800.1,AGO50813.1,AGO50826.1,AGO90332.1,AGO90735.1,AGO91255.1,AGO91268.1,AGO92204.1,AGO92789.1,AGO92828.1,AGO92984.1,AGO93413.1,AGO93803.1,AGO93894.1,AGO94011.1,AGO94401.1,AGO94531.1,AGO94674.1,AGQ46060.1,AGQ46189.1,AGR67125.1,AGS12825.1,AGS17590.1,AGS17603.1"
+    },
+    {
+      "bytes": 274103,
+      "etag": null,
+      "file": "data/raw/gap/cds/ccae9526e2242e8d1d55803f.embl",
+      "retrieved_utc": "2026-09-25T15:18:10.065083+00:00",
+      "sha256": "5f623ab9aa4dec71531ba852afaa4ffdbae576e5fa56e95da1bc5ca188742fcd",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/MN400517.1,MN400518.1,MN400519.1,MN400520.1,MN400521.1,MN400522.1,MN400523.1,MN400524.1,MN400525.1,MN400526.1,MN400527.1,MN400528.1,MN400529.1,MN400530.1,MN400531.1,MN400532.1,MN400533.1,MN400534.1,MN400535.1,MN400536.1,MN400537.1,MN400538.1,MN400539.1,MN400540.1,MN400541.1,MN400542.1,MN400543.1,MN400544.1,MN400545.1,MN400546.1,MN400547.1,MN400548.1,MN400549.1,MN400550.1,MN400551.1,MN400552.1,MN400553.1,MN400554.1,MN400555.1,MN400556.1,MN427654.1,MN427655.1,MN427656.1,MN427657.1,MN427658.1,MN427659.1,MN427660.1,MN427661.1,MN427662.1,MN427663.1,MN427664.1,MN427665.1,MN427666.1,MN427667.1,MN427668.1,MN427669.1,MN427670.1,MN427671.1,MN427672.1,MN427673.1,MN427674.1,MN427675.1,MN427676.1,MN427677.1,MN427678.1,MN427679.1,MN427680.1,MN427681.1,MN427682.1,MN427683.1,MN427684.1,MN427685.1,MN427686.1,MN427687.1,MN427688.1,MN427689.1,MN427690.1,MN427691.1,MN427692.1,MN427693.1,MN427694.1,MN427695.1,MN427696.1,MN427697.1,MN427698.1,MN427699.1,MN427700.1,MN427701.1,MN427702.1,MN427703.1,MN427704.1,MN427705.1,MN427706.1,MN427707.1,MN427708.1,MN427709.1,MN427710.1,MN427711.1,MN427712.1,MN427713.1"
+    },
+    {
+      "bytes": 417200,
+      "etag": null,
+      "file": "data/raw/gap/cds/d6a200bd36c91d4614b4b025.embl",
+      "retrieved_utc": "2026-09-25T15:17:34.940110+00:00",
+      "sha256": "a3e65cbcc68e96b8b054683a051d64730bf28c20b82967f59bd2dddf1374b694",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/JN087597.1,JN087598.1,JN087599.1,JN087600.1,JN087601.1,JN087602.1,JN087603.1,JN087604.1,JN087605.1,JN087606.1,JN087607.1,JN087608.1,JN087609.1,JN087610.1,JN087611.1,JN087612.1,JN087613.1,JN087614.1,JN087615.1,JN087616.1,JN087617.1,JN087618.1,JN087619.1,JN087620.1,JN087621.1,JN087622.1,JN087623.1,JN087624.1,JN087625.1,JN087626.1,JN087627.1,JN087628.1,JN087629.1,JN087630.1,JN087631.1,JN087632.1,JN087633.1,JN087634.1,JN087635.1,JN087636.1,JN087637.1,JN087638.1,JN087639.1,JN087640.1,JN087641.1,JN087642.1,JN087643.1,JN087644.1,JN087645.1,JN087646.1,JN087647.1,JN087648.1,JN087649.1,JN087650.1,JN087651.1,JN087652.1,JN087653.1,JN087654.1,JN087655.1,JN087656.1,JN087657.1,JN087658.1,JN087659.1,JN087660.1,JN087661.1,JN087662.1,JN087663.1,JN087664.1,JN087665.1,JN087666.1,JN087667.1,JN087668.1,JN087669.1,JN087670.1,JN087671.1,JN087672.1,JN087673.1,JN087674.1,JN087675.1,JN087676.1,JN087677.1,JN087678.1,JN087679.1,JN087680.1,JN087681.1,JN087682.1,JN087683.1,JN087684.1,JN087685.1,JN087686.1,JN087687.1,JN087688.1,JN087689.1,JN087690.1,JN087691.1,JN087692.1,JN087693.1,JN087694.1,JN087695.1,JN087696.1"
+    },
+    {
+      "bytes": 125955,
+      "etag": null,
+      "file": "data/raw/gap/cds/e08babe92ac7c1e07bd0971e.embl",
+      "retrieved_utc": "2026-09-25T15:12:07.417586+00:00",
+      "sha256": "7fb8884b27e5aaf2225ac205e53e6408de0879f1c029710666329defa1984ea2",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ABU66768.1,ABU67902.1,ABV02132.1,ABV70209.1,ABV70521.1,ABV70898.1,ABV70911.1,ABV70924.1,ABX40058.1,ABX40201.1,ABX79706.1,ABX79719.1,ABX79732.1,ABX79745.1,ABX89413.1,ABY59873.1,ABY59912.1,ACA00384.1,ACA00396.1,ACA00408.1,ACA00421.1,ACA00525.1,ACA00538.1,ACA00550.1,ACA00562.1,ACA00601.1,ACA00679.1,ACA00692.1,ACA00705.1,ACA00718.1,ACA00731.1,ACA00744.1,ACA00757.1,ACA00770.1,ACA00809.1,ACA00822.1,ACA00834.1,ACA00847.1,ACA00859.1,ACA00911.1,ACA00937.1,ACA00950.1,ACA00963.1,ACA00976.1,ACA00989.1,ACA01002.1,ACA01015.1,ACA01028.1,ACA01041.1,ACA01054.1"
+    },
+    {
+      "bytes": 594918,
+      "etag": null,
+      "file": "data/raw/gap/cds/e18f25f9b289b3d0e77d04f8.embl",
+      "retrieved_utc": "2026-09-25T15:17:39.849835+00:00",
+      "sha256": "296673c2ff6a76163129c81de5cd3dde39f4ac1d8bdc931118cd687a10cf4124",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/JN087697.1,JN087698.1,JN087699.1,JN087700.1,JN087701.1,JN087702.1,JN087703.1,JN087704.1,JN087705.1,JN087706.1,JN087707.1,JN087708.1,JN087709.1,JN087710.1,JN087711.1,JN087712.1,JN087713.1,JN087714.1,JN087715.1,JN087716.1,JN087717.1,JN087718.1,JN087719.1,JN087720.1,JN087721.1,JN087722.1,JN087723.1,JN087724.1,JN087725.1,JN087726.1,JN087727.1,JN087728.1,JN087729.1,JN087730.1,JN087731.1,JN087732.1,JN087733.1,JN087734.1,JN087735.1,JN087736.1,JN087737.1,JN087738.1,JN087739.1,JN087740.1,JN087741.1,JN087742.1,JN087743.1,JN087744.1,JN087745.1,JN087746.1,JN087747.1,JN087748.1,JN087749.1,JN087750.1,JN087751.1,JN087752.1,JN087753.1,JN087754.1,JN087755.1,JN087756.1,JN087757.1,JN087758.1,JN087759.1,JN087760.1,JN087761.1,JN087762.1,JN087763.1,JN087764.1,JN087765.1,JN087766.1,JN087767.1,JN087768.1,JN087769.1,JN087770.1,JN087771.1,JN087772.1,JN087773.1,JN087774.1,JN087775.1,JN087776.1,JN087777.1,JN087778.1,JN087779.1,JN087780.1,JN087781.1,JN087782.1,JN087783.1,JN087784.1,JN087785.1,JN087786.1,JN087787.1,JN087788.1,KC292253.1,KC292254.1,KF962717.1,KF962720.1,KF962724.1,KF962728.1,KF962730.1,KF962731.1"
+    },
+    {
+      "bytes": 121650,
+      "etag": null,
+      "file": "data/raw/gap/cds/ef12f7edd736bbd7dea5535b.embl",
+      "retrieved_utc": "2026-09-25T15:14:06.368361+00:00",
+      "sha256": "b5bfcb5aade91bcd6a3ec0a11c3f65d5790dab0ea1ae0a462a2e97ee81549932",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/ALM03983.1,ALN38287.1,ALN38295.1,ALQ78884.1,ALQ78897.1,ALQ79352.1,ALQ79443.1,ALZ50213.1,ALZ50239.1,ALZ50252.1,AMA34433.1,AMA97259.1,AMA97597.1,AMA97766.1,AMB50612.1,AMJ16600.1,AMK46232.1,AMK46349.1,AMR55804.1,AMT85291.1,AMW67595.1,AMZ81348.1,AMZ82271.1,AMZ82492.1,AMZ83623.1,ANA91636.1,ANA91818.1,ANA91989.1,ANA92002.1,ANA92274.1,ANA92586.1,ANA92935.1,ANA93518.1,ANA93895.1,ANA93921.1,ANA94038.1,ANA94181.1,ANA94363.1,ANA95338.1,ANB32536.1,ANF03984.1,ANJ20649.1,ANP95054.1,ANP95067.1,ANY28021.1,ANY28034.1,ANY60122.1,AOB42448.1,AOH34796.1,AOH34887.1"
+    },
+    {
+      "bytes": 111844,
+      "etag": null,
+      "file": "data/raw/gap/cds/f00909226c2c75a80cb2da9e.embl",
+      "retrieved_utc": "2026-09-25T15:13:59.079846+00:00",
+      "sha256": "1d3bbaf4e48c18b227cb26e37dd734cea647bf42cfd1633c747428ef6c10d4d3",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AIU94506.1,AIW65034.1,AIY51533.1,AIY51546.1,AIY55909.1,AIY55935.1,AIY56013.1,AIY56117.1,AIZ02988.1,AIZ58326.1,AIZ58339.1,AIZ77135.1,AJD74075.1,AJD83436.1,AJD85378.1,AJD85391.1,AJE26534.1,AJE26560.1,AJE61343.1,AJE61356.1,AJE61369.1,AJE61382.1,AJE61395.1,AJE61408.1,AJE61476.1,AJF41552.1,AJJ48381.1,AJJ48753.1,AJK29985.1,AJK30561.1,AJK91490.1,AJK91503.1,AJK91516.1,AJK91529.1,AJM70249.1,AJO61420.1,AJO61485.1,AJO61524.1,AJO99997.1,AJT35556.1,AJT35569.1,AJT36167.1,AJT36336.1,AJT36544.1,AJV86822.1,AJV86835.1,AJV86848.1,AJV86964.1,AJV87081.1,AJV87393.1"
+    },
+    {
+      "bytes": 311113,
+      "etag": null,
+      "file": "data/raw/gap/cds/f00b737296859a252b5142ab.embl",
+      "retrieved_utc": "2026-09-25T15:17:26.527517+00:00",
+      "sha256": "523a38847966343ac447f396742c98b22dd5cc982c3a1302d5a069a8cef335f2",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/GQ150587.1,GQ150588.1,GQ150589.1,GQ150590.1,GQ150591.1,GQ150592.1,GQ150593.1,GQ150594.1,GQ150595.1,GQ150596.1,GQ150597.1,GQ150598.1,GQ150599.1,GQ150600.1,GQ150601.1,GQ150602.1,GQ150603.1,GQ150604.1,GQ150605.1,GQ150606.1,GQ150607.1,GQ150608.1,GQ150609.1,GQ150610.1,GQ150611.1,GQ150612.1,GQ150613.1,GQ150614.1,GQ150615.1,GQ150616.1,GQ150617.1,GQ150618.1,GQ150619.1,GQ150620.1,GQ150621.1,GQ150622.1,GQ150623.1,GQ150624.1,GQ150625.1,GQ150626.1,GQ150627.1,GQ150628.1,GQ150629.1,GQ150630.1,GQ150631.1,GQ150632.1,GQ150633.1,GQ150634.1,GQ150635.1,GQ150636.1,GQ150637.1,GQ150638.1,GQ150639.1,GQ150640.1,GQ150641.1,GQ150642.1,GQ150643.1,GQ150644.1,GQ150645.1,GQ150646.1,GQ150647.1,GQ150648.1,GQ150649.1,GQ150650.1,GQ150651.1,GQ150652.1,GQ150653.1,GQ150654.1,GQ150655.1,GQ150656.1,GQ150657.1,GQ150658.1,GQ150659.1,GQ150660.1,GQ150661.1,GQ150662.1,GQ150663.1,GQ150664.1,GQ150665.1,GQ150666.1,GQ150667.1,GQ150668.1,GQ150669.1,GQ150670.1,GQ150671.1,GQ150672.1,GQ150673.1,GQ150674.1,GQ150675.1,GQ150676.1,GU186091.1,HM037190.1,HM037191.1,HM037192.1,HM037193.1,HM037194.1,HM037195.1,HM037196.1,HM037197.1,HM037198.1"
+    },
+    {
+      "bytes": 121524,
+      "etag": null,
+      "file": "data/raw/gap/cds/f3a99f93a835bc0e6bd8f328.embl",
+      "retrieved_utc": "2026-09-25T15:12:44.794604+00:00",
+      "sha256": "3f73b47b5a5642aa3bb1dcb17a9cb86141d683d43ca9a5b53df6ac12b58a02f6",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AEO93067.1,AEP23779.1,AEP24000.1,AER38797.1,AER53678.1,AER54081.1,AER54263.1,AET08961.1,AEV46932.1,AEV47127.1,AEV47244.1,AEV47439.1,AEV48375.1,AEV49142.1,AEV49181.1,AEV50585.1,AEV51066.1,AEV51144.1,AEV56601.1,AEY70870.1,AEY70948.1,AEY70974.1,AEY71026.1,AEY71247.1,AEY71273.1,AEY71364.1,AEY71377.1,AFA30370.1,AFA32671.1,AFA33282.1,AFC65316.1,AFD10771.1,AFF61427.1,AFF61726.1,AFF61791.1,AFF62285.1,AFF62415.1,AFF62779.1,AFF62844.1,AFF63234.1,AFF63338.1,AFF63806.1,AFF64534.1,AFF65184.1,AFF65392.1,AFF65743.1,AFF65925.1,AFF66302.1,AFF66406.1,AFF66978.1"
+    },
+    {
+      "bytes": 363206,
+      "etag": null,
+      "file": "data/raw/gap/cds/f4d25ba9ac44150b65f58b99.embl",
+      "retrieved_utc": "2026-09-25T15:17:30.980209+00:00",
+      "sha256": "8bfc205f4fc7497f1387585bb126a0de37b3988051f6319eb49eaaee0caef384",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/HM037199.1,HM037200.1,HM037201.1,HM037202.1,HM037203.1,HM037204.1,HM037205.1,HM037206.1,HM037207.1,HM037208.1,HM037209.1,HM037210.1,HM037211.1,HM037212.1,HM037213.1,HM037214.1,HM037215.1,HM037216.1,HM037217.1,HM037218.1,HM037219.1,HM037220.1,HM037221.1,HM037222.1,HM037223.1,HM037224.1,HM037225.1,HM037226.1,HM037227.1,HM037228.1,HM037229.1,HM037230.1,HM037231.1,HM037232.1,HM037233.1,HM037234.1,HM037235.1,HM037236.1,HM037237.1,HM037238.1,HM037239.1,HM037240.1,HM037241.1,HM037242.1,HM037243.1,HM037244.1,HM037245.1,HM037246.1,HM037247.1,HM037248.1,HM037249.1,HM142824.1,J01435.1,JN034126.1,JN034127.1,JN087552.1,JN087553.1,JN087554.1,JN087555.1,JN087556.1,JN087557.1,JN087558.1,JN087559.1,JN087560.1,JN087561.1,JN087562.1,JN087563.1,JN087564.1,JN087565.1,JN087566.1,JN087567.1,JN087568.1,JN087569.1,JN087570.1,JN087571.1,JN087572.1,JN087573.1,JN087574.1,JN087575.1,JN087576.1,JN087577.1,JN087578.1,JN087579.1,JN087580.1,JN087581.1,JN087582.1,JN087583.1,JN087584.1,JN087585.1,JN087586.1,JN087587.1,JN087588.1,JN087589.1,JN087590.1,JN087591.1,JN087592.1,JN087593.1,JN087594.1,JN087595.1,JN087596.1"
+    },
+    {
+      "bytes": 116962,
+      "etag": null,
+      "file": "data/raw/gap/cds/f5d98670665eb1c3042532bf.embl",
+      "retrieved_utc": "2026-09-25T15:15:08.458820+00:00",
+      "sha256": "851482d5ec96ee1d8918f645f8cc21d6efd21a812e6aef66e15d392590cf587e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/QMP90875.1,QMP92318.1,QMP94840.1,QMP95061.1,QMS49026.1,QNA48261.1,QNA48274.1,QNA48287.1,QNA48300.1,QNA49611.1,QNA52405.1,QNA52483.1,QNA52509.1,QNO36291.1,QOC71064.1,QOD40589.1,QOH99568.1,QOH99759.1,QOZ38545.1,QPF97909.1,QPF97922.1,QPF98052.1,QPF98065.1,QPF98078.1,QPG85859.1,QPL16019.1,QPL16045.1,QQD78511.1,QQL93272.1,QQP22605.1,QQP22696.1,QQP22735.1,QSQ69115.1,QTK13796.1,QTK13848.1,QTK14017.1,QTK14030.1,QTK14797.1,QTK14836.1,QTK14888.1,QTK14953.1,QTK14979.1,QTK29285.1,QTK29402.1,QTK29467.1,QTT60967.1,QUL58932.1,QUL59309.1,QVM19189.1,QVM19371.1"
+    },
+    {
+      "bytes": 116484,
+      "etag": null,
+      "file": "data/raw/gap/cds/f742d9f17c9cfbb6b2d06b5a.embl",
+      "retrieved_utc": "2026-09-25T15:15:00.755218+00:00",
+      "sha256": "15829b5d3007b55f6c867a8f09c3fb97168e64cd1b24f1b21050d9be3d7a678e",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/QDR51139.1,QDR51145.1,QDX17245.1,QDX17258.1,QEG54158.1,QEG54249.1,QEG54275.1,QEG55122.1,QEG55421.1,QEG55473.1,QEG56227.1,QEG56279.1,QEU53235.1,QEU53248.1,QEU53261.1,QEU53274.1,QEU53287.1,QEU53313.1,QEU54093.1,QEW88275.1,QEW88626.1,QEW88691.1,QEW88717.1,QFQ01180.1,QFV14399.1,QFV14425.1,QFV14633.1,QFV15101.1,QFV15114.1,QFV15179.1,QFV15192.1,QFV15257.1,QFV15335.1,QFV15595.2,QFV15738.1,QFV15751.1,QFV16245.1,QFV16271.1,QFV16622.1,QFV16804.1,QFV16817.1,QFZ96674.1,QFZ96726.1,QFZ97246.1,QFZ97259.1,QFZ97792.1,QFZ97948.1,QGL53277.1,QGL53329.1,QGL53381.1"
+    },
+    {
+      "bytes": 16,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/10090-count.json",
+      "retrieved_utc": "2026-09-25T15:13:19.918619+00:00",
+      "sha256": "c8b9f2c38a376cf68db198e449e5dc09c33096c691ed6547aa4b0025e41fa377",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=sequence&query=tax_eq%2810090%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&format=json"
+    },
+    {
+      "bytes": 483394,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/10090.tsv",
+      "retrieved_utc": "2026-09-25T15:13:19.385346+00:00",
+      "sha256": "1abbdc393bcd7789081ea35791667441c9215536340373163c5802fe68327298",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=sequence&query=tax_eq%2810090%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&fields=accession%2Csequence_version%2Cbase_count%2Csequence_md5%2Ctax_id%2Cdescription%2Corganelle&format=tsv&limit=0"
+    },
+    {
+      "bytes": 16,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/10116-count.json",
+      "retrieved_utc": "2026-09-25T15:13:21.219784+00:00",
+      "sha256": "3d0f834545738a7b8340b8a23b1a58a10ece710b3c32761e20745e2a08113efe",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=sequence&query=tax_eq%2810116%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&format=json"
+    },
+    {
+      "bytes": 209311,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/10116.tsv",
+      "retrieved_utc": "2026-09-25T15:13:20.579136+00:00",
+      "sha256": "e0c33a5a776da1ba14770436e482bac66960d7393866986b60361281be754ec7",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=sequence&query=tax_eq%2810116%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&fields=accession%2Csequence_version%2Cbase_count%2Csequence_md5%2Ctax_id%2Cdescription%2Corganelle&format=tsv&limit=0"
+    },
+    {
+      "bytes": 15,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/7955-count.json",
+      "retrieved_utc": "2026-09-25T15:13:51.757945+00:00",
+      "sha256": "e687f5c39b38e2cbc457e090bc7692e349d33f657f2a0454c0ffb1772ae3f4a8",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=sequence&query=tax_eq%287955%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&format=json"
+    },
+    {
+      "bytes": 86707,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/7955.tsv",
+      "retrieved_utc": "2026-09-25T15:13:51.436257+00:00",
+      "sha256": "ba34cde9b6bdc018ed669534255467512a7793cbe8ccadb408efe1894ba4c516",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=sequence&query=tax_eq%287955%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&fields=accession%2Csequence_version%2Cbase_count%2Csequence_md5%2Ctax_id%2Cdescription%2Corganelle&format=tsv&limit=0"
+    },
+    {
+      "bytes": 16,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/8355-count.json",
+      "retrieved_utc": "2026-09-25T15:13:52.615643+00:00",
+      "sha256": "074b188eec896fe179e45b67ef819dd12fe3bd63078ce910339cead78a1b18da",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=sequence&query=tax_eq%288355%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&format=json"
+    },
+    {
+      "bytes": 162595,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/8355.tsv",
+      "retrieved_utc": "2026-09-25T15:13:52.346441+00:00",
+      "sha256": "c9835f792476acc257554fd0ab6e86daab873968e0676b86539b85b4d82d52be",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=sequence&query=tax_eq%288355%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&fields=accession%2Csequence_version%2Cbase_count%2Csequence_md5%2Ctax_id%2Cdescription%2Corganelle&format=tsv&limit=0"
+    },
+    {
+      "bytes": 17,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9031-count.json",
+      "retrieved_utc": "2026-09-25T15:13:50.883847+00:00",
+      "sha256": "0ab943b6d9d56eacfd9f4f896cbc3bc9d9b15df55302995a0fbfccb806c27f2b",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=sequence&query=tax_eq%289031%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&format=json"
+    },
+    {
+      "bytes": 2238541,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9031.tsv",
+      "retrieved_utc": "2026-09-25T15:13:50.334666+00:00",
+      "sha256": "0503150dbe5f7563e2eccbd74d6d7b3219ffaead18efcfde79a3b6422e078c49",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=sequence&query=tax_eq%289031%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&fields=accession%2Csequence_version%2Cbase_count%2Csequence_md5%2Ctax_id%2Cdescription%2Corganelle&format=tsv&limit=0"
+    },
+    {
+      "bytes": 15,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9601-count.json",
+      "retrieved_utc": "2026-09-25T15:13:39.490932+00:00",
+      "sha256": "3943a0b260b911358314405b96f4bb7681ef08a85fdf516840dd5457e2ee7607",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=sequence&query=tax_eq%289601%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&format=json"
+    },
+    {
+      "bytes": 33634,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9601.tsv",
+      "retrieved_utc": "2026-09-25T15:13:39.052008+00:00",
+      "sha256": "dbc7b0db2c1345695dd1cae289a002fafe3c526f33ba8a87824928a522dcde9a",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=sequence&query=tax_eq%289601%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&fields=accession%2Csequence_version%2Cbase_count%2Csequence_md5%2Ctax_id%2Cdescription%2Corganelle&format=tsv&limit=0"
+    },
+    {
+      "bytes": 18,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9606-count.json",
+      "retrieved_utc": "2026-09-25T15:13:15.976013+00:00",
+      "sha256": "74101da9af8816270e6e9129d70674fd1ba8f17a3413358d7e7f64d3de864512",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=sequence&query=tax_eq%289606%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&format=json"
+    },
+    {
+      "bytes": 21158011,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9606.tsv",
+      "retrieved_utc": "2026-09-25T15:13:14.004511+00:00",
+      "sha256": "3e041586aa85aa59fd8d400903726f1d23f8823377e8d26ede761a13dce8e588",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=sequence&query=tax_eq%289606%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&fields=accession%2Csequence_version%2Cbase_count%2Csequence_md5%2Ctax_id%2Cdescription%2Corganelle&format=tsv&limit=0"
+    },
+    {
+      "bytes": 17,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9823-count.json",
+      "retrieved_utc": "2026-09-25T15:13:37.878025+00:00",
+      "sha256": "41f67503172facf369986448d604847f7b65855dfc21ef291665f9e7cddd428b",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=sequence&query=tax_eq%289823%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&format=json"
+    },
+    {
+      "bytes": 1785821,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9823.tsv",
+      "retrieved_utc": "2026-09-25T15:13:37.484634+00:00",
+      "sha256": "b8f83dd5a915078b72853d48e67d1e9e32559608bd43185dc6514f8f32705ed8",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=sequence&query=tax_eq%289823%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&fields=accession%2Csequence_version%2Cbase_count%2Csequence_md5%2Ctax_id%2Cdescription%2Corganelle&format=tsv&limit=0"
+    },
+    {
+      "bytes": 17,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9913-count.json",
+      "retrieved_utc": "2026-09-25T15:13:34.332339+00:00",
+      "sha256": "c877bb2a8d8fc293fce75879a1341d20818b71e082e1a54460df42dcc9fddfa3",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=sequence&query=tax_eq%289913%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&format=json"
+    },
+    {
+      "bytes": 1698668,
+      "etag": null,
+      "file": "data/raw/gap/outer-index/9913.tsv",
+      "retrieved_utc": "2026-09-25T15:13:31.552791+00:00",
+      "sha256": "942f0191c7159840759df7da92f58b48c83fb4de3f289071275e7752b7314558",
+      "uniprot_release": null,
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=sequence&query=tax_eq%289913%29+AND+organelle%3D%22mitochondrion%22+AND+base_count%3E%3D150+AND+base_count%3C%3D100000+AND+%28base_count%3C14000+OR+base_count%3E20000%29&fields=accession%2Csequence_version%2Cbase_count%2Csequence_md5%2Ctax_id%2Cdescription%2Corganelle&format=tsv&limit=0"
+    },
+    {
+      "bytes": 2921108,
+      "etag": null,
+      "file": "data/raw/gap/unreviewed-leads.json",
+      "retrieved_utc": "2026-09-25T15:11:33.548260+00:00",
+      "sha256": "31865c001880787bb6ecc7408fed3b2fb2dc809f1a2193994de3a72c2499070a",
+      "uniprot_release": "2026_03",
+      "url": "https://rest.uniprot.org/uniprotkb/stream?query=reviewed%3Afalse+AND+length%3A%5B1+TO+100%5D+AND+%28organism_id%3A9606+OR+organism_id%3A10090+OR+organism_id%3A10116+OR+organism_id%3A9913+OR+organism_id%3A9823+OR+organism_id%3A9601+OR+organism_id%3A9031+OR+organism_id%3A7955+OR+organism_id%3A8355%29+AND+%28xref%3Ainterpro-IPR001421+OR+xref%3Ainterpro-IPR008386+OR+xref%3Ainterpro-IPR019344+OR+xref%3Ainterpro-IPR012574+OR+xref%3Ainterpro-IPR009125+OR+xref%3Ainterpro-IPR006721+OR+xref%3Ainterpro-IPR006808%29&format=json"
+    }
+  ],
+  "stage": "untouched_test_acquisition",
+  "training_overlap_exclusions": {
+    "training_rna_duplicate": 169
+  },
+  "unavailable_count": 0,
+  "unique_peptides": 11,
+  "unreviewed_accessions_requested": 1859,
+  "unreviewed_leads": 211,
+  "untouched_cds": 20
+}

@@ -1,0 +1,16 @@
+{
+  "version": "gap-observed-v1",
+  "stage": "untouched_test_acquisition",
+  "training_biology_file": "configs/secondary/biology.json",
+  "reference_file": "data/raw/secondary/references.json",
+  "training_pool_file": "data/raw/secondary/genomes/enriched-records.jsonl",
+  "training_pool_sha256": "f6606dfc07e47903f2fabcf649352f5c15d53241bd324ae795c4f0e389a28a11",
+  "training_pool_sequences": 533,
+  "scope": "Original nine species and existing seven families/reviewed references only",
+  "unreviewed_entries": "Retrieval leads only; all source CDS pass frozen reviewed-reference QC",
+  "outer_parent_min_nt": 150,
+  "outer_parent_max_nt": 100000,
+  "outer_parent_description_terms": ["atp", "a6l", "genome"],
+  "exclusion": "Exclude exact RNA from all 533 training-pool sequences and any stable accession/parent overlap with training provenance",
+  "no_validation_or_model_selection": true
+}

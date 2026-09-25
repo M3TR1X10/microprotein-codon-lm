@@ -1,0 +1,65 @@
+[
+  {
+    "inventory": 139512,
+    "long": 0,
+    "nt": 34432633,
+    "selected": 30129,
+    "tax": 9606
+  },
+  {
+    "inventory": 2988,
+    "long": 0,
+    "nt": 697025,
+    "selected": 413,
+    "tax": 10090
+  },
+  {
+    "inventory": 1317,
+    "long": 0,
+    "nt": 49895,
+    "selected": 39,
+    "tax": 10116
+  },
+  {
+    "inventory": 11919,
+    "long": 0,
+    "nt": 1781385,
+    "selected": 1815,
+    "tax": 9913
+  },
+  {
+    "inventory": 12820,
+    "long": 0,
+    "nt": 589692,
+    "selected": 635,
+    "tax": 9823
+  },
+  {
+    "inventory": 221,
+    "long": 0,
+    "nt": 30516,
+    "selected": 28,
+    "tax": 9601
+  },
+  {
+    "inventory": 15732,
+    "long": 0,
+    "nt": 1172180,
+    "selected": 1063,
+    "tax": 9031
+  },
+  {
+    "inventory": 585,
+    "long": 0,
+    "nt": 1623,
+    "selected": 1,
+    "tax": 7955
+  },
+  {
+    "inventory": 1005,
+    "long": 0,
+    "nt": 20295,
+    "selected": 15,
+    "tax": 8355
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "complete": false,
+  "completed_runs": 15,
+  "elapsed_seconds": 7802.467528000008,
+  "in_progress": {
+    "job_index": 15,
+    "started_utc": "2026-09-25T15:53:40.674678+00:00"
+  },
+  "last_job": 15,
+  "plan_sha256": "0911988a949932344ae1d444c732273215097f79107247faffdeb3a862c99006",
+  "planned_runs": 25,
+  "recovery_accounting": {
+    "affected_arm": "human_atp8_base",
+    "affected_seed": 29,
+    "amendment_path": "reports/secondary/interruption/amendment.json",
+    "amendment_sha256": "b1bb46a35abdbb7868484aeff21b9f20f292e38f1787bba1ef4c13f79f1ad27a",
+    "charged_elapsed_before_resume_seconds": 4746.076528,
+    "excluded_hardware_deep_idle_seconds": 15720.173472,
+    "kind": "standby_budget_amendment",
+    "original_elapsed_wall_seconds": 20466.25
+  },
+  "status": "running",
+  "updated_utc": "2026-09-25T15:53:40.686903+00:00"
+}

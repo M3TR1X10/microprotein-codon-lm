@@ -2,7 +2,33 @@
 
 A reproducible, **training-only** project comparing four-base RNA and 64-codon language models. The archived first pilot uses human MT-ATP8. The secondary pilot expands to seven small ATP synthase subunit families across human, five other mammals, and three nonmammalian vertebrates.
 
-This experiment asks whether a small causal transformer can learn the training distribution and whether both representations can be trained reproducibly. It does **not** yet measure prediction on unseen sequences. Validation, test sets, gap completion, AlphaFold and PyMOL are deferred at the project owner's request.
+## Architectural Upgrades
+
+The system includes key architectural upgrades for comprehensive microprotein modeling:
+
+1. **Extended Sequence Window (5' UTR + Kozak + CDS + 3' UTR)**:
+   - Supports 5' UTR (-50 nt), Kozak context window (-6 to +4 nt around TIS), CDS region, and 3' UTR (+30 nt).
+   - `WindowConfig` and `ExtendedWindowExtractor` extract, align, and pad extended genomic contexts for models.
+
+2. **Non-Canonical Initiation Codon (TIS) Dynamics**:
+   - Expands initiation handling beyond canonical `AUG` to near-cognate start codons (`CUG`, `GUG`, `UUG`, `ACG`, `AUU`).
+   - Introduces empirical initiation efficiency priors tensor (`E_init`) mapping start codons to initiation weights (e.g. `AUG`: 1.0, `CUG`: 0.6, `GUG`: 0.5, `UUG`: 0.4, `ACG`: 0.3, `AUU`: 0.2).
+   - Generates reading-phase coordinate tracks relative to active TIS.
+
+3. **Multi-Track Dataset Representation**:
+   - `MultiTrackDataset` and `collate_multitrack_batch` encode samples into 4 parallel tracks:
+     * **Track 1**: Sequence Tokens (base or codon token IDs)
+     * **Track 2**: Segment Type IDs (0 = 5' UTR, 1 = Kozak, 2 = CDS, 3 = 3' UTR)
+     * **Track 3**: Frame Offsets relative to active TIS (-1, 0, 1, 2)
+     * **Track 4**: Ribo-seq P-site footprint coverage vector (float values)
+
+4. **Multi-Tier Experimental Validation & Evidence-Weighted Loss**:
+   - 4-Tier evidence hierarchy:
+     * **Tier 1**: MS/MS + Ribo-seq ($w_1 = 1.0$)
+     * **Tier 2**: Ribo-seq TIS ($w_2 = 0.75$)
+     * **Tier 3**: Conservation ($w_3 = 0.50$)
+     * **Tier 4**: Computational / sORF prediction ($w_4 = 0.10$)
+   - `EvidenceWeightedLoss` computes sample-weighted cross-entropy loss $L_{\text{weighted}}$, scaling token loss by evidence tier weight $w_i$ and optional $E_{\text{init}}$ initiation priors.
 
 ## Secondary experiment
 
