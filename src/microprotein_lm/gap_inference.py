@@ -66,7 +66,19 @@ class GapDecoder:
             heads = block.attn.heads
             q, k, v = [z.view(b, t, heads, d // heads).transpose(1, 2)
                        for z in block.attn.qkv(h).chunk(3, dim=-1)]
-            if state:
+            if getattr(block.attn, 'use_rope', False):
+                from .model import apply_rope
+                q_cos, q_sin = block.attn.rope(end, self.device)
+                q_cos_step = q_cos[offset + old_length:end]
+                q_sin_step = q_sin[offset + old_length:end]
+                q = apply_rope(q, q_cos_step, q_sin_step)
+                k_cos_step = q_cos[offset + old_length:end]
+                k_sin_step = q_sin[offset + old_length:end]
+                k = apply_rope(k, k_cos_step, k_sin_step)
+                if state:
+                    k = torch.cat((state.layers[i][0], k), dim=2)
+                    v = torch.cat((state.layers[i][1], v), dim=2)
+            elif state:
                 k = torch.cat((state.layers[i][0], k), dim=2)
                 v = torch.cat((state.layers[i][1], v), dim=2)
             new_layers.append((k, v))

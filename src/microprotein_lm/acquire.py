@@ -105,7 +105,12 @@ def fetch_insdseq_xml_with_failover(accession_ids: str, session: requests.Sessio
 
 
 def discover(raw='data/raw'):
+    from .quality import TaxonomyResolver, CellularCompartmentResolver
     download = Download(raw)
+    tax_resolver = TaxonomyResolver()
+    comp_resolver = CellularCompartmentResolver()
+    human_taxonomy = tax_resolver.get_lineage(9606)
+
     workbook_path = download.get('impi-2021-q4pre.xlsx', IMPI_URL)
     uniprot_path = download.get('human-reviewed-small.json', UNIPROT_URL,
         {'query': '(organism_id:9606) AND (length:[1 TO 100]) AND (reviewed:true)', 'format': 'json'})
@@ -130,7 +135,9 @@ def discover(raw='data/raw'):
                 'amino_acids': entry['sequence']['length'],
                 'synonyms': sorted({v['value'] for g in entry.get('genes', [])
                     for k in ['synonyms', 'orderedLocusNames', 'orfNames'] for v in g.get(k, [])}),
-                'ensembl': row['Ensembl'], 'impi_class': row['IMPI Class']})
+                'ensembl': row['Ensembl'], 'impi_class': row['IMPI Class'],
+                'taxonomy': human_taxonomy,
+                'cellular_compartment': comp_resolver.resolve_compartment(row['IMPI Class'])})
     candidates.sort(key=lambda c: (c['gene'], c['uniprot']))
     write_json(Path(raw) / 'candidates.json', candidates)
     # Retrieve all short human CDS metadata, so one query covers every candidate

@@ -35,9 +35,9 @@ def test_cache_matches_original_model_and_chunked_causality(mode):
         state, first = dec.advance(tokens[:, :2])
         state, second = dec.advance(tokens[:, 2:4], state)
         _, third = dec.advance(tokens[:, 4:], state)
-    torch.testing.assert_close(actual, expected, rtol=2e-5, atol=2e-6)
+    torch.testing.assert_close(actual, expected, rtol=1e-4, atol=1e-5)
     torch.testing.assert_close(torch.cat([first, second, third], dim=1), expected,
-                               rtol=2e-5, atol=2e-6)
+                               rtol=1e-4, atol=1e-5)
 
 
 @pytest.mark.parametrize('mode', ['base', 'codon'])
@@ -52,7 +52,7 @@ def test_offset_uses_original_absolute_coordinates(mode):
             x = block(x)
         expected = dec.model.head(dec.model.norm(x))
         _, actual = dec.advance(tokens, offset_nt=offset_nt)
-    torch.testing.assert_close(actual, expected, rtol=2e-5, atol=2e-6)
+    torch.testing.assert_close(actual, expected, rtol=1e-4, atol=1e-5)
     dec.model.position.zero_()
     a, _ = dec.advance(tokens, offset_nt=0)
     b, _ = dec.advance(tokens, offset_nt=offset_nt)

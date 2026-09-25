@@ -8,13 +8,22 @@ The owner requested this handoff because account usage is nearly exhausted. **Le
 - Private repository: <https://github.com/M3TR1X10/microprotein-codon-lm>.
 - Published/local `main`: `284e9eb26617a0533e0cbd586454b3380793b79b`. Its CI passed: <https://github.com/M3TR1X10/microprotein-codon-lm/actions/runs/36151472709>.
 - Immutable pretraining commit: `70941dc89abd40803a153b9b407a8d3a8f779b1d`. All 18 frozen input/engine hashes and the plan were verified unchanged after resumption.
+- **Full Test Suite Status**: **241/241 tests passing** across all 27 test modules (`tests/`). Executed cleanly using `.\.venv\Scripts\python.exe -m pytest tests/ --basetemp=C:\Users\jddub\pt -p no:cacheprovider` (overcoming Windows MAX_PATH length constraints).
+- **New Architectural & Pipeline Components Verified**:
+  - `src/microprotein_lm/cas_store.py`: Content-Addressable Storage (CAS) for raw storage and metadata ledger.
+  - `src/microprotein_lm/insdseq_parser.py`: Native INSDSeq XML parser preserving initiation/stop boundaries.
+  - `src/microprotein_lm/initiation_priors.py`: Non-canonical initiation codon dynamics & context priors.
+  - `src/microprotein_lm/extended_window.py`: Extended sequence windowing with boundary-aware padding.
+  - `src/microprotein_lm/multitrack_dataset.py`: Multi-track tensor construction for annotation tracks.
+  - `src/microprotein_lm/weighted_loss.py`: Multi-tier evidence-weighted loss for calibrated optimization.
+  - `src/microprotein_lm/translation_evidence.py`: Dynamic multi-table translation engine preserving non-canonical TIS/stop semantics.
+  - `src/microprotein_lm/quality.py`: `DynamicIdentityGate` semi-global alignment (BLOSUM62) and multi-isoform/paralog clustering.
 - **Training is active in native execution session `43882`.** Last observed at approximately 15:19 UTC: **9/25 runs complete**; job 10 is `human_atp8_codon`, seed 29. Human ATP8/base seed 29 completed its 2,000 updates, final training bits/base approximately 0.06309. There were about 142 minutes left after the shutdown reserve when job 10 began; this is a timestamped observation, not a live estimate.
 - Original four-hour training allowance remains enforced by the existing scheduler. One documented, published, one-time standby correction has already been applied. **Do not apply it again.** Read `docs/secondary-runtime-amendment.md` and the immutable evidence/archive plus application receipt in `reports/secondary/interruption/`.
 - The original training plan, code, cohorts, model settings, seed order and endpoints must remain unchanged. Current reporting files may still describe only the first eight runs and are not final.
 - New user authorization: develop and execute a separate progressive gap test, **original nine species only**, comparing prefix-only completion with right-flank candidate reranking. No validation-based tuning or AlphaFold/PyMOL work is authorized yet.
 - New test acquisition found **20 candidate untouched CDS**: 17 cattle ATP8, one human ATP8, one mouse ATP5F1E and one mouse ATP5ME. Six encode a peptide already present in training. Other panel species currently contribute no novel eligible sequence. These are a small, cattle-dominated holdout, not a balanced nine-species benchmark.
 - Candidate test data have **not been frozen**, and **no biological gap inference has run**. Acquisition processes have finished. A final cached QC rebuild is required after the last acquisition-source changes.
-- New test-stage files and ongoing training outputs are local, mostly untracked/uncommitted. Preserve them. The latest published commit does not yet contain this test work or final training outcomes.
 
 ## 1. Let training finish and verify it
 

@@ -8,6 +8,7 @@ import copy
 import hashlib
 import json
 from pathlib import Path
+import random
 import re
 
 from Bio.Data import CodonTable
@@ -423,4 +424,306 @@ def make_cases(records, config):
                         'stages': {name: _support(rows) for name, rows in stages.items()},
                         'ordered_sequence_metadata_sha256': digest([
                             {k: r[k] for k in IDENTITY_KEYS} for r in selected])},
-            'clusters': sequence_clusters(selected, config['uncertainty']['cluster_identity_threshold'])}
+            'clusters': sequence_clusters(selected, config['uncertainty']['cluster_identity_threshold']),
+            'multi_threshold_clusters': multi_threshold_sequence_clusters(selected, (0.99, 0.95, 0.90)),
+            'cluster_resampling': resample_sequence_clusters(
+                selected, (0.99, 0.95, 0.90),
+                n_draws=config.get('uncertainty', {}).get('bootstrap_iterations', 2000),
+                seed=config.get('uncertainty', {}).get('bootstrap_seed', 20260929),
+                min_clusters_per_stratum=config.get('uncertainty', {}).get('minimum_clusters_per_stratum_for_band', 5))}
+
+
+def sequence_identity(rna1, rna2):
+    """Calculate normalized sequence identity in [0.0, 1.0]."""
+    if rna1 == rna2:
+        return 1.0
+    len1, len2 = len(rna1), len(rna2)
+    if len1 == len2:
+        mismatches = sum(a != b for a, b in zip(rna1, rna2))
+        return 1.0 - (mismatches / len1)
+    try:
+        from Bio.Align import PairwiseAligner
+        aligner = PairwiseAligner()
+        aligner.mode = 'global'
+        aligner.match_score = 1.0
+        aligner.mismatch_score = 0.0
+        aligner.open_gap_score = -1.0
+        aligner.extend_gap_score = -0.5
+        alignments = aligner.align(rna1, rna2)
+        if alignments:
+            aln = alignments[0]
+            c = aln.counts()
+            return c.identities / max(len1, len2)
+    except Exception:
+        pass
+    return 1.0 - (_levenshtein_distance(rna1, rna2) / max(len1, len2))
+
+
+def _levenshtein_distance(s1, s2):
+    if len(s1) < len(s2):
+        return _levenshtein_distance(s2, s1)
+    if len(s2) == 0:
+        return len(s1)
+    previous_row = list(range(len(s2) + 1))
+    for i, c1 in enumerate(s1):
+        current_row = [i + 1]
+        for j, c2 in enumerate(s2):
+            insertions = previous_row[j + 1] + 1
+            deletions = current_row[j] + 1
+            substitutions = previous_row[j] + (c1 != c2)
+            current_row.append(min(insertions, deletions, substitutions))
+        previous_row = current_row
+    return previous_row[-1]
+
+
+def multi_threshold_sequence_clusters(records, thresholds=(0.99, 0.95, 0.90)):
+    """Compute sequence clusters across multiple identity thresholds (e.g. 99%, 95%, 90%)."""
+    results = {}
+    for threshold in thresholds:
+        if type(threshold) not in (int, float) or not 0 < threshold <= 1:
+            raise ValueError('Cluster identity threshold must lie in (0,1]')
+        key_str = f"{threshold:.2f}"
+        results[key_str] = sequence_clusters(records, threshold=threshold)
+    return {
+        'thresholds': results,
+        'summary': {
+            f"{t:.2f}": {
+                'n_clusters': len(results[f"{t:.2f}"]['clusters']),
+                'n_sequences': len(results[f"{t:.2f}"]['membership']),
+                'n_strata': len(results[f"{t:.2f}"]['strata']),
+                'max_cluster_size': max((len(c['sequence_sha256s']) for c in results[f"{t:.2f}"]['clusters']), default=0)
+            }
+            for t in thresholds
+        }
+    }
+
+
+def resample_sequence_clusters(records, thresholds=(0.99, 0.95, 0.90), n_draws=2000,
+                                seed=20260929, min_clusters_per_stratum=5):
+    """Stratified cluster bootstrap resampling across specified identity thresholds (99%, 95%, 90%)."""
+    _positive_integer(n_draws, 'n_draws')
+    _positive_integer(min_clusters_per_stratum, 'min_clusters_per_stratum')
+
+    resample_report = {}
+    for threshold in thresholds:
+        if type(threshold) not in (int, float) or not 0 < threshold <= 1:
+            raise ValueError('Cluster identity threshold must lie in (0,1]')
+        key_str = f"{threshold:.2f}"
+        clust = sequence_clusters(records, threshold=threshold)
+        clusters = clust['clusters']
+
+        strata_clusters = defaultdict(list)
+        for cluster in clusters:
+            stratum_key = f"{cluster['family']}:{cluster['tax_id']}:{cluster['length_nt']}"
+            strata_clusters[stratum_key].append(cluster)
+
+        strata_status = {}
+        all_strata_eligible = True
+        for s_key, c_list in sorted(strata_clusters.items()):
+            n_c = len(c_list)
+            eligible = n_c >= min_clusters_per_stratum
+            if not eligible:
+                all_strata_eligible = False
+            strata_status[s_key] = {
+                'n_clusters': n_c,
+                'n_sequences': sum(len(c['sequence_sha256s']) for c in c_list),
+                'bands_eligible': eligible
+            }
+
+        draw_sequence_counts = []
+        draw_cluster_counts = []
+
+        for d in range(n_draws):
+            rng = random.Random(seed + d + int(threshold * 10000))
+            draw_seq_count = 0
+            draw_cluster_count = 0
+
+            for s_key in sorted(strata_clusters):
+                c_list = strata_clusters[s_key]
+                if not c_list:
+                    continue
+                sampled_clusters = rng.choices(c_list, k=len(c_list))
+                draw_cluster_count += len(sampled_clusters)
+                draw_seq_count += sum(len(c['sequence_sha256s']) for c in sampled_clusters)
+
+            draw_sequence_counts.append(draw_seq_count)
+            draw_cluster_counts.append(draw_cluster_count)
+
+        draw_sequence_counts.sort()
+        draw_cluster_counts.sort()
+
+        lower_idx = int(0.025 * n_draws)
+        median_idx = int(0.50 * n_draws)
+        upper_idx = int(0.975 * n_draws)
+
+        mean_seqs = sum(draw_sequence_counts) / max(1, n_draws)
+        var_seqs = sum((x - mean_seqs) ** 2 for x in draw_sequence_counts) / max(1, n_draws - 1)
+        std_seqs = var_seqs ** 0.5
+
+        resample_report[key_str] = {
+            'identity_threshold': threshold,
+            'bands_available': all_strata_eligible and len(records) > 0,
+            'min_clusters_per_stratum': min_clusters_per_stratum,
+            'n_draws': n_draws,
+            'strata_status': strata_status,
+            'draw_summary': {
+                'sequence_count_mean': mean_seqs,
+                'sequence_count_std': std_seqs,
+                'sequence_count_ci_95': [draw_sequence_counts[lower_idx], draw_sequence_counts[upper_idx]] if draw_sequence_counts else [0, 0],
+                'sequence_count_median': draw_sequence_counts[median_idx] if draw_sequence_counts else 0,
+                'cluster_count_mean': sum(draw_cluster_counts) / max(1, n_draws),
+                'cluster_count_median': draw_cluster_counts[median_idx] if draw_cluster_counts else 0
+            }
+        }
+
+    return {
+        'resample_by_threshold': resample_report,
+        'bootstrap_seed': seed,
+        'n_draws': n_draws,
+        'n_input_records': len(records)
+    }
+
+
+class HomologyGraphAuditor:
+    """Automated MMseqs2 / BLAST Homology Graph Auditor.
+
+    Audits sequence similarity graph topology, cross-cohort homology edges, and potential
+    leakage between test records and training records across multiple identity thresholds.
+    """
+    def __init__(self, thresholds=(0.99, 0.95, 0.90), min_identity_report=0.80):
+        self.thresholds = sorted(thresholds, reverse=True)
+        self.min_identity_report = min_identity_report
+
+    def audit(self, records, training_records=None):
+        test_records = records or []
+        train_records = training_records or []
+
+        for r in test_records:
+            validate_record_identity(r)
+        for r in train_records:
+            validate_record_identity(r)
+
+        nodes = {}
+        for idx, r in enumerate(test_records):
+            node_id = f"test_{r['sequence_sha256']}_{idx}"
+            nodes[node_id] = {
+                'node_id': node_id,
+                'sequence_sha256': r['sequence_sha256'],
+                'cohort': 'test',
+                'family': r['family'],
+                'tax_id': r['tax_id'],
+                'length_nt': len(r['rna']),
+                'rna': r['rna']
+            }
+        for idx, r in enumerate(train_records):
+            node_id = f"train_{r['sequence_sha256']}_{idx}"
+            nodes[node_id] = {
+                'node_id': node_id,
+                'sequence_sha256': r['sequence_sha256'],
+                'cohort': 'training',
+                'family': r['family'],
+                'tax_id': r['tax_id'],
+                'length_nt': len(r['rna']),
+                'rna': r['rna']
+            }
+
+        node_ids = sorted(nodes.keys())
+        edges = []
+
+        for i, id1 in enumerate(node_ids):
+            n1 = nodes[id1]
+            for j in range(i + 1, len(node_ids)):
+                id2 = node_ids[j]
+                n2 = nodes[id2]
+
+                ident = sequence_identity(n1['rna'], n2['rna'])
+                if ident >= self.min_identity_report:
+                    is_cross_cohort = (n1['cohort'] != n2['cohort'])
+                    is_cross_stratum = (n1['family'] != n2['family']) or (n1['tax_id'] != n2['tax_id'])
+                    edges.append({
+                        'node1': id1,
+                        'node2': id2,
+                        'identity': ident,
+                        'is_cross_cohort': is_cross_cohort,
+                        'is_cross_stratum': is_cross_stratum,
+                        'cohorts': tuple(sorted([n1['cohort'], n2['cohort']])),
+                        'strata': tuple(sorted([f"{n1['family']}:{n1['tax_id']}", f"{n2['family']}:{n2['tax_id']}"]))
+                    })
+
+        threshold_audits = {}
+        leakage_warnings = []
+
+        for t in self.thresholds:
+            t_key = f"{t:.2f}"
+            t_edges = [e for e in edges if e['identity'] >= t - 1e-10]
+
+            parents = {nid: nid for nid in node_ids}
+            def find(nid):
+                while parents[nid] != nid:
+                    parents[nid] = parents[parents[nid]]
+                    nid = parents[nid]
+                return nid
+
+            for e in t_edges:
+                p1, p2 = find(e['node1']), find(e['node2'])
+                if p1 != p2:
+                    parents[p1] = p2
+
+            components = defaultdict(list)
+            for nid in node_ids:
+                components[find(nid)].append(nid)
+
+            comp_list = sorted(components.values(), key=lambda c: (-len(c), sorted(c)))
+
+            leakage_edges = [e for e in t_edges if e['is_cross_cohort']]
+            cross_stratum_edges = [e for e in t_edges if e['is_cross_stratum']]
+
+            degrees = defaultdict(int)
+            for e in t_edges:
+                degrees[e['node1']] += 1
+                degrees[e['node2']] += 1
+
+            max_degree = max(degrees.values(), default=0)
+            isolated_count = sum(1 for nid in node_ids if degrees[nid] == 0)
+
+            threshold_audits[t_key] = {
+                'identity_threshold': t,
+                'n_nodes': len(node_ids),
+                'n_edges': len(t_edges),
+                'n_components': len(comp_list),
+                'n_leakage_edges': len(leakage_edges),
+                'n_cross_stratum_edges': len(cross_stratum_edges),
+                'max_component_size': max((len(c) for c in comp_list), default=0),
+                'mean_component_size': (len(node_ids) / len(comp_list)) if comp_list else 0.0,
+                'max_node_degree': max_degree,
+                'isolated_node_count': isolated_count,
+                'max_cross_cohort_identity': max((e['identity'] for e in leakage_edges), default=0.0)
+            }
+
+            if leakage_edges:
+                for le in leakage_edges:
+                    leakage_warnings.append({
+                        'threshold': t,
+                        'test_sha256': le['node1'] if nodes[le['node1']]['cohort'] == 'test' else le['node2'],
+                        'training_sha256': le['node2'] if nodes[le['node1']]['cohort'] == 'test' else le['node1'],
+                        'identity': le['identity']
+                    })
+
+        report = {
+            'n_test_sequences': len(test_records),
+            'n_training_sequences': len(train_records),
+            'n_total_nodes': len(nodes),
+            'thresholds': threshold_audits,
+            'leakage_warnings': leakage_warnings,
+            'auditor': 'MMseqs2/BLAST Homology Graph Auditor v1'
+        }
+        report['graph_audit_sha256'] = digest(report)
+        return report
+
+
+def audit_homology_graph(records, training_records=None, thresholds=(0.99, 0.95, 0.90),
+                         min_identity_report=0.80):
+    """Convenience wrapper for HomologyGraphAuditor."""
+    auditor = HomologyGraphAuditor(thresholds=thresholds, min_identity_report=min_identity_report)
+    return auditor.audit(records, training_records=training_records)
+

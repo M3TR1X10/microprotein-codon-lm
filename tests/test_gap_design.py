@@ -7,8 +7,10 @@ import random
 
 import pytest
 
-from microprotein_lm.gap_design import (case_regions, load_verified_holdout, make_cases,
-    select_panel, sequence_clusters, stable_source_accessions, verify_holdout)
+from microprotein_lm.gap_design import (
+    HomologyGraphAuditor, audit_homology_graph, case_regions, load_verified_holdout,
+    make_cases, multi_threshold_sequence_clusters, resample_sequence_clusters,
+    select_panel, sequence_clusters, sequence_identity, stable_source_accessions, verify_holdout)
 
 
 def config():
@@ -202,3 +204,75 @@ def test_file_backed_loader_rejects_unfrozen_stage_without_loading_models(tmp_pa
     (target/'manifest.json').write_text(json.dumps({'stage': 'training_only'}))
     with pytest.raises(ValueError, match='not frozen'):
         load_verified_holdout(tmp_path)
+
+
+def test_sequence_identity_and_multi_threshold_clustering():
+    r1 = record(100, sense_codons=30)
+    
+    r2 = copy.deepcopy(r1)
+    seq2 = list(r2['rna'])
+    # Toggle base at pos 3 to guarantee 1 diff out of 96 nt (identity ~0.9895)
+    seq2[3] = 'G' if seq2[3] != 'G' else 'C'
+    r2['rna'] = ''.join(seq2)
+    r2['sequence_sha256'] = hashlib.sha256(r2['rna'].encode()).hexdigest()
+
+    r3 = copy.deepcopy(r1)
+    seq3 = list(r3['rna'])
+    for pos in (3, 6, 9, 12, 15, 18):
+        seq3[pos] = 'G' if seq3[pos] != 'G' else 'C'
+    # 6 diffs out of 96 nt (identity ~0.9375)
+    r3['rna'] = ''.join(seq3)
+    r3['sequence_sha256'] = hashlib.sha256(r3['rna'].encode()).hexdigest()
+
+    records = [r1, r2, r3]
+    mt = multi_threshold_sequence_clusters(records, thresholds=(0.99, 0.95, 0.90))
+
+    assert '0.99' in mt['thresholds']
+    assert '0.95' in mt['thresholds']
+    assert '0.90' in mt['thresholds']
+
+    # At 0.99 threshold: r1 and r2 are separate clusters (identity < 0.99)
+    assert mt['summary']['0.99']['n_clusters'] == 3
+    # At 0.95 threshold: r1 and r2 are in the same cluster (identity ~0.9895 >= 0.95)
+    assert mt['summary']['0.95']['n_clusters'] == 2
+    # At 0.90 threshold: all 3 are in 1 cluster
+    assert mt['summary']['0.90']['n_clusters'] == 1
+
+
+def test_resample_sequence_clusters_bootstrap_and_eligibility():
+    records = [record(i, sense_codons=30) for i in range(110, 114)]
+    res = resample_sequence_clusters(records, thresholds=(0.99, 0.95, 0.90), n_draws=100, seed=42, min_clusters_per_stratum=5)
+
+    assert res['bootstrap_seed'] == 42
+    assert res['n_draws'] == 100
+    # Stratum has 4 clusters (< 5 min clusters requirement), so bands_available should be False
+    assert res['resample_by_threshold']['0.99']['bands_available'] is False
+    assert 'draw_summary' in res['resample_by_threshold']['0.99']
+    summary = res['resample_by_threshold']['0.99']['draw_summary']
+    assert summary['sequence_count_mean'] == 4.0
+    assert len(summary['sequence_count_ci_95']) == 2
+
+    # Deterministic seed reproducibility check
+    res_repeat = resample_sequence_clusters(records, thresholds=(0.99,), n_draws=100, seed=42, min_clusters_per_stratum=5)
+    assert res_repeat['resample_by_threshold']['0.99'] == res['resample_by_threshold']['0.99']
+
+
+def test_homology_graph_auditor_detects_leakage_and_structure():
+    t_rec = record(200, sense_codons=30)
+    train_rec = copy.deepcopy(t_rec)  # 100% identical training sequence (leakage)
+
+    t_rec2 = record(201, sense_codons=30)  # Distinct sequence
+
+    report = audit_homology_graph([t_rec, t_rec2], training_records=[train_rec], thresholds=(0.99, 0.95, 0.90))
+
+    assert report['n_test_sequences'] == 2
+    assert report['n_training_sequences'] == 1
+    assert len(report['leakage_warnings']) > 0
+    assert report['leakage_warnings'][0]['identity'] == 1.0
+
+    auditor = HomologyGraphAuditor(thresholds=(0.99, 0.95, 0.90))
+    aud_res = auditor.audit([t_rec2], training_records=[])
+    assert len(aud_res['leakage_warnings']) == 0
+    assert aud_res['thresholds']['0.99']['n_leakage_edges'] == 0
+    assert 'graph_audit_sha256' in aud_res
+
