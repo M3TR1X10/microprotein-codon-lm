@@ -62,6 +62,7 @@
     "gap_codons": [1, 2, 4, 8, 16],
     "candidate_method": "prefix_only_codon_synchronous_beam",
     "beam_width": 8,
+    "beam_widths": [8, 16],
     "bank_frozen_before_suffix_scoring": true,
     "reuse_bank_across_right_lengths": true,
     "score": "log_p_candidate_given_left_plus_log_p_right_given_left_candidate",

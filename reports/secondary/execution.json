@@ -1,13 +1,9 @@
 {
-  "complete": false,
-  "completed_runs": 16,
-  "elapsed_seconds": 8227.170528000017,
-  "in_progress": {
-    "job_index": 16,
-    "started_utc": "2026-09-25T16:00:45.374590+00:00"
-  },
-  "last_job": 16,
-  "plan_sha256": "0911988a949932344ae1d444c732273215097f79107247faffdeb3a862c99006",
+  "complete": true,
+  "completed_runs": 25,
+  "elapsed_seconds": 13328.889528,
+  "in_progress": null,
+  "plan_sha256": "549808687f3f79821eb87326e3bb26564a84aaeb9f256a36366d46e577bc785a",
   "planned_runs": 25,
   "recovery_accounting": {
     "affected_arm": "human_atp8_base",
@@ -19,6 +15,6 @@
     "kind": "standby_budget_amendment",
     "original_elapsed_wall_seconds": 20466.25
   },
-  "status": "running",
-  "updated_utc": "2026-09-25T16:00:45.391793+00:00"
+  "status": "complete",
+  "updated_utc": "2026-09-25T19:16:40.746595+00:00"
 }

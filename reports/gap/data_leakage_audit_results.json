@@ -1,0 +1,232 @@
+{
+  "total_test_sequences": 20,
+  "training_union_unique_cds": 533,
+  "training_source_accessions": 134051,
+  "check1_full_rna_hash_overlap": 0,
+  "check2_source_parent_accession_overlap": 0,
+  "check3_qc_gates_passed": 20,
+  "check4_exact_peptide_overlaps": 6,
+  "zero_leakage_invariant_holds": true,
+  "per_sequence_profiles": [
+    {
+      "idx": 1,
+      "sha256_short": "1b1631eb0f39",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9900497512437811,
+      "nearest_nt_train_sha256": "2b7b771f357d",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "2b7b771f357d"
+    },
+    {
+      "idx": 2,
+      "sha256_short": "1e3afd68fa60",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9900497512437811,
+      "nearest_nt_train_sha256": "a8db080aeb9d",
+      "max_peptide_identity": 1.0,
+      "exact_peptide": true,
+      "nearest_pep_train_sha256": "116c5726fd92"
+    },
+    {
+      "idx": 3,
+      "sha256_short": "29d581ef1e6d",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9950248756218906,
+      "nearest_nt_train_sha256": "2b7b771f357d",
+      "max_peptide_identity": 1.0,
+      "exact_peptide": true,
+      "nearest_pep_train_sha256": "2b7b771f357d"
+    },
+    {
+      "idx": 4,
+      "sha256_short": "2b0ad91b9adc",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9850746268656716,
+      "nearest_nt_train_sha256": "a8db080aeb9d",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "116c5726fd92"
+    },
+    {
+      "idx": 5,
+      "sha256_short": "429791c054bd",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9950248756218906,
+      "nearest_nt_train_sha256": "fa4fdcc0ab68",
+      "max_peptide_identity": 1.0,
+      "exact_peptide": true,
+      "nearest_pep_train_sha256": "2b7b771f357d"
+    },
+    {
+      "idx": 6,
+      "sha256_short": "4df1cce92377",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9950248756218906,
+      "nearest_nt_train_sha256": "a8db080aeb9d",
+      "max_peptide_identity": 1.0,
+      "exact_peptide": true,
+      "nearest_pep_train_sha256": "116c5726fd92"
+    },
+    {
+      "idx": 7,
+      "sha256_short": "5396746b3be2",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9800995024875622,
+      "nearest_nt_train_sha256": "a8db080aeb9d",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "116c5726fd92"
+    },
+    {
+      "idx": 8,
+      "sha256_short": "55722c268776",
+      "family": "ATP8",
+      "tax_id": 9606,
+      "max_nt_identity": 0.9951690821256038,
+      "nearest_nt_train_sha256": "5dd0f01868fe",
+      "max_peptide_identity": 0.9852941176470589,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "10b282fdd221"
+    },
+    {
+      "idx": 9,
+      "sha256_short": "6551cb4ac9ed",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9900497512437811,
+      "nearest_nt_train_sha256": "fa4fdcc0ab68",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "2b7b771f357d"
+    },
+    {
+      "idx": 10,
+      "sha256_short": "766a6d545f96",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9900497512437811,
+      "nearest_nt_train_sha256": "b39f4f494190",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "116c5726fd92"
+    },
+    {
+      "idx": 11,
+      "sha256_short": "8274de42f41a",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9900497512437811,
+      "nearest_nt_train_sha256": "a8db080aeb9d",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "116c5726fd92"
+    },
+    {
+      "idx": 12,
+      "sha256_short": "aa4dc4f883fc",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9950248756218906,
+      "nearest_nt_train_sha256": "a8db080aeb9d",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "116c5726fd92"
+    },
+    {
+      "idx": 13,
+      "sha256_short": "aa6409117771",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9850746268656716,
+      "nearest_nt_train_sha256": "4bc2a2966676",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "4bc2a2966676"
+    },
+    {
+      "idx": 14,
+      "sha256_short": "bc44ad2d97dc",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9900497512437811,
+      "nearest_nt_train_sha256": "a8db080aeb9d",
+      "max_peptide_identity": 1.0,
+      "exact_peptide": true,
+      "nearest_pep_train_sha256": "116c5726fd92"
+    },
+    {
+      "idx": 15,
+      "sha256_short": "d2ebf7bddc26",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9850746268656716,
+      "nearest_nt_train_sha256": "2b7b771f357d",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "2b7b771f357d"
+    },
+    {
+      "idx": 16,
+      "sha256_short": "d96bdf496a2f",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9751243781094527,
+      "nearest_nt_train_sha256": "a8db080aeb9d",
+      "max_peptide_identity": 0.9545454545454546,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "116c5726fd92"
+    },
+    {
+      "idx": 17,
+      "sha256_short": "dcae586d1008",
+      "family": "ATP5F1E",
+      "tax_id": 10090,
+      "max_nt_identity": 0.9874213836477987,
+      "nearest_nt_train_sha256": "6073ad6c54bf",
+      "max_peptide_identity": 0.9807692307692307,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "6073ad6c54bf"
+    },
+    {
+      "idx": 18,
+      "sha256_short": "f2688411b17d",
+      "family": "ATP5ME",
+      "tax_id": 10090,
+      "max_nt_identity": 0.9953703703703703,
+      "nearest_nt_train_sha256": "a091a52b6ad7",
+      "max_peptide_identity": 0.9859154929577465,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "a091a52b6ad7"
+    },
+    {
+      "idx": 19,
+      "sha256_short": "f795c74c1e47",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9900497512437811,
+      "nearest_nt_train_sha256": "2b7b771f357d",
+      "max_peptide_identity": 1.0,
+      "exact_peptide": true,
+      "nearest_pep_train_sha256": "2b7b771f357d"
+    },
+    {
+      "idx": 20,
+      "sha256_short": "fe6fe82036dc",
+      "family": "ATP8",
+      "tax_id": 9913,
+      "max_nt_identity": 0.9900497512437811,
+      "nearest_nt_train_sha256": "ff4703e4046f",
+      "max_peptide_identity": 0.9848484848484849,
+      "exact_peptide": false,
+      "nearest_pep_train_sha256": "4fd517a56828"
+    }
+  ]
+}

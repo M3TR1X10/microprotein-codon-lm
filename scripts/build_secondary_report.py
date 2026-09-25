@@ -344,8 +344,14 @@ def create_curves(root, runs, baselines):
             scale_note = 'Linear y-axis; identical observations and baselines; common range across panels'
         fig.suptitle('Secondary pilot: training fit only; each curve is one initialization\n'
                      'Full-pool panel changes both dataset and capacity\n' + scale_note, fontsize=12)
-        fig.savefig(root/f'reports/secondary/{stem}.svg')
-        fig.savefig(root/f'reports/secondary/{stem}.png', dpi=180)
+        svg_file = root / f'reports/secondary/{stem}.svg'
+        png_file = root / f'reports/secondary/{stem}.png'
+        if svg_file.exists():
+            svg_file.unlink()
+        if png_file.exists():
+            png_file.unlink()
+        fig.savefig(svg_file)
+        fig.savefig(png_file, dpi=180)
         plt.close(fig)
 
 

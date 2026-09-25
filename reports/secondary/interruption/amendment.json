@@ -55,7 +55,7 @@
   "future_interruptions": "Original conservative policy remains; no automatic further credit",
   "kind": "standby_budget_amendment",
   "original_elapsed_wall_seconds": 20466.25,
-  "plan_sha256": "0911988a949932344ae1d444c732273215097f79107247faffdeb3a862c99006",
+  "plan_sha256": "549808687f3f79821eb87326e3bb26564a84aaeb9f256a36366d46e577bc785a",
   "remaining_budget_seconds": 9653.923472,
   "resume_update": 268,
   "scope": "One-time time accounting only; original model/data/seed/update/RNG plan unchanged",

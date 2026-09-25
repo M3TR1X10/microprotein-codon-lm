@@ -178,10 +178,10 @@
     "setup_seconds_this_invocation": 4.23399999999674,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -367,10 +367,10 @@
     "setup_seconds_this_invocation": 3.515999999974156,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -762,10 +762,10 @@
     "setup_seconds_this_invocation": 4.0939999999827705,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -1227,10 +1227,10 @@
     "setup_seconds_this_invocation": 3.125,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -1734,10 +1734,10 @@
     "setup_seconds_this_invocation": 3.0,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -2241,10 +2241,10 @@
     "setup_seconds_this_invocation": 1.8900000000139698,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -2748,10 +2748,10 @@
     "setup_seconds_this_invocation": 2.7660000000032596,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -3255,10 +3255,10 @@
     "setup_seconds_this_invocation": 3.1719999999913853,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -3444,10 +3444,10 @@
     "setup_seconds_this_invocation": 1.6559999999881256,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -3633,10 +3633,10 @@
     "setup_seconds_this_invocation": 2.437999999994645,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -4028,10 +4028,10 @@
     "setup_seconds_this_invocation": 4.282000000006519,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -4493,10 +4493,10 @@
     "setup_seconds_this_invocation": 3.187999999994645,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -5000,10 +5000,10 @@
     "setup_seconds_this_invocation": 3.140999999974156,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -5507,10 +5507,10 @@
     "setup_seconds_this_invocation": 2.4689999999827705,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -6014,10 +6014,10 @@
     "setup_seconds_this_invocation": 5.437999999994645,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
@@ -6521,10 +6521,3783 @@
     "setup_seconds_this_invocation": 3.062999999994645,
     "source_hashes": {
       "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
-      "model.py": "6908d8e5396e1454f0c79c900f1f0e489c6b8b30fbd20d22b579757b165339d6",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
       "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
       "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
-      "tokenization.py": "bad167ab5cc2582a5830556f42540cedff51a28ec5aab9a741618db6f1a01517",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
+      "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+    },
+    "stop_reason": "completed",
+    "timing_scope": "Training loop, interval diagnostics and checkpoint writes; setup and initial diagnostics excluded",
+    "updates": 2000
+  },
+  {
+    "arm": "human_atp8_base",
+    "bases_seen": 6528000,
+    "cohort_sha256": "29274bf9c8fb3cf57daf6cca998cae928180a42e0989b7a4d343dde67b987898",
+    "complete": true,
+    "config": {
+      "batch_size": 16,
+      "checkpoint_interval": 250,
+      "cpu_threads": 4,
+      "dataset": "human_atp8",
+      "deterministic": true,
+      "device": "cpu",
+      "diagnostic_interval": 500,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1.0,
+      "learning_rate": 0.001,
+      "loss": "token",
+      "max_nt_context": 303,
+      "min_learning_rate": 0.0001,
+      "model": {
+        "d_model": 192,
+        "dropout": 0.1,
+        "n_heads": 6,
+        "n_layers": 4
+      },
+      "position_encoding": true,
+      "precision": "float32",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "stage": "training_only",
+      "updates": 2000,
+      "warmup_updates": 200,
+      "weight_decay": 0.01
+    },
+    "data_identity": {
+      "cohort_sha256": "29274bf9c8fb3cf57daf6cca998cae928180a42e0989b7a4d343dde67b987898",
+      "manifest_sha256": "a586ba7fc4c1d3b158f70182d38e244f90f0fca83bf91be2503240960cec694e",
+      "ordered_sequence_metadata_sha256": "4b35b1366510e21fa4043534f244e484f18b8ec9696391dd0cb5a62fa7b5d158"
+    },
+    "dataset": "human_atp8",
+    "elapsed_seconds": 1653.1870000000054,
+    "final": {
+      "bases_seen": 6528000,
+      "family_macro_bits_per_base": 0.06327143148344266,
+      "gradient_norm": 0.04635066166520119,
+      "learning_rate": 0.0001,
+      "per_code": {
+        "2": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 84048,
+          "training_bits_per_base": 0.06327143148344266,
+          "training_nll_per_token": 0.04385641434274004,
+          "training_token_accuracy": 0.9915762421473444
+        }
+      },
+      "per_family": {
+        "ATP8": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 84048,
+          "training_bits_per_base": 0.06327143148344266,
+          "training_nll_per_token": 0.04385641434274004,
+          "training_token_accuracy": 0.9915762421473444
+        }
+      },
+      "per_taxon": {
+        "9606": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 84048,
+          "training_bits_per_base": 0.06327143148344266,
+          "training_nll_per_token": 0.04385641434274004,
+          "training_token_accuracy": 0.9915762421473444
+        }
+      },
+      "scored_training_bases": 84048,
+      "scored_training_tokens": 84048,
+      "sequences_seen": 32000,
+      "training_bits_per_base": 0.06327143148344266,
+      "training_nll_per_token": 0.04385641434274004,
+      "training_token_accuracy": 0.9915762421473444,
+      "update": 2000,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP8": {
+            "scored_training_bases": 84048,
+            "scored_training_tokens": 84048,
+            "training_bits_per_base": 0.06327143148344266,
+            "training_nll_per_token": 0.04385641434274004,
+            "training_token_accuracy": 0.9915762421473444
+          }
+        },
+        "scored_training_bases": 84048,
+        "scored_training_tokens": 84048,
+        "training_bits_per_base": 0.06327143148344266,
+        "training_nll_per_token": 0.04385641434274004,
+        "training_token_accuracy": 0.9915762421473444
+      }
+    },
+    "initial": {
+      "bases_seen": 0,
+      "family_macro_bits_per_base": 2.0017603896060634,
+      "per_code": {
+        "2": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 84048,
+          "training_bits_per_base": 2.0017603896060634,
+          "training_nll_per_token": 1.3875145702120204,
+          "training_token_accuracy": 0.2742242528079193
+        }
+      },
+      "per_family": {
+        "ATP8": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 84048,
+          "training_bits_per_base": 2.0017603896060634,
+          "training_nll_per_token": 1.3875145702120204,
+          "training_token_accuracy": 0.2742242528079193
+        }
+      },
+      "per_taxon": {
+        "9606": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 84048,
+          "training_bits_per_base": 2.0017603896060634,
+          "training_nll_per_token": 1.3875145702120204,
+          "training_token_accuracy": 0.2742242528079193
+        }
+      },
+      "scored_training_bases": 84048,
+      "scored_training_tokens": 84048,
+      "sequences_seen": 0,
+      "training_bits_per_base": 2.0017603896060634,
+      "training_nll_per_token": 1.3875145702120204,
+      "training_token_accuracy": 0.2742242528079193,
+      "update": 0,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP8": {
+            "scored_training_bases": 84048,
+            "scored_training_tokens": 84048,
+            "training_bits_per_base": 2.0017603896060634,
+            "training_nll_per_token": 1.3875145702120204,
+            "training_token_accuracy": 0.2742242528079193
+          }
+        },
+        "scored_training_bases": 84048,
+        "scored_training_tokens": 84048,
+        "training_bits_per_base": 2.0017603896060634,
+        "training_nll_per_token": 1.3875145702120204,
+        "training_token_accuracy": 0.2742242528079193
+      }
+    },
+    "mode": "base",
+    "parameters": 1780608,
+    "peak_cuda_allocated_bytes": null,
+    "peak_cuda_reserved_bytes": null,
+    "per_family_exposures": {
+      "ATP8": {
+        "sequences": 32000,
+        "target_bases": 6528000
+      }
+    },
+    "process_peak_rss_bytes": 738119680,
+    "role": "matched",
+    "rss_scope": "Process-lifetime high-water mark, including earlier runs in this process",
+    "runtime_max_seconds_this_invocation": 6052.829471999983,
+    "sampling_trace_sha256": "d7618e1a4a509ef7f87b2820639cbdf009dac681df20a2a417b6a388e7489a8e",
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 77.66990291262135,
+    "sequences": 412,
+    "sequences_seen": 32000,
+    "setup_seconds_this_invocation": 6.469000000011874,
+    "source_hashes": {
+      "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
+      "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+      "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
+      "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+    },
+    "stop_reason": "completed",
+    "timing_scope": "Training loop, interval diagnostics and checkpoint writes; setup and initial diagnostics excluded",
+    "updates": 2000
+  },
+  {
+    "arm": "human_atp8_codon",
+    "bases_seen": 6528000,
+    "cohort_sha256": "29274bf9c8fb3cf57daf6cca998cae928180a42e0989b7a4d343dde67b987898",
+    "complete": true,
+    "config": {
+      "batch_size": 16,
+      "checkpoint_interval": 250,
+      "cpu_threads": 4,
+      "dataset": "human_atp8",
+      "deterministic": true,
+      "device": "cpu",
+      "diagnostic_interval": 500,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1.0,
+      "learning_rate": 0.001,
+      "loss": "token",
+      "max_nt_context": 303,
+      "min_learning_rate": 0.0001,
+      "model": {
+        "d_model": 192,
+        "dropout": 0.1,
+        "n_heads": 6,
+        "n_layers": 4
+      },
+      "position_encoding": true,
+      "precision": "float32",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "stage": "training_only",
+      "updates": 2000,
+      "warmup_updates": 200,
+      "weight_decay": 0.01
+    },
+    "data_identity": {
+      "cohort_sha256": "29274bf9c8fb3cf57daf6cca998cae928180a42e0989b7a4d343dde67b987898",
+      "manifest_sha256": "a586ba7fc4c1d3b158f70182d38e244f90f0fca83bf91be2503240960cec694e",
+      "ordered_sequence_metadata_sha256": "4b35b1366510e21fa4043534f244e484f18b8ec9696391dd0cb5a62fa7b5d158"
+    },
+    "dataset": "human_atp8",
+    "elapsed_seconds": 250.17199999999139,
+    "final": {
+      "bases_seen": 6528000,
+      "family_macro_bits_per_base": 0.0630748529252028,
+      "gradient_norm": 0.12894360721111298,
+      "learning_rate": 0.0001,
+      "per_code": {
+        "2": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 28016,
+          "training_bits_per_base": 0.0630748529252028,
+          "training_nll_per_token": 0.1311604694080126,
+          "training_token_accuracy": 0.9748358081096516
+        }
+      },
+      "per_family": {
+        "ATP8": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 28016,
+          "training_bits_per_base": 0.0630748529252028,
+          "training_nll_per_token": 0.1311604694080126,
+          "training_token_accuracy": 0.9748358081096516
+        }
+      },
+      "per_taxon": {
+        "9606": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 28016,
+          "training_bits_per_base": 0.0630748529252028,
+          "training_nll_per_token": 0.1311604694080126,
+          "training_token_accuracy": 0.9748358081096516
+        }
+      },
+      "scored_training_bases": 84048,
+      "scored_training_tokens": 28016,
+      "sequences_seen": 32000,
+      "training_bits_per_base": 0.0630748529252028,
+      "training_nll_per_token": 0.1311604694080126,
+      "training_token_accuracy": 0.9748358081096516,
+      "update": 2000,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP8": {
+            "scored_training_bases": 84048,
+            "scored_training_tokens": 28016,
+            "training_bits_per_base": 0.0630748529252028,
+            "training_nll_per_token": 0.1311604694080126,
+            "training_token_accuracy": 0.9748358081096516
+          }
+        },
+        "scored_training_bases": 84048,
+        "scored_training_tokens": 28016,
+        "training_bits_per_base": 0.0630748529252028,
+        "training_nll_per_token": 0.1311604694080126,
+        "training_token_accuracy": 0.9748358081096516
+      }
+    },
+    "initial": {
+      "bases_seen": 0,
+      "family_macro_bits_per_base": 2.0045758579466026,
+      "per_code": {
+        "2": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 28016,
+          "training_bits_per_base": 2.0045758579466026,
+          "training_nll_per_token": 4.168398312462663,
+          "training_token_accuracy": 0.014848657909765849
+        }
+      },
+      "per_family": {
+        "ATP8": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 28016,
+          "training_bits_per_base": 2.0045758579466026,
+          "training_nll_per_token": 4.168398312462663,
+          "training_token_accuracy": 0.014848657909765849
+        }
+      },
+      "per_taxon": {
+        "9606": {
+          "scored_training_bases": 84048,
+          "scored_training_tokens": 28016,
+          "training_bits_per_base": 2.0045758579466026,
+          "training_nll_per_token": 4.168398312462663,
+          "training_token_accuracy": 0.014848657909765849
+        }
+      },
+      "scored_training_bases": 84048,
+      "scored_training_tokens": 28016,
+      "sequences_seen": 0,
+      "training_bits_per_base": 2.0045758579466026,
+      "training_nll_per_token": 4.168398312462663,
+      "training_token_accuracy": 0.014848657909765849,
+      "update": 0,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP8": {
+            "scored_training_bases": 84048,
+            "scored_training_tokens": 28016,
+            "training_bits_per_base": 2.0045758579466026,
+            "training_nll_per_token": 4.168398312462663,
+            "training_token_accuracy": 0.014848657909765849
+          }
+        },
+        "scored_training_bases": 84048,
+        "scored_training_tokens": 28016,
+        "training_bits_per_base": 2.0045758579466026,
+        "training_nll_per_token": 4.168398312462663,
+        "training_token_accuracy": 0.014848657909765849
+      }
+    },
+    "mode": "codon",
+    "parameters": 1793668,
+    "peak_cuda_allocated_bytes": null,
+    "peak_cuda_reserved_bytes": null,
+    "per_family_exposures": {
+      "ATP8": {
+        "sequences": 32000,
+        "target_bases": 6528000
+      }
+    },
+    "process_peak_rss_bytes": 475971584,
+    "role": "matched",
+    "rss_scope": "Process-lifetime high-water mark, including earlier runs in this process",
+    "runtime_max_seconds_this_invocation": 4389.048471999995,
+    "sampling_trace_sha256": "d7618e1a4a509ef7f87b2820639cbdf009dac681df20a2a417b6a388e7489a8e",
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 77.66990291262135,
+    "sequences": 412,
+    "sequences_seen": 32000,
+    "setup_seconds_this_invocation": 3.609000000025844,
+    "source_hashes": {
+      "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
+      "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+      "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
+      "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+    },
+    "stop_reason": "completed",
+    "timing_scope": "Training loop, interval diagnostics and checkpoint writes; setup and initial diagnostics excluded",
+    "updates": 2000
+  },
+  {
+    "arm": "human_complex_codon",
+    "bases_seen": 6541563,
+    "cohort_sha256": "9fbd531beee125544fe0f1f4d1515bbfc6cfea82b7305817e3bafdab731289db",
+    "complete": true,
+    "config": {
+      "batch_size": 16,
+      "checkpoint_interval": 250,
+      "cpu_threads": 4,
+      "dataset": "human_complex",
+      "deterministic": true,
+      "device": "cpu",
+      "diagnostic_interval": 500,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1.0,
+      "learning_rate": 0.001,
+      "loss": "token",
+      "max_nt_context": 303,
+      "min_learning_rate": 0.0001,
+      "model": {
+        "d_model": 192,
+        "dropout": 0.1,
+        "n_heads": 6,
+        "n_layers": 4
+      },
+      "position_encoding": true,
+      "precision": "float32",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "stage": "training_only",
+      "updates": 2000,
+      "warmup_updates": 200,
+      "weight_decay": 0.01
+    },
+    "data_identity": {
+      "cohort_sha256": "9fbd531beee125544fe0f1f4d1515bbfc6cfea82b7305817e3bafdab731289db",
+      "manifest_sha256": "7818a8ad0d1affeb48eda6d1f720f4aef929c096666b7b8ffead8bbc6076da23",
+      "ordered_sequence_metadata_sha256": "f5a125d87b08d85084f9a18a2ab7c90e7bfd34605bfe795cbc6a74b8f191a318"
+    },
+    "dataset": "human_complex",
+    "elapsed_seconds": 307.1719999999914,
+    "final": {
+      "bases_seen": 6541563,
+      "family_macro_bits_per_base": 0.053794728702982755,
+      "gradient_norm": 0.11137688905000687,
+      "learning_rate": 0.0001,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2214,
+          "scored_training_tokens": 738,
+          "training_bits_per_base": 0.04721417099433394,
+          "training_nll_per_token": 0.09817910852159316,
+          "training_token_accuracy": 0.9769647696476965
+        },
+        "2": {
+          "scored_training_bases": 82008,
+          "scored_training_tokens": 27336,
+          "training_bits_per_base": 0.06263842146254897,
+          "training_nll_per_token": 0.13025293569447416,
+          "training_token_accuracy": 0.9750877963125548
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 0.06075616252735907,
+          "training_nll_per_token": 0.12633888827244222,
+          "training_token_accuracy": 0.9509803921568627
+        },
+        "ATP5ME": {
+          "scored_training_bases": 414,
+          "scored_training_tokens": 138,
+          "training_bits_per_base": 0.045703406643645736,
+          "training_nll_per_token": 0.09503756237108314,
+          "training_token_accuracy": 0.9782608695652174
+        },
+        "ATP5MF": {
+          "scored_training_bases": 846,
+          "scored_training_tokens": 282,
+          "training_bits_per_base": 0.037513091501345,
+          "training_nll_per_token": 0.0780062808247336,
+          "training_token_accuracy": 0.9787234042553191
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 0.045332157291394067,
+          "training_nll_per_token": 0.09426557104568928,
+          "training_token_accuracy": 0.99
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.06697491895066586,
+          "training_nll_per_token": 0.13927042871665465,
+          "training_token_accuracy": 0.9827586206896551
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.05764494254392059,
+          "training_nll_per_token": 0.11986928819357578,
+          "training_token_accuracy": 0.9827586206896551
+        },
+        "ATP8": {
+          "scored_training_bases": 82008,
+          "scored_training_tokens": 27336,
+          "training_bits_per_base": 0.06263842146254897,
+          "training_nll_per_token": 0.13025293569447416,
+          "training_token_accuracy": 0.9750877963125548
+        }
+      },
+      "per_taxon": {
+        "9606": {
+          "scored_training_bases": 84222,
+          "scored_training_tokens": 28074,
+          "training_bits_per_base": 0.06223295388238432,
+          "training_nll_per_token": 0.12940978956447538,
+          "training_token_accuracy": 0.9751371375650068
+        }
+      },
+      "scored_training_bases": 84222,
+      "scored_training_tokens": 28074,
+      "sequences_seen": 32000,
+      "training_bits_per_base": 0.06223295388238432,
+      "training_nll_per_token": 0.12940978956447538,
+      "training_token_accuracy": 0.9751371375650068,
+      "update": 2000,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 6,
+            "scored_training_tokens": 2,
+            "training_bits_per_base": 0.3410420266175767,
+            "training_nll_per_token": 0.7091769576072693,
+            "training_token_accuracy": 0.5
+          },
+          "ATP5ME": {
+            "scored_training_bases": 6,
+            "scored_training_tokens": 2,
+            "training_bits_per_base": 0.36767097469580723,
+            "training_nll_per_token": 0.7645502984523773,
+            "training_token_accuracy": 0.5
+          },
+          "ATP5MF": {
+            "scored_training_bases": 36,
+            "scored_training_tokens": 12,
+            "training_bits_per_base": 0.2436580259305827,
+            "training_nll_per_token": 0.5066726210837563,
+            "training_token_accuracy": 0.75
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 82008,
+            "scored_training_tokens": 27336,
+            "training_bits_per_base": 0.06263842146254897,
+            "training_nll_per_token": 0.13025293569447416,
+            "training_token_accuracy": 0.9750877963125548
+          }
+        },
+        "scored_training_bases": 82056,
+        "scored_training_tokens": 27352,
+        "training_bits_per_base": 0.06276050056354317,
+        "training_nll_per_token": 0.13050679204845242,
+        "training_token_accuracy": 0.9749195671248904
+      }
+    },
+    "initial": {
+      "bases_seen": 0,
+      "family_macro_bits_per_base": 2.027490059601413,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2214,
+          "scored_training_tokens": 738,
+          "training_bits_per_base": 2.029939436240297,
+          "training_nll_per_token": 4.22114039081222,
+          "training_token_accuracy": 0.005420054200542005
+        },
+        "2": {
+          "scored_training_bases": 82008,
+          "scored_training_tokens": 27336,
+          "training_bits_per_base": 2.004576266950982,
+          "training_nll_per_token": 4.16839916296336,
+          "training_token_accuracy": 0.01485220954053263
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 2.0378606416958602,
+          "training_nll_per_token": 4.237612074496699,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5ME": {
+          "scored_training_bases": 414,
+          "scored_training_tokens": 138,
+          "training_bits_per_base": 2.0357587113764635,
+          "training_nll_per_token": 4.233241233272829,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5MF": {
+          "scored_training_bases": 846,
+          "scored_training_tokens": 282,
+          "training_bits_per_base": 2.0255498839050254,
+          "training_nll_per_token": 4.212012573336879,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 2.022619621210999,
+          "training_nll_per_token": 4.205919263362884,
+          "training_token_accuracy": 0.02
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.024321544879179,
+          "training_nll_per_token": 4.209458314139267,
+          "training_token_accuracy": 0.034482758620689655
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.04174374719138,
+          "training_nll_per_token": 4.245686765374808,
+          "training_token_accuracy": 0.0
+        },
+        "ATP8": {
+          "scored_training_bases": 82008,
+          "scored_training_tokens": 27336,
+          "training_bits_per_base": 2.004576266950982,
+          "training_nll_per_token": 4.16839916296336,
+          "training_token_accuracy": 0.01485220954053263
+        }
+      },
+      "per_taxon": {
+        "9606": {
+          "scored_training_bases": 84222,
+          "scored_training_tokens": 28074,
+          "training_bits_per_base": 2.0052430055324275,
+          "training_nll_per_token": 4.169785606867059,
+          "training_token_accuracy": 0.0146042601695519
+        }
+      },
+      "scored_training_bases": 84222,
+      "scored_training_tokens": 28074,
+      "sequences_seen": 0,
+      "training_bits_per_base": 2.0052430055324275,
+      "training_nll_per_token": 4.169785606867059,
+      "training_token_accuracy": 0.0146042601695519,
+      "update": 0,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 6,
+            "scored_training_tokens": 2,
+            "training_bits_per_base": 1.850143839907167,
+            "training_nll_per_token": 3.8472659587860107,
+            "training_token_accuracy": 0.0
+          },
+          "ATP5ME": {
+            "scored_training_bases": 6,
+            "scored_training_tokens": 2,
+            "training_bits_per_base": 1.9099716739730135,
+            "training_nll_per_token": 3.9716744422912598,
+            "training_token_accuracy": 0.0
+          },
+          "ATP5MF": {
+            "scored_training_bases": 36,
+            "scored_training_tokens": 12,
+            "training_bits_per_base": 2.0211181373787834,
+            "training_nll_per_token": 4.202797015508016,
+            "training_token_accuracy": 0.0
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 82008,
+            "scored_training_tokens": 27336,
+            "training_bits_per_base": 2.004576266950982,
+            "training_nll_per_token": 4.16839916296336,
+            "training_token_accuracy": 0.01485220954053263
+          }
+        },
+        "scored_training_bases": 82056,
+        "scored_training_tokens": 27352,
+        "training_bits_per_base": 2.004565314494309,
+        "training_nll_per_token": 4.168376387969971,
+        "training_token_accuracy": 0.014843521497513893
+      }
+    },
+    "mode": "codon",
+    "parameters": 1793668,
+    "peak_cuda_allocated_bytes": null,
+    "peak_cuda_reserved_bytes": null,
+    "per_family_exposures": {
+      "ATP5F1E": {
+        "sequences": 162,
+        "target_bases": 24786
+      },
+      "ATP5ME": {
+        "sequences": 155,
+        "target_bases": 32085
+      },
+      "ATP5MF": {
+        "sequences": 249,
+        "target_bases": 70218
+      },
+      "ATP5MGL": {
+        "sequences": 73,
+        "target_bases": 21900
+      },
+      "ATP5MJ": {
+        "sequences": 90,
+        "target_bases": 15660
+      },
+      "ATP5MK": {
+        "sequences": 79,
+        "target_bases": 13746
+      },
+      "ATP8": {
+        "sequences": 31192,
+        "target_bases": 6363168
+      }
+    },
+    "process_peak_rss_bytes": 548806656,
+    "role": "matched",
+    "rss_scope": "Process-lifetime high-water mark, including earlier runs in this process",
+    "runtime_max_seconds_this_invocation": 4132.407471999992,
+    "sampling_trace_sha256": "d7618e1a4a509ef7f87b2820639cbdf009dac681df20a2a417b6a388e7489a8e",
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 77.66990291262135,
+    "sequences": 412,
+    "sequences_seen": 32000,
+    "setup_seconds_this_invocation": 2.8440000000118744,
+    "source_hashes": {
+      "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
+      "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+      "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
+      "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+    },
+    "stop_reason": "completed",
+    "timing_scope": "Training loop, interval diagnostics and checkpoint writes; setup and initial diagnostics excluded",
+    "updates": 2000
+  },
+  {
+    "arm": "mammal_complex_codon",
+    "bases_seen": 6512544,
+    "cohort_sha256": "4774c45c29b1b237d0a1ab89c6824fa712ffc350644a03eed43f5e111bf261f2",
+    "complete": true,
+    "config": {
+      "batch_size": 16,
+      "checkpoint_interval": 250,
+      "cpu_threads": 4,
+      "dataset": "mammal_complex",
+      "deterministic": true,
+      "device": "cpu",
+      "diagnostic_interval": 500,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1.0,
+      "learning_rate": 0.001,
+      "loss": "token",
+      "max_nt_context": 303,
+      "min_learning_rate": 0.0001,
+      "model": {
+        "d_model": 192,
+        "dropout": 0.1,
+        "n_heads": 6,
+        "n_layers": 4
+      },
+      "position_encoding": true,
+      "precision": "float32",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "stage": "training_only",
+      "updates": 2000,
+      "warmup_updates": 200,
+      "weight_decay": 0.01
+    },
+    "data_identity": {
+      "cohort_sha256": "4774c45c29b1b237d0a1ab89c6824fa712ffc350644a03eed43f5e111bf261f2",
+      "manifest_sha256": "0d0f27567b10b790dfbc69d99f25aa8b9fd1a1cf0a456c98aad9233c757b9d78",
+      "ordered_sequence_metadata_sha256": "e068ccb920469407b4b6a138aee64eeba5d3d24564a3e04e22731f9e3542183c"
+    },
+    "dataset": "mammal_complex",
+    "elapsed_seconds": 368.2969999999914,
+    "final": {
+      "bases_seen": 6512544,
+      "family_macro_bits_per_base": 0.05795005453396968,
+      "gradient_norm": 0.12890148162841797,
+      "learning_rate": 0.0001,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 0.05605814555377208,
+          "training_nll_per_token": 0.11656963661404846,
+          "training_token_accuracy": 0.9766483516483516
+        },
+        "2": {
+          "scored_training_bases": 81675,
+          "scored_training_tokens": 27225,
+          "training_bits_per_base": 0.05982513566280232,
+          "training_nll_per_token": 0.12440287233386299,
+          "training_token_accuracy": 0.9727456382001837
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 0.07492925866986273,
+          "training_nll_per_token": 0.15581101316538656,
+          "training_token_accuracy": 0.9509803921568627
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 0.062204540004927894,
+          "training_nll_per_token": 0.12935070456733228,
+          "training_token_accuracy": 0.9785714285714285
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 0.050636307294457235,
+          "training_nll_per_token": 0.10529524090536008,
+          "training_token_accuracy": 0.9777777777777777
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 0.03856925910699854,
+          "training_nll_per_token": 0.08020251961890608,
+          "training_token_accuracy": 0.99
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.06409558097029808,
+          "training_nll_per_token": 0.1332830137077414,
+          "training_token_accuracy": 0.9827586206896551
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.05539030002844098,
+          "training_nll_per_token": 0.11518089088524996,
+          "training_token_accuracy": 0.9827586206896551
+        },
+        "ATP8": {
+          "scored_training_bases": 81675,
+          "scored_training_tokens": 27225,
+          "training_bits_per_base": 0.05982513566280232,
+          "training_nll_per_token": 0.12440287233386299,
+          "training_token_accuracy": 0.9727456382001837
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 0.06170584125986802,
+          "training_nll_per_token": 0.12831368968007117,
+          "training_token_accuracy": 0.9415422885572139
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 0.05562954389779402,
+          "training_nll_per_token": 0.11567838452577492,
+          "training_token_accuracy": 0.9533582089552238
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 0.08856057719694604,
+          "training_nll_per_token": 0.18415654317847358,
+          "training_token_accuracy": 0.9191176470588235
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 0.05964715209573702,
+          "training_nll_per_token": 0.12403276591077103,
+          "training_token_accuracy": 0.9770419624404708
+        },
+        "9823": {
+          "scored_training_bases": 5691,
+          "scored_training_tokens": 1897,
+          "training_bits_per_base": 0.05511269168617204,
+          "training_nll_per_token": 0.11460362056601905,
+          "training_token_accuracy": 0.9583552978386927
+        },
+        "9913": {
+          "scored_training_bases": 6966,
+          "scored_training_tokens": 2322,
+          "training_bits_per_base": 0.06283436283652898,
+          "training_nll_per_token": 0.13066038432726199,
+          "training_token_accuracy": 0.9629629629629629
+        }
+      },
+      "scored_training_bases": 83859,
+      "scored_training_tokens": 27953,
+      "sequences_seen": 32000,
+      "training_bits_per_base": 0.05972702924133149,
+      "training_nll_per_token": 0.124198865765551,
+      "training_token_accuracy": 0.9728472793617858,
+      "update": 2000,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 70125,
+            "scored_training_tokens": 23375,
+            "training_bits_per_base": 0.06463966009952658,
+            "training_nll_per_token": 0.13441439445102016,
+            "training_token_accuracy": 0.9727486631016042
+          }
+        },
+        "scored_training_bases": 70125,
+        "scored_training_tokens": 23375,
+        "training_bits_per_base": 0.06463966009952658,
+        "training_nll_per_token": 0.13441439445102016,
+        "training_token_accuracy": 0.9727486631016042
+      }
+    },
+    "initial": {
+      "bases_seen": 0,
+      "family_macro_bits_per_base": 2.0250457050373973,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 2.025793704080659,
+          "training_nll_per_token": 4.212519583138791,
+          "training_token_accuracy": 0.01510989010989011
+        },
+        "2": {
+          "scored_training_bases": 81675,
+          "scored_training_tokens": 27225,
+          "training_bits_per_base": 2.005163669547384,
+          "training_nll_per_token": 4.169620632324008,
+          "training_token_accuracy": 0.01847566574839302
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 2.0302865920719695,
+          "training_nll_per_token": 4.221862281070036,
+          "training_token_accuracy": 0.0196078431372549
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 2.03250038599422,
+          "training_nll_per_token": 4.2264657361166815,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 2.018684374366651,
+          "training_nll_per_token": 4.197736147597984,
+          "training_token_accuracy": 0.018518518518518517
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 2.022619621210999,
+          "training_nll_per_token": 4.205919263362884,
+          "training_token_accuracy": 0.02
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.024321544879179,
+          "training_nll_per_token": 4.209458314139267,
+          "training_token_accuracy": 0.034482758620689655
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.04174374719138,
+          "training_nll_per_token": 4.245686765374808,
+          "training_token_accuracy": 0.0
+        },
+        "ATP8": {
+          "scored_training_bases": 81675,
+          "scored_training_tokens": 27225,
+          "training_bits_per_base": 2.005163669547384,
+          "training_nll_per_token": 4.169620632324008,
+          "training_token_accuracy": 0.01847566574839302
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 2.0164341078841734,
+          "training_nll_per_token": 4.19305684999447,
+          "training_token_accuracy": 0.014925373134328358
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 2.010440714574089,
+          "training_nll_per_token": 4.180593938969854,
+          "training_token_accuracy": 0.014925373134328358
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 2.019630600136799,
+          "training_nll_per_token": 4.199703768772237,
+          "training_token_accuracy": 0.014705882352941176
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 2.0050938605176043,
+          "training_nll_per_token": 4.169475468527501,
+          "training_token_accuracy": 0.014871057597268398
+        },
+        "9823": {
+          "scored_training_bases": 5691,
+          "scored_training_tokens": 1897,
+          "training_bits_per_base": 1.9948794535824999,
+          "training_nll_per_token": 4.148235206423022,
+          "training_token_accuracy": 0.015287295730100159
+        },
+        "9913": {
+          "scored_training_bases": 6966,
+          "scored_training_tokens": 2322,
+          "training_bits_per_base": 2.0147348155823495,
+          "training_nll_per_token": 4.1895232709906,
+          "training_token_accuracy": 0.056847545219638244
+        }
+      },
+      "scored_training_bases": 83859,
+      "scored_training_tokens": 27953,
+      "sequences_seen": 0,
+      "training_bits_per_base": 2.005700952312748,
+      "training_nll_per_token": 4.170737880425936,
+      "training_token_accuracy": 0.018388008442743176,
+      "update": 0,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 70125,
+            "scored_training_tokens": 23375,
+            "training_bits_per_base": 2.0071861730041882,
+            "training_nll_per_token": 4.17382631003028,
+            "training_token_accuracy": 0.015315508021390374
+          }
+        },
+        "scored_training_bases": 70125,
+        "scored_training_tokens": 23375,
+        "training_bits_per_base": 2.0071861730041882,
+        "training_nll_per_token": 4.17382631003028,
+        "training_token_accuracy": 0.015315508021390374
+      }
+    },
+    "mode": "codon",
+    "parameters": 1793668,
+    "peak_cuda_allocated_bytes": null,
+    "peak_cuda_reserved_bytes": null,
+    "per_family_exposures": {
+      "ATP5F1E": {
+        "sequences": 174,
+        "target_bases": 26622
+      },
+      "ATP5ME": {
+        "sequences": 165,
+        "target_bases": 34653
+      },
+      "ATP5MF": {
+        "sequences": 235,
+        "target_bases": 63462
+      },
+      "ATP5MGL": {
+        "sequences": 74,
+        "target_bases": 22200
+      },
+      "ATP5MJ": {
+        "sequences": 64,
+        "target_bases": 11136
+      },
+      "ATP5MK": {
+        "sequences": 82,
+        "target_bases": 14268
+      },
+      "ATP8": {
+        "sequences": 31206,
+        "target_bases": 6340203
+      }
+    },
+    "process_peak_rss_bytes": 546836480,
+    "role": "matched",
+    "rss_scope": "Process-lifetime high-water mark, including earlier runs in this process",
+    "runtime_max_seconds_this_invocation": 3819.5014719999745,
+    "sampling_trace_sha256": "d7618e1a4a509ef7f87b2820639cbdf009dac681df20a2a417b6a388e7489a8e",
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 77.66990291262135,
+    "sequences": 412,
+    "sequences_seen": 32000,
+    "setup_seconds_this_invocation": 2.39000000001397,
+    "source_hashes": {
+      "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
+      "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+      "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
+      "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+    },
+    "stop_reason": "completed",
+    "timing_scope": "Training loop, interval diagnostics and checkpoint writes; setup and initial diagnostics excluded",
+    "updates": 2000
+  },
+  {
+    "arm": "vertebrate_complex_codon",
+    "bases_seen": 6485778,
+    "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+    "complete": true,
+    "config": {
+      "batch_size": 16,
+      "checkpoint_interval": 250,
+      "cpu_threads": 4,
+      "dataset": "vertebrate_complex",
+      "deterministic": true,
+      "device": "cpu",
+      "diagnostic_interval": 500,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1.0,
+      "learning_rate": 0.001,
+      "loss": "token",
+      "max_nt_context": 303,
+      "min_learning_rate": 0.0001,
+      "model": {
+        "d_model": 192,
+        "dropout": 0.1,
+        "n_heads": 6,
+        "n_layers": 4
+      },
+      "position_encoding": true,
+      "precision": "float32",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "stage": "training_only",
+      "updates": 2000,
+      "warmup_updates": 200,
+      "weight_decay": 0.01
+    },
+    "data_identity": {
+      "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+      "manifest_sha256": "fe3a04efab2b7fef6588266b8ad34ba52b2fcf447688162011e0e906dd288e8e",
+      "ordered_sequence_metadata_sha256": "cda39b412778b0a458e11ce1f7e60af79690050149c527559bbc49c41c515d8b"
+    },
+    "dataset": "vertebrate_complex",
+    "elapsed_seconds": 357.0,
+    "final": {
+      "bases_seen": 6485778,
+      "family_macro_bits_per_base": 0.06070299960843245,
+      "gradient_norm": 0.1525321900844574,
+      "learning_rate": 0.0001,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 0.058405340260319814,
+          "training_nll_per_token": 0.12145049079325483,
+          "training_token_accuracy": 0.9752747252747253
+        },
+        "2": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 0.06026733171915885,
+          "training_nll_per_token": 0.12532239318301774,
+          "training_token_accuracy": 0.9727098392093229
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 0.0988836239324607,
+          "training_nll_per_token": 0.2056227153970052,
+          "training_token_accuracy": 0.9313725490196079
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 0.06233634304423016,
+          "training_nll_per_token": 0.12962478128257707,
+          "training_token_accuracy": 0.9785714285714285
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 0.04858332967591122,
+          "training_nll_per_token": 0.10102619396121655,
+          "training_token_accuracy": 0.9814814814814815
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 0.03826308652981287,
+          "training_nll_per_token": 0.07956585164298303,
+          "training_token_accuracy": 0.99
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.05951816242863745,
+          "training_nll_per_token": 0.12376453943855675,
+          "training_token_accuracy": 0.9827586206896551
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.057069119928815935,
+          "training_nll_per_token": 0.11867189872708846,
+          "training_token_accuracy": 0.9827586206896551
+        },
+        "ATP8": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 0.06026733171915885,
+          "training_nll_per_token": 0.12532239318301774,
+          "training_token_accuracy": 0.9727098392093229
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 0.05616512481742848,
+          "training_nll_per_token": 0.1167920937389939,
+          "training_token_accuracy": 0.945273631840796
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 0.057543560741820446,
+          "training_nll_per_token": 0.1196584706627184,
+          "training_token_accuracy": 0.9477611940298507
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 0.06363521784058222,
+          "training_nll_per_token": 0.1323257154915525,
+          "training_token_accuracy": 0.9814814814814815
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 0.0675187391473101,
+          "training_nll_per_token": 0.14040127102476122,
+          "training_token_accuracy": 0.9636363636363636
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 0.06128067455555378,
+          "training_nll_per_token": 0.12742958037298102,
+          "training_token_accuracy": 0.9656084656084656
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 0.0763250717332094,
+          "training_nll_per_token": 0.15871352483372902,
+          "training_token_accuracy": 0.9264705882352942
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 0.06057889319665693,
+          "training_nll_per_token": 0.1259702670621144,
+          "training_token_accuracy": 0.9766376134423578
+        },
+        "9823": {
+          "scored_training_bases": 5289,
+          "scored_training_tokens": 1763,
+          "training_bits_per_base": 0.058997781246949335,
+          "training_nll_per_token": 0.12268243719184604,
+          "training_token_accuracy": 0.9557572319909245
+        },
+        "9913": {
+          "scored_training_bases": 5580,
+          "scored_training_tokens": 1860,
+          "training_bits_per_base": 0.057879416898723085,
+          "training_nll_per_token": 0.12035686390741067,
+          "training_token_accuracy": 0.9666666666666667
+        }
+      },
+      "scored_training_bases": 83532,
+      "scored_training_tokens": 27844,
+      "sequences_seen": 32000,
+      "training_bits_per_base": 0.060218648707305845,
+      "training_nll_per_token": 0.12522115970579653,
+      "training_token_accuracy": 0.9727768998707083,
+      "update": 2000,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 69432,
+            "scored_training_tokens": 23144,
+            "training_bits_per_base": 0.06523408007054507,
+            "training_nll_per_token": 0.1356504560319601,
+            "training_token_accuracy": 0.9725630833045281
+          }
+        },
+        "scored_training_bases": 69432,
+        "scored_training_tokens": 23144,
+        "training_bits_per_base": 0.06523408007054507,
+        "training_nll_per_token": 0.1356504560319601,
+        "training_token_accuracy": 0.9725630833045281
+      }
+    },
+    "initial": {
+      "bases_seen": 0,
+      "family_macro_bits_per_base": 2.025060112880762,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 2.025793704080659,
+          "training_nll_per_token": 4.212519583138791,
+          "training_token_accuracy": 0.01510989010989011
+        },
+        "2": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 2.005264524450937,
+          "training_nll_per_token": 4.169830354200139,
+          "training_token_accuracy": 0.017480454344298568
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 2.0302865920719695,
+          "training_nll_per_token": 4.221862281070036,
+          "training_token_accuracy": 0.0196078431372549
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 2.03250038599422,
+          "training_nll_per_token": 4.2264657361166815,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 2.018684374366651,
+          "training_nll_per_token": 4.197736147597984,
+          "training_token_accuracy": 0.018518518518518517
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 2.022619621210999,
+          "training_nll_per_token": 4.205919263362884,
+          "training_token_accuracy": 0.02
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.024321544879179,
+          "training_nll_per_token": 4.209458314139267,
+          "training_token_accuracy": 0.034482758620689655
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.04174374719138,
+          "training_nll_per_token": 4.245686765374808,
+          "training_token_accuracy": 0.0
+        },
+        "ATP8": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 2.005264524450937,
+          "training_nll_per_token": 4.169830354200139,
+          "training_token_accuracy": 0.017480454344298568
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 2.016434108169385,
+          "training_nll_per_token": 4.193056850587551,
+          "training_token_accuracy": 0.014925373134328358
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 2.01044071436018,
+          "training_nll_per_token": 4.1805939385250435,
+          "training_token_accuracy": 0.014925373134328358
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 2.0100877306884906,
+          "training_nll_per_token": 4.179859929614597,
+          "training_token_accuracy": 0.0
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 2.0205777671948932,
+          "training_nll_per_token": 4.201673347299749,
+          "training_token_accuracy": 0.0
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 2.0159417732210776,
+          "training_nll_per_token": 4.192033068843619,
+          "training_token_accuracy": 0.0
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 2.019630600136799,
+          "training_nll_per_token": 4.199703768772237,
+          "training_token_accuracy": 0.014705882352941176
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 2.00509386054336,
+          "training_nll_per_token": 4.169475468581059,
+          "training_token_accuracy": 0.014871057597268398
+        },
+        "9823": {
+          "scored_training_bases": 5289,
+          "scored_training_tokens": 1763,
+          "training_bits_per_base": 1.9950780971912463,
+          "training_nll_per_token": 4.148648274195039,
+          "training_token_accuracy": 0.015314804310833806
+        },
+        "9913": {
+          "scored_training_bases": 5580,
+          "scored_training_tokens": 1860,
+          "training_bits_per_base": 2.014864148304158,
+          "training_nll_per_token": 4.189792210825028,
+          "training_token_accuracy": 0.056451612903225805
+        }
+      },
+      "scored_training_bases": 83532,
+      "scored_training_tokens": 27844,
+      "sequences_seen": 0,
+      "training_bits_per_base": 2.005801273580747,
+      "training_nll_per_token": 4.170946492638127,
+      "training_token_accuracy": 0.017418474357132598,
+      "update": 0,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 69432,
+            "scored_training_tokens": 23144,
+            "training_bits_per_base": 2.0075793229240597,
+            "training_nll_per_token": 4.174643842305768,
+            "training_token_accuracy": 0.014128931904597304
+          }
+        },
+        "scored_training_bases": 69432,
+        "scored_training_tokens": 23144,
+        "training_bits_per_base": 2.0075793229240597,
+        "training_nll_per_token": 4.174643842305768,
+        "training_token_accuracy": 0.014128931904597304
+      }
+    },
+    "mode": "codon",
+    "parameters": 1793668,
+    "peak_cuda_allocated_bytes": null,
+    "peak_cuda_reserved_bytes": null,
+    "per_family_exposures": {
+      "ATP5F1E": {
+        "sequences": 162,
+        "target_bases": 24786
+      },
+      "ATP5ME": {
+        "sequences": 156,
+        "target_bases": 32790
+      },
+      "ATP5MF": {
+        "sequences": 230,
+        "target_bases": 62142
+      },
+      "ATP5MGL": {
+        "sequences": 77,
+        "target_bases": 23100
+      },
+      "ATP5MJ": {
+        "sequences": 95,
+        "target_bases": 16530
+      },
+      "ATP5MK": {
+        "sequences": 79,
+        "target_bases": 13746
+      },
+      "ATP8": {
+        "sequences": 31201,
+        "target_bases": 6312684
+      }
+    },
+    "process_peak_rss_bytes": 546684928,
+    "role": "matched",
+    "rss_scope": "Process-lifetime high-water mark, including earlier runs in this process",
+    "runtime_max_seconds_this_invocation": 3445.5324719999917,
+    "sampling_trace_sha256": "d7618e1a4a509ef7f87b2820639cbdf009dac681df20a2a417b6a388e7489a8e",
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 77.66990291262135,
+    "sequences": 412,
+    "sequences_seen": 32000,
+    "setup_seconds_this_invocation": 3.562999999994645,
+    "source_hashes": {
+      "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
+      "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+      "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
+      "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+    },
+    "stop_reason": "completed",
+    "timing_scope": "Training loop, interval diagnostics and checkpoint writes; setup and initial diagnostics excluded",
+    "updates": 2000
+  },
+  {
+    "arm": "vertebrate_small",
+    "bases_seen": 6485778,
+    "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+    "complete": true,
+    "config": {
+      "batch_size": 16,
+      "checkpoint_interval": 250,
+      "cpu_threads": 4,
+      "dataset": "vertebrate_complex",
+      "deterministic": true,
+      "device": "cpu",
+      "diagnostic_interval": 500,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1.0,
+      "learning_rate": 0.001,
+      "loss": "token",
+      "max_nt_context": 303,
+      "min_learning_rate": 0.0001,
+      "model": {
+        "d_model": 48,
+        "dropout": 0.1,
+        "n_heads": 4,
+        "n_layers": 2
+      },
+      "position_encoding": true,
+      "precision": "float32",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "stage": "training_only",
+      "updates": 2000,
+      "warmup_updates": 200,
+      "weight_decay": 0.01
+    },
+    "data_identity": {
+      "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+      "manifest_sha256": "fe3a04efab2b7fef6588266b8ad34ba52b2fcf447688162011e0e906dd288e8e",
+      "ordered_sequence_metadata_sha256": "cda39b412778b0a458e11ce1f7e60af79690050149c527559bbc49c41c515d8b"
+    },
+    "dataset": "vertebrate_complex",
+    "elapsed_seconds": 57.812999999994645,
+    "final": {
+      "bases_seen": 6485778,
+      "family_macro_bits_per_base": 1.3562602665100112,
+      "gradient_norm": 0.2577610909938812,
+      "learning_rate": 0.0001,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 1.516574744414278,
+          "training_nll_per_token": 3.1536285245975297,
+          "training_token_accuracy": 0.2129120879120879
+        },
+        "2": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 0.083014815036687,
+          "training_nll_per_token": 0.17262445496215487,
+          "training_token_accuracy": 0.9639327334415105
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 1.4985135243482572,
+          "training_nll_per_token": 3.1160712732988247,
+          "training_token_accuracy": 0.30392156862745096
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 1.4412098953539827,
+          "training_nll_per_token": 2.9969117266791208,
+          "training_token_accuracy": 0.20714285714285716
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 1.417206604465224,
+          "training_nll_per_token": 2.9469982864680113,
+          "training_token_accuracy": 0.2518518518518518
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 1.7542380563257214,
+          "training_nll_per_token": 3.647835488319397,
+          "training_token_accuracy": 0.1
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 1.6016777267846964,
+          "training_nll_per_token": 3.3305952014594244,
+          "training_token_accuracy": 0.1896551724137931
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 1.6979612432555091,
+          "training_nll_per_token": 3.530811145387847,
+          "training_token_accuracy": 0.10344827586206896
+        },
+        "ATP8": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 0.083014815036687,
+          "training_nll_per_token": 0.17262445496215487,
+          "training_token_accuracy": 0.9639327334415105
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 0.10002614694882503,
+          "training_nll_per_token": 0.20799852521955853,
+          "training_token_accuracy": 0.9340796019900498
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 0.16217586098980005,
+          "training_nll_per_token": 0.3372352223998846,
+          "training_token_accuracy": 0.8582089552238806
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 1.4251881596371938,
+          "training_nll_per_token": 2.9635954638598143,
+          "training_token_accuracy": 0.2222222222222222
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 1.3108867168974334,
+          "training_nll_per_token": 2.7259122955528174,
+          "training_token_accuracy": 0.23636363636363636
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 0.09923774761734247,
+          "training_nll_per_token": 0.20635909489824106,
+          "training_token_accuracy": 0.9629629629629629
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 0.7838944230699422,
+          "training_nll_per_token": 1.6300626276227859,
+          "training_token_accuracy": 0.6176470588235294
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 0.09936636815503073,
+          "training_nll_per_token": 0.20662655378742323,
+          "training_token_accuracy": 0.9592955341899542
+        },
+        "9823": {
+          "scored_training_bases": 5289,
+          "scored_training_tokens": 1763,
+          "training_bits_per_base": 0.14107336090119427,
+          "training_nll_per_token": 0.29335380708233527,
+          "training_token_accuracy": 0.9171866137266024
+        },
+        "9913": {
+          "scored_training_bases": 5580,
+          "scored_training_tokens": 1860,
+          "training_bits_per_base": 0.2334190628929554,
+          "training_nll_per_token": 0.4853812959995897,
+          "training_token_accuracy": 0.8817204301075269
+        }
+      },
+      "scored_training_bases": 83532,
+      "scored_training_tokens": 27844,
+      "sequences_seen": 32000,
+      "training_bits_per_base": 0.12049619804871424,
+      "training_nll_per_token": 0.25056479983697716,
+      "training_token_accuracy": 0.9442967964372935,
+      "update": 2000,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 69432,
+            "scored_training_tokens": 23144,
+            "training_bits_per_base": 0.07850820045452696,
+            "training_nll_per_token": 0.16325321338767113,
+            "training_token_accuracy": 0.9695385413066021
+          }
+        },
+        "scored_training_bases": 69432,
+        "scored_training_tokens": 23144,
+        "training_bits_per_base": 0.07850820045452696,
+        "training_nll_per_token": 0.16325321338767113,
+        "training_token_accuracy": 0.9695385413066021
+      }
+    },
+    "initial": {
+      "bases_seen": 0,
+      "family_macro_bits_per_base": 2.007841814353372,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 2.0103671384313797,
+          "training_nll_per_token": 4.180440941682229,
+          "training_token_accuracy": 0.008241758241758242
+        },
+        "2": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 2.011863095420956,
+          "training_nll_per_token": 4.18355169679092,
+          "training_token_accuracy": 0.00040566455229384865
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 2.0033361800365186,
+          "training_nll_per_token": 4.1658204747181315,
+          "training_token_accuracy": 0.0196078431372549
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 2.0162741766781958,
+          "training_nll_per_token": 4.192724282400949,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 2.0156273483510345,
+          "training_nll_per_token": 4.191379240707115,
+          "training_token_accuracy": 0.011111111111111112
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 2.0061258910798343,
+          "training_nll_per_token": 4.171621515750885,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.0053354469951326,
+          "training_nll_per_token": 4.169977833484781,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 1.996330561911929,
+          "training_nll_per_token": 4.151252701364714,
+          "training_token_accuracy": 0.017241379310344827
+        },
+        "ATP8": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 2.011863095420956,
+          "training_nll_per_token": 4.18355169679092,
+          "training_token_accuracy": 0.00040566455229384865
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 2.0036222393450887,
+          "training_nll_per_token": 4.166415318327757,
+          "training_token_accuracy": 0.0012437810945273632
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 2.003231645710617,
+          "training_nll_per_token": 4.16560310169832,
+          "training_token_accuracy": 0.0
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 1.9893133730152688,
+          "training_nll_per_token": 4.136660867267185,
+          "training_token_accuracy": 0.0
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 2.004589974375254,
+          "training_nll_per_token": 4.168427666750821,
+          "training_token_accuracy": 0.0
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 2.011373990147575,
+          "training_nll_per_token": 4.182534630967195,
+          "training_token_accuracy": 0.0
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 2.00547418123665,
+          "training_nll_per_token": 4.170266323229846,
+          "training_token_accuracy": 0.014705882352941176
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 2.014633602756886,
+          "training_nll_per_token": 4.1893128048367805,
+          "training_token_accuracy": 0.00017971066582801688
+        },
+        "9823": {
+          "scored_training_bases": 5289,
+          "scored_training_tokens": 1763,
+          "training_bits_per_base": 2.0046737742788823,
+          "training_nll_per_token": 4.1686019237516145,
+          "training_token_accuracy": 0.003403289846851957
+        },
+        "9913": {
+          "scored_training_bases": 5580,
+          "scored_training_tokens": 1860,
+          "training_bits_per_base": 1.9924240364540202,
+          "training_nll_per_token": 4.143129310043909,
+          "training_token_accuracy": 0.002150537634408602
+        }
+      },
+      "scored_training_bases": 83532,
+      "scored_training_tokens": 27844,
+      "sequences_seen": 0,
+      "training_bits_per_base": 2.0118239826250783,
+      "training_nll_per_token": 4.183470364018361,
+      "training_token_accuracy": 0.0006105444620025858,
+      "update": 0,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 69432,
+            "scored_training_tokens": 23144,
+            "training_bits_per_base": 2.0129588764554978,
+            "training_nll_per_token": 4.18583030939473,
+            "training_token_accuracy": 0.0003888696854476322
+          }
+        },
+        "scored_training_bases": 69432,
+        "scored_training_tokens": 23144,
+        "training_bits_per_base": 2.0129588764554978,
+        "training_nll_per_token": 4.18583030939473,
+        "training_token_accuracy": 0.0003888696854476322
+      }
+    },
+    "mode": "codon",
+    "parameters": 60100,
+    "peak_cuda_allocated_bytes": null,
+    "peak_cuda_reserved_bytes": null,
+    "per_family_exposures": {
+      "ATP5F1E": {
+        "sequences": 162,
+        "target_bases": 24786
+      },
+      "ATP5ME": {
+        "sequences": 156,
+        "target_bases": 32790
+      },
+      "ATP5MF": {
+        "sequences": 230,
+        "target_bases": 62142
+      },
+      "ATP5MGL": {
+        "sequences": 77,
+        "target_bases": 23100
+      },
+      "ATP5MJ": {
+        "sequences": 95,
+        "target_bases": 16530
+      },
+      "ATP5MK": {
+        "sequences": 79,
+        "target_bases": 13746
+      },
+      "ATP8": {
+        "sequences": 31201,
+        "target_bases": 6312684
+      }
+    },
+    "process_peak_rss_bytes": 376721408,
+    "role": "matched",
+    "rss_scope": "Process-lifetime high-water mark, including earlier runs in this process",
+    "runtime_max_seconds_this_invocation": 3081.579471999983,
+    "sampling_trace_sha256": "d7618e1a4a509ef7f87b2820639cbdf009dac681df20a2a417b6a388e7489a8e",
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 77.66990291262135,
+    "sequences": 412,
+    "sequences_seen": 32000,
+    "setup_seconds_this_invocation": 2.3440000000118744,
+    "source_hashes": {
+      "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
+      "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+      "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
+      "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+    },
+    "stop_reason": "completed",
+    "timing_scope": "Training loop, interval diagnostics and checkpoint writes; setup and initial diagnostics excluded",
+    "updates": 2000
+  },
+  {
+    "arm": "vertebrate_family_macro",
+    "bases_seen": 6485778,
+    "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+    "complete": true,
+    "config": {
+      "batch_size": 16,
+      "checkpoint_interval": 250,
+      "cpu_threads": 4,
+      "dataset": "vertebrate_complex",
+      "deterministic": true,
+      "device": "cpu",
+      "diagnostic_interval": 500,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1.0,
+      "learning_rate": 0.001,
+      "loss": "family_macro",
+      "max_nt_context": 303,
+      "min_learning_rate": 0.0001,
+      "model": {
+        "d_model": 192,
+        "dropout": 0.1,
+        "n_heads": 6,
+        "n_layers": 4
+      },
+      "position_encoding": true,
+      "precision": "float32",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "stage": "training_only",
+      "updates": 2000,
+      "warmup_updates": 200,
+      "weight_decay": 0.01
+    },
+    "data_identity": {
+      "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+      "manifest_sha256": "fe3a04efab2b7fef6588266b8ad34ba52b2fcf447688162011e0e906dd288e8e",
+      "ordered_sequence_metadata_sha256": "cda39b412778b0a458e11ce1f7e60af79690050149c527559bbc49c41c515d8b"
+    },
+    "dataset": "vertebrate_complex",
+    "elapsed_seconds": 296.0780000000086,
+    "final": {
+      "bases_seen": 6485778,
+      "family_macro_bits_per_base": 0.04346978575345735,
+      "gradient_norm": 0.054288242012262344,
+      "learning_rate": 0.0001,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 0.030469614969175687,
+          "training_nll_per_token": 0.0633597831258937,
+          "training_token_accuracy": 0.9821428571428571
+        },
+        "2": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 0.12277424982247813,
+          "training_nll_per_token": 0.2553018753294392,
+          "training_token_accuracy": 0.9411417613217289
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 0.03871625129517149,
+          "training_nll_per_token": 0.08050818128129536,
+          "training_token_accuracy": 0.9803921568627451
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 0.03335984682135676,
+          "training_nll_per_token": 0.06936985130440528,
+          "training_token_accuracy": 0.9785714285714285
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 0.028749196687308992,
+          "training_nll_per_token": 0.05978227388151464,
+          "training_token_accuracy": 0.9851851851851852
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 0.026671451840753337,
+          "training_nll_per_token": 0.055461724934575615,
+          "training_token_accuracy": 0.99
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.022092410662863642,
+          "training_nll_per_token": 0.04593987648820922,
+          "training_token_accuracy": 0.9827586206896551
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.031925093144269105,
+          "training_nll_per_token": 0.0663863649061913,
+          "training_token_accuracy": 0.9655172413793104
+        },
+        "ATP8": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 0.12277424982247813,
+          "training_nll_per_token": 0.2553018753294392,
+          "training_token_accuracy": 0.9411417613217289
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 0.2676819335354747,
+          "training_nll_per_token": 0.5566289325508469,
+          "training_token_accuracy": 0.7873134328358209
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 0.33499249449891255,
+          "training_nll_per_token": 0.6965973092119927,
+          "training_token_accuracy": 0.7425373134328358
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 2.457178066271252,
+          "training_nll_per_token": 5.109558146308969,
+          "training_token_accuracy": 0.12962962962962962
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 2.3501306034702667,
+          "training_nll_per_token": 4.886959205229174,
+          "training_token_accuracy": 0.16363636363636364
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 0.38040024474979833,
+          "training_nll_per_token": 0.7910200713979075,
+          "training_token_accuracy": 0.753968253968254
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 1.411824535410862,
+          "training_nll_per_token": 2.935806588496181,
+          "training_token_accuracy": 0.5073529411764706
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 0.0852958838619715,
+          "training_nll_per_token": 0.17736780423688223,
+          "training_token_accuracy": 0.9602839428520082
+        },
+        "9823": {
+          "scored_training_bases": 5289,
+          "scored_training_tokens": 1763,
+          "training_bits_per_base": 0.12817841088324702,
+          "training_nll_per_token": 0.26653951233713064,
+          "training_token_accuracy": 0.94781622234827
+        },
+        "9913": {
+          "scored_training_bases": 5580,
+          "scored_training_tokens": 1860,
+          "training_bits_per_base": 0.12597722407645087,
+          "training_nll_per_token": 0.26196227305008113,
+          "training_token_accuracy": 0.9618279569892473
+        }
+      },
+      "scored_training_bases": 83532,
+      "scored_training_tokens": 27844,
+      "sequences_seen": 32000,
+      "training_bits_per_base": 0.12036088341775163,
+      "training_nll_per_token": 0.25028342097215645,
+      "training_token_accuracy": 0.9422137623904612,
+      "update": 2000,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 69432,
+            "scored_training_tokens": 23144,
+            "training_bits_per_base": 0.10111698819962725,
+            "training_nll_per_token": 0.2102668658318547,
+            "training_token_accuracy": 0.9536380919460767
+          }
+        },
+        "scored_training_bases": 69432,
+        "scored_training_tokens": 23144,
+        "training_bits_per_base": 0.10111698819962725,
+        "training_nll_per_token": 0.2102668658318547,
+        "training_token_accuracy": 0.9536380919460767
+      }
+    },
+    "initial": {
+      "bases_seen": 0,
+      "family_macro_bits_per_base": 2.025060112880762,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 2.025793704080659,
+          "training_nll_per_token": 4.212519583138791,
+          "training_token_accuracy": 0.01510989010989011
+        },
+        "2": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 2.005264524450937,
+          "training_nll_per_token": 4.169830354200139,
+          "training_token_accuracy": 0.017480454344298568
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 2.0302865920719695,
+          "training_nll_per_token": 4.221862281070036,
+          "training_token_accuracy": 0.0196078431372549
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 2.03250038599422,
+          "training_nll_per_token": 4.2264657361166815,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 2.018684374366651,
+          "training_nll_per_token": 4.197736147597984,
+          "training_token_accuracy": 0.018518518518518517
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 2.022619621210999,
+          "training_nll_per_token": 4.205919263362884,
+          "training_token_accuracy": 0.02
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.024321544879179,
+          "training_nll_per_token": 4.209458314139267,
+          "training_token_accuracy": 0.034482758620689655
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.04174374719138,
+          "training_nll_per_token": 4.245686765374808,
+          "training_token_accuracy": 0.0
+        },
+        "ATP8": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 2.005264524450937,
+          "training_nll_per_token": 4.169830354200139,
+          "training_token_accuracy": 0.017480454344298568
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 2.016434108169385,
+          "training_nll_per_token": 4.193056850587551,
+          "training_token_accuracy": 0.014925373134328358
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 2.01044071436018,
+          "training_nll_per_token": 4.1805939385250435,
+          "training_token_accuracy": 0.014925373134328358
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 2.0100877306884906,
+          "training_nll_per_token": 4.179859929614597,
+          "training_token_accuracy": 0.0
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 2.0205777671948932,
+          "training_nll_per_token": 4.201673347299749,
+          "training_token_accuracy": 0.0
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 2.0159417732210776,
+          "training_nll_per_token": 4.192033068843619,
+          "training_token_accuracy": 0.0
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 2.019630600136799,
+          "training_nll_per_token": 4.199703768772237,
+          "training_token_accuracy": 0.014705882352941176
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 2.00509386054336,
+          "training_nll_per_token": 4.169475468581059,
+          "training_token_accuracy": 0.014871057597268398
+        },
+        "9823": {
+          "scored_training_bases": 5289,
+          "scored_training_tokens": 1763,
+          "training_bits_per_base": 1.9950780971912463,
+          "training_nll_per_token": 4.148648274195039,
+          "training_token_accuracy": 0.015314804310833806
+        },
+        "9913": {
+          "scored_training_bases": 5580,
+          "scored_training_tokens": 1860,
+          "training_bits_per_base": 2.014864148304158,
+          "training_nll_per_token": 4.189792210825028,
+          "training_token_accuracy": 0.056451612903225805
+        }
+      },
+      "scored_training_bases": 83532,
+      "scored_training_tokens": 27844,
+      "sequences_seen": 0,
+      "training_bits_per_base": 2.005801273580747,
+      "training_nll_per_token": 4.170946492638127,
+      "training_token_accuracy": 0.017418474357132598,
+      "update": 0,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 69432,
+            "scored_training_tokens": 23144,
+            "training_bits_per_base": 2.0075793229240597,
+            "training_nll_per_token": 4.174643842305768,
+            "training_token_accuracy": 0.014128931904597304
+          }
+        },
+        "scored_training_bases": 69432,
+        "scored_training_tokens": 23144,
+        "training_bits_per_base": 2.0075793229240597,
+        "training_nll_per_token": 4.174643842305768,
+        "training_token_accuracy": 0.014128931904597304
+      }
+    },
+    "mode": "codon",
+    "parameters": 1793668,
+    "peak_cuda_allocated_bytes": null,
+    "peak_cuda_reserved_bytes": null,
+    "per_family_exposures": {
+      "ATP5F1E": {
+        "sequences": 162,
+        "target_bases": 24786
+      },
+      "ATP5ME": {
+        "sequences": 156,
+        "target_bases": 32790
+      },
+      "ATP5MF": {
+        "sequences": 230,
+        "target_bases": 62142
+      },
+      "ATP5MGL": {
+        "sequences": 77,
+        "target_bases": 23100
+      },
+      "ATP5MJ": {
+        "sequences": 95,
+        "target_bases": 16530
+      },
+      "ATP5MK": {
+        "sequences": 79,
+        "target_bases": 13746
+      },
+      "ATP8": {
+        "sequences": 31201,
+        "target_bases": 6312684
+      }
+    },
+    "process_peak_rss_bytes": 549519360,
+    "role": "matched",
+    "rss_scope": "Process-lifetime high-water mark, including earlier runs in this process",
+    "runtime_max_seconds_this_invocation": 3018.5014719999745,
+    "sampling_trace_sha256": "d7618e1a4a509ef7f87b2820639cbdf009dac681df20a2a417b6a388e7489a8e",
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 77.66990291262135,
+    "sequences": 412,
+    "sequences_seen": 32000,
+    "setup_seconds_this_invocation": 3.3589999999967404,
+    "source_hashes": {
+      "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
+      "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+      "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
+      "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+    },
+    "stop_reason": "completed",
+    "timing_scope": "Training loop, interval diagnostics and checkpoint writes; setup and initial diagnostics excluded",
+    "updates": 2000
+  },
+  {
+    "arm": "vertebrate_no_position",
+    "bases_seen": 6485778,
+    "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+    "complete": true,
+    "config": {
+      "batch_size": 16,
+      "checkpoint_interval": 250,
+      "cpu_threads": 4,
+      "dataset": "vertebrate_complex",
+      "deterministic": true,
+      "device": "cpu",
+      "diagnostic_interval": 500,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1.0,
+      "learning_rate": 0.001,
+      "loss": "token",
+      "max_nt_context": 303,
+      "min_learning_rate": 0.0001,
+      "model": {
+        "d_model": 192,
+        "dropout": 0.1,
+        "n_heads": 6,
+        "n_layers": 4
+      },
+      "position_encoding": false,
+      "precision": "float32",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "stage": "training_only",
+      "updates": 2000,
+      "warmup_updates": 200,
+      "weight_decay": 0.01
+    },
+    "data_identity": {
+      "cohort_sha256": "407edce1a481241ae74e147045b6e9fc8d9fd6e3f284c182e8b419aa306a3ae6",
+      "manifest_sha256": "fe3a04efab2b7fef6588266b8ad34ba52b2fcf447688162011e0e906dd288e8e",
+      "ordered_sequence_metadata_sha256": "cda39b412778b0a458e11ce1f7e60af79690050149c527559bbc49c41c515d8b"
+    },
+    "dataset": "vertebrate_complex",
+    "elapsed_seconds": 274.5469999999914,
+    "final": {
+      "bases_seen": 6485778,
+      "family_macro_bits_per_base": 0.0727913498055441,
+      "gradient_norm": 0.19469591975212097,
+      "learning_rate": 0.0001,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 0.07269130198258855,
+          "training_nll_per_token": 0.15115731306138844,
+          "training_token_accuracy": 0.9711538461538461
+        },
+        "2": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 0.05757272138275015,
+          "training_nll_per_token": 0.11971910851084963,
+          "training_token_accuracy": 0.9735949255052367
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 0.07592964437118666,
+          "training_nll_per_token": 0.15789125675042207,
+          "training_token_accuracy": 0.9705882352941176
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 0.08369660804841898,
+          "training_nll_per_token": 0.17404220367357734,
+          "training_token_accuracy": 0.95
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 0.0635221913481049,
+          "training_nll_per_token": 0.1320906835077848,
+          "training_token_accuracy": 0.9814814814814815
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 0.07224921153267289,
+          "training_nll_per_token": 0.15023801181465388,
+          "training_token_accuracy": 0.98
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.07603599313199982,
+          "training_nll_per_token": 0.15811240278156313,
+          "training_token_accuracy": 0.9655172413793104
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 0.08053307882367523,
+          "training_nll_per_token": 0.16746382958532696,
+          "training_token_accuracy": 0.9655172413793104
+        },
+        "ATP8": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 0.05757272138275015,
+          "training_nll_per_token": 0.11971910851084963,
+          "training_token_accuracy": 0.9735949255052367
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 0.053148144612795864,
+          "training_nll_per_token": 0.1105184597710551,
+          "training_token_accuracy": 0.9527363184079602
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 0.053855901411192654,
+          "training_nll_per_token": 0.11199019865904772,
+          "training_token_accuracy": 0.9514925373134329
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 0.06796611245775469,
+          "training_nll_per_token": 0.1413315576711385,
+          "training_token_accuracy": 0.9814814814814815
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 0.07275423406460008,
+          "training_nll_per_token": 0.15128817664702762,
+          "training_token_accuracy": 0.9636363636363636
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 0.07115798084692224,
+          "training_nll_per_token": 0.14796886139514823,
+          "training_token_accuracy": 0.9576719576719577
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 0.057759489485302566,
+          "training_nll_per_token": 0.12010748186195783,
+          "training_token_accuracy": 0.9632352941176471
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 0.058509935880228826,
+          "training_nll_per_token": 0.12166799127037137,
+          "training_token_accuracy": 0.9767274687752718
+        },
+        "9823": {
+          "scored_training_bases": 5289,
+          "scored_training_tokens": 1763,
+          "training_bits_per_base": 0.05267574616437507,
+          "training_nll_per_token": 0.1095361348131838,
+          "training_token_accuracy": 0.9591605218377766
+        },
+        "9913": {
+          "scored_training_bases": 5580,
+          "scored_training_tokens": 1860,
+          "training_bits_per_base": 0.056374814971265855,
+          "training_nll_per_token": 0.11722813215576455,
+          "training_token_accuracy": 0.9682795698924731
+        }
+      },
+      "scored_training_bases": 83532,
+      "scored_training_tokens": 27844,
+      "sequences_seen": 32000,
+      "training_bits_per_base": 0.05796800678271719,
+      "training_nll_per_token": 0.12054108139236062,
+      "training_token_accuracy": 0.973531101853182,
+      "update": 2000,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 69432,
+            "scored_training_tokens": 23144,
+            "training_bits_per_base": 0.06176699273689747,
+            "training_nll_per_token": 0.12844085060174132,
+            "training_token_accuracy": 0.973729692360871
+          }
+        },
+        "scored_training_bases": 69432,
+        "scored_training_tokens": 23144,
+        "training_bits_per_base": 0.06176699273689747,
+        "training_nll_per_token": 0.12844085060174132,
+        "training_token_accuracy": 0.973729692360871
+      }
+    },
+    "initial": {
+      "bases_seen": 0,
+      "family_macro_bits_per_base": 2.0105878655566682,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 2184,
+          "scored_training_tokens": 728,
+          "training_bits_per_base": 2.0120373847986595,
+          "training_nll_per_token": 4.183914121363189,
+          "training_token_accuracy": 0.020604395604395604
+        },
+        "2": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 1.9876917472946725,
+          "training_nll_per_token": 4.13328879137872,
+          "training_token_accuracy": 0.03923882578551409
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 306,
+          "scored_training_tokens": 102,
+          "training_bits_per_base": 2.0353603444287813,
+          "training_nll_per_token": 4.232412852492987,
+          "training_token_accuracy": 0.029411764705882353
+        },
+        "ATP5ME": {
+          "scored_training_bases": 420,
+          "scored_training_tokens": 140,
+          "training_bits_per_base": 1.9866753580685332,
+          "training_nll_per_token": 4.13117526939937,
+          "training_token_accuracy": 0.04285714285714286
+        },
+        "ATP5MF": {
+          "scored_training_bases": 810,
+          "scored_training_tokens": 270,
+          "training_bits_per_base": 2.0107659882232896,
+          "training_nll_per_token": 4.181270326508416,
+          "training_token_accuracy": 0.007407407407407408
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 2.023929524778193,
+          "training_nll_per_token": 4.208643131256103,
+          "training_token_accuracy": 0.02
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 1.9913105385709615,
+          "training_nll_per_token": 4.140813856289305,
+          "training_token_accuracy": 0.034482758620689655
+        },
+        "ATP5MK": {
+          "scored_training_bases": 174,
+          "scored_training_tokens": 58,
+          "training_bits_per_base": 2.038381557532247,
+          "training_nll_per_token": 4.238695288526601,
+          "training_token_accuracy": 0.0
+        },
+        "ATP8": {
+          "scored_training_bases": 81348,
+          "scored_training_tokens": 27116,
+          "training_bits_per_base": 1.9876917472946725,
+          "training_nll_per_token": 4.13328879137872,
+          "training_token_accuracy": 0.03923882578551409
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 2412,
+          "scored_training_tokens": 804,
+          "training_bits_per_base": 2.0153766786873946,
+          "training_nll_per_token": 4.190857987795303,
+          "training_token_accuracy": 0.029850746268656716
+        },
+        "10116": {
+          "scored_training_bases": 1608,
+          "scored_training_tokens": 536,
+          "training_bits_per_base": 2.0208009809066536,
+          "training_nll_per_token": 4.2021375071646565,
+          "training_token_accuracy": 0.0037313432835820895
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 2.023713223939262,
+          "training_nll_per_token": 4.20819334630613,
+          "training_token_accuracy": 0.018518518518518517
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 2.0431413364743345,
+          "training_nll_per_token": 4.248592970587991,
+          "training_token_accuracy": 0.0
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 2.0127881237123617,
+          "training_nll_per_token": 4.185475239047298,
+          "training_token_accuracy": 0.0291005291005291
+        },
+        "9601": {
+          "scored_training_bases": 408,
+          "scored_training_tokens": 136,
+          "training_bits_per_base": 2.0084488437491057,
+          "training_nll_per_token": 4.176451960030724,
+          "training_token_accuracy": 0.007352941176470588
+        },
+        "9606": {
+          "scored_training_bases": 66774,
+          "scored_training_tokens": 22258,
+          "training_bits_per_base": 1.97984800538745,
+          "training_nll_per_token": 4.1169781886146275,
+          "training_token_accuracy": 0.04587114745260131
+        },
+        "9823": {
+          "scored_training_bases": 5289,
+          "scored_training_tokens": 1763,
+          "training_bits_per_base": 2.0443331581996276,
+          "training_nll_per_token": 4.251071294193841,
+          "training_token_accuracy": 0.0028360748723766306
+        },
+        "9913": {
+          "scored_training_bases": 5580,
+          "scored_training_tokens": 1860,
+          "training_bits_per_base": 2.006584923340516,
+          "training_nll_per_token": 4.172576046502718,
+          "training_token_accuracy": 0.007526881720430108
+        }
+      },
+      "scored_training_bases": 83532,
+      "scored_training_tokens": 27844,
+      "sequences_seen": 0,
+      "training_bits_per_base": 1.9883282802677689,
+      "training_nll_per_token": 4.134612424485626,
+      "training_token_accuracy": 0.0387516161471053,
+      "update": 0,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5ME": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MF": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 69432,
+            "scored_training_tokens": 23144,
+            "training_bits_per_base": 1.9814824937153597,
+            "training_nll_per_token": 4.120377011543074,
+            "training_token_accuracy": 0.0441151054268925
+          }
+        },
+        "scored_training_bases": 69432,
+        "scored_training_tokens": 23144,
+        "training_bits_per_base": 1.9814824937153597,
+        "training_nll_per_token": 4.120377011543074,
+        "training_token_accuracy": 0.0441151054268925
+      }
+    },
+    "mode": "codon",
+    "parameters": 1793668,
+    "peak_cuda_allocated_bytes": null,
+    "peak_cuda_reserved_bytes": null,
+    "per_family_exposures": {
+      "ATP5F1E": {
+        "sequences": 162,
+        "target_bases": 24786
+      },
+      "ATP5ME": {
+        "sequences": 156,
+        "target_bases": 32790
+      },
+      "ATP5MF": {
+        "sequences": 230,
+        "target_bases": 62142
+      },
+      "ATP5MGL": {
+        "sequences": 77,
+        "target_bases": 23100
+      },
+      "ATP5MJ": {
+        "sequences": 95,
+        "target_bases": 16530
+      },
+      "ATP5MK": {
+        "sequences": 79,
+        "target_bases": 13746
+      },
+      "ATP8": {
+        "sequences": 31201,
+        "target_bases": 6312684
+      }
+    },
+    "process_peak_rss_bytes": 544219136,
+    "role": "matched",
+    "rss_scope": "Process-lifetime high-water mark, including earlier runs in this process",
+    "runtime_max_seconds_this_invocation": 2715.9074719999917,
+    "sampling_trace_sha256": "d7618e1a4a509ef7f87b2820639cbdf009dac681df20a2a417b6a388e7489a8e",
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 43,
+    "sequence_exposures_per_unique_cds": 77.66990291262135,
+    "sequences": 412,
+    "sequences_seen": 32000,
+    "setup_seconds_this_invocation": 3.437999999994645,
+    "source_hashes": {
+      "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
+      "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+      "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
+      "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
+    },
+    "stop_reason": "completed",
+    "timing_scope": "Training loop, interval diagnostics and checkpoint writes; setup and initial diagnostics excluded",
+    "updates": 2000
+  },
+  {
+    "arm": "full_vertebrate_capacity",
+    "bases_seen": 6506472,
+    "cohort_sha256": "7add242a788cfad12190ed2f922c2d95d76ab2b9b6cfea99edf0d1e48035fa2e",
+    "complete": true,
+    "config": {
+      "batch_size": 16,
+      "checkpoint_interval": 250,
+      "cpu_threads": 4,
+      "dataset": "full_vertebrate",
+      "deterministic": true,
+      "device": "cpu",
+      "diagnostic_interval": 500,
+      "gradient_accumulation": 1,
+      "gradient_clip": 1.0,
+      "learning_rate": 0.001,
+      "loss": "token",
+      "max_nt_context": 303,
+      "min_learning_rate": 0.0001,
+      "model": {
+        "d_model": 384,
+        "dropout": 0.1,
+        "n_heads": 8,
+        "n_layers": 6
+      },
+      "position_encoding": true,
+      "precision": "float32",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "stage": "training_only",
+      "updates": 2000,
+      "warmup_updates": 200,
+      "weight_decay": 0.01
+    },
+    "data_identity": {
+      "cohort_sha256": "7add242a788cfad12190ed2f922c2d95d76ab2b9b6cfea99edf0d1e48035fa2e",
+      "manifest_sha256": "3bd7f5a1f4bb6b32d8869b9accc3a44bf5c230d2405f0a6ed79c307573c0361b",
+      "ordered_sequence_metadata_sha256": "1e5b84864a75b691dd0ae75b7a7503f48559975db99bca65a8b4ef673fc7324a"
+    },
+    "dataset": "full_vertebrate",
+    "elapsed_seconds": 1474.9219999999914,
+    "final": {
+      "bases_seen": 6506472,
+      "family_macro_bits_per_base": 0.06432289231973898,
+      "gradient_norm": 0.17008422315120697,
+      "learning_rate": 0.0001,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 6645,
+          "scored_training_tokens": 2215,
+          "training_bits_per_base": 0.06139461216754831,
+          "training_nll_per_token": 0.12766650697652226,
+          "training_token_accuracy": 0.963882618510158
+        },
+        "2": {
+          "scored_training_bases": 101700,
+          "scored_training_tokens": 33900,
+          "training_bits_per_base": 0.06094473107023395,
+          "training_nll_per_token": 0.12673100553395028,
+          "training_token_accuracy": 0.9734513274336283
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 768,
+          "scored_training_tokens": 256,
+          "training_bits_per_base": 0.08185093203749848,
+          "training_nll_per_token": 0.1702042283039873,
+          "training_token_accuracy": 0.953125
+        },
+        "ATP5ME": {
+          "scored_training_bases": 1905,
+          "scored_training_tokens": 635,
+          "training_bits_per_base": 0.05910895472323228,
+          "training_nll_per_token": 0.12291361593676174,
+          "training_token_accuracy": 0.9590551181102362
+        },
+        "ATP5MF": {
+          "scored_training_bases": 2448,
+          "scored_training_tokens": 816,
+          "training_bits_per_base": 0.04972393837184734,
+          "training_nll_per_token": 0.10339802306634738,
+          "training_token_accuracy": 0.9718137254901961
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 0.033026459257618226,
+          "training_nll_per_token": 0.06867659135488793,
+          "training_token_accuracy": 0.99
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 528,
+          "scored_training_tokens": 176,
+          "training_bits_per_base": 0.08565628709568089,
+          "training_nll_per_token": 0.1781172416928133,
+          "training_token_accuracy": 0.9545454545454546
+        },
+        "ATP5MK": {
+          "scored_training_bases": 696,
+          "scored_training_tokens": 232,
+          "training_bits_per_base": 0.0799489436820617,
+          "training_nll_per_token": 0.16624915470590074,
+          "training_token_accuracy": 0.9568965517241379
+        },
+        "ATP8": {
+          "scored_training_bases": 101700,
+          "scored_training_tokens": 33900,
+          "training_bits_per_base": 0.06094473107023395,
+          "training_nll_per_token": 0.12673100553395028,
+          "training_token_accuracy": 0.9734513274336283
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 3870,
+          "scored_training_tokens": 1290,
+          "training_bits_per_base": 0.0627118559659466,
+          "training_nll_per_token": 0.1304056384514318,
+          "training_token_accuracy": 0.951937984496124
+        },
+        "10116": {
+          "scored_training_bases": 2148,
+          "scored_training_tokens": 716,
+          "training_bits_per_base": 0.06415476094679227,
+          "training_nll_per_token": 0.13340607500929905,
+          "training_token_accuracy": 0.9553072625698324
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 0.07389996720693362,
+          "training_nll_per_token": 0.15367066173887536,
+          "training_token_accuracy": 0.9629629629629629
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 0.06443202162101438,
+          "training_nll_per_token": 0.13398262237315067,
+          "training_token_accuracy": 0.9636363636363636
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 0.06221592876896267,
+          "training_nll_per_token": 0.1293743868363746,
+          "training_token_accuracy": 0.9656084656084656
+        },
+        "9601": {
+          "scored_training_bases": 903,
+          "scored_training_tokens": 301,
+          "training_bits_per_base": 0.06233727812079133,
+          "training_nll_per_token": 0.12962672571962305,
+          "training_token_accuracy": 0.9534883720930233
+        },
+        "9606": {
+          "scored_training_bases": 86262,
+          "scored_training_tokens": 28754,
+          "training_bits_per_base": 0.060870423541233204,
+          "training_nll_per_token": 0.12657648737128654,
+          "training_token_accuracy": 0.9763858941364679
+        },
+        "9823": {
+          "scored_training_bases": 6381,
+          "scored_training_tokens": 2127,
+          "training_bits_per_base": 0.05811591025782165,
+          "training_nll_per_token": 0.12084863802265164,
+          "training_token_accuracy": 0.9572167371885284
+        },
+        "9913": {
+          "scored_training_bases": 7320,
+          "scored_training_tokens": 2440,
+          "training_bits_per_base": 0.06208448580644007,
+          "training_nll_per_token": 0.12910105887974363,
+          "training_token_accuracy": 0.9651639344262295
+        }
+      },
+      "scored_training_bases": 108345,
+      "scored_training_tokens": 36115,
+      "sequences_seen": 32000,
+      "training_bits_per_base": 0.06097232311316768,
+      "training_nll_per_token": 0.1267883815742465,
+      "training_token_accuracy": 0.9728644607503807,
+      "update": 2000,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 6,
+            "scored_training_tokens": 2,
+            "training_bits_per_base": 0.4156585055122403,
+            "training_nll_per_token": 0.8643375635147095,
+            "training_token_accuracy": 0.5
+          },
+          "ATP5ME": {
+            "scored_training_bases": 48,
+            "scored_training_tokens": 16,
+            "training_bits_per_base": 0.26174920514049127,
+            "training_nll_per_token": 0.5442921706708148,
+            "training_token_accuracy": 0.6875
+          },
+          "ATP5MF": {
+            "scored_training_bases": 60,
+            "scored_training_tokens": 20,
+            "training_bits_per_base": 0.5342533254559975,
+            "training_nll_per_token": 1.1109485587337986,
+            "training_token_accuracy": 0.65
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 88815,
+            "scored_training_tokens": 29605,
+            "training_bits_per_base": 0.06478264022652098,
+            "training_nll_per_token": 0.13471171326672693,
+            "training_token_accuracy": 0.973551764904577
+          }
+        },
+        "scored_training_bases": 88929,
+        "scored_training_tokens": 29643,
+        "training_bits_per_base": 0.06522937741485496,
+        "training_nll_per_token": 0.13564067713436187,
+        "training_token_accuracy": 0.9731471173632898
+      }
+    },
+    "initial": {
+      "bases_seen": 0,
+      "family_macro_bits_per_base": 2.037678637922179,
+      "per_code": {
+        "1": {
+          "scored_training_bases": 6645,
+          "scored_training_tokens": 2215,
+          "training_bits_per_base": 2.0284886664808806,
+          "training_nll_per_token": 4.218123599907076,
+          "training_token_accuracy": 0.02167042889390519
+        },
+        "2": {
+          "scored_training_bases": 101700,
+          "scored_training_tokens": 33900,
+          "training_bits_per_base": 2.042589194717681,
+          "training_nll_per_token": 4.24744482408231,
+          "training_token_accuracy": 0.0011799410029498525
+        }
+      },
+      "per_family": {
+        "ATP5F1E": {
+          "scored_training_bases": 768,
+          "scored_training_tokens": 256,
+          "training_bits_per_base": 2.031655614123199,
+          "training_nll_per_token": 4.224709082394838,
+          "training_token_accuracy": 0.0234375
+        },
+        "ATP5ME": {
+          "scored_training_bases": 1905,
+          "scored_training_tokens": 635,
+          "training_bits_per_base": 2.0220773421909417,
+          "training_nll_per_token": 4.204791625841396,
+          "training_token_accuracy": 0.03464566929133858
+        },
+        "ATP5MF": {
+          "scored_training_bases": 2448,
+          "scored_training_tokens": 816,
+          "training_bits_per_base": 2.0213145630639002,
+          "training_nll_per_token": 4.2032054712375,
+          "training_token_accuracy": 0.015931372549019607
+        },
+        "ATP5MGL": {
+          "scored_training_bases": 300,
+          "scored_training_tokens": 100,
+          "training_bits_per_base": 2.0509911187189647,
+          "training_nll_per_token": 4.264916133880615,
+          "training_token_accuracy": 0.0
+        },
+        "ATP5MJ": {
+          "scored_training_bases": 528,
+          "scored_training_tokens": 176,
+          "training_bits_per_base": 2.0639428456479814,
+          "training_nll_per_token": 4.291848492893306,
+          "training_token_accuracy": 0.017045454545454544
+        },
+        "ATP5MK": {
+          "scored_training_bases": 696,
+          "scored_training_tokens": 232,
+          "training_bits_per_base": 2.031179786992585,
+          "training_nll_per_token": 4.223719627692781,
+          "training_token_accuracy": 0.017241379310344827
+        },
+        "ATP8": {
+          "scored_training_bases": 101700,
+          "scored_training_tokens": 33900,
+          "training_bits_per_base": 2.042589194717681,
+          "training_nll_per_token": 4.24744482408231,
+          "training_token_accuracy": 0.0011799410029498525
+        }
+      },
+      "per_taxon": {
+        "10090": {
+          "scored_training_bases": 3870,
+          "scored_training_tokens": 1290,
+          "training_bits_per_base": 2.010596849492947,
+          "training_nll_per_token": 4.180918612406235,
+          "training_token_accuracy": 0.018604651162790697
+        },
+        "10116": {
+          "scored_training_bases": 2148,
+          "scored_training_tokens": 716,
+          "training_bits_per_base": 2.036499085546432,
+          "training_nll_per_token": 4.2347807980782495,
+          "training_token_accuracy": 0.00558659217877095
+        },
+        "7955": {
+          "scored_training_bases": 162,
+          "scored_training_tokens": 54,
+          "training_bits_per_base": 2.0288627221016684,
+          "training_nll_per_token": 4.218901426703842,
+          "training_token_accuracy": 0.018518518518518517
+        },
+        "8355": {
+          "scored_training_bases": 165,
+          "scored_training_tokens": 55,
+          "training_bits_per_base": 2.023095597372801,
+          "training_nll_per_token": 4.206909027966586,
+          "training_token_accuracy": 0.01818181818181818
+        },
+        "9031": {
+          "scored_training_bases": 1134,
+          "scored_training_tokens": 378,
+          "training_bits_per_base": 2.0302668018094088,
+          "training_nll_per_token": 4.221821128375947,
+          "training_token_accuracy": 0.018518518518518517
+        },
+        "9601": {
+          "scored_training_bases": 903,
+          "scored_training_tokens": 301,
+          "training_bits_per_base": 2.0198138055911103,
+          "training_nll_per_token": 4.200084733804595,
+          "training_token_accuracy": 0.016611295681063124
+        },
+        "9606": {
+          "scored_training_bases": 86262,
+          "scored_training_tokens": 28754,
+          "training_bits_per_base": 2.047325993718215,
+          "training_nll_per_token": 4.2572947206986065,
+          "training_token_accuracy": 0.0010781108715309175
+        },
+        "9823": {
+          "scored_training_bases": 6381,
+          "scored_training_tokens": 2127,
+          "training_bits_per_base": 2.0243979911567997,
+          "training_nll_per_token": 4.209617279704658,
+          "training_token_accuracy": 0.0028208744710860366
+        },
+        "9913": {
+          "scored_training_bases": 7320,
+          "scored_training_tokens": 2440,
+          "training_bits_per_base": 2.013988940207976,
+          "training_nll_per_token": 4.187972266752212,
+          "training_token_accuracy": 0.0036885245901639345
+        }
+      },
+      "scored_training_bases": 108345,
+      "scored_training_tokens": 36115,
+      "sequences_seen": 0,
+      "training_bits_per_base": 2.0417243831423106,
+      "training_nll_per_token": 4.245646498966758,
+      "training_token_accuracy": 0.002436660667312751,
+      "update": 0,
+      "variable_positions": {
+        "definition": "All bases of variable codons within family and taxon; aligned from CDS start; first codon excluded",
+        "per_family": {
+          "ATP5F1E": {
+            "scored_training_bases": 6,
+            "scored_training_tokens": 2,
+            "training_bits_per_base": 2.085310164974558,
+            "training_nll_per_token": 4.336280584335327,
+            "training_token_accuracy": 0.0
+          },
+          "ATP5ME": {
+            "scored_training_bases": 48,
+            "scored_training_tokens": 16,
+            "training_bits_per_base": 2.073245438697656,
+            "training_nll_per_token": 4.311192691326141,
+            "training_token_accuracy": 0.0
+          },
+          "ATP5MF": {
+            "scored_training_bases": 60,
+            "scored_training_tokens": 20,
+            "training_bits_per_base": 2.060533404119437,
+            "training_nll_per_token": 4.284758758544922,
+            "training_token_accuracy": 0.0
+          },
+          "ATP5MGL": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MJ": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP5MK": {
+            "scored_training_bases": 0,
+            "scored_training_tokens": 0,
+            "training_bits_per_base": null,
+            "training_nll_per_token": null,
+            "training_token_accuracy": null
+          },
+          "ATP8": {
+            "scored_training_bases": 88815,
+            "scored_training_tokens": 29605,
+            "training_bits_per_base": 2.047191289559107,
+            "training_nll_per_token": 4.257014611274321,
+            "training_token_accuracy": 0.0010471204188481676
+          }
+        },
+        "scored_training_bases": 88929,
+        "scored_training_tokens": 29643,
+        "training_bits_per_base": 2.0472169261825344,
+        "training_nll_per_token": 4.257067921134064,
+        "training_token_accuracy": 0.0010457780926356982
+      }
+    },
+    "mode": "codon",
+    "parameters": 10675204,
+    "peak_cuda_allocated_bytes": null,
+    "peak_cuda_reserved_bytes": null,
+    "per_family_exposures": {
+      "ATP5F1E": {
+        "sequences": 285,
+        "target_bases": 43794
+      },
+      "ATP5ME": {
+        "sequences": 562,
+        "target_bases": 118926
+      },
+      "ATP5MF": {
+        "sequences": 531,
+        "target_bases": 144522
+      },
+      "ATP5MGL": {
+        "sequences": 73,
+        "target_bases": 21900
+      },
+      "ATP5MJ": {
+        "sequences": 163,
+        "target_bases": 28632
+      },
+      "ATP5MK": {
+        "sequences": 238,
+        "target_bases": 41412
+      },
+      "ATP8": {
+        "sequences": 30148,
+        "target_bases": 6107286
+      }
+    },
+    "process_peak_rss_bytes": 879448064,
+    "role": "maximum_pool_engineering",
+    "rss_scope": "Process-lifetime high-water mark, including earlier runs in this process",
+    "runtime_max_seconds_this_invocation": 2434.8914719999884,
+    "sampling_trace_sha256": "651784e65646769d9a591f5d6206bffce4d3fe60b37e7d8c4cb7ec20d82ff36e",
+    "scope": "TRAINING ONLY; no validation, test, gap completion, or structure scoring",
+    "seed": 17,
+    "sequence_exposures_per_unique_cds": 60.0375234521576,
+    "sequences": 533,
+    "sequences_seen": 32000,
+    "setup_seconds_this_invocation": 5.578000000008615,
+    "source_hashes": {
+      "io.py": "cc10dd35f963516eef50f13c74fc5efaac2988e5dccd9b5fd5e3eba057351f0c",
+      "model.py": "43b06e3d84d36f81d616ae413c1b4fd717cbbf24f0f652a52d2df9fd691864fc",
+      "secondary_io.py": "acef75934b9272525fb3f61ff3ff6e73ce8790d5e5aab98b95d256e113c8662d",
+      "secondary_train.py": "1ffb88942fd22973b367b8652c3ee9f2fcca839a7fc117b31c311b7c79eff42d",
+      "tokenization.py": "dfd98ea985c05bc4e7e553c93aea3cd77c194257746c6a47a1a69b3dc2603d5a",
       "train.py": "b8ae3c68217cf70e5dd5c9052d65dff451283d51cbdffd536f9395170c9b1a4c"
     },
     "stop_reason": "completed",
